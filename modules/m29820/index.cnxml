@@ -1,0 +1,168 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Các bộ ổn định điện</title>
+  <metadata>
+  <md:content-id>m29820</md:content-id><md:title>Các bộ ổn định điện</md:title>
+  <md:abstract>Phần này trình bày khái niệm chung về các bộ ổn định điện</md:abstract>
+  <md:uuid>43217a6c-18b5-4309-91c5-1827234eac08</md:uuid>
+</metadata>
+
+<content>
+    <para id="id10026271">KHÁI NIỆM CHUNG</para>
+    <para id="id10026276">Các bộ ổn định điện là các thiết bị điện tự động duy trì đại lượng đầu ra ở mức không đổi khi đại lượng đầu vào biến đổi trong một phạm vi nhất định. Ứng với các đại lượng dòng điện, điện áp, công suất có các bộ ổn định dòng điện, điện áp và công suất, những bộ ổn định điện áp hiện nay đang được dùng phổ biến hơn cả.</para>
+    <para id="id10026290">Chất lượng của bộ ổn định điện được đánh giá bằng hệ số ổn định Kôđ .</para>
+    <para id="id10026310">Kôđ=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>ΔΥ</m:mtext><m:mi>Υ</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"ΔΥ"}  over  {Υ} } } {}</m:annotation></m:semantics></m:math> : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>ΔΧ</m:mtext><m:mi>Χ</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"ΔΧ"}  over  {Χ} } } {}</m:annotation></m:semantics></m:math> =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>Χ</m:mi><m:mtext>.</m:mtext><m:mtext>ΔΥ</m:mtext></m:mrow><m:mrow><m:mi>Υ</m:mi><m:mtext>.</m:mtext><m:mtext>ΔΧ</m:mtext></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Χ "." "ΔΥ"}  over  {Υ "." "ΔΧ"} } } {}</m:annotation></m:semantics></m:math>.
+<m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math></para>
+    <para id="id12087706">Trong đó :</para>
+    <para id="id12087713">+ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Υ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Υ} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math>và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mtext>ΔΥ</m:mtext></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"ΔΥ"} {}</m:annotation></m:semantics></m:math> là đại lượng đầu ra và gia số của nó .</para>
+    <para id="id12087865">+ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Χ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Χ} {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mtext>ΔΧ</m:mtext></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"ΔΧ"} {}</m:annotation></m:semantics></m:math> là đại lượng đầu vào và gia số của nó.</para>
+    <para id="id12087984">Nếu Kôđ càng nhỏ thì chất lượng của bộ ổn định điện càng tốt. Đối với bộ ổn định điện áp (ổn áp ) thì hệ số ổn định được biểu diễn bằng :</para>
+    <para id="id12088009">Kôđ=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>ΔΥ</m:mtext><m:mi>Υ</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"ΔΥ"}  over  {Υ} } } {}</m:annotation></m:semantics></m:math> : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>ΔΧ</m:mtext><m:mi>Χ</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"ΔΧ"}  over  {Χ} } } {}</m:annotation></m:semantics></m:math> =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi fontstyle="italic">ΔU</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mi>:</m:mi><m:mfrac><m:msub><m:mi fontstyle="italic">ΔU</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {ΔU rSub { size 8{R} } }  over  {U rSub { size 8{R} } } } : {  {ΔU rSub { size 8{V} } }  over  {U rSub { size 8{V} } } } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id12108619">Trong đó :</para>
+    <para id="id12108624">- UR là điện áp ra. </para>
+    <para id="id12108640"><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math> - UV là điện áp đầu vào.</para>
+    <para id="id12108771">-
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UR và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UV là độ biến thiên điện áp đầu ra và độ biến thiên điện áp đầu vào. Hiện nay có rất nhiều loại ổn áp với những nguyên lí làm việc rất khác nhau. Trong phạm vi giáo trình này chỉ đề cập một số loại phổ biến.</para>
+    <section id="id-00930577088887">
+      <title>ỔN ÁP SẮT TỪ KHÔNG TỤ</title>
+      <para id="id11638529">Kiểu đơn giản nhất của loại này là hai cuộn kháng nối tiếp nhau, một cuộn tuyến tính L1 ( có khe hở không khí trong mạch từ ) và một cuộn bão hòa L2 như hình 9-1.</para>
+      <para id="id11638563">Hình 9-1: Ổn áp sắt từ không tụĐiện áp vào UV đặt trên cả hai cuộn còn điện áp ra Ur lấy trên cuộn bão hòa:</para>
+      <para id="id11638624">UV = U1 + U2 = U1 + Ur.</para>
+      <para id="id11638677">Nếu bỏ qua tổn hao trong hai cuộn kháng thì phương trình trên có thể viết dưới dạng số học là:</para>
+      <para id="id11638689">UV = U1 + Ur . </para>
+      <para id="id11638725">Đặc tính V- A của bộ ổn áp này được trình bày như hình 9-2.</para>
+      <para id="id11638734">Ta nhận thấy khi điện áp đầu vào thay đổi nhiều thì điện áp đầu ra thay đổi ít (
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UV &gt;&gt; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UR). Tuy vậy sự dao động của điện áp đầu ra
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UR vẫn còn tương đối lớn vì đặc tính V-A của cuộn kháng bão hòa không thể nằm song song với trục hoành được. Có thể giảm bớt 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UR bằng cách mắc thêm trên cuộn tuyến tính một cuộn bù Wb ngược cực tính với cuộn bão hòa.</para>
+      <para id="id11928313">Hình 9-2: Đặc tính của ổn áp sắt từ không tụĐiện áp ra trong trường hợp này được tính bằng : </para>
+      <para id="id11928370">UR = (U2 - U1). 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {W rSub { size 8{b} } }  over  {W rSub { size 8{1} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id11928476">Trong đó tỉ số 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {W rSub { size 8{b} } }  over  {W rSub { size 8{1} } } } } {}</m:annotation></m:semantics></m:math> phải chọn sao cho UR bé nhất.</para>
+      <para id="id9998808">Để có một điện áp ra tùy ý thì cuộn dây W2 của cuộn kháng bão hòa phải là cuộn sơ cấp của biến áp, còn điện áp lấy ra trên cuộn thứ cấp là ở trên cuộn kháng bão hòa.</para>
+      <para id="id9998832">Hình 9-3 trình bày một số kiểu sơ đồ nối. </para>
+      <para id="id9998842">Hình 9-3: Một số sơ đồ ổn áp sắt từ không tụNhược điểm chính của ổn áp sắt từ không tụ là tốn nhiều nguyên vật liệu, hiệu suất bé, điện áp ra bị méo dạng nhiều.</para>
+    </section>
+    <section id="id-912362694758">
+      <title>ỔN ÁP SẮT TỪ CÓ TỤ</title>
+      <para id="id9998896">Nhược điểm lớn nhất của ổn áp sắt từ không tụ là dòng điện lớn do khi mạch từ bão hòa gây ra. Điều này có thể khắc phục được bằng cách mắc thêm một tụ điện có trị số thích hợp song song với cuộn kháng bão hòa. Do dòng điện trên tụ ngược pha với dòng điện trên cuộn kháng bão hòa nên chúng tự triệt tiêu nhau.</para>
+      <para id="id9998910">Mắc thêm tụ điện tạo ra trong mạch hiện tượng cộng hưởng, vì vậy ổn áp sắt từ còn được gọi là bộ ổn áp cộng hưởng.</para>
+      <section id="id-459046907578">
+        <title>Bộ ổn áp kiểu hai cuộn kháng</title>
+        <para id="id9998929">Sơ đồ đơn giản nhất của loại này được mô tả như hình 9-4.</para>
+        <para id="id9998936">Hình 9-4: Ổn áp sắt từ có tụỔn áp gồm hai cuộn kháng, một cuộn tuyến tính và một cuộn bão hòa mắc nối tiếp nhau, tụ điện C mắc song với cuộn bão hòa. Điện áp ra lấy trên cuộn kháng bão hòa . Điện áp đầu ra có quan hệ khá phức tạp với điện áp vào và dòng điện I. Khi: U2 &lt; Uch ( điện áp cộng hưởng) thì mạch vòng L2C có tính chất điện dung. Khi U2 = Uch trong mạch xảy ra hiện tượng cộng hưởng dòng điện. Khi U2 &gt; Uch thì mạch vòng L2C có tính chất điện cảm (hình 9-5).</para>
+        <para id="id9999067"/>
+        <para id="id9999082">Hình 9-5: Đặc tính của ổn áp(mạch L) Hình 9-6: Dạng đặc tính V-A.Đặc tính V-A của bộ ổn áp này hình 9-6. Ta nhận thấy ở đây khi 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UV tương đối lớn thì 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UR thay đổi không đáng kể và UR chỉ ổn định khi U2 &gt; Uch . Vì vậy phải chọn miền làm việc của ổn áp sau điểm cộng hưởng . </para>
+        <para id="id10668626">Để giảm bớt đến mức tối đa sự thay đổi của điện áp đầu ra UR người ta dùng thêm cuộn bù với số vòng thích hợp quấn trên mạch từ của cuộn dây tuyến tính L1 và ngược cực tính với cuộn W2. Sơ đồ mạch biểu diễn trên hình 9-7.</para>
+        <para id="id10668671">Tụ điện C có thể mắc vào điện áp cao hơn UR nhờ cuộn tăng áp kiểu biến áp tự ngẫu, mục đích làm giảm trị số của tụ ( biết UC =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>I</m:mi><m:mrow><m:mi>ω</m:mi><m:mtext> C</m:mtext></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {I}  over  {ω" C"} } } {}</m:annotation></m:semantics></m:math> , nếu UC càng cao thì trị số của tụ càng bé khi dòng điện I và tần số không đổi).</para>
+        <para id="id10668778">Nhược điểm chính của loại ổn áp cộng hưởng là điện áp ra bị méo bởi phần tử phi tuyến L2 . điều này có thể khắc phục bằng cách dùng bộ lọc thích hợp.</para>
+        <para id="id10668804">Hình 9-7: Ổn áp có cuộn dây bù Hình 9-8: Ổn áp cộng hưởng</para>
+        <para id="id10668842">Trên hình 9-8 trình bày nguyên lí của bộ ổn áp sắt từ cộng hưởng. Bộ ổn áp này đã dùng nhiều biện pháp tích cực nhằm cải tiến tối đa các thông số của nó . Ở đây nhờ có cuộn bù Wb điện áp của tụ được tăng cao. Ngoài ra còn có cuộn kháng tuyến tính L3 mắc nối tiếp với tụ C. Trị số L3 chọn sao cho L3 và C tạo thành mạch cộng hưởng đối với các sóng bậc cao (chủ yếu là sóng hài bậc 3), do vậy điện áp ra sẽ gần hình sin hơn.</para>
+      </section>
+      <section id="id-418154436687">
+        <title>Bộ ổn áp kiểu biến áp có sun từ</title>
+        <para id="id10668912">Biến áp có sun từ đóng vai trò của cuộn kháng bão hòa và cuộn kháng tuyến tính. Sơ đồ nguyên lí của loại này như hình 9-9. Tụ C mắc song song với U2 hoặc với điện áp cao hơn U2. </para>
+      </section>
+    </section>
+    <section id="id-245874059416">
+      <title>Hình 9-9: Ổn áp kiểu shun từỔN ÁP KHUẾCH ĐẠI TỪ</title>
+      <para id="id11902129">Điện áp hay dòng điện của tải mắc ở đầu ra của khuếch đại từ có thể điều khiển được nhờ dòng điện điều khiển vào cuộn dây điề̀u khiển. Muốn duy trì điện áp hay dòng điện đầu ra không đổi thì chỉ việc thay đổi trị số dòng điều khiển Iđk , đó là nguyên lí làm việc của bộ ổn áp khuếch đại từ như hình 9-10.</para>
+      <para id="id11902166">Nó gồm một KĐT đơn và một biến áp tự ngẫu AT, điện áp đầu vào đặt trên hai cuộn làm việc của khuếch đại từ và cuộn dây sơ cấp của AT. </para>
+      <para id="id11902177">Hình 9-10: Dạng đơn giản của ổn áp khuếch đại từ  Có UV = UKĐT + U1AT. Điện áp đầu ra lấy ở cuộn thứ cấp của máy biến áp tự ngẫu AT. Vai trò của AT dùng để nâng cao điện áp ra :</para>
+      <para id="id11902260">Ur= K.UAT = K( UV+ UKĐT).</para>
+      <para id="id11902302">Trong đó : K là hệ số biến áp của AT.</para>
+      <para id="id11902311">Muốn cho Ur không đổi thì Iđk phải được điều chỉnh sao cho : </para>
+      <para id="id11902343">+ Khi Ur = Uđm thì Iđk = Iđkđm và có UKĐTđm. </para>
+      <para id="id11902412">+ Khi Ur &gt; Uđm thì Iđk &lt; Iđkđm và có UKĐT làm giảm Ur về lại Uđm.</para>
+      <para id="id12297835">+ Khi Ur &lt; Uđm thì Iđk&gt; Iđkđm và có UKĐT làm tăng Ur lên lại Uđm. </para>
+      <para id="id12297916">Hình 9-11: Đặc tính ổn ápVấn đề mấu chốt là phải tạo ra được quá trình tự động thay đổi Iđk theo quy lụật trên khi Ur thay đổi. Điều này được giải quyết nhờ hệ thống điều khiển gồm các cơ cấu phát, cơ cấu đo và cơ cấu so sánh. Khi UV thay đổi ( vì điện áp dưới tải thay đổi hoặc tải của ổn áp thay đổi) các cơ cấu trên có nhiệm vụ tạo ra Iđk phù hợp với đặc tính điều chỉnh của ổn áp do đó điện áp ra sẽ được duy trì ổn định. Ur dao động ít nhất nếu các cơ cấu phát, đo và so sánh được làm bằng các linh kiện điện tử và bán dẫn. Tuy vậy chúng cũng còn được làm từ các phần tử điện từ.</para>
+      <para id="id12298026">Hình 9 -12 trình bày nguyên lí của một ổn áp KĐT mà cơ cấu của hệ điều khiển làm bằng các cuộn kháng. KĐT có ba cuộn dây điều khiển Wđk1, Wđk2 và Wđk3. Trong đó: Wđk1:là cơ cấu phải chỉnh định bằng dòng điện Iđk1 sao cho khi : UV = Uvđm , It = Itđm thì điện áp ra bằng điện áp định mức. Iđk1 được chỉnh định bằng điện trở R1.</para>
+      <para id="id12298151">Cuộn Wđk2 và Wđk3 mắc nối tiếp với cuộn kháng bão hòa L2 và tuyến tính L3 qua bộ chỉnh lưu, vì hai cuộn này trên hình được nối ngược cực tính với nhau do đó sức từ động chung bằng hiệu hai sức từ động: (IW) = ( Iđk2.Wđk2) - ( Iđk3 .Wđk3)</para>
+      <para id="id12298243">Trong đó: Iđk2 và Iđk3 phải được chỉnh định qua biến trở R2 và R3 sao cho khi Ur = URđm thì sức từ động tổng bằng không(IW= 0). Khi Ur thay đổi thì Iđk2Wđk2 và Iđk3Wđk3 thay đổi theo hình 9-11. </para>
+      <para id="id11714703">Quá trình tự động thay đổi điện áp có thể biểu diễn như sau: </para>
+      <para id="id11714713">+ khi UR &lt; Urđm thì sức từ động IW &gt;0 dẫn đến LKĐT giảm và UKĐT giảm và điện áp ra lại tăng lại.</para>
+      <para id="id11714768">+ khi UR &gt; Urđm thì IW &lt; 0 dẫn đến LKĐT tăng làm UKĐT tăng và điện áp ra giảm lại. </para>
+      <para id="id11714825">Ổn áp khuếch đại từ có thể chế tạo với công suất tương đối lớn, hiệu suất cao hơn so với ổn áp sắt từ.</para>
+      <para id="id11714835">Hình 9-12: Sơ đồ nguyên lí ổn áp khuếch đại từ</para>
+    </section>
+    <section id="id-721344588517">
+      <title>ỔN ÁP BIẾN TRỞ THAN</title>
+      <para id="id11714879">Loại ổn áp này có cấu tạo khá đơn giản như hình 9-13. Nó gồm một chồng đĩa than xốp, một lò xo kéo và một nam châm điện. Điện áp đầu ra được tính bằng hiệu của điện áp đầu vào và điện áp rơi trên chồng đĩa than: </para>
+      <para id="id11714894">U = UV - IT. R </para>
+      <para id="id11714922">Nếu điện áp ra thay đổi ( khi điện áp vào và tải thay đổi) thì lực điện từ của nam châm điện thay đổi theo cho nên lực ép lên chồng đĩa than cũng thay đổi làm điện trở của nó thay đổi.</para>
+      <para id="id11714935">Khi điện trở của đĩa than thay đổi thì điện áp rơi trên nó cũng thay đổi, kết quả làm cho điện áp đầu ra UR được duy trì không đổi. </para>
+      <para id="id11714966">Hình 9-13: Ổn áp điện trở tiếp xúc</para>
+    </section>
+    <section id="id-0897128447193">
+      <title>ỔN ÁP KIỂU SERVOMOTOR</title>
+      <para id="id11714988">Ổn áp kiểu servomotor còn được gọi là ổn áp dùng servomotor kéo chổi than theo nguyên lí điện cơ. Nguyên lí làm việc của nó là dùng một mạch điều khiển bằng linh kiện bán dẫn điện tử để điều khiển động cơ thừa hành làm nhiệm vụ ổn định điện áp.</para>
+      <figure id="id11715015">
+        <media id="id1167305985329" alt=""><image src="../../media/graphics1-e7ba.png" mime-type="image/png" height="292" width="477"/></media>
+      </figure>
+      <para id="id9940567">Sơ đồ nguyên lí làm việc như hình minh họa.</para>
+      <para id="id9940576">Phần chính là một biến áp tự ngẫu BA có lõi hình xuyến, đầu vào lấy điện qua con chạy S. Để giữ điện áp ra Ur không đổi ta phải thay đổi điện áp vào Uv cho phù hợp bằng cách điều khiển tự động con chạy S. Việc điều chỉnh S được thực hiện nhờ động cơ M. Động cơ này được điều khiển bằng bộ so sánh mức độ sai lệch giữa điện áp mẫu Ur’ (Ur’ là đại diện cho Ur) và điện áp chuẩn. Sơ đồ khối mạch điều khiển được trình bày như hình 9-15.</para>
+      <para id="id9940656">THĐLCLUvUrU’rHình 9-15 : Sơ đồ khối mạch điều khiển ổn ápMM </para>
+      <para id="id11666686"/>
+      <para id="id11666690">Điện áp Ur sau khi qua bộ chỉnh lưu (CL) có điện áp Ur’. Bộ đo lường là một mạch cầu gồm ba nhánh điện trở R1, R2, R3 và một nhánh điôt zener Dz được vẽ trên hình 9-16.</para>
+      <para id="id11666759">Điện áp giữa hai nhánh của cầu là Ur’ (điện áp chỉnh lưu của Ur ), 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U là điện áp giữa hai đỉnh chéo AB của cầu. Các trị số điện trở R1, R2, R3 được tính toán như thế nào để khi Ur= Urđm thì có 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U= 0. Giá trị 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U sai lệch được khuếch đại lên thành giá trị 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U1 lớn hơn nhiều lần. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U1 này được đưa đến khối thực hiện TH để khối này nhận biết điều khiển chiều quay của động cơ M, kéo theo con trượt S chạy. Ta có cụ thể như sau:</para>
+      <figure id="id10422045">
+        <media id="id8723934" alt=""><image src="../../media/graphics2-bff5.png" mime-type="image/png" height="194" width="350"/></media>
+      </figure>
+      <para id="id10422068">+Khi điện áp ra Ur tăng xuất hiện sự sai lệch điện áp là 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U, sự sai lệch này được khuếch đại thành 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U1 lớn gấp nhiều lần để cung cấp cho động cơ M quay theo chiều giảm(chiều ngược), kéo theo con trượt S chạy đến khi Ur ổn định (Ur=Urđm).</para>
+      <para id="id11715966">+Khi điện áp ra Ur giảm xuất hiện sự sai lệch điện áp là 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U, sự sai lệch này được khuếch đại thành 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U1 lớn gấp nhiều lần để cung cấp cho động cơ M quay theo chiều tăng (chiều thuận), kéo theo con trượt S chạy đến khi Ur ổn định (Ur=Urđm). </para>
+      <para id="id11716128">Ổn áp loại này có các ưu điểm: điện áp ra ổn định, làm việc tin cậy, dạng điện áp ra ít bị méo dạng, phạm vi thay đổi điện áp rộng, hiệu suất cao và rất tiện lợi khi chế tạo ở công suất nhỏ. Tuy nhiên nó có một số nhược điểm là: cấu tạo khá phức tạp, do có hệ thống chổi than nên gây ồn khi làm việc và dễ sinh cháy nổ, do vậy loại này khó thực hiện ở công suất lớn và giá thành cao. </para>
+    </section>
+    <section id="id-723352664033">
+      <title>ỔN ÁP KIỂU BÙ</title>
+      <para id="id11716170">Nguyên lí làm việc của ổn áp kiểu bù tương tự như ổn áp kiểu servomotor. Hình 9-17 là sơ đồ nguyên lí của loại ổn áp kiểu bù.</para>
+      <figure id="id11716185">
+        <media id="id6338954" alt=""><image src="../../media/graphics3-7a5c.png" mime-type="image/png" height="208" width="511"/></media>
+      </figure>
+      <para id="id11716209">Mục đích của cuộn bù là bù thêm một lượng điện áp thích hợp để có điện áp ra ổn định. Phương trình cân bằng điện áp là: Uv= Ur + 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>Ub </para>
+      <para id="id11716298">Việc thay đổi lượng điện áp bù nhờ biến áp tự ngẫu. Mạch điều khiển có nhiệm vụ so sánh và khuếch đại điện áp ra thay đổi để điều khiển servomotor M theo hai chiều quay thuận hoặc quay ngược. Servomotor M lại điều khiển từ biến áp tự ngẫu T làm cho nó cung cấp một lượng điện áp có véc tơ dương hoặc âm cho biến thế B. Thứ cấp của B nối nối tiếp với mạch động lực giữa đầu vào và đầu ra. </para>
+      <figure id="id11716319">
+        <media id="id2753358" alt=""><image src="../../media/graphics4-4aea.png" mime-type="image/png" height="223" width="443"/></media>
+      </figure>
+      <para id="id11716343">Thực tế điện áp lưới dao động từ Umin đến Umax nên thường phương án được đưa ra là bù một lượng 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U và do một biến áp khác đảm nhiệm. Sơ đồ nguyên lí như hình 9-18. Khi có Uv nhỏ hơn một trị số điện áp đặt Uđ thì biến áp BA1 làm việc (Triac T1 dẫn, Triac T2 ngưng dẫn) bù một lượng điện áp 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U do đó điện áp của biến áp BA2 luôn luôn lớn hơn Uđ. Khi điện áp Uv cao thì biến áp BA1 ngưng làm việc. Biến áp BA2 làm nhiệm vụ bù lượng điện áp 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U để điện áp ra ổn định, việc bù này nhờ thay đổi Uđk theo vị trí chổi than con trượt của biến áp vi sai. Khi các biến áp BA1, BA2 không cần thiết phải bù thì thiết bị tự ngắt mạch sơ cấp của nó để tránh hiện tượng bão hòa mạch từ làm tăng tổn hao công suất.</para>
+      <para id="id12291642">Ưu điểm của ổn áp kiểu bù là chất lượng điện áp tốt ít bị méo dạng, độ tin cậy làm việc cao, các phần tử điều khiển lượng công suất bé( của BA1 và BA2 ) nên dễ chế tạo ổn áp ở công suất lớn, hiệu suất cao và giá hạ. Tuy nhiên loại này cũng tồn tại một số nhược điểm: khó chế tạo và thiết kế, sử dụng chổi than nên gây ồn và dễ cháy nổ, loại này thường được chế tạo với công suất lớn. </para>
+    </section>
+    <section id="id-204059538412">
+      <title>ỔN ÁP ĐIỆN TỬ</title>
+      <para id="id12291690">Ổn áp gồm một biến áp tự ngẫu T2 , cuộn dây bù điện áp T1 và mạch điều khiển là các linh kiện bán dẫn. Nguyên lí làm việc loại này tương tự loại servomotor, nhưng ở đây động cơ thừa hành servomotor và con chạy S được thay thế bằng mạch điều khiển dòng điện và cuộn dây bù điện áp T1. Khi điện áp thay đổi, mạch điều khiển sẽ phân tích để bù lượng điện áp thích hợp đảm bảo điện áp ra ổn định. Hình 9-19 là sơ đồ nguyên lí của ổn áp điện tử. </para>
+      <figure id="id12291749">
+        <media id="id6258278" alt=""><image src="../../media/graphics5-9fb9.png" mime-type="image/png" height="257" width="413"/></media>
+      </figure>
+      <para id="id12291776">Ưu nhược điểm của ổn áp điện tử</para>
+      <para id="id12291781">Ngoài các ưu điểm đạt được như loại servomotor, loại này còn khắc phục được các nhược điểm là không gây ồn hoặc cháy nổ. Tác động rất nhanh , nhạy và khối lượng nhẹ.</para>
+      <para id="id11716379">Tuy nhiên nó cũng có các nhược điểm là khá phức tạp khi thiết kế, chế tạo mạch điều khiển, công suất chế tạo loại ổn áp này không lớn và giá thành sản xuất khá cao. </para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,749 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Biến áp đo lường</title>
+  <metadata>
+  <md:content-id>m29058</md:content-id><md:title>Biến áp đo lường</md:title>
+  <md:abstract>Phần này trình bày về biến điện áp</md:abstract>
+  <md:uuid>eaf14799-d8ac-40ca-a153-d795a0472542</md:uuid>
+</metadata>
+  <content>
+    <para id="id11619240">BIẾN ĐIỆN ÁP (BU)</para>
+    <section id="id-799073267671">
+      <title>Chức năng và các thông số chính của BU</title>
+      <para id="id11619253">Biến điện áp đo lường dùng để biến đổi điện áp từ trị số lớn xuống trị số thích hợp (100V hay 100/
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math>V) để cung cấp cho các dụng cụ đo lường, rơle và tự động hóa. Như vậy các dụng cụ thứ cấp được tách khỏi mạch điện cao áp nên rất an toàn cho người. Cũng vì an toàn, một trong những đầu ra của cuộn dây thứ cấp phải được nối đất. Các dụng cụ phía thứ cấp của BU có điện trở rất lớn nên có thể coi BU làm việc ở chế độ không tải.</para>
+      <para id="id11616861">BU bao gồm các thông số chính như sau:</para>
+      <para id="id11616867">a) Hệ số biến đổi định mức</para>
+      <para id="id11616873"><figure id="id11610539"><media id="id13223329" alt=""><image src=".wmf" mime-type="image/wmf" height="35" width="42"/></media></figure><figure id="id11610563"><media id="id13223350" alt=""><image src=".wmf" mime-type="image/wmf" height="35" width="35"/></media></figure><figure id="id11610588"><media id="id8164312" alt=""><image src=".wmf" mime-type="image/wmf" height="35" width="44"/></media></figure>x1r1x'2r'2<figure id="id11614618"><media id="id8164334" alt=""><image src=".wmf" mime-type="image/wmf" height="35" width="37"/></media></figure>x'r'<figure id="id10463348"><media id="id8164357" alt=""><image src=".wmf" mime-type="image/wmf" height="36" width="37"/></media></figure>x0r0<figure id="id12179194"><media id="id8164379" alt=""><image src=".wmf" mime-type="image/wmf" height="35" width="45"/></media></figure><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>âm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>âm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msub><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>âm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K rSub { size 8{ ital "âm"} } = {  {U rSub { size 8{1 ital "âm"} } }  over  {U rSub { size 8{2 ital "âm"} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id12146484">a)b)Hình 14-1. Biến điện áp một phaa) Sơ đồ thay thế; b) Đồ thị véctơ<figure id="id12054240"><media id="id14496960" alt=""><image src=".wmf" mime-type="image/wmf" height="35" width="42"/></media></figure><figure id="id12054264"><media id="id14496981" alt=""><image src=".wmf" mime-type="image/wmf" height="35" width="44"/></media></figure><figure id="id12054288"><media id="id14497002" alt=""><image src=".wmf" mime-type="image/wmf" height="35" width="39"/></media></figure><figure id="id10582493"><media id="id14497024" alt=""><image src=".wmf" mime-type="image/wmf" height="36" width="39"/></media></figure>I0r1jI0x1jI’2(r1+ r’2)jI’2(x1+ x’2)uCBATrong đó: U1đm , U2đm là các điện áp định mức sơ cấp và thứ cấp. Điện áp sơ cấp đo lường được nhờ BU qua điện áp thứ cấp gần đúng bằng:</para>
+      <para id="id11613288">U1  U2.Kđm .</para>
+      <para id="id11616600">b) Sai số của biến điện áp</para>
+      <para id="id11616606">Xét BU một pha có sơ đồ thay thế hình 14-1a, trong đó:</para>
+      <para id="id11616613">z1 = r1 + jx1 : tổng trở cuộn sơ cấp.</para>
+      <para id="id11616646">z2 = r2’ + jx2’ : tổng trở cuộn thứ cấp đã qui đổi về sơ cấp.</para>
+      <para id="id11616680">z’ = r’ + jx’ : tổng trở phụ tải đã qui đổi về sơ cấp;</para>
+      <para id="id11616688">z0 = r0 + jx0 - tổng trở mạch từ.</para>
+      <para id="id11582445">Theo sơ đồ thay thế dựng được đồ thị véctơ các dòng áp (Hình 14-1b).</para>
+      <para id="id11582452">Trên hình 14-2b, các véctơ U’2 và E’2 cũng như I’2 là các véctơ điện áp và dòng điện đã qui đổi về phía sơ cấp. Qua đồ thị véctơ thấy rằng, điện áp thứ cấp đã tăng lên Kđm lần (tức U’2), sai khác với điện áp sơ cấp U1 cả về pha lẫn trị số. Đó chính là do tổn thất trong BU gây nên. Sai số của BU được xác định như sau.</para>
+      <para id="id11582526">Sai số trị số:</para>
+      <para id="id11582531">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi fontstyle="italic">ΔU</m:mi>
+                    <m:mrow>
+                      <m:mtext/>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>K</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>âm</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mi>U</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>U</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>100</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ΔU%= {  {K rSub { size 8{ ital "âm"} }  "." U rSub { size 8{2} }  - U rSub { size 8{1} } }  over  {U rSub { size 8{1} } } }  "." "100"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id11866290">Sai số góc u(góc lệch giữa U’2 và U1).</para>
+      <para id="id11856109">Căn cứ vào đồ thị véctơ hình 14-1b có thể xây dựng được biểu thức sai số điện áp và sai số góc của nó. Theo đồ thị có thế viết được:</para>
+      <para id="id11856120">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi fontstyle="italic">ΔU</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>OA</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>OC</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>OC</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">≈</m:mo>
+                      <m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>AB</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>OC</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ΔU= {  { ital "OA" -  ital "OC"}  over  { ital "OC"} }  approx  {  { ital "AB"}  over  { ital "OC"} } ,} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id11713834">và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>u</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≈</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>u</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BC</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OC</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{δ rSub { size 8{u} }  approx "sin"δ rSub { size 8{u} } = {  { ital "BC"}  over  { ital "OC"} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id12485924">Tóm lại AB và BC xác định sai số trị số và sai số góc của biến điện áp đồng thời xét phần thực và phần ảo của véc tơ AC. Ta có:</para>
+      <para id="id12485934">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mover accent="true">
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>CA</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">→</m:mo>
+                        </m:mover>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mover accent="true">
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>AC</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mo stretchy="false">→</m:mo>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mover accent="true">
+                          <m:mi>U</m:mi>
+                          <m:mo stretchy="false">˙</m:mo>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msubsup>
+                        <m:mover accent="true">
+                          <m:mi>U</m:mi>
+                          <m:mo stretchy="false">˙</m:mo>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>'</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msubsup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mo stretchy="false">[</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mover accent="true">
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">˙</m:mo>
+                      </m:mover>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mover accent="true">
+                          <m:mi>z</m:mi>
+                          <m:mo stretchy="false">˙</m:mo>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>I</m:mi>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>'</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mover accent="true">
+                          <m:mi>z</m:mi>
+                          <m:mo stretchy="false">˙</m:mo>
+                        </m:mover>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>z</m:mi>
+                        <m:mo stretchy="false">˙</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>'</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">]</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ widevec  { ital "CA"} = -  widevec  { ital "AC"} = -  \(  { dot  {U}} rSub { size 8{1} }  -  { dot  {U}} rSub { size 8{2} }  rSup { size 8{'} }  \) = -  \[  { dot  {I}} rSub { size 8{0} }  { dot  {z}} rSub { size 8{1} } +I' rSub { size 8{2} }  \(  { dot  {z}} rSub { size 8{1} } + { dot  {z}}' rSub { size 8{2} }  \)  \] } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id12314684">Biến đổi biểu thức trên, tách phần thực và ảo sẽ có:</para>
+      <para id="id12314691">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi fontstyle="italic">ΔU</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:msub>
+                                      <m:mi>I</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mstyle fontstyle="italic">
+                                            <m:mrow>
+                                              <m:mtext>oa</m:mtext>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mrow>
+                                      <m:msub>
+                                        <m:mi>r</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>1</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                      <m:mo stretchy="false">+</m:mo>
+                                      <m:msub>
+                                        <m:mi>I</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>0r</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                    </m:mrow>
+                                    <m:mrow>
+                                      <m:msub>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>1</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                      <m:mo stretchy="false">+</m:mo>
+                                      <m:mi>I</m:mi>
+                                    </m:mrow>
+                                    <m:msub>
+                                      <m:mi>'</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2a</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mrow>
+                                      <m:msub>
+                                        <m:mi>r</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>1</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                      <m:mo stretchy="false">+</m:mo>
+                                      <m:mi>r</m:mi>
+                                    </m:mrow>
+                                    <m:msub>
+                                      <m:mi>'</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">)</m:mo>
+                                      <m:mo stretchy="false">+</m:mo>
+                                      <m:mi>I</m:mi>
+                                    </m:mrow>
+                                    <m:msub>
+                                      <m:mi>'</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2r</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mrow>
+                                      <m:msub>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>1</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                      <m:mo stretchy="false">+</m:mo>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                    <m:msub>
+                                      <m:mi>'</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mo stretchy="false">)</m:mo>
+                                  </m:mrow>
+                                  <m:msub>
+                                    <m:mi>U</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mi>,</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>δ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>u</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>or</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>r</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msub>
+                                <m:mi>I</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>0a</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>I</m:mi>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>'</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2a</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>r</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>r</m:mi>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>'</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>I</m:mi>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>'</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2a</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>'</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>U</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mi>,</m:mi>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ΔU= -  {  {I rSub { size 8{ ital "oa"} } r rSub { size 8{1} } +I rSub { size 8{0r} } x rSub { size 8{1} } +I' rSub { size 8{2a} }  \( r rSub { size 8{1} } +r' rSub { size 8{2} }  \) +I' rSub { size 8{2r} }  \( x rSub { size 8{1} } +x' rSub { size 8{2} }  \) }  over  {U rSub { size 8{1} } } } ,}  {} # 
+δ rSub { size 8{u} } = {  {I rSub { size 8{ ital "or"} } r rSub { size 8{1} }  - I rSub { size 8{0a} } x rSub { size 8{1} } +I' rSub { size 8{2a} }  \( r rSub { size 8{1} } +r' rSub { size 8{2} }  \)  - I' rSub { size 8{2a} }  \( x rSub { size 8{1} } +x' rSub { size 8{2} }  \) }  over  {U rSub { size 8{1} } } } , {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id12057704">Hình 14-2: Biến điện áp dầu một phaa)Điện áp dưới 35kV: 1.Thùng thép,2.Nắp, 3.Đầu sứ xuyên, 4.Mạch từ,5.Cuộn dây sơ cấp,6.Đầu ra tứ cấp, 7.Chốt để tháo nắp,8.Dầu máy biến áp. b)Điện áp 35kVtrong đó 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>oa</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi>j</m:mi></m:mrow></m:mrow><m:msub><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>oí</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {I}} rSub { size 8{0} } = { dot  {I}} rSub { size 8{ ital "oa"} } +j { dot  {I}} rSub { size 8{ ital "oí"} } } {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mrow><m:msub><m:mi>'</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover></m:mrow><m:mrow><m:msub><m:mi>'</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2a</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi>j</m:mi></m:mrow><m:mover accent="true"><m:mi>I</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:msub><m:mi>'</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2r</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { dot  {I}}' rSub { size 8{2} } = { dot  {I}}' rSub { size 8{2a} } +j { dot  {I}}' rSub { size 8{2r} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id12145095">Ta thấy rằng sai số của biến điện áp là một hàm số phụ thuộc vào nhiều thông số. Dòng I0 phụ thuộc vào mạch từ, nên để giảm sai số cần dùng thép kĩ thuật điện tốt để làm mạch từ. Dòng I2 phụ thuộc vào tải thứ cấp, vậy công suất các dụng cụ phía thứ cấp không được vượt quá công suất định mức của biến điện áp (Spt  SđmBU ). Tổng trở Z1 và Z2 phụ thuộc vào cấu tạo cuộn dây sơ cấp và thứ cấp của biến điện áp. Để giảm sai số người ta chọn mật độ dòng trong các cuộn dây của BU nhỏ hơn so với trong máy biến áp điện lực.</para>
+      <para id="id12145179">c). Cấp chính xác của biến điện áp</para>
+      <para id="id12061646">Căn cứ và sai số của BU mà người ta đặt tên cho cấp chính xác cho chúng. Cấp chính xác của BU là sai số điện áp lớn nhất khi nó làm việc trong các điều kiện : tần số 50Hz, điện áp sơ cấp biến thiên trong khoảng U1 = (0,9  1,1)U1đm, còn phụ tải thứ cấp thay đổi trong giới hạn từ 0,25 đến định mức và cos = 0,8. Biến điện áp được chế tạo với các cấp chính xác 0,2; 0,5; 1 và 3.BU cấp chính xác 0,2 dùng cho các đồng hồ mẫu trong phòng thí nghiệm; cấp 0,5 dùng cho công tơ điện, còn cấp 1 và 3 dùng cho các đồng hồ để bảng. Riêng đối với rơle, tùy theo yêu cầu của từng loại bảo vệ mà cấp chính xác của BU cho thích hợp.</para>
+    </section>
+    <section id="id-743541887285">
+      <title>Phân loại và cấu tạo biến điện áp</title>
+      <para id="id12061721">Biến điện áp được phân thành hai loại: khô và dầu. Mỗi loại lại có thể phân theo số lượng pha: biến điện áp một pha và 3 pha.</para>
+      <para id="id12061734">Hình 14-3:Biến điện áp ba pha năm trụa) Bề ngoài; b) Sơ đồ nối dâyBiến điện áp khô chỉ dùng cho TBPP trong nhà. Biến điện áp khô một pha dùng cho cấp điện áp 6kV trở lại, còn biến điện áp khô ba pha dùng cho điện áp đến 500V.</para>
+      <para id="id11956823">Hình 14-4:Biến điện áp kiểu phân cấpa)Bề ngoài; b)Sơ đồ nối dâyTheo kí hiệu của Liên xô cũ: HOC : biến điện áp khô một pha và HTC: biến điện áp khô 3 pha. Biến điện áp dầu được chế tạo với điện áp 3kV trở lên và dùng cho TBPP cả trong và nhà và lẫn ngoài trời. Trên hình 14-2 trình bày biến điện áp dầu một pha điện áp 35kV trở lại. Liên xô chế tạo biến điện áp dầu một pha loại HOM. Biến điện áp dầu ba pha năm trụ (hình 14-3) được chế tạo với điện áp 3  20kV. Nó gồm một mạch từ năm trụ (trong đó có ba trụ có dây quấn, còn hai trụ bên không dây quấn để cho từ thông thứ tự không chạy qua) và hai cuộn dây thứ cấp nối hình sao và hình tam giác hở. Cuộn dây nối hình sao abc cung cấp cho các dụng cụ đo lường, rơle và kiểm tra cách điện. Cuộn dây nối tam giác hở a1-x1 nối với rơle điện áp để cho tín hiệu khi có một pha chạm đất trong lưới cao áp. Bình thường Udll = Ua + Ub + Uc = 0. Khi một điểm chạm đất trong lưới cao áp, điện áp Udll = 3U0, trong đó U0 - điện áp thứ tự không, do đó rơle tác động báo tín hiệu chạm đất.</para>
+      <para id="id10458177">Đối với điện áp 110kV trở lên, để giảm bớt kích thước và làm nhẹ cách điện của biến điận áp người ta dùng biến điện áp kiểu phân cấp (hình 14-4). Biến điện áp kiểu phân cấp bao gồm nhiều tầng lõi từ xếp chồng lên nhau, mà cuộn dây sơ cấp phân bố đều trên các lõi, còn cuộn dây thứ cấp chỉ ở trên lõi từ cuối cùng. Số tầng lõi từ phụ thuộc vào điện áp định mức 110kV có hai tầng, còn 220kV trở lên thì số tầng nhiều hơn.</para>
+      <para id="id10458201">Đối với điện áp 500kV và cao hơn người ta phân chia điện áp bằng tụ để lấy một phần điện áp cao rồi mới đưa vào biến điện áp (hình 14-5). Điện áp lấy trên C2 bằng khoảng 10-15kV, sau đó nhờ biến điện áp một pha hạ xuống điện áp thích hợp cho đo lường, rơle và tự động hóa. Để điện áp thứ cấp U2 không thay đổi theo phụ tải cần đặt thêm điện kháng P và bộ chống nhiễu N.</para>
+      <para id="id10458240">a) Sơ đồ nối dây của biến điện áp.</para>
+      <para id="id10459148">b) Hai biến điện áp (hình 14-6).</para>
+      <para id="id10459154">Sơ đồ BU chỉ cho phép đo điện áp dây (UAB, UBC) mà không đo được điện áp pha. Sơ đồ này dùng rộng rãi cho lưới có dòng chạm đất nhỏ và khi phụ tải là là Óat kế và công tơ.</para>
+      <para id="id10459186">c) Biến điện áp ba pha năm trụ (Y0/Y0/) đã nêu công dụng khi mô tả cấu tạo ở trên.</para>
+      <para id="id10459223">d) Biến điện áp ba pha ba trụ nối Y/Y:</para>
+      <para id="id10459229">Dùng cho lưới có dòng chạm đất bé để cung cấp cho các dụng cụ đo lường điện áp dây không đòi hỏi cấp chính xác cao.</para>
+    </section>
+    <section id="id-0579981193987">
+      <title>BIẾN DÒNG ĐIỆN (BI)</title>
+      <section id="id-372662175197">
+        <title>Hình 14-5:bộ phận chia điện áp bằng tụHình 14-6:Sơ đồ nối hai biến điện áp một phaHình 14-5. Bộ phận chia điện áp bằng tụ.Hình 14-6. Sơ đồ nối hai biến điện áp một pha.Công dụng và các thông số chính của BI</title>
+        <para id="id12166048">Biến dòng điện dùng để biến đổi dòng từ trị số lớn hơn xuống trị số thích hợp (thường là 5A, trường hợp đặc biệt là 1A hay 10A) với các dụng cụ đo và rơle, tự động hóa.</para>
+        <para id="id12166061">Cuộn dây sơ cấp của biến dòng có số vòng rất nhỏ, có khi chỉ một vài vòng, còn cuộn thứ cấp có số vòng nhiều hơn và luôn được nối đất đề phòng khi cách điện giữa sơ và thứ cấp bị chọc thủng thì không nguy hiểm cho dụng cụ phía thứ cấp và người phục vụ. Phụ tải thứ cấp của biến dòng điện rất nhỏ vì vậy có thể coi biến dòng luôn làm việc ở trạng thái ngắn mạch. Trong trường hợp không có tải phải nối đất cuộn thứ cấp để tránh quá điện áp cho nó.</para>
+        <para id="id10384864">Biến dòng điện bao gồm các thông số chính sau.</para>
+        <para id="id10384870">a) Hệ số biến đổi định mức</para>
+        <para id="id10384876"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>âm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>âm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>âm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K rSub { size 8{ ital "âm"} } = {  {I rSub { size 8{1 ital "âm"} } }  over  {I rSub { size 8{2 ital "âm"} } } } ,} {}</m:annotation></m:semantics></m:math>trong đó I1đm và I2đm là dòng định mức sơ và thứ cấp tương ứng. Dòng sơ cấp được đo gần đúng nhờ BI: I1  KđmI2 : dòng đo được ở phía thứ cấp.</para>
+        <para id="id10218744">b) Sai số của biến dòng</para>
+        <para id="id10218749">Sơ đồ thay thế của biến dòng cho trên hình 14-7a. Theo sơ đồ thay thế có thể dựng được đồ thị véctơ của BI (hình 14-7b).</para>
+        <para id="id10218759">Trên (hình 14-7b) thấy rằng dòng thứ cấp tăng Kđm lần (tức là I’2) sai khác với dòng sơ cấp I1 cả về pha lẫn trị số. Sai số của biến dòng gồm hai thành phần: sai số dòng và sai số góc.</para>
+        <para id="id10218801">Sai số dòng:</para>
+        <para id="id11548023"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi fontstyle="italic">ΔI</m:mi><m:mrow><m:mtext/><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>âm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:mtext>100</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔI%= {  {K rSub { size 8{ ital "âm"} }  "." I rSub { size 8{2} }  - I rSub { size 8{1} } }  over  {I rSub { size 8{1} } } }  "." "100"} {}</m:annotation></m:semantics></m:math> (2-51)</para>
+        <para id="id11548151">Sai số góc 1 - góc lệch pha giữa I’2 và I1</para>
+        <para id="id11849595">Căn cứ vào đồ thị véctơ có thể xây dựng được biểu thức sai số. Ta có:</para>
+        <para id="id11849603">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi fontstyle="italic">ΔI</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>OC</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>OA</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>OA</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">≈</m:mo>
+                          <m:mfrac>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>CB</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>OA</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>Sin</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>α</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>ψ</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ΔI= {  { ital "OC" -  ital "OA"}  over  { ital "OA"} }  approx  {  { ital "CB"}  over  { ital "OA"} } = {  {I rSub { size 8{0} } }  over  {I rSub { size 8{1} } } }  ital "Sin" \( α+ψ \) ,} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id11598128">và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≈</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OA</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Sin</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ψ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{δ rSub { size 8{1} }  approx "sin"δ rSub { size 8{1} } = {  { ital "AB"}  over  { ital "OA"} } = {  {I rSub { size 8{0} } }  over  {I rSub { size 8{1} } } }  ital "Sin" \( α+ψ \)  "." } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id11935753">Vậy: 
+<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">ΔI</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ψ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ψ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ΔI= {  {I rSub { size 8{0} } }  over  {I rSub { size 8{1} } } } "sin" \( α+ψ \) }  {} # 
+δ rSub { size 8{1} } = {  {I rSub { size 8{0} } }  over  {I rSub { size 8{1} } } } "cos" \( α+ψ \)  "."  {} 
+} } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10465393">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       <figure id="id10465449"><media id="id12202217" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="315" width="214"/></media></figure> Hình 14-7. Sơ đồ biến dòng; a) Sơ đồ thay thế; b) Đồ thị véctơ.</para>
+        <para id="id10465492">Hình 14-7:Sơ đồ biến dòng:a)Sơ đồ thay thế,b)Đồ thi véc tơ</para>
+        <para id="id10465506">Từ biểu thức trên ta thấy rằng sai số phụ thuộc vào tỉ số I0/I1, phụ tải thứ cấp và góc . Để giảm sai số của biến dòng người ta dùng thép kĩ thuật điện tốt cho mạch từ và tăng số vòng dây thứ cấp.</para>
+        <list id="id12146128" list-type="enumerated">
+          <item>Cấp chính xác cúa biến dòng</item>
+        </list>
+        <para id="id12146138">Cấp chính xác của biến dòng là sai số dòng lớn nhất khi nó làm việc trong các điều kiện: tần số 50Hz, phụ tải thứ cấp thay đổi từ 0,25 đến 1,2 định mức. Biến dòng có năm cấp chính xác: 0,2; 0,5; 1; 3 và 10.</para>
+        <para id="id12146153">BI cấp chính xác 0,2 dùng cho các đồng hồ mẫu; cấp 0,5 dùng cho công tơ điện, còn cấp 1 và 3 dùng cho đồng hồ để bảng; cấp 10 dùng cho các bộ truyền động của máy ngắt. Riêng đó với rơle, tùy theo yêu cầu của từng loại bảo vệ mà dùng cấp chính xác của BI cho thích hợp.</para>
+      </section>
+      <section id="id-316680231229">
+        <title>Phân loại cấu tạo</title>
+        <para id="id12146176">Biến dòng có hai loại chính: biến dòng kiểu xuyên và biến dòng kiểu đế.Hình 14-8:Biến dòng kiểu xuyêna)Sơ đồ nguyên lí; b)Biến dòng điện sơ cấp từ 600A trở nên;c)Biến dòng điện sơ cấp dưới 600A;d)Biến dòng điện dòng sơ cấp rất lớn; 1.Lõi thép,2.Cuộn dây thứ cấp, 3.Cuộn dây sơ cấp(thanh dẫn xuyên,4.Đầu nối của cuộn sơ cấp, 5.Vỏ cách điện</para>
+        <para id="id12146231">Biến dòng kiểu xuyên có cuộn dây sơ cấp là một thanh dẫn xuyên qua lõi từ, còn cuộn dây thứ cấp quấn trên lõi từ (hình 14-8a). Tùy theo dòng định mức sơ cấp mà thanh dẫn xuyên có hình dáng và thiết diện khác nhau, chẳng hạn trên hình 14-8b, nó có dạng thẳng, tiết diện to dùng cho dòng sơ cấp 600A trở lên, còn hình 14-8c thì nó cong, có tiết diện nhỏ hơn dùng cho dòng sơ cấp dưới 600A. khi dòng định mức sơ cấp lớn (6000  18000A) điện áp 20kV, cuộn dây sơ cấp là thanh dẫn hình máng (hình 14-8d). số lượng lõi từ và số lượng cuộn dây thứ cấp tùy thuộc vào công dụng từng loại. Trong biến dòng kiểu xuyên, các lõi và các cuộn dây thứ cấp được bọc trong nhựa cách điện êpôxy. Đối với TBPP ngoài trời, người ta dùng biến dòng kiểu đế, vỏ của nó bằng sứ, cách điện bên trong bằng giấy dầu (hình 14-9a). Trong thùng sứ chứa dầu, phía dưới thùng có hộp các đầu ra của các cuộn dây thứ cấp (thường có một số cuộn dây thứ cấp).</para>
+        <para id="id10458810">Khi điện áp cao, thực hiện cách điện giữa các cuộn dây sơ cấp và thứ cấp gặp khó khăn. Vì vậy với cấp điện áp 330kV và cao hơn người ta dùng biến dòng kiểu phân cấp (hình 14-9b), mỗi cấp có lõi thép riêng.</para>
+        <para id="id10458824">Một vài kí hiệu của Liên xô (cũ) cho các biến dòng kể trên như sau: biến dòng kiểu xuyên TO-10 ( dòng 600A và cao hơn), T-10 (dòng dưới 600A), T-205 (dòng 6000-18000A); biến dòng kiểu đế có: TH (một cấp), TPH (nhiều cấp).</para>
+        <para id="id10458885">Ngoài hai loại chính biến dòng kể trên còn có các loại biến dòng chuyên dùng khác như biến dòng thứ tự không, biến dòng bão hòa nhanh, biến dòng chuyên dùng cho bảo vệ so lệnh ngang của máy phát điện,...</para>
+        <para id="id11956627">Hình 14-9: Biến dòng kiểu đế:a)Một cấp,b)Phân cấp</para>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,125 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Kháng điện</title>
+  <metadata>
+  <md:content-id>m30618</md:content-id><md:title>Kháng điện</md:title>
+  <md:abstract>Phần này trình bày khái niệm chung về kháng điện</md:abstract>
+  <md:uuid>b0de74b3-7b75-4626-9e08-0f902dec0683</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-102124399199">
+      <title>KHÁNG ĐIỆN</title>
+      <para id="id10234288">
+        <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+      </para>
+    </section>
+    <section id="id-467158481082">
+      <title>KHÁI NIỆM CHUNG</title>
+      <section id="id-565930614359">
+        <title>Khái niệm</title>
+        <para id="id10234310">Kháng điện là một cuộn dây điện cảm có điện kháng không đổi (không có lõi thép L&gt;&gt;R), dùng để hạn chế dòng ngắn mạch đồng thời duy trì một trị số điện áp ở mức nhất định khi có sự cố ngắn mạch xảy ra.</para>
+        <para id="id10234328"><figure id="id12312274"><media id="id7846220" alt=""><image src=".wmf" mime-type="image/wmf" height="14" width="14"/></media></figure>MCKhángNHTHình 13-1: Kháng điện: a) hình dạngchung ,b) bố trí trong sơ đồ lướiĐể điện kháng không đổi thì cuộn dây phải không có lõi thép, vì khi có lõi thép thì nếu ngắn mạch xảy ra dòng tăng làm lõi thép bão hòa kết quả điện kháng sẽ giảm không hạn chế được dòng ngắn mạch (Inm).</para>
+        <para id="id10455952">Tham số cơ bản của điện kháng được tính là XK% tương ứng điện áp với 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi fontstyle="italic">ΔU</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math>% (bỏ qua điện áp trên điện trở), sụt áp pha: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">ΔU</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ph</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>K</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>âm</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">[</m:mo><m:mi>V</m:mi><m:mo stretchy="false">]</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU rSub { size 8{ ital "ph"} } =X rSub { size 8{K} }  "." I rSub { size 8{"âm"} }  \[ V \]  "." } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10472051">Kháng điện được chọn theo điện áp định mức, dòng điện định mức và XK%, kiểm tra ổn định động và ổn định nhiệt.</para>
+      </section>
+      <section id="id-0127612047958">
+        <title>Yêu cầu của kháng điện</title>
+        <para id="id10472082">a) Quá điện áp không được phát sinh đánh thủng cách điện giữa các vòng dây và cách điện đối với đất. Không được phát sinh phóng điện cục bộ trên bề mặt của kháng điện.</para>
+        <para id="id10472103">b) Kháng điện phải có đủ độ bền nhiệt và điện động.</para>
+        <para id="id10472110">c) Tổn hao công suất trong kháng điện phải ít nhất (tổn hao không được gây phát nóng kháng điện quá mức cho phép).</para>
+      </section>
+    </section>
+    <section id="id-00340392381315">
+      <title>LỰA CHỌN VÀ KIỂM TRA KHÁNG ĐIỆN</title>
+      <section id="id-593868476006">
+        <title>Lựa chọn kháng điện</title>
+        <para id="id12486430">Lựa chọn kháng điện theo điện áp, dòng điện và giá trị XK% cần phối hợp với máy ngắt điện đã đặt trong mạch của nó, có nghĩa là xuất phát từ điều kiện ngắn mạch sau kháng điện, dòng siêu quá độ không vượt quá dòng điện cắt định mức của máy ngắt điện.</para>
+        <para id="id12486458">Ví dụ hình 13-1: ngắn mạch tại điểm N, điện kháng tổng của hệ thống từ nguồn đến nơi sự cố tại N là:</para>
+        <para id="id12486473"><m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>HT</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>K</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>cb</m:mtext></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>càõtMCÂ</m:mtext></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:msub><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{ sum } } =X rSub { size 8{"HT"} } +X rSub { size 8{K} } = {  {I rSub { size 8{"cb"} } }  over  {I rSub { size 8{"càõtMCÂ"} } } } } {}</m:annotation></m:semantics></m:math> (13.1)</para>
+        <para id="id11612838">- Icb: Dòng điện cơ bản.</para>
+        <para id="id11612856">- XHT: Điện kháng hệ thống tính đến thanh cái trước kháng điện.</para>
+        <para id="id12132078">- XK: Điện kháng của kháng điện cần tìm. XK tính theo % ứng với điều kiện dòng, áp định mức như sau:</para>
+        <para id="id12132108"><m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow/></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mtext>HT</m:mtext></m:msub></m:mrow></m:mrow></m:mstyle></m:mrow></m:mtr><m:mtr><m:msub><m:mi>X</m:mi><m:mrow/></m:msub></m:mtr><m:mtr><m:mrow/></m:mtr><m:mtr><m:mfrac><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>âmK</m:mtext></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>U</m:mi><m:mtext>âmmaûng</m:mtext></m:msub></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>c b</m:mtext></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>U</m:mi><m:mtext>âmK</m:mtext></m:msub></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mfrac></m:mtr><m:mtr><m:mrow><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mtext>Htt</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{K rSub { size 6{"Htt"} } } } = left (X rSub { sum }  size 12{ - X rSub {"HT"} } right ) {  { size 12{I rSub {"âmK"}  size 12{ "." U rSub {"âmmaûng"} }} }  over  { size 12{I rSub {"c b"}  size 12{ "." U rSub {"âmK"} }} } } } {}</m:annotation></m:semantics></m:math> (13.2)</para>
+        <para id="id12072074">Trong đó: IđmK: dòng định mức của kháng điện</para>
+        <para id="id11619057"> UđmK: điện áp định mức của kháng điện.</para>
+        <para id="id11619080"> Uđmmang: điện áp trung bình định mức nơi đặt kháng điện.</para>
+        <para id="id11619104">Từ (13-2) ta tra bảng có sẵn chọn XKXKtt.</para>
+        <para id="id12054041">Chú ý: nếu biết tiết diện cáp nhỏ nhất sau kháng điện thì khi tính XK% cũng tiến hành tương tự như trên. Nhớ rằng lúc xác định X đáng lẽ dùng dòng cắt định mức IcắtMCĐ công thức (13-1) thì phải thay bằng dòng ổn định nhiệt của cáp tương ứng Iôđ .</para>
+        <para id="id12054099">I1 I1 a) I I2 I2 I I b) Hình 13-2: Kháng điện kép<list id="id11619465" list-type="enumerated"><item>Khi làm việc bình thường;</item><item>Khi ngắn mạch một đường dây</item></list></para>
+      </section>
+      <section id="id-704006337298">
+        <title>Kiểm tra kháng điện</title>
+        <para id="id12066871">Sau khi chọn kháng điện ta phải tính tổn hao điện áp trong tình trạng làm việc bình thường và điện áp dư trên thanh cái khi ngắn mạch sau kháng điện. Tổn thất điện áp trong tình trạng làm việc lâu dài đối với kháng điện đơn được xác định như sau:</para>
+        <para id="id12066890"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">Δu</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>pha</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>lv</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>K</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>sin</m:mtext><m:mi>α</m:mi><m:mtext> hay </m:mtext><m:mi fontstyle="italic">Δu</m:mi><m:mrow><m:mtext/><m:mo stretchy="false">=</m:mo><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>K</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>lv</m:mtext></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>âmK</m:mtext></m:mrow></m:mstyle></m:msub></m:mfrac><m:mtext>.</m:mtext><m:mtext>sin</m:mtext><m:mi>ϕ</m:mi><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δu rSub { size 8{"pha"} } =I rSub { size 8{"lv"} }  "." X rSub { size 8{K} } "sin"α" hay "Δu%=X rSub { size 8{K} }  {  {I rSub { size 8{"lv"} } }  over  {I rSub { size 8{"âmK"} } } }  "." "sin"ϕ%} {}</m:annotation></m:semantics></m:math>. Với: Ilv dòng làm việc của nhánh  coi như chỉ có điện kháng nên sin =1
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>coï  U</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mtext>dæ</m:mtext></m:mrow></m:mstyle></m:msub><m:mrow><m:mtext/><m:mo stretchy="false">=</m:mo><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>K</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext/><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>âmK</m:mtext></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"coï  U" rSub { size 8{"dæ"} } %=X rSub { size 8{K} } % {  {I rSub { size 8{N} } }  over  {I rSub { size 8{"âmK"} } } } } {}</m:annotation></m:semantics></m:math> . Với IN: dòng ngắn mạch khi sự cố sau kháng điện. Nếu điện áp thấp hơn điện áp dư cho phép UdưCP bằng 0,6Uđm thì phải tính lại điện kháng của kháng điện như sau:</para>
+        <para id="id10469780"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mtext>X*</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>âm</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>dæCP</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>HT</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>âmK</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>âmmaûng</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mfenced open="" close=""><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>dæCP</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mfenced><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>cb</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>âmK</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"X*" rSub { size 8{K \( "âm" \) } } = {  {U rSub { size 8{"dæCP"} }  "." X rSub { size 8{"HT"} }  "." I rSub { size 8{"âmK"} }  "." U rSub { size 8{"âmmaûng"} } }  over  { left (1 - U rSub { size 8{"dæCP"} }  right )I rSub { size 8{"cb"} }  "." U rSub { size 8{"âmK"} } } } } {}</m:annotation></m:semantics></m:math> (13.3)</para>
+        <para id="id10483208">Với:</para>
+        <para id="id10483212">XHT: tổng điện kháng tương đối cơ bản tính đến trước điểm mắc điện kháng.</para>
+        <para id="id10483232">Uđmmạ̣̣ng: điện áp định mức của cấp điện áp xảy ra ngắn mạch.</para>
+        <para id="id10483252">X*K(đm): điện kháng tương đối của kháng điện quy về điều kiện định mức.</para>
+        <para id="id10483273">Chuyển thành kháng điện phần trăm</para>
+        <para id="id10483279">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>X</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>K</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mtext/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mtext>X*</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>K</m:mi>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mtext>âm</m:mtext>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>100</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{K} } %="X*" rSub { size 8{K \( "âm" \) } }  "." "100"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10575915">từ đây chọn điện kháng tiêu chuẩn.</para>
+        <para id="id10575922">+Kháng điện được xem là đảm bảo ổn định nếu thỏa mãn điều kiện:</para>
+        <para id="id10575931">Iôđđ IXK (13.4)</para>
+        <para id="id10575965">Với Iôđđ: dòng ổn định động (dòng lớn nhất có thể đi qua điện kháng mà không gây ra một sự biến dạng nào của cuộn dây).</para>
+        <para id="id10575987">+ Điều kiện ổn định nhiệt :</para>
+        <para id="id11570710"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>äân</m:mtext></m:mrow></m:mstyle></m:msub><m:mrow><m:msqrt><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>äân</m:mtext></m:mrow></m:mstyle></m:msub></m:msqrt><m:mo stretchy="false">≥</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msqrt><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>gt</m:mtext></m:mrow></m:mstyle></m:msub></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"äân"} }  sqrt {t rSub { size 8{"äân"} } }  &gt;= I rSub { size 8{ infinity } }  "."  sqrt {t rSub { size 8{"gt"} } } } {}</m:annotation></m:semantics></m:math> (13.5)</para>
+        <para id="id12153053">Mức ổn định nhiệt của kháng điện rất cao, việc kiểm tra ổn định nhiệt chỉ cần thiết với kháng điện nhỏ và thời gian tồn tại ngắn mạch lớn.</para>
+        <para id="id12153064">tgt: thời gian tồn tại ngắn mạch.</para>
+        <para id="id12153082">I: dòng ngắn mạch ổn định (xác lập).</para>
+        <para id="id12153101">Ngoài kháng điện đơn, kháng điện hai đầu còn có kháng điện kép ba đầu, ngoài thành phần điện cảm còn có hỗ cảm (khi làm việc bình thường hai cuộn cùng làm việc thì điện kháng kép nhỏ hơn nhiều kháng điện đơn đó là ưu việt hơn của kháng điện kép, ở chế độ ngắn mạch tác dụng hạn chế ngang nhau. Tuy nhiên kháng điện đơn rẻ hơn kháng điện kép, và thường dùng khi số đường dây ít hơn).</para>
+      </section>
+    </section>
+    <section id="id-0595942761734">
+      <title>~~~~~~~~a)b)b))c)d)Hình 13-3: Các cách nối kháng điện thông dụng nhất: a)nối đường dây nguồn cung cấp;b)nối đường dây đi ra; c)nối phân đoạn thanh gópMCKhángNHTHình 13-4: Đặt kháng điện hạn chế dòng điện đỉnh:Dn -đường kínhtrung bình của kháng điện,a-khoảngcách giữa đường tâm kháng điệnvà bộ phận kim loại:1.Tường cốt thép;2.Thanh cốtthép(kích thước trên theo mm)</title>
+      <para id="id11747659">
+        <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+      </para>
+    </section>
+  </content>
+</document>

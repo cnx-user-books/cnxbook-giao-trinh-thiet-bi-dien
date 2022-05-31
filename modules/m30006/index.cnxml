@@ -1,0 +1,634 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Thiết bị chống sét</title>
+  <metadata>
+  <md:content-id>m30006</md:content-id><md:title>Thiết bị chống sét</md:title>
+  <md:abstract>Phần này trình bày khái niệm về thiết bị chống sét</md:abstract>
+  <md:uuid>c4da92ef-0f54-47fa-a51a-d81ac1b3bb89</md:uuid>
+</metadata>
+
+<content>
+    <para id="id12145552">THIẾT BỊ CHỐNG SÉT</para>
+    <section id="id-913765937887">
+      <title>KHÁI NIỆM</title>
+      <para id="id12145567">Thiết bị chống sét là thiết bị được ghép song song với thiết bị điện để bảo vệ quá điện áp khí quyển. Khi xuất hiện quá điện áp nó sẽ phóng điện trước làm giảm trị số quá điện áp đặt lên cách điện của thiết bị và khi hết quá điện áp sẽ tự động dập tắt hồ quang của dòng điện xoay chiều, phục hồi trạng thái làm việc bình thường. Để làm được nhiệm vụ trên thiết bị chống sét cần đạ̣t các điều kiện sau đây:</para>
+      <section id="id-756422536407">
+        <title>Có đặc tính Vôn - giây (V-s) thấp hơn đặc tính V-s của cách điện</title>
+        <para id="id11866005">Đây là yêu cầu cơ bản nhất vì nó liên quan đến tác dụng và lí do tồn tại của thiết bị chống sét. Tuy nhiên thực hiện việc phối hợp đặc tính V-s như vậy không dễ dàng. Trong thiết kế và chế tạo thiết bị điện thường dùng các biện pháp làm đều điện trường để nâng cao cường độ cách điện và dải kết cấu của cách điện. Do cách điện thường có đặc tính V-s tương đối bằng phẳng và đặc tính V-s của thiết bị chống sét cũng phải bằng phẳng để không xảy ra giao chéo ở khoảng thời gian bé (hình 12-1).</para>
+        <para id="id10471604">Ua)b)tHình 12-1: Đặc tính V-s Loại khe hở bảo vệ và loại chống sét ống (PT) do kết cấu điện cực kiểu thanh-thanh nên trường giữa các điện cực phân bố rất không đều, điện áp phóng điện tăng cao khi thời gian phóng điện bé khiến đường đặc tính V-s dốc do đó không thể phối hợp tốt được với đặc tính V-s của các thiết bị trong trạm. Các thiết bị chống sét loại này thường chỉ dùng bảo vệ cho cách điện đường dây vì đặc tính xung kích của cách điện đường dây có dạng tương tự.</para>
+        <para id="id12071745"> Thiết bị chống sét trạm thường là chống sét van (PB), trong cấu tạo đã dùng nhiều biện pháp để đặc tính V-s tương đối bằng phẳng.</para>
+      </section>
+      <section id="id-00392616098347">
+        <title>Có khả năng dập tắt nhanh chóng hồ quang của dòng xoay chiều</title>
+        <para id="id12147639"> Khi quá điện áp, thiết bị chống sét làm việc (phóng điện) để tản dòng xuống đất đồng thời tạo nên ngắn mạch chạm đất. Khi hết quá điện áp phải nhanh chóng dập tắt hồ quang của dòng ngắn mạch chạm đất trước khi bộ phận bảo vệ rơ le làm việc để hệ thống điện được tiếp tục vận hành an toàn.</para>
+        <para id="id12147655">Tùy theo các nguyên tắc và biện pháp dập hồ quang khác nhau mà thiết bị chống sét được phân ra các loại chống sét ống, chống sét van, chống sét van - từ,... Loại khe hở bảo vệ không có bộ phận dập hồ quang nên khi nó làm việc nếu dòng điện ngắn mạch chạm đất của lưới điện lớn thì hồ quang sẽ không tự dập tắt và ngắn mạch chạm đất kéo dài. Do đó loại này chỉ dùng bảo vệ đường dây trong các lưới có dòng ngắn mạch chạm đất bé (lưới có trung tính cách điện hoặc nối đất qua cuộn dây hồ quang) hoặc khi có phối hợp với thiết bị tự động đóng lại (TĐL) để bảo đảm cung cấp điện liên tục.</para>
+        <para id="id12147660"> Loại chống sét ống dựa vào các chất sinh khí để tự dập hồ quang (tương tự máy ngắt phụ tải).</para>
+        <para id="id12069112"> Loại chống sét van có trang bị dập hồ quang hoàn chỉnh hơn dựa trên nguyên tắc chia cắt hồ quang thành nhiều đoạn ngắn và dùng điện trở không đường thẳng để hạn chế trị số dòng điện hồ quang (dòng xoay chiều).</para>
+        <para id="id12069127"> Loại chống sét van từ có bộ phận dập hồ quang phức tạp hơn chống sét van bởi nó dùng thêm từ trường để di chuyển hồ quang nên dập được hồ quang có trị số dòng điện lớn hơn nhiều.</para>
+      </section>
+      <section id="id-00118614368403">
+        <title>Có mức điện áp dư thấp so với cách điện của thiết bị được bảo vệ</title>
+        <para id="id12150408">Sau khi phóng điện, điện áp còn trên thiết bị chống sét (áp dư) sẽ tác dụng lên cách điện của thiết bị, nếu điện áp này lớn vẫn có thể gây nguy hiểm cho thiết bị điện.</para>
+        <para id="id12150421"> Với loại khe hở bảo vệ và chống sét ống giảm điện áp dư chủ yếu bằng cách giảm điện trở của bộ phận nối đất (áp dư Udư=Is.RXK).</para>
+        <para id="id11936700"> Ở chống sét van bên cạnh việc giảm trị điện trở không đường thẳng phải hạn chế dòng điện qua nó không lớn quá trị số quy định (5kA hoặc 10kA), để điện trở vilit không bị quá nóng và duy trì được mức điện áp tương đối ổn định. Hạn chế dòng qua chống sét chủ yếu dựa vào biện pháp bảo vệ ở đoạn tới trạm.</para>
+      </section>
+      <section id="id-885039428624">
+        <title>Thiết bị chống sét không được làm việc (phóng điện) khi có quá điện áp nội bộ</title>
+        <para id="id11936726"> Yêu cầu này thực hiện bằng cách điều chỉnh (khoảng cách) khe hở phóng điện của thiết bị chống sét.</para>
+        <para id="id10233858">Ngoài bốn yêu cầu trên với từng loại còn yêu cầu riêng, cần thêm rằng vai trò chống sét trong trạm biến áp rất quan trọng vì nó quyết định việc lựa chọn mức cách điện xung kích của thiết bị, tức là liên quan đến kết cấu và giá thành thiết bị. Việc phát huy tác dụng của thiết bị chống sét không những phụ thuộc đặc điểm riêng của chúng mà còn phụ thuộc vào nhiều yếu tố như cải thiện bộ phận nối đất, sơ đồ truyền sóng, phần bảo vệ đoạn tới trạm, vị trí đặt thiết bị chống sét ,...</para>
+      </section>
+    </section>
+    <section id="id-611724530997">
+      <title>THIẾT BỊ CHỐNG SÉT ỐNG (PT)</title>
+      <section id="id-2727501009">
+        <title>Cấu tạo (hình 12-2)</title>
+        <para id="id10233900"> Phần chính 1 của thiết bị là ống làm bằng vật liệu tự sinh khí, chất phibro-bakêlít với loại (PT) hoặc chất dẻo viniplast với loại (PTB), một đầu có nắp kim loại giữ điện cực thanh còn đầu kia hở và đặt điện cực hình xuyến 3.</para>
+        <para id="id10232341"> Khe hở S gọi là khe hở trong (hoặc khe hở dập hồ quang) còn S2 là khe hở ngoài có tác dụng cách li thân ống với đường dây để nó không bị hư hỏng do dòng dò.</para>
+      </section>
+      <section id="id-365866657705">
+        <title>Hình 12-2: Chống sét ốngNguyên lí</title>
+        <para id="id12130692">Khi có quá điện áp cả hai khe hở sẽ phóng điện dòng điện sét qua chống sét đi vào bộ phận nối đất. Sau khi hết dòng điện xung kích, sẽ có dòng điện tần số công nghiệp (dòng ngắn mạch chạm đất) đi qua chống sét. Dưới tác dụng của hồ quang do dòng ngắn mạch sinh ra chất sinh khí bị phát nóng sản sinh nhiều khí, áp suất khí tăng tới vài chục at, và thổi tắt hồ quang (thổi về phía đầu hở ống 3, ngay khi dòng xoay chiều qua trị số 0 lần đầu tiên).</para>
+        <para id="id12130697"> Hình 12-3 là sự biến thiên của điện áp xung kích khi chống sét làm việc. Đặc tính V-s phụ thuộc vào khoảng cách khe hở trong và ngoài của chống sét và có dạng giống như khe hở bảo vệ hình 12-3. Sau khi phóng điện điện áp dư trên chống sét là phần điện áp giáng trên bộ phận nối đất do đó các nơi đặt chống sét ống cần nối đất tốt. Độ dài khe hở ngoài được chọn theo điều kiện phối hợp cách điện (phối hợp đặc tính V-s) và có thể điều chỉnh trong phạm vi nhất định, còn khe hở trong quyết định bởi khả năng dập hồ quang. Để dập được hồ quang trong ống cần đủ khí, điều này phụ thuộc vào dòng điện hồ quang, do vậy phải quy định giới hạn của dòng điện hồ quang. Thay đổi khoảng cách S và đường kính trong của ống sinh khí sẽ làm thay đổi giới hạn dòng điện. Khi đặt chống sét ở bất kì điểm nào trong lưới điện cần phải kiểm tra dòng ngắn mạch nối đất tại điểm đó, để đảm bảo chống sét có thể tự dập tắt được hồ quang mà không bị hư hỏng. Khi chống sét làm việc nhiều lần, chất sinh khí sẽ hao mòn, ống sẽ rỗng hơn lượng khí sẽ không đủ để dập tắt hồ quang. Khi đường kính trong ống tăng quá (2025)% so với trị số đầu thì chống sét xem như mất tác dụng.</para>
+        <para id="id12068642">12t[s]UHình 12-3: Đặc tính bảo vệ Chống sét TP ống phibro - bakêlít vật liệu sinh khí dùng loại phibrô, do phibrô không đủ độ bền cơ khí nên ống được bọc thêm bakêlít có quét sơn chống ẩm. Dòng cắt tới khoảng 10kA.</para>
+        <para id="id10231236"> Chống sét PTB: có thân ống bằng chất dẻo viniplast có đặc tính điện và khả năng sinh khí tốt hơn loại PT về cấu tạo cũng đơn giản hơn. Kí hiệu loại PT
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontsize="10pt"><m:mrow><m:mtext>110</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">−</m:mo><m:mn>0,8</m:mn></m:mrow></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 10{"110"}}  over  { size 10{5-0,8}} } } {}</m:annotation></m:semantics></m:math> là thể hiện loại chống sét phibro - bakêlít dùng ở cấp 110kV và giới hạn dòng cắt (0,85)kA.</para>
+        <para id="id12152409">Khi làm việc chống sét ống có thải khí bị ion hóa do đó khi lắp chống sét trên cột phải sao cho khí thoát ra không gây nên phóng điện giữa các pha hoặc phóng điện xuống đất, muốn thế trong phạm vi thoát khí của nó phải không có dây dẫn của pha khác, không có kết cấu nối đất cũng như phạm vi thoát khí của chống sét ống ở pha khác.</para>
+        <para id="id12152414"> Ngày nay dưới sự phát triển của lưới điện công suất lớn yêu cầu chế tạo chống sét ống có giới hạn trên dòng cắt lớn hơn, Liên Xô cũ có loại PTBY, dùng chất dẻo viniplast tăng cường bằng quấn vải thủy tinh tẩm nhựa êpôxit nên giới hạn trên dòng cắt tới 20kA (loại PTB tới 15kA).</para>
+        <para id="id12152420">Chống sét ống chủ yếu dùng bảo vệ các đường dây không có dây chống sét. Khó khăn lớn nhất là phải đảm bảo trị số dòng điện ngắn mạch chạm đất tại điểm đặt chống sét nằm trong phạm vi giới hạn trên và dưới của dòng điện cắt. Khi dùng nó trong hệ thống công suất bé hoặc đặt chống sét ống với mật độ quá dày sẽ không đảm bảo về yêu cầu giới hạn dưới của dòng cắt. Ngược lại nếu hệ thống công suất lớn sẽ có thể vượt quá trị số giới hạn trên. Chế độ vận hành hệ thống thay đổi luôn làm dòng ngắn mạch khó đáp ứng yêu cầu trên. Các nhược điểm đó đã hạn chế việc ứng dụng chống sét ống rộng rãi, thường thay bằng khe hở bảo vệ phối hợp với thiết bị tự động đóng lại để bảo vệ cho đường dây.</para>
+      </section>
+    </section>
+    <section id="id-157740039526">
+      <title>CHỐNG SÉT VAN</title>
+      <section id="id-891913721647">
+        <title>Khái niệm</title>
+        <para id="id10585126"> Phần chính của chống sét van là chuỗi khe hở phóng điện ghép nối tiếp với các tấm điện trở không đường thẳng (điện trở làm việc). Điện trở không đường thẳng chế tạo bằng vật liệu vilit, có đặc điểm là có thể duy trì được mức điện áp dư tương đối ổn định khi dòng điện tăng.</para>
+        <para id="id10585131"> Sau khi tản dòng sét sẽ có dòng điện ngắn mạch duy trì bởi nguồn điện áp xoay chiều (ngắn mạch qua điện trở làm việc) đi qua chống sét van, dòng này gọi là dòng kế tục. Khi cho tác dụng điện trở rất bé do đó dòng sét được tản trong đất dễ dàng và nhanh chóng, ngược lại ở điện áp làm việc thì điện trở tăng cao do đó hạn chế trị số dòng kế tục (thường không quá 80A) tạo điều kiện thuận lợi cho việc dập hồ quang ở chuỗi khe hở. Chính do tính chất cho qua dòng điện lớn khi điện áp lớn và ngăn dòng điện khi điện áp bé nên loại chống sét này được gọi là chống sét van. Trị số điện áp cực đại ở tần số công nghiệp mà chống sét van có thể dập tắt hồ quang của dòng điện kế tục gọi là điện áp dập hồ quang, đó là một trong các tham số chủ yếu của chống sét van.</para>
+      </section>
+      <section id="id-785211088428">
+        <title>Các tham số của chống sét van</title>
+        <para id="id12317083">Ngoài điện áp dập hồ quang chống sét van còn các tham số sau:</para>
+        <list id="id11848363" list-type="enumerated">
+          <item>Điện trở không đường thẳng</item>
+        </list>
+        <para id="id11848371">Được chế tạo từ bột cacbôrun (SiC) mặt ngoài hạt cácborun có màng mỏng SiO2 (dày khoảng 10-5cm).</para>
+        <para id="id11873235">Hình 12 -4: Đặc tính V-A tấm vilit3,2lgUlgIA01234563,43,63,84,04,2 Điện trở suất của bản thân hạt cácborun không lớn (10-2 m) và ổn định nhưng điện trở của lớp màng mỏng phụ thuộc vào cường độ điện trường. Khi cường độ điện trường bé, điện trở lớp màng mỏng khoảng (104106)m. Nhưng khi điện trường tăng cao nó sẽ giảm rất nhanh và điện trở tổng của vilit giảm tới mức bằng điện trở của hạt cácborun. Trong các tấm vilít hạt bột được dính bằng keo thủy tinh lỏng sau đó được nung nóng ở nhiệt độ khoảng vài trăm độ.</para>
+        <para id="id12150951"> Trước kia người ta dùng điện trở loại tirit nhiệt nung nóng khoảng 12000C có đặc tính không ổn định bằng vilit (tirit dùng chất dính bằng đất sét).</para>
+        <para id="id10396235">Hình 12-4 là đặc tính V-A của tấm vi lit đường kính 100mm và dày 60mm đặc tính này được xác định với dạng sóng dòng điện 20/40s và cho dòng điện biến thiên trong phạm vi 1 đến 10.000A. Nó gồm hai đoạn biểu diễn bởi quan hệ giải tích 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>lg</m:mtext><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>lg</m:mtext></m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">+</m:mo><m:mi>α</m:mi></m:mrow><m:mtext>lg</m:mtext><m:mi>I</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"lg"u="lg"A+α"lg"I} {}</m:annotation></m:semantics></m:math> với A là hằng số,  càng bé thì điện áp giáng trên nó (điện áp dư) sẽ tăng càng chậm khi dòng điện tăng. Đoạn trên ứng với khi có dòng điện sét  = (0,130,2) ứng </para>
+        <para id="id12317145">với loại vilit, đoạn dưới ứng với phạm vi dòng điện kế tục  = (0,280,32). Có thể viết quan hệ dưới dạng
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontsize="10pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>AI</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u= size 10{ ital "AI" rSup { size 8{α} } }} {}</m:annotation></m:semantics></m:math>, A là điện trở của tấm khi dòng điện qua nó là 1[A].</para>
+        <para id="id12065671"> Nếu chống sét dùng n tấm điện trở thì đặc tính V-A biểu thị
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">=</m:mo><m:mi>n</m:mi></m:mrow><m:mstyle fontsize="10pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>AI</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u=n size 10{ ital "AI" rSup { size 8{α} } }} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id12058207">U[kV]I[A]3002001005000Hình 12-5: Đặc tính V-A của PBC Hình 12-5 đặc tính V-A của loại PBC-110 khi có dòng điện lớn thông qua điện trở trong thời gian dài, lớp màng SiO2 có thể bị phá hủy do đó cần quy định các trị số cho phép về độ lớn cũng như thời gian duy trì của dòng điện.</para>
+        <para id="id12072611"> Ví dụ tấm vilít 100mm có trị số cho phép dòng xung kích dạng sóng 20/40s là 10kA. Đối với dạng sóng vuông góc có độ dài sóng 2000s thì trị số cho phép của dòng điện là 150A, điều đó chứng tỏ chống sét van không thể làm việc đối với phần lớn các loại quá điện áp nội bộ vì chúng thường kéo dài trong nhiều chu kì tần số công nghiệp. Trị số cho phép của dòng kế tục duy trì trong nửa chu kì tần số công nghiệp còn thấp hơn và không quá 100A.</para>
+        <para id="id11936090">Biện pháp duy nhất để tăng năng lực thông qua dòng điện là tăng tiết diện điện trở tức là tăng đường kính tấm.</para>
+        <para id="id11936101">b) Khe hở phóng điện</para>
+        <para id="id10393011">Sự làm việc của chống sét van bắt đầu từ việc chọc thủng các khe hở phóng điện và kết thúc bằng việc dập tắt hồ quang của dòng điện kế tục cũng ngay tại khe hở này. Mỗi giai đoạn trên đều đề xuất yêu cầu riêng đối với khe hở. Ở giai đoạn đầu khe hở phải có đặc tính V-s tương đối bằng phẳng để phối hợp với đặc tính V-s của cách điện (chủ yếu là máy biến áp). Để đạt được các yêu cầu trên có các biện pháp sau:</para>
+        <para id="id10393038">+ Dùng chuỗi gồm nhiều khe hở ghép nối tiếp nhau</para>
+        <para id="id10393044">Có thể xem như một chuỗi điện dung tương tự sơ đồ chuỗi cách điện, điện áp xung kích phân bố không đều dọc chuỗi sẽ làm cho quá trình phóng điện kế tiếp xảy ra nhanh chóng trên tất cả khe hở. Do đó trị số điện áp phóng điện có thể giảm tới mức ổn định (điện áp phóng điện một chiều hoặc xoay chiều) hoặc còn thấp hơn và đường đặc tính V-s có dạng tương đối bằng phẳng. Cũng với mục đích trên trong chống sét PBBM (dùng bảo vệ máy điện) còn thực hiện cách ghép thêm điện dung song song với một phần của chuỗi khe hở.</para>
+        <para id="id10393052">t[10-6s]U[kV]012345672,42,83,23,64Hình 12-6: Đặc tính V-s trong khe hở + Trong từng khe hở (hình 12-6)</para>
+        <para id="id11935977">Điện cực dùng các tấm đồng cách li bởi vòng đệm mica dày 1mm. Điện trường giữa các điện cực đạt mức gần đồng nhất. Mặt khác khi có điện áp trong khe không khí giữa điện cực và lớp mi ca thì điện trường tăng (do hệ số điện môi của không khí bé hơn mi ca). Nên quá trình ion hóa xuất hiện sớm, nó có tác dụng cung cấp điện tử cho khoảng không gian giữa các điện cực. Các yếu tố trên tạo điều kiện cho quá trình phóng điện phát triển một cách dễ dàng và làm đường đặc tính V-s bằng phẳng ngang (hình 12-6). Trong giai đoạn dập tắt hồ quang vì dòng điện cùng pha điện áp nên khi dòng kế tục qua trị số 0 thì hồ quang tắt, lúc này chấm dứt quá trình phát xạ điện tử từ bề mặt cực âm, cách điện khe hở được phục hồi nhanh chóng và khi vượt quá trị điện áp phục hồi (tần số công nghiệp) thì hồ quang tắt. Điều quan trọng là phải làm sao để điện áp phục hồi phân bố đều giữa các khe hở trong chuỗi, có thể thực hiện bằng cách ghép các điện trở có trị số lớn song song với các khe hở.</para>
+        <para id="id11708135">Mỗi loại khe có trị giới hạn dò̀ng kế tục để hồ quang có thể được dập ngay khi dòng qua trị 0 lần đầu. Với loại điện cực trong chống sét van trị số này khoảng (80  100) A. Xuất phát từ yêu cầu này căn cứ vào trị số điện áp dập hồ quang (lấy bằng điện áp pha lớn nhất khi có ngắn mạch chạm đất). Với lưới (3  35kV) trung tính cách điện lấy bằng áp dây lớn nhất. Còn lưới 110kV trở lên trung tính nối đất trực tiếp nên lấy bằng 0,8Ud và gọi là chống sét 80% để phân biệt loại 100% trong lưới (335kV).</para>
+        <para id="id11954912">Trong các biện pháp dập hồ quang của chống sét chủ yếu vẫn là tìm biện pháp hiệu quả nhất để tăng giới hạn dòng điện kế tục, điều này không chỉ liên quan đến sự làm việc của chống sét mà còn giảm mức cách điện xung kích của thiết bị cần bảo vệ. Với chống sét van từ (dùng từ trường dập hồ quang) nâng giới hạn lên đến 250A nên tấm điện trở không đường thẳng sẽ dùng ít hơn, điện áp dư chống sét giảm và yêu cầu về mức cách điện xung kích thiết bị cũng giảm, để tăng năng lực cho qua dòng điện ta tăng đường kính tấm lên tới 150mm dòng kế tục cho phép tăng gấp đôi tấm chống sét van thường (100mm).</para>
+        <para id="id10457968">c) Kết cấu và đặc tính của một số loại chống sét van thông thường PBC,PB
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math>, PBBM.</para>
+        <para id="id12315711">456312Hình 12-7: Ghép điện dung+Loại PBC thường dùng ở trạm biến áp chế tạo theo các cấp tới 35kV. Khi dùng ở điện áp cao hơn sẽ ghép nối cấp bằng nhiều phần tử có điện áp định mức15, 20, 33 và 35kV. Trong cấu tạo từng cặp 4 khe hở được ghép với nhau và đặt trong ống sứ thành một tổ hợp khe hở tiêu chuẩn. Mỗi tổ được ghép song song với một điện trở (cũng chế tạo bằng cácbôrun) để cho sự phân bố điện áp xoay chiều giữa các chuỗi đều đặn. Các tấm vilít được gắn với nhau bằng chất dính loại gốm và để có tiếp xúc tốt trên bề mặt mỗi tấm tráng bột kim loại và được ép bằng lò xo. Tất cả đặt trong vỏ sứ kín để hơi ẩm không lọt vào ảnh hưởng đến các đặc tính điện của chống sét.</para>
+        <para id="id10467210">+Loại chống sét PBBM dùng để bảo vệ máy điện đặc tính của nó như hình 12-6, có thêm điện dung ghép song song với một phần của chuỗi khe hở hình 12-7.</para>
+        <section id="id-11598061259">
+          <title>Bảng 12.1: Tổ hợp các chống sét PBC ở điện áp cao</title>
+          <table id="id11953936" summary="">
+            <tgroup cols="6">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <tbody>
+                <row>
+                  <entry>Loại chống sét</entry>
+                  <entry>Điện áp định mức [kV]</entry>
+                  <entry>Điện áp cho phép lớn nhất trên chống sét[kV]</entry>
+                  <entry>Số lượng và loại chống sét trên tổ hợp</entry>
+                  <entry>Chiều cao của chống sét, mm</entry>
+                  <entry>Bán kính đế chống sét, mm</entry>
+                </row>
+                <row>
+                  <entry>PBC-15PBC-20PBC-35PBC-110PBC-150PBC-220</entry>
+                  <entry>152035110150220</entry>
+                  <entry>192540,5100138200</entry>
+                  <entry>1xPBC-151xPPC-201xPBC-353xPBC-333xPBC-33+2xPBC-156xPBC-33</entry>
+                  <entry>7258851210305045466192</entry>
+                  <entry>23623623627515352035</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+        <section id="id-532122955538">
+          <title>Bảng 12.2: Đặc tính chủ yếu của chống sét PBC (theo OCT-8934-58)</title>
+          <table id="id11726235" summary="">
+            <tgroup cols="8">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <colspec colnum="8" colname="c8"/>
+              <tbody>
+                <row>
+                  <entry>Điện áp định mức[kV]</entry>
+                  <entry>Điện áp làm việc lớn nhất [kV]</entry>
+                  <entry namest="c3" nameend="c4">Điện áp chọc thủng ở tần số công nghiệp [kV]</entry>
+                  <entry>Điện áp chọc thủng xung kích khi thời gian phóng địên từ1,5 đến 20s,[kV].</entry>
+                  <entry namest="c6" nameend="c8">Điện áp dư của chống sét khi dòng điện xung kích có biên độ khác nhau với độ dài đầu sóng 10s, [kV] (không lớn hơn).Biên độ dòng [kA].</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Không nhỏ hơn </entry>
+                  <entry>Không lớn hơn</entry>
+                  <entry/>
+                  <entry>3kA</entry>
+                  <entry>5kA</entry>
+                  <entry>10kA</entry>
+                </row>
+                <row>
+                  <entry>3610152035110150200</entry>
+                  <entry>3,87,612,7192540,5110138200</entry>
+                  <entry>91626384978200275400</entry>
+                  <entry>111930,54860,598250345500</entry>
+                  <entry>2030457085125285375530</entry>
+                  <entry>13,525425775122315435630</entry>
+                  <entry>14,527456180130335465670</entry>
+                  <entry>1630506788143367510734</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+      </section>
+    </section>
+    <section id="id-83500832554">
+      <title>CHỐNG SÉT VAN TỪ</title>
+      <para id="id12098285">Trong chống sét van từ, dưới tác dụng của từ trường hồ quang giữa các điện cực sẽ di chuyển dưới tốc độ lớn dọc theo khe hở vòng xuyến, do đó sẽ dễ bị thổi tắt. Sau khi hồ quang tắt cường độ cách điện của khe hở được khôi phục nhanh chóng. Điện trở không đường thẳng của các tấm vilít đường kính 180mm, năng lực thông qua dòng điện có sóng vuông và độ dài sóng 2000
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi fontstyle="italic">ms</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ms} {}</m:annotation></m:semantics></m:math> có thể tới 400 A. Trị số này phù hợp với các tham số của quá điện áp nội bộ trong lưới điện áp tới 220 kV. Do đó chống sét van từ còn có khả năng hạn chế phần lớn các loại quá dòng nội bộ trong lưới điện này. Ở điện áp 300 và 500kV để hạn chế quá điện áp nội bộ cần thông qua dòng điện nhiều hơn nữa. Các chống sét van từ dùng để bảo vệ trạm của nga kí hiệu là PBM
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>G</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G} {}</m:annotation></m:semantics></m:math> và loại bảo vệ máy điện là PBM được chế tạo ở các cấp 3, 6,10 kV, các đặc tính cho trong bảng 12-2 và 12-3.</para>
+      <section id="id-162540613327">
+        <title>Bảng 12.3: Đặc tính của chống sét van từ</title>
+        <table id="id7168949" summary="">
+          <tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>Điện áp định mức[kV]</entry>
+                <entry>Điện áp làm việc lớn nhất [kV].</entry>
+                <entry namest="c3" nameend="c4">Điện áp chọc thủng ở tần số công nghiệp [kV]</entry>
+                <entry>Điện áp chọc thủng xung kích khi thời gian phóng điện từ 1,5 đến 20s [kV].</entry>
+                <entry namest="c6" nameend="c8">Điện áp dư của chống sét khi dòng điện xung kích có độ dài đầu sóng 10s, Với các biên độ không lớn hơn.</entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry>Không nhỏ hơn </entry>
+                <entry>Không lớn hơn</entry>
+                <entry/>
+                <entry>3 [kV]</entry>
+                <entry>5 [kV]</entry>
+                <entry>10[kV]</entry>
+              </row>
+              <row>
+                <entry>36102035110150220330500</entry>
+                <entry>3,87,612,72540,5100138200295420</entry>
+                <entry>7,515254270170235340485660</entry>
+                <entry>9,518305183195270390560760</entry>
+                <entry>91728651052653705157401130</entry>
+                <entry>917286097245340475680970</entry>
+                <entry>9,51830651052653705157401060</entry>
+                <entry>112033721162954105708201170</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+    </section>
+    <section id="id-0697557264254">
+      <title>VAN CHỐNG SÉT Ô XÍT KIM LOẠI</title>
+      <section id="id-913871466327">
+        <title>Cấu tạo và nguyên lí hoạt động</title>
+        <para id="id11613728">UlogIbcdAaHình 12-8: Đặc tính dòng điện-điện áp của điện trở oxit kim loạia)Đoạn tuyến tính dưới, b)Điểm nhọn, c)Đoạn phi tuyến rõ rệt,d)Đoạn tuyến tính trên, A- Điểm làm việc có điện áp thường xuyênChống sét van đã thay đổi một cách cơ bản trong khoảng hơn 20 năm trở lại đây cả về cấu trúc lẫn nguyên lí làm việc. Loại van chống sét có khe hở phóng điện kiểu tấm phẳng và phát triển lên loại có khe thổi từ và điện trở cácbit silic (SiC) mắc nối tiếp đã được thay thế bằng van chống sét không có khe hở phóng điện.</para>
+        <para id="id10472167">Van chống sét mới không có khe hở phóng điện mà dựa trên điện trở ô xít kim loại (MO) có đặc tính U-I hoàn toàn phi tuyến và có khả năng hấp thụ năng lượng rất cao. Chúng được biết đến như loại van chống sét ôxit kim loại (MO).</para>
+        <para id="id10472171">Van chống sét MO không “phóng điện” do vậy không định nghĩa điện áp phóng điện. Khi điện áp tăng van chống sét chuyển ngay từ trị số điện trở lớn sang điện trở nhỏ theo dạng đặc tính U-I như hình 12-8.</para>
+        <para id="id12152775">Khi điện áp giảm lại trị số Uc van chống sét lại duy trì tính dẫn điện kém. Mức bảo vệ của van chống sét MO được xác định bằng điện áp dư của nó.</para>
+        <para id="id12152798">Điện áp dư được định nghĩa như giá trị đỉnh của điện áp ở đầu cực van chống sét khi có dòng điện sét chạy qua.</para>
+        <para id="id12133038">Hình 12-9: Tiết diện (bố tríchung của van chống sét oxit kim loại kiểu EXLIMQ.1.đầu sơ cấp, 2.thiết bị xảáp suất ,3.chồng điện trở MO<list id="id12069023" list-type="enumerated"><item>sứ cách điện, 5.đầu nối đất,</item></list>6.đầu thoát áp suấtDòng điện sét có dạng sóng giữa 1/9 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>s và 1/1 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>s thể hiện bước sóng quá điện áp và điện áp dư phối hợp có khả năng so sánh với điện áp phóng điện ban đầu của chống sét van thông dụng. Sóng xung điện áp 8/20
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>s cho điện áp dư gần tương đương với mức bảo vệ quá điện áp sét. Sóng dòng điện với thời gian sườn giữa 30 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>s và 100
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>s tương ứng điện áp đóng mở. Điện áp dư tương ứng với dạng sóng này cho mức bảo vệ trong trường hợp có ứng suất đóng mở. Các trường hợp sự cố trầm trọng, có khả năng van chống sét bị quá tải. Trong các trường hợp như vậy (ví dụ như điện áp tăng từ một mức tới mức sau) thì sự cố trạm đất một pha xảy ra trong điện trở lắp ghép của van chống sét. Hệ thống thoát áp suất để đề phòng vỏ sứ bị nổ. Dòng điện sự cố chạm đất của hệ thống tại điểm đặt chống sét van phải nhỏ hơn dòng điện đảm bảo của thiết bị thoát áp suất của van chống sét. Cấu trúc của van chống sét MO được mô tả như hình 12-9. </para>
+      </section>
+      <section id="id-0212262779469">
+        <title>Ứng dụng và cách lựa chọn</title>
+        <para id="id12069887">Van chống sét được sử dụng để bảo vệ thiết bị và trạm quan trọng (đặc biệt là máy biến áp điện lực) chống lại quá điện áp khí quyển và quá điện áp đóng mở. Khi thiết kế và lựa chọn van chống sét thông dụng, cần lưu ý điện áp đánh thủng và điện áp đệm. Ngoài ra van chống sét MO được chọn theo các tiêu chuẩn sau đây:</para>
+        <para id="id12069902">-Điện áp tần số nguồn tối đa.</para>
+        <para id="id12073686">-Khả năng hấp thụ năng lượng.</para>
+        <para id="id12073694">-Mức bảo vệ.</para>
+        <para id="id12073702">Có thể đạt được khả năng hấp thụ năng lượng yêu cầu với cùng cấp bảo vệ bằng cách xếp chồng các điện trở MO song song. Bằng cách gấp đôi số chồng là có thể có mức bảo vệ thấp hơn và khả năng hấp thụ gần như gấp đôi. Mức bảo vệ cần thiết được tìm ra nhờ các quy tắc phối hợp cách điện, trong đó có chia độ (các tỉ số bảo vệ) giữa các mức bảo vệ của van chống sét và điện áp xung định mức của thiết bị cần bảo vệ được xác định (hình 12-10).</para>
+        <para id="id12073729">Với van chống sét MO, điện áp làm việc liên tục cực đại Us là điện áp tần số nguồn lớn nhất mà van chống sét có thể chịu đựng được thường xuyên. Cường độ T của van chống sét chống lại quá điện áp quá độ UTOV được cho bằng các đặc tính điện áp/thời gian ( U TOV= T.UC hoặc UTOV = TR.UR ).</para>
+        <para id="id11713988">Hệ số T hoặc TR phụ thuộc vào loại van chống sét và có thể tìm được trong tài liệu của nhà chế tạo, UR là điện áp định mức. Theo IEC 99-4 điện áp liên tục của van chống sét phải không được thấp hơn trị số hiệu dụng của điện áp tần số nguồn có thể xảy ta ở đầu cực lâu hơn 10 phút trong lúc làm việc. Điện áp này được xác định trên cơ sở điện áp làm việc cao nhất tác động lên lưới đang xét ở chế độ làm việc bình thường. Nếu số liệu này không được xác định rõ ràng có thể lấy bằng điện áp cao nhất Um đối với thiết bị (IEC 71-1). </para>
+        <para id="id11714042">a) Van chống sét giữa pha và đất</para>
+        <para id="id11957207">Đối với các hệ thống có tổng trở nối đất nhỏ, điện áp liên tục ít nhất bằng 1,05 lần điện áp làm việc cao nhất chia cho
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math>. Đối với các hệ thống có sự cố trạm đất được bù hoặc trung tính cách li, điện áp liên tục có thể lấy ít nhất bằng điện áp làm việc cao nhất.</para>
+        <para id="id10501501">Hình 12-10 Phối hợp cách điện cho CEab1234uurBursdCsCBUplưới tổng nối đất thấp. (cE= 1,4) trongkhoảng C (Um 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>³</m:mn></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{³} {}</m:annotation></m:semantics></m:math>300Kv theo IEC 71-1tương ứng với giá trị đỉnh của điện áppha -đất.Urs -điện áp chịu xung sét định mức .UrB -điện áp chịu xung đóng mở định mức.a: điện áp pha đất tần số nguồn max.cE hệ số sự cố trạm đất,b: điện áp pha đấttần số nguồn max với sự cố chạm đất ở pha bên cạnh, d: quá điện áp (được hạn chế bằngvan chống sét đến Up ).Up mức bảo vệ của van chống sétCB giới hạn an toàn với điện áp xung sétCS giới hạn an toàn với xung đóng mởb) Van chống sét giữa các pha</para>
+        <para id="id11570574">Điện áp liên tục tối thiểu phải bằng 1,05 lần điện áp làm việc cao nhất.</para>
+        <para id="id11570580">c) Van chống sét điểm trung tính</para>
+        <para id="id11570593">Đối với các hệ thống có tổng trở nối đất thấp, điện áp liên tục nhận được từ điện áp định mức tạo nên. Đối với các hệ thống có sự cố trạm đất được bù hoặc trung tính cách li, điện áp liên tục tối thiểu có thể lấy bằng điện áp làm việc lớn nhất chia cho 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math> .</para>
+      </section>
+      <section id="id-422270751359">
+        <title>Các trị số điển hình của van chống sét với các mức điện áp điều chỉnh </title>
+        <para id="id10465915">Với các van chống sét MO không có khe hở phóng điện, điện áp làm việc liên tục Uc phải được lựa chọn theo hệ số chạm đất Ce=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math>. Bảng 12-4 cho thấy các trị số điển hình đối với các lưới tổng trở nối đất nhỏ ( Ce=1,4) và các hệ thống không nối đất ( Ce =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math>) không có quá điện áp quá độ nào khác.</para>
+        <para id="id11742129">Van chống sét trong lưới phân phối dưới 30 kV (ví dụ các máy biến áp lắp trên cột ) thường được thiết kế với dòng điện sét định mức là 5 kA. Van chống sét 10 kA được sử dụng cho các mạng thường có nguy cơ bị sét đánh.</para>
+        <para id="id11742145">Dòng điện sét định mức 10 kA cần phải luôn luôn được lựa chọn cho van chống sét trước đường cáp. Van chống sét dùng cho các điện áp trên 30 kV luôn có dòng điện sét định mức là 10 kA. Van chống sét được đặt song song với đối tượng được bảo vệ thường giữa pha và đất. Vì vùng bảo vệ trong không gian bị giới hạn, các van chống sét phải được nối càng gần bộ phận bảo vệ càng tốt . Các số liệu gần đúng đối với vùng bảo vệ được cho trong bảng 12-4.</para>
+        <section id="id-412042245689">
+          <title>Bảng 12.4: chọn van chống sét MO với điện áp định mức Ur</title>
+          <para id="id11850041">(không xảy ra quá điện áp quá độ khác)</para>
+          <table id="id11850047" summary="">
+            <tgroup cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>Điện áp hệ thống định mức Un,kV</entry>
+                  <entry>Van chống sét phaUr với Ce= 1,4 Ur với Ce= 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math>kV kV</entry>
+                  <entry>Van chống sét trung tínhUr với Ce=1,4 Ur với Ce=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math>kV kV</entry>
+                </row>
+                <row>
+                  <entry>610203066110138220345380500</entry>
+                  <entry>
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          912 15
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          30
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          45
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          90
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          150
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -420 -</entry>
+                  <entry>
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -----
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          90
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          -192 - </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id10460303">Hiện nay hãng ABB có chương trình truyền sóng để nghiên cứu các thiết bị đóng cắt lớn có khả năng tính toán các thay đổi theo thời gian của điện áp ở các vị trí thích hợp trong trạm. </para>
+          <section id="id-949427973397">
+            <title>Vùng bảo vệ của van chống sét - các trị số chuẩn</title>
+            <para id="id11612076"/>
+            <para id="id12068568">Điện áp cực đại của Vùng được bảo vệ Chiều dài dẫn đến van</para>
+            <para id="id12066089">thiết bị Um [ kV] Lmax [m] chống sét a[ m]</para>
+            <para id="id12066129">&lt;= 36 8 2</para>
+            <para id="id11615691">123 15 5</para>
+            <para id="id11615706">245 20 10</para>
+            <para id="id11615723">420 20 15</para>
+            <para id="id11615738">Trong các trạm trung gian và cao áp có các đường cáp vào cần tính đến quá điện áp phản xạ không kể sự hạn chế của sóng truyền trong cáp.</para>
+            <para id="id11615753">Với đoạn cáp ngắn ( LK &lt;= 5m) , van chống sét A1 phải đặt để bảo vệ cáp và van chống sét A3 để bảo vệ máy biến áp ( xem hình 12-11). Tuy nhiên khi nếu LK&gt; 5m cáp phải được bảo vệ cả hai phía bằng van A1 và A2.</para>
+            <para id="id10393318">Trong trường hợp này nếu khoảng cách do van A2 bảo vệ lớn hơn L1 thì van A3 bảo vệ máy biến áp có thể không cần thiết. Bộ đếm sét có thể được sử dụng để giám sát van chống sét. Chúng được nối vào dây nối đất của van chống sét , van chống sét phải được cách điện với đất. </para>
+            <para id="id10393367">LkL1A1A2A3Hình 12-11: Bảo vệ quá điện áp với cáp dẫn đến máy ngắt</para>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section id="id-0885610350339">
+      <title>CHỐNG SÉT VariSTAR UItraSIL </title>
+      <section id="id-604419602555">
+        <title>Giới thiệu chung</title>
+        <para id="id11955774">Thế hệ chống sét loại mới UItraSIL của hãng Cooper Power System đã hoàn thiện những ưu điểm của công nghệ chống sét có vỏ bọc bằng polymer đó là kích thước và trọng lượng giảm nhỏ, cùng với độ an toàn được nâng cao. Chống sét UItraSIL sử dụng loại vật liệu ưu việt hiện nay được chấp nhận rộng rãi trong công nghiệp là cao su cone làm vỏ bọc. Việc dùng các đĩa MOV (điện trở phi tuyến oxid kẽm) với các đặc tính điện học cao cấp làm cho chống sét loại UItraSIL có khả năng bảo vệ quá điện áp hơn hẳn cho các lưới phân phối. Các đĩa MOV chế tạo đều phải qua các kiểm tra chất lượng nghiêm ngặt từ khâu bắt đầu cho đến khâu hoàn tất trong dây chuyền sản xuất. Mỗi đĩa MOV sau khi được sản xuất đều phải qua một loạt các thử nghiệm điện học nhằm bảo đảm cho đĩa có được chất lượng cao nhất. Nhờ vậy, các đĩa MOV này có được độ tin cậy rất cao trong chức năng bảo vệ khi làm việc ngay cả sau nhiều năm sử dụng.</para>
+        <para id="id10481976">Chống sét UIt raSIL có các loại 5kA và 10kA, cấp 1 theo tiêu chuẩn IEC-99-4.</para>
+      </section>
+      <section id="id-679324482631">
+        <title>Cấu tạo</title>
+        <para id="id10481993">Chống sét UIt raSIL gồm một chồng các đĩa MOV với hai điện cực ở hai đầu. Toàn bộ các đĩa được bọc keo epoxy gia cường bằng sợi thủy tinh trong một qui trình sản xuất hoàn toàn tự động hóa. Sau khi được gia nhiệt để thành một khối lượng vững chắc về mặt cơ học có thể chịu đựng các ứng suất điện học, cơ học, trong các điều kiện môi trường khắt khe. Lớp vỏ bọc sau đó được lắp vào và kết dính chặt với khối các đĩa MOV tạo thành một thể chắc chắn có độ bền điện cao. Sau khi lắp ráp, mỗi chống sét đều phải trải qua một loạt các thử nghiệm hầu bảo đảm khả năng làm việc cao nhất.</para>
+        <para id="id10481997">Vỏ bọc cao su Silicone đã phải trải qua rất nhiều thử nghiệm khi thiết kế nhằm xác định hình dáng tối ưu các tai.</para>
+      </section>
+      <section id="id-560331880971">
+        <title>Đặc điểm</title>
+        <para id="id10489674">Ngoài ra các thí nghiệm trong thời gian dài trong các điều kiện môi trường khác nhau cũng chứng tỏ tính ưu việt của cao su silicone UItraSIL về độ bền, nếu so với các vật liệu polimer khác.Các thí nghiệm tiến hành ở các phòng thí nghiệm độc lập đã xác nhận tính hơn hẳn của vật liệu silicone về các mặt chống bám nước, khả năng chịu tia tử ngoại cũng như khả năng chống phóng điện bề mặt trong các môi trường ô nhiễm, tính trơ đối với các hóa chất, tính ổn định nhiệt và nhiều đặc tính cách điện cơ bản khác.</para>
+        <para id="id10489700">Hình 12-12:Chống sét UitraSIL 10kV và mặt cắt minh họaCao su silicone còn có khả năng kháng sự sinh sôi của nấm mốc, và không bắt cháy. Khi dòng sự cố là 20 kA hay lớn hơn, bộ phận cách li (tùy chọn) sẽ hoạt động và cách li phần đầu nối đất của chống sét. Nhờ vậy tránh sự cố vĩnh viễn trường hợp chống sét bị ngắn mạch bên trong, mặt khác sẽ dễ dàng phát hiện và thay thế chống sét bị sự cố.</para>
+        <section id="id-248353100271">
+          <title>Bảng 12.5: Một số loại chống sét VariSTAR</title>
+          <table id="id11726489" summary="">
+            <tgroup cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>Loại chống sét</entry>
+                  <entry>UNS</entry>
+                  <entry>UHS</entry>
+                </row>
+                <row>
+                  <entry>- Điện thế hệ thống- Điện thế định mức của chống sét- Tần số hệ thống- Tiêu chuẩn thiết kế và thử nghiệm- Dòng phóng điện định mức- Cấp phóng điện- Mức chịu đựng dòng cao- Cấp xả áp lực</entry>
+                  <entry>3 - 36 kV 3 - 36 kV50 - 60 HzIEC 99 - 45 kA-65 kA20 kA (hiệu dụng đối xứng) (B)</entry>
+                  <entry>3 - 72 kV3 - 60 kV50 - 60 HzIEC 99 - 410 kA1100 kA20 kA (hiệu dụng đối xứng) (B)</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+      </section>
+      <section id="id-17923006715">
+        <title>Hoạt động</title>
+        <para id="id9483435">Chống sét UItraSIL có hoạt động giống như các chống sét không khe hở khác. Trong điều kiện xác lập, điện áp trên chống sét là điện áp pha của lưới điện. Khi có quá điện áp, lập tức chống sét giới hạn quá điện áp ở mức bảo vệ cần thiết bằng cách dẫn dòng xung xuống đất. Khi tình trạng quá điện áp đã qua rồi, chống sét quay trở về tình trạng cách điện như trước, và chỉ dẫn dòng rò rất nhỏ.</para>
+      </section>
+      <section id="id-808972018915">
+        <title>Các lưu ý chung để lựa chọn chống sét</title>
+        <para id="id7237402">Định mức của chống sét là giá trị điện áp pha ở tần số công nghiệp lớn nhất mà chống sét được thiết kế và thử nghiệm theo tiêu chuẩn IEC. Bảng 12.5 hướng dẫn chung để lựa chọn trị định mức chống sét thích hợp với điện áp của hệ thống đã cho.</para>
+        <para id="id7237420">Chống sét không khe hở phải được lựa chọn đầy đủ với các phụ kiện, chịu đựng được điện áp pha ở tần số công nghiệp trong tất cả các điều kiện vận hành của hệ thống.</para>
+      </section>
+      <section id="id-378530733378">
+        <title>Điện thế làm việc liên tục</title>
+        <para id="id7237442">Chọn sơ bộ trên cơ sở là "Điện áp làm việc liên tục của chống sét MCOV có Uc bằng hoặc lớn hơn điện áp pha lớn nhất của hệ thống". </para>
+        <para id="id10467726">Quá điện áp tần số công nghiệp (quá điện áp nội bộ)</para>
+        <para id="id10467734">Tiêu chuẩn thứ 2 để lựa chọn chống sét dựa vào mức độ nối đất của hệ thống. Khi có sự cố một pha chạm đất, trong điều kiện điện áp hệ thống có giá trị lớn nhất, điện áp định mức của chống sét được chọn phải lớn hơn điện áp tăng cao trên các pha không chạm đất. Cần lưu tâm đặc biệt đến các hệ thống có hệ số nối đất kém, hệ thống không nối đất, hệ thống nối đất kiểu cộng hưởng hoặc đối với các hệ thống có các điều kiện làm việc không bình thường nhất định. Tuy vậy, tùy theo điều kiện làm việc cụ thể của hệ thống mà có thể lựa chọn điện áp định mức của chống sét một cách thích hợp miễn là không vi phạm khả năng chịu đựng quá điện áp tạm thời của chống sét. Các sự cố trên lưới điện có thể gây ra các quá điện áp tạm thời tần số công nghiệp với giá trị vượt quá mức điện áp làm việc liên tục MCOV hoặc ngay cả điện áp định mức chống sét có thể chịu đựng. Khi đó cần quan tâm đến mức quá điện áp (so với thời gian bảo vệ dự trữ của hệ thống), cũng như mức năng lượng của dòng phóng điện. So với hệ thống cho phép làm việc khi có chạm đất một pha trong thời gian quá 10000 giây, cần dùng chống sét có điện áp định mức làm việc liên tục bằng với điện áp dây của hệ thống.</para>
+        <para id="id7237450">Bảng 12.6: Lựa chọn điện áp định mức của chống sét VariSTAR</para>
+        <table id="id10467739" summary="">
+          <tgroup cols="5">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry namest="c1" nameend="c2">Điện áp của hệ thống (kV)</entry>
+                <entry namest="c3" nameend="c5">Định mức của chống sét (kV)</entry>
+              </row>
+              <row>
+                <entry>Định mức</entry>
+                <entry>Lớn nhất</entry>
+                <entry>Hệ thống 3 pha 4 dây nối Y trung tính nối đất lặp lại</entry>
+                <entry>Hệ thống 3 pha 3 dây nối Y trung tính nối đất trực tiếp tại nguồn</entry>
+                <entry>Hệ thống 3 pha nối  không nối đất hay nối Y nhưng trung tính nối đất qua điện kháng</entry>
+              </row>
+              <row>
+                <entry>3.3</entry>
+                <entry>3.7</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+              </row>
+              <row>
+                <entry>6.6</entry>
+                <entry>7.3</entry>
+                <entry>6</entry>
+                <entry>9</entry>
+                <entry>9</entry>
+              </row>
+              <row>
+                <entry>10.0</entry>
+                <entry>11.5</entry>
+                <entry>9</entry>
+                <entry>12</entry>
+                <entry>12-15</entry>
+              </row>
+              <row>
+                <entry>11.0</entry>
+                <entry>12.0</entry>
+                <entry>9-10</entry>
+                <entry>12</entry>
+                <entry>12-15</entry>
+              </row>
+              <row>
+                <entry>16.4</entry>
+                <entry>18.0</entry>
+                <entry>15</entry>
+                <entry>-</entry>
+                <entry>18-21</entry>
+              </row>
+              <row>
+                <entry>22.0</entry>
+                <entry>24.0</entry>
+                <entry>18-21</entry>
+                <entry>24</entry>
+                <entry>24-27</entry>
+              </row>
+              <row>
+                <entry>33.0</entry>
+                <entry>36.3</entry>
+                <entry>27-30</entry>
+                <entry>36</entry>
+                <entry>36-39</entry>
+              </row>
+              <row>
+                <entry>47.0</entry>
+                <entry>52.0</entry>
+                <entry>39-48</entry>
+                <entry>54</entry>
+                <entry>60</entry>
+              </row>
+              <row>
+                <entry>66.0</entry>
+                <entry>72.0</entry>
+                <entry>54-60</entry>
+                <entry>60</entry>
+                <entry>-</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id10486563">Trong một số các điều kiện làm việc đặc biệt của hệ thống như khi đóng điện máy biến áp với một số kiểu đấu dây nhất định và hiện tượng cộng hưởng có thể xảy ra, các chống sét lúc ấy sẽ chịu các quá điện áp. Sau đây là bảng lựa chọn chống sét của Cooper Power Systrems áp dụng cho từng hệ thống riêng lẻ.</para>
+      </section>
+      <section id="id-363906849196">
+        <title>Các đặc tính thử nghiệm </title>
+        <para id="id10486590">Chống sét VariSTAR UItraSIL được thiết kế và thử nghiệm theo tiêu chuẩn IEC 99-4.</para>
+      </section>
+      <section id="id-506317916626">
+        <title>Thử nghiệm chu kỳ làm việc</title>
+        <para id="id10471402">Đối với chống sét UNS: 20 lần dòng xung 5 kA, dạng sóng 8/20 s, sau đó là hai lần dòng xung cao 65 kA đỉnh (dạng sóng 4/10 s).</para>
+        <para id="id10471432">Đối với chống sét UNS: 20 lần dòng xung 10 kA dạng sóng 8/20 s, sau đó là hai lần dòng xung cao 100 kA đỉnh (dạng sóng 4/10 s).</para>
+      </section>
+      <section id="id-389944436612">
+        <title>Kiểm tra khả năng chịu đựng dòng xung trong thời gian dài</title>
+        <para id="id12060434">Đối với chống sét UNS: 18 lần dòng xung 75 kA trong thời gian 1000 s.</para>
+        <para id="id12060453">Đối với chống sét UHS: 18 lần dòng xung ở mức năng lượng phóng theo tiêu chuẩn IEC cấp 1 (xấp xỉ 250A, 2000 s). Sau mỗi thử nghiệm, các chống sét vẫn ở trạng thái ổn định nhiệt nhờ các kiểm tra sau:</para>
+        <para id="id12060477"> Dòng rò có giá trị giảm liên tục trong vòng 30 phút khi chống sét được phóng điện ở điện áp Uc.</para>
+        <para id="id10503692"> Không có biểu hiện suy giảm về mặt cấu tạo hay về các đặc tính điện học.</para>
+        <para id="id10503712"> Điện áp phóng điện ở 5kA hay 10kA được đo lường sau mỗi lần thử nghiệm thay đổi ít hơn 5% so với giá trị ban đầu.</para>
+        <para id="id10503733">Tất cả các thử nghiệm đều được thực hiện trong các phòng thí nghiệm độc lập, theo tiêu chuẩn IEC - 99-4.</para>
+      </section>
+      <section id="id-882007426209">
+        <title>Kiểm tra khả năng chịu đựng dòng ngắn mạch</title>
+        <para id="id10503753">Các thử nghiệm này sẽ chứng minh khả năng chịu đựng dòng sự cố mà không bị nổ chống sét. Tất cả các vỏ bọc chống sét UItraSIL đều được kiểm tra phù hợp với các yêu cầu được liệt kê trong IEC - 99 - 4/IEC - 99 - 1 và là loại không nổ.</para>
+        <section id="id-516516385162">
+          <title>Bảng 12.7: Kiểm tra khả năng chịu đựng áp suất</title>
+          <table id="id12150458" summary="">
+            <tgroup cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>Loại chống sét</entry>
+                  <entry>Cấp chịu đựng áp lực theo IEC</entry>
+                  <entry>Biên độ dòng sự cố (kA)</entry>
+                  <entry>Thời gian nhỏ nhất tồn tại sự cố (giây)</entry>
+                </row>
+                <row>
+                  <entry>UNS/UHS</entry>
+                  <entry>B</entry>
+                  <entry>0,820</entry>
+                  <entry>0,502</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id12070046">Khả năng quá điện áp tạm thời (TOV)</para>
+          <para id="id11643974">Khả năng chịu đựng quá điện áp tạm thời ở tần số 60Hz được cho theo đồ thị.</para>
+          <para id="id11643982">Dựa vào đồ thị tính được thời gian mà chống sét có thể chịu quá điện áp (tính bằng đơn vị tương đối với cơ sở là MCOV của chống sét) mà không bị hư hỏng.</para>
+        </section>
+      </section>
+      <section id="id-0130670590657">
+        <title>Các đặc tính bảo vệ</title>
+        <para id="id11644005">Chống sét UitraSIL VariSTAR có khả năng bảo vệ quá điện áp một cách hiệu quả cho các thiết bị điện trung thế.</para>
+        <para id="id11644016"> Các đặc tính bảo vệ của họ chống sét UltraSIL cho trên bảng 12-8 và 12-9.</para>
+        <section id="id-136455421753">
+          <title>Bảng 12.8: Các đặc tính bảo vệ - VariSTAR UNS, IN= 5 kA (IEC - 94-4)</title>
+          <table id="id10466181" summary="">
+            <tgroup cols="9">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <colspec colnum="8" colname="c8"/>
+              <colspec colnum="9" colname="c9"/>
+              <tbody>
+                <row>
+                  <entry>Định mức</entry>
+                  <entry>MCOV</entry>
+                  <entry>Điện áp dư do</entry>
+                  <entry namest="c4" nameend="c9">Điện áp dư khi có xung sét dạng sóng 8/20s (kV)</entry>
+                </row>
+                <row>
+                  <entry>CS (kV)</entry>
+                  <entry>(kV)</entry>
+                  <entry>Xung có độ dốc lớn</entry>
+                  <entry>1,5 kA</entry>
+                  <entry>3 kA</entry>
+                  <entry>5 kA</entry>
+                  <entry>10 kA</entry>
+                  <entry>20 kA</entry>
+                  <entry>40 kA</entry>
+                </row>
+                <row>
+                  <entry>36910121518212427303336</entry>
+                  <entry>2.555.17.658.410.212.715.31719.522.024.427.029.0</entry>
+                  <entry>10.921.831.432.741.151.361.665.476.386.396.2107.0115.0</entry>
+                  <entry>9.017.925.826.933.842.250.653.762.771.079.187.894.7</entry>
+                  <entry>9.719.428.029.136.545.754.858.267.876.885.695.1103.0</entry>
+                  <entry>10.42.083031.239.249.058.562.472.882.491.8102.0110.0</entry>
+                  <entry>11.422.732.834.142.953.664.368.279.690.1100.0112.0120.0</entry>
+                  <entry>13.026.037.438.948.961.173.477.990.8103.0115.0127.0137.0</entry>
+                  <entry>15.130.243.545.356.971.185.390.6106.0120.0133.0148.0160.0</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+        <section id="id-456238544815">
+          <title>Bảng 12-9: Các đặc tính bảo vệ - VariSTAR UHS, IN =10 kA (IEC-99-4)</title>
+          <table id="id11344206" summary="">
+            <tgroup cols="11">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <colspec colnum="8" colname="c8"/>
+              <colspec colnum="9" colname="c9"/>
+              <colspec colnum="10" colname="c10"/>
+              <colspec colnum="11" colname="c11"/>
+              <tbody>
+                <row>
+                  <entry>Định mứcCS (kV) </entry>
+                  <entry>MCOV(kV)</entry>
+                  <entry>Điện áp dư do xung có đôdốc lớṇ</entry>
+                  <entry namest="c4" nameend="c9">Điện áp dư khi có xung sét dạng sóng 8/20 s (kV)</entry>
+                  <entry namest="c10" nameend="c11">Điện áp dư do xung đóng cắt đường dây dạng sóng 30/60 s (kV)</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>1,5kA</entry>
+                  <entry>3 kA</entry>
+                  <entry>5 kA</entry>
+                  <entry>10 kA</entry>
+                  <entry>20 kA</entry>
+                  <entry>40 kA</entry>
+                  <entry>125 A</entry>
+                  <entry>500 A</entry>
+                </row>
+                <row>
+                  <entry>36910121518212427303336394245485460</entry>
+                  <entry>2.555.107.658.4010.212.715.317.019.522.024.427.029.031.534.036.539.042.048.0</entry>
+                  <entry>11.322.632.633.942.653.263.967.879.189.599.7110.8119.5130.3141.2152.1162.9176.0197.7</entry>
+                  <entry>8.617.224.825.832.440.448.551.560.168.075.884.290.899.1107.0116.0124.0134.0150.0</entry>
+                  <entry>9.118.226.327.434.443.051.654.763.972.380.589.596.5105.0114.0123.0132.0142.0160.0</entry>
+                  <entry>9.118.226.327.434.443.051.654.763.972.380.589.596.5105.0114.0123.0132.0142.0167.0</entry>
+                  <entry>10.420.830.031.239.249.058.862.472.882.491.8102.0110.0120.0130.0140.0150.0162.0182.0</entry>
+                  <entry>11.523.033.234.543.354.265.069.080.591.1101.0113.0122.0133.0144.0155.0166.0179.0201.0</entry>
+                  <entry>13.025.937.438.948.861.073.277.790.7103.0114.0127.0137.0149.0162.0174.0187.0202.0227.0</entry>
+                  <entry>7.414.821.422.227.934.941.944.451.958.765.472.778.485.592.699.7107.0115.0130.0</entry>
+                  <entry>7.915.922.923.829.937.444.847.655.562.870.077.883.991.599.1107.0114.0124.0139.0</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,919 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Cảm biến</title>
+  <metadata>
+  <md:content-id>m30403</md:content-id><md:title>Cảm biến</md:title>
+  <md:abstract>Phần này trình bày khái niệm chung về cảm biến</md:abstract>
+  <md:uuid>65e91c3b-db46-433c-86e2-ac82e8185f96</md:uuid>
+</metadata>
+
+<content>
+    <para id="id10430632">KHÁI NIỆM CHUNG</para>
+    <section id="id-76674547743">
+      <title>Khái niệm</title>
+      <para id="id10430643">Cảm biến là các phần tử nhạy cảm dùng để biến đổi các đại lượng đo lường, kiểm tra hay điều khiển từ dạng này sang dạng khác thuận tiện hơn cho việc tác động của các phần tử khác. Cảm biến là một thiết bị chịu tác động của đại lượng cần đo m không có tính chất điện và cho một đặc trưng mang bản chất điện (như điện tích, điện áp, dòng điện, trở kháng) kí hiệu là s có s = F(m). Cảm biến thường dùng ở khâu đo lường và kiểm tra. </para>
+      <para id="id10430669">Các loại cảm biến được sử dụng rộng rãi trong tự động hóa các quá trình sản xuất và điều khiển tự động các hệ thống khác nhau. Chúng có chức năng biến đổi sự thay đổi liên tục các đại lượng đầu vào (đại lượng đo lường - kiểm tra, là các đại lượng không điện nào đó thành sự thay đổi của các đại lượng đầu ra là đại lượng điện, ví dụ: điện trở, điện dung, điện kháng, dòng điện, tần số, điện áp rơi, góc pha,...</para>
+      <para id="id10430698">Căn cứ theo dạng đại lượng đầu vào người ta phân ra các loại cảm biến như: cảm biến chuyển dịch thẳng, chuyển dịch góc quay, tốc độ, gia tốc, mô men quay, nhiệt độ, áp suất, quang, bức xạ,...</para>
+    </section>
+    <section id="id-0785498855082">
+      <title>Các thông số cơ bản của cảm biến</title>
+      <para id="id10430720">a) Độ nhạy 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi fontstyle="italic">ΔY</m:mi><m:mi fontstyle="italic">ΔX</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S= {  {ΔY}  over  {ΔX} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id10432155">Với: +X: gia số đại lượng đầu vào.</para>
+      <para id="id10432173">+Y: gia số đại lượng đầu ra. </para>
+      <para id="id10432194">Trong thực tế còn sử dụng độ nhạy tương đối: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>S</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S rSub { size 8{0} } = {  { {ΔY} wideslash {Y} }  over  { {ΔX} wideslash {X} } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id10432265">Với: Y là đại lượng ra. </para>
+      <para id="id10432273">X là đại lượng vào.</para>
+      <para id="id10432281">Cảm biến có thể là tuyến tính nếu S0=const hoặc là phi tuyến nếu S0= var. Cảm biến phi tuyến có độ nhạy phụ thuộc vào giá trị đại lượng vào (X).</para>
+      <para id="id10432312">b) Sai số</para>
+      <para id="id10432325">Sự phụ thuộc của đại lượng ra Y vào đại lượng đầu vào X gọi là đặc tính vào ra của cảm biến. Sự sai khác giữa đặc tính vào ra thực với đặc tính chuẩn (đặc tính tính toán hay đặc tính cho trong lí lịch) được đánh giá bằng sai số.</para>
+      <para id="id10432340">Phân làm hai loại sai số</para>
+      <para id="id10432345">+ Sai số tuyệt đối 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">ΔX</m:mi><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi></m:mrow><m:mrow><m:mi>'</m:mi><m:mo stretchy="false">−</m:mo><m:mi>X</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔX=X' - X} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id11716853">X': giá trị đo được; X: giá trị thực.</para>
+      <para id="id11716860">+ Sai số tương đối 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi fontstyle="italic">ΔX</m:mi><m:mi>X</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= {  {ΔX}  over  {X} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id11716928">Các nguyên nhân ảnh hưởng tới sai số</para>
+      <para id="id11716942">Có nhiều nguyên nhân khách quan và chủ quan ảnh hưởng tới sai số, trong thực tế người ta đưa ra các tiêu chuẩn và các điều kiện kĩ thuật để hạn chế mức độ ảnh hưởng này trong phạm vi cho phép.</para>
+      <para id="id11716955">Sai số ở giá trị định mức do yếu tố của bên ngoài gọi là sai số cơ bản. Nếu yếu tố của bên ngoài vượt ra khỏi giới hạn định mức thì xuất hiện sai số phụ. Để giảm sai số phụ phải giảm độ nhạy của cảm biến với yếu tố ngoài hoặc hạn chế ảnh hưởng của chúng bằng màn chắn hay môi trường khác.</para>
+      <para id="id11716971">c) Các yêu cầu của cảm biến</para>
+      <para id="id11716983">Muốn có độ nhạy cao, sai số nhỏ, cảm biến cần có các tính chất sau:</para>
+      <para id="id11716991">+ Có dải thay đổi đại lượng vào cần thiết.</para>
+      <para id="id11716998">+ Thích ứng và thuận tiện với sơ đồ đo lường, kiểm tra.</para>
+      <para id="id11717007">+ Ảnh hưởng ít nhất đến đại lượng đầu vào.</para>
+      <para id="id11717014">+ Có quán tính nhỏ.</para>
+      <para id="id11717021">Hiện nay có rất nhiều loại cảm biến, chúng làm việc theo nhiều nguyên lí khác nhau, do vậy kết cấu của cảm biến rất đa dạng và phong phú. Bảng 7-1 là nguyên lí làm việc và lãnh vực của cảm biến cảm ứng, là loại phổ biến trong tự động hóa và điều khiển tự động.</para>
+      <para id="id11717036">d) Phân loại cảm biến </para>
+      <para id="id11717041">Có thể phân các cảm biến làm hai nhóm chính: là cảm biến tham số (thụ động) và cảm biến phát (chủ động hay tích cực).</para>
+      <para id="id10655550">* Nhóm phát (làm việc như một máy phát hình 7-1) bao gồm các loại cảm biến sử dụng hiệu ứng cảm ứng điện từ, hiệu ứng điện áp, hiệu ứng Holl và sự xuất hiện sức điện động của cặp nhiệt ngẫu, tế bào quang điện.</para>
+      <para id="id10655572">+Hiệu ứng cảm ứng điện từ: trong một dây dẫn chuyển động trong một từ trường không đổi sẽ xuất hiện một sức điện động tỉ lệ với từ thông cắt ngang dây trong một đơn vị thời gian, nghĩa là tỉ lệ với tốc độ dịch chuyển của dây dẫn.</para>
+      <para id="id10655587">Hiệu ứng cảm ứng điện từ được ứng dụng để xác định tốc độ dịch chuyển của vật thông qua việc đo sức điện động cảm ứng.</para>
+      <para id="id10655599">+Hiệu ứng quang phát xạ điện tử: là hiện tượng các điện tử được giải phóng thoát ra khỏi vật liệu tạo thành dòng được thu lại dưới tác dụng của điện trường.</para>
+      <para id="id10655612">+Hiệu ứng quang điện trong chất bán dẫn: là hiện tượng khi một chuyển tiếp P-N được chiếu sáng sẽ phát sinh ra các cặp điện tử-lỗ trống, chúng chuyển động dưới tác dụng của điện trường chuyển tiếp làm thay đổi hiệu điện thế giữa hai đầu chuyển tiếp.</para>
+      <para id="id10655628">+Hiệu ứng Holl: trong vật liệu (thường là bán dẫn) dạng tấm mỏng có dòng điện chạy qua đặt trong từ trường B có phương tạo thành một góc với dòng điện I sẽ xuất hiện một hiệu điện thế U theo hướng vuông góc với B và I. Hiệu ứng Holl được ứng dụng để xác định vị trí của một vật chuyển động. Vật sẽ được ghép nối cơ học với một thanh nam châm, ở mọi thời điểm vị trí của thanh nam châm xác định giá trị của từ trường và góc lệch tương ứng với tấm bán dẫn mỏng làm trung gian. Hiệu điện thế đo được giữa hai cạnh tấm bán dẫn trong trường hợp này (gián tiếp) là hàm phụ thuộc vị trí của vật trong không gian.</para>
+      <figure id="id10655667">
+        <media id="id2552347" alt=""><image src="../../media/graphics1-fe1f.png" mime-type="image/png" height="203" width="431"/></media>
+      </figure>
+      <para id="id10655690">Cảm biến loại này là cảm biến tích cực vì trong trường hợp này nguồn của dòng điện I (chứ không phải đại lượng cần đo) cung cấp năng lượng liên quan đến tín hiệu đo.</para>
+      <para id="id10655703">+Hiệu ứng điện áp: khi tác dụng lực cơ học lên một vật làm bằng vật liệu áp điện (như thạch anh) sẽ gây nên biến dạng của vật đó và làm xuất hiện lượng điện tích bằng nhau nhưng trái dấu nhau trên các mặt đối diện của vật (là hiệu ứng điện áp). Hiệu ứng này được ứng dụng để xác định lực hoặc các đại lượng gây nên lực tác dụng vào vật liệu áp điện (như áp suất, gia tốc,...) thông qua việc đo điện áp trên hai bản cực tụ điện. </para>
+      <para id="id10655733">Ngoài ra còn cảm biến nhiệt điện, cảm biến hóa điện,...</para>
+      <para id="id10655741">*Cảm biến tham số (thụ động): thường được chế tạo từ những trở kháng có một trong các thông số chủ yếu nhạy với đại lượng cần đo. Một mặt giá trị của trở kháng phụ thuộc vào kích thước hình học của mẫu, nhưng mặt khác nó còn phụ thuộc vào tính chất điện của vật liệu như: điện trở suất, từ thẩm, hằng số điện môi. Vì vậy giá trị của trở kháng thay đổi dưới tác dụng của đại lượng đo ảnh hưởng riêng biệt đến tính chất hình học, tính chất điện hoặc đồng thời ảnh hưởng cả hai. Thông số hình học hoặc kích thước của trở kháng có thể thay đổi nếu cảm biến có phần tử chuyển động hoặc phần tử biến dạng.</para>
+      <para id="id10655784">+Trường hợp khi có phần tử động thì mỗi vị trí của phần tử sẽ tương ứng với một giá trị trở kháng, đo trở kháng sẽ xác định được vị trí đối tượng. Đây là nguyên lí nhiều cảm biến như cảm biến vị trí, cảm biến dịch chuyển. </para>
+      <para id="id9961907">+Trường hợp cảm biến có phần tử biến dạng, thì sự biến dạng gây nên bởi lực hoặc các đại lượng dẫn đến lực (áp suất, gia tốc) tác dụng trực tiếp hoặc gián tiếp lên cảm biến làm thay đổi trở kháng. Sự thay đổi trở kháng liên quan đến lực tác động lên cấu trúc, nghĩa là tác động của đại lượng cần đo được biến đổi thành tín hiệu điện (hiệu ứng áp trở).</para>
+      <para id="id9961921">Trở kháng của cảm biến thụ động và sự thay đổi của trở kháng dưới tác dụng của đại lượng cần đo chỉ có thể xác định được khi cảm biến là một thành phần của mạch điện. Trong thực tế tùy từng trường hợp cụ thể mà người ta chọn mạch đo thích hợp với cảm biến. Hình minh họa dưới đây biểu diễn một mạch điện đo điện thế trên bề mặt màng nhạy quang được lắp ráp từ nhiều phần tử. </para>
+      <figure id="id9961950">
+        <media id="id1166973121108" alt=""><image src="../../media/graphics2-863a.png" mime-type="image/png" height="367" width="491"/></media>
+      </figure>
+      <para id="id9961974">Bảng 1: Một số loại cảm biến thông dụng</para>
+      <table id="id9961980" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Đại lượng đầu vào</entry>
+              <entry>Phương pháp thay đổi từ dẫn</entry>
+            </row>
+            <row>
+              <entry>-Cảm biến chuyển dịch cơ học- Lực , hoặc áp suất.- Nhiệt độ.- Cường độ từ trường. </entry>
+              <entry>-Thay đổi khe hở không khí-Dùng một trong hai phương pháp sau:+ Hiệu ứng đàn hồi từ (từ dẫn thay đổi dưới tác dụng của lực hoặc áp lực).+ Độ võng của màng dẻo và chuyển dịch của phần ứng liên kết với chúng thay đổi khe hở không khí.-Thay đổi độ từ thẩm 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> .-Thay đổi độ từ thẩm 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> (cuộn kháng bão hòa).</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <section id="id-867832361361">
+        <title>Bảng 7-2: Đặc điểm một số loại cảm biến</title>
+        <table id="id9951697" summary="">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry>Đại lượng cần đo</entry>
+                <entry>Đặc trưng nhạy cảm </entry>
+                <entry>Loại vật liệu sử dụng</entry>
+              </row>
+              <row>
+                <entry>Nhiệt độ</entry>
+                <entry>(điện trở suất)</entry>
+                <entry>Kim loại:Pt,Ni,CuBán dẫn</entry>
+              </row>
+              <row>
+                <entry>Bức xạ ánh sáng</entry>
+                <entry></entry>
+                <entry>Bán dẫn</entry>
+              </row>
+              <row>
+                <entry>Biến dạng</entry>
+                <entry>Từ thẩm ()</entry>
+                <entry>Hợp kim Ni,Si pha tạpHợp kim sắt từ</entry>
+              </row>
+              <row>
+                <entry>Vị trí (nam châm)</entry>
+                <entry></entry>
+                <entry>Vật liệu từ trở Bi,InSb</entry>
+              </row>
+              <row>
+                <entry>Độ ẩm</entry>
+                <entry> (hằng số điện môi)</entry>
+                <entry>LiClAl2O3,Polime</entry>
+              </row>
+              <row>
+                <entry>Mức</entry>
+                <entry></entry>
+                <entry>Chất lưu cách điện</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id9960136">Ta chỉ khảo sát ở đây một số loại có nguyên lí làm việc gần với lãnh vực thiết bị điện, các cảm biến còn lại tham khảo các tài liệu khác.</para>
+      </section>
+    </section>
+    <section id="id-160209595442">
+      <title>CẢM BIẾN ĐIỆN TRỞ</title>
+      <section id="id-025370791881">
+        <title>Khái niệm</title>
+        <para id="id9960164">Cảm biến điện trở có đại lượng đầu vào là các đại lượng cơ: chuyển dịch cơ học thẳng hoặc chuyển dịch góc quay (hình minh họa), áp lực, độ biến dạng,...</para>
+        <para id="id9960180">Còn đại lượng đầu ra là điện trở hoặc sự thay đổi điện trở của cảm biến. Theo kết cấu cảm biến điện trở có các loại:</para>
+        <para id="id9960190">- Cảm biến điện trở dây quấn.</para>
+        <para id="id9960199">- Cảm biến điện trở tiếp xúc.</para>
+        <para id="id9960208">- Cảm biến điện trở biến dạng (tenzô).</para>
+        <figure id="id9960220">
+          <media id="id6476026" alt=""><image src="../../media/graphics3-24a3.png" mime-type="image/png" height="243" width="470"/></media>
+        </figure>
+      </section>
+      <section id="id-27938401206">
+        <title>Cảm biến điện trở dây quấn</title>
+        <para id="id9960253">Nguyên lí loại này hoàn toàn giống một biến trở trong phòng thí nghiệm. Nếu cơ cấu đo (phần tử chuyển dịch) được liên hệ về cơ với tiếp điểm động (con trượt biến trở), thì sự chuyển dịch của tiếp điểm động sẽ phụ thuộc chuyển dịch của cơ cấu đo (lượng vào) dẫn đến điện trở đầu ra của cảm biến (lượng ra) thay đổi tương ứng. Tiếp điểm động có thể chuyển động thẳng hoặc quay (hình minh họa).</para>
+        <para id="id9960261">Cấu tạo: Các bộ phận chính của cảm biến gồm:</para>
+        <para id="id9806616">+ Khung của cảm biến thường bằng vật liệu cách điện, chịu nhiệt như ghetinắc, técxtôlít, sứ hoặc kim loại có phủ lớp cách điện, cách nhiệt bên ngoài. Tiết diện ngang của khung có thể không đổi (cảm biến tuyến tính) hoặc thay đổi (cảm biến phi tuyến).</para>
+        <para id="id9806643">+ Dây điện trở : làm bằng kim loại ít bị ôxy hóa có điện trở ít thay đổi theo thời gian và theo nhiệt độ như côngstăngtan, vonfram, maganin,... Bên ngoài dây được phủ một lớp sơn cách điện hoặc lớp oxit và một lớp sơn để gắn chặt dây quấn với khung. Độ lớn của dây quấn phụ thuộc vào độ chính xác yêu cầu của cảm biến. Đối với cảm biến có độ chính xác cao, dây có đường kính từ 0,03mm đến 0,1 mm, loại có độ chính xác thấp thì đường kính dây từ 0,1mm đến 0,4 mm.</para>
+        <para id="id9806678">+ Tiếp điểm: được làm bằng kim loại có tính dẫn điện tốt, chịu mài mòn và có điện trở tiếp xúc nhỏ, bề rộng tiếp xúc trên cuộn dây bằng 2 đến 3 lần đường kính dây. Dải này được tạo ra bằng cách dùng giấy nhám mỏng đánh bóng trên cuộn dây. Lực ép lên tiếp điểm bằng 0,5g đến 15 g.</para>
+      </section>
+      <section id="id-00445664561995">
+        <title>Cảm biến tuyến tính</title>
+        <para id="id9806708">Thường được nối một cách đơn giản bằng ba cách như hình minh họa</para>
+        <figure id="id9806722">
+          <media id="id4275237" alt=""><image src="../../media/graphics4-7e14.png" mime-type="image/png" height="254" width="549"/></media>
+        </figure>
+        <para id="id9806745">Ở chế độ không tải hoặc khi điện trở vào của mạch lớn hơn nhiều so với điện trở của cảm biến R0 thì điện áp ra UR0 phụ thuộc vào chuyển dịch x hoặc góc 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>j</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{j} {}</m:annotation></m:semantics></m:math> theo phương trình sau mà không phụ thuộc vào trị số điện trở R0:</para>
+        <para id="id9806836">- Cảm biến thẳng: UR0 =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac><m:mtext>.</m:mtext><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>l</m:mi></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>s</m:mi></m:mrow><m:mtext>.</m:mtext><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {U rSub { size 8{0} } }  over  {R rSub { size 8{0} } } }  "." r= {  {U rSub { size 8{0} } }  over  {l} }  "." x=s "." x} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10642488">- Cảm biến quay : UR0 =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac><m:mtext>.</m:mtext><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mi>s</m:mi></m:mrow><m:mtext>.</m:mtext><m:mi>ϕ</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {U rSub { size 8{0} } }  over  {R rSub { size 8{0} } } }  "." r=s "." ϕ} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10642586">Trong đó: s = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>l</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {U rSub { size 8{0} } }  over  {l} } } {}</m:annotation></m:semantics></m:math> gọi là độ nhạy của cảm biến, trên đặc tính góc hình 7-5, góc 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math> có : tg
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math> = s =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>l</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {U rSub { size 8{0} } }  over  {l} } } {}</m:annotation></m:semantics></m:math>. </para>
+        <para id="id9806485">Chú ý: nếu nối cảm biến theo sơ đồ a) và b) hình minh họa trên thì cực tính điện áp ra của cảm biến không thay đổi, nếu nối theo sơ đồ c) có thể thay đổi được điện áp ra lớn nhất giảm còn U0/2 nhưng ở cực tính điện áp ra vẫn bằng U0, có nghĩa là độ nhạy cảm biến tăng lên hai lần. Tuy nhiên cấu tạo cảm biến theo sơ đồ này sẽ phức tạp hơn. Ngoài các loại như hình minh họa a,b,c còn dùng sơ đồ kiểu cảm biến kép góc quay.</para>
+        <figure id="id9806550">
+          <media id="id4774692" alt=""><image src="../../media/graphics5-ecb2.png" mime-type="image/png" height="221" width="227"/></media>
+        </figure>
+        <para id="id9936291">Thông thường để tăng độ nhạy của cảm biến người ta nâng cao điện áp làm việc U0. </para>
+        <para id="id9936318">Việc này dẫn đến tăng công suất tiêu tán của cảm biến. Độ nhạy cực đại phụ thuộc vào công suất cho phép lớn nhất Pmax của điện trở cảm biến R0 được xác định theo công thức sau:</para>
+        <para id="id9936354">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>S</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>max</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msqrt>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>P</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>max</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mtext>.</m:mtext>
+                            <m:msub>
+                              <m:mi>R</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:msqrt>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mtext>max</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{S rSub { size 8{"max"} } = {  { sqrt {P rSub { size 8{"max"} }  "." R rSub { size 8{0} } } }  over  {x rSub { size 8{"max"} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id9936466">Trong đó: xmax là độ dịch chuyển lớn nhất của tiếp điểm động.</para>
+        <para id="id9936485">Độ nhạy của cảm biến điện trở đạt từ 3 đến 5 [V/mm]. </para>
+        <para id="id9936493">Một số nguyên nhân sai số của cảm biến khi làm việc</para>
+        <para id="id9936500">+ Vùng không nhạy : do cảm biến gồm nhiều vòng dây quấn liên tiếp trên khung nên trong quá trình làm việc tiếp điểm động dịch chuyển từ vùng này sang vùng khác điện áp sẽ thay đổi nhảy cấp với giá trị 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U ( là điện áp rơi trên một vòng dây). </para>
+        <para id="id10122688"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>U = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mi>W</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {U rSub { size 8{0} } }  over  {W} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10122797">Với W là số vòng dây của cảm biến.</para>
+        <para id="id10122803">Khi tiếp điểm chưa chuyển dịch đến vùng khác thì điện áp ra không đổi do đó đặc tính UR0 thực chất là đường bậc thang như hình minh họa.</para>
+        <figure id="id10122828">
+          <media id="id1157945" alt=""><image src="../../media/graphics6-129f.png" mime-type="image/png" height="237" width="316"/></media>
+        </figure>
+        <para id="id10122852">+ Sai số do tải: khi đặt tải Rt và điện áp vào Ro là U0 thì đặc tính UR = f (x) sẽ thay đổi hình dạng không còn là đường thẳng nữa. Xét cảm biến đơn tải như hình minh họa.</para>
+        <figure id="id10122918">
+          <media id="id7477189" alt=""><image src="../../media/graphics7-129f.png" mime-type="image/png" height="222" width="316"/></media>
+        </figure>
+        <para id="id10066950">Sau khi biến đổi ta có:</para>
+        <para id="id10066955"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>r</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>I</m:mi></m:mrow><m:mfrac><m:mrow><m:mi>r</m:mi><m:mtext>.</m:mtext><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi>r</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mtext>.</m:mtext><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mfrac></m:mrow><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{U rSub { size 8{r} } =I {  {r "." R rSub { size 8{t} } }  over  {r+R rSub { size 8{t} } } }  }  {} # 
+ I= {  {U rSub { size 8{0} } }  over  { \( R rSub { size 8{0} } +r \) + {  {r "." R rSub { size 8{t} } }  over  {r+R rSub { size 8{t} } } } } }  {} 
+} } {}</m:annotation></m:semantics></m:math> .</para>
+        <para id="id10067167">Từ đó ta có :</para>
+        <para id="id10067172">Ur = I.r = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>r</m:mi></m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>r</m:mi><m:mtext>.</m:mtext><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {U rSub { size 8{0} }  "." r}  over  {R rSub { size 8{0} } + {  {r "." R rSub { size 8{0} } }  over  {R rSub { size 8{t} } } }  -  {  {r rSup { size 8{2} } }  over  {R rSub { size 8{t} } } } } } } {}</m:annotation></m:semantics></m:math> ( 7.1)</para>
+        <para id="id10663042">-Nếu Rt &gt;&gt; R0 thì 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">≈</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {R rSub { size 8{0} } }  over  {R rSub { size 8{t} } } }  approx 0} {}</m:annotation></m:semantics></m:math> và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">≈</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {r rSup { size 8{2} } }  over  {R rSub { size 8{t} } } }  approx 0} {}</m:annotation></m:semantics></m:math> ta có:</para>
+        <para id="id9949844">Ur = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mrow><m:mfrac><m:mi>r</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{0} }  "."  {  {r}  over  {R rSub { size 8{0} } } } =U rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> .</para>
+        <para id="id9949957">Rt hầu như không ảnh hưởng đến điện áp ra và đặc tính gần dạng không tải. </para>
+        <para id="id9949976">-Nếu Rt 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>»</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{»} {}</m:annotation></m:semantics></m:math> R0 thì sai số gây ra sẽ là:</para>
+        <para id="id9950052"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi fontstyle="italic">ΔU</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msup><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:mi>r</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msup><m:mn>0</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msup><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU= {  {U rSub { size 8{0} }  "." r rSup { size 8{2} }  \( R rSub { size 8{0} }  - r \) }  over  {R rSub { size 8{0}   rSup { size 8{2} } } R rSub { size 8{t} } +R rSub { size 8{0} }  rSup { size 8{2} }  "." r - R rSub { size 8{0} }  "." r rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id10242149">Và ta có sai số tương đối lớn nhất:</para>
+        <para id="id10242156">amax =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi fontstyle="italic">ΔU</m:mi><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {ΔU}  over  {U rSub { size 8{0} } } } } {}</m:annotation></m:semantics></m:math> tại r = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {3} } R rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> ứng với x = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>l</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {3} } l} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id11674269">và amax =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mtext>27</m:mtext><m:mi>η</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {"27"η} } } {}</m:annotation></m:semantics></m:math> với 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>η</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η= {  {R rSub { size 8{t} } }  over  {R rSub { size 8{0} } } } } {}</m:annotation></m:semantics></m:math> là hệ số tải. Ta thấy hệ số tải càng lớn 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> càng lớn thì sai số a càng nhỏ.</para>
+        <para id="id9954032">Ngoài ra sai số của cảm biến còn do sự thay đổi của nhiệt độ, ma sát do điện áp rơi trên tiếp xúc gây ra. </para>
+      </section>
+      <section id="id-576309443694">
+        <title>Cảm biến phi tuyến </title>
+        <para id="id9954050">Trong kĩ thuật ngoài cảm biến điện trở tuyến tính còn cần cả những cảm biến điện trở phi tuyến là loại có đặc tính quan hệ Ur = f(x) dạng phi tuyến. Để tạo ra loại cảm biến có quan hệ Ur = f(x) theo yêu cầu cho trước có thể thực hiện theo các phương pháp sau:</para>
+        <para id="id9954094">a) Thay đổi đường kính dây quấn.</para>
+        <para id="id9954100">b) Thay đổi bước dây quấn.</para>
+        <para id="id9954106">c) Thay đổi tiết diện ngang của khung dây.</para>
+        <para id="id9954112">d) Mắc điện trở sun vào từng phân đoạn của cảm biến tuyến tính có trị số khác nhau.</para>
+        <para id="id9954120">Thực tế phương pháp a và b rất khó thực hiện do công nghệ chế tạo, chỉ có hai phương pháp sau thường được sử dụng. Phương pháp thay đổi tiết diện ngang của khung dây thường để đơn giản cho chế tạo. Người ta sử dụng dây quấn tiết diện không đổi và bề mặt khung như nhau suốt chiều dài khung (như hình minh họa).</para>
+        <figure id="id9954141">
+          <media id="id5179600" alt=""><image src="../../media/graphics8-ed22.png" mime-type="image/png" height="245" width="282"/></media>
+        </figure>
+        <para id="id9954165">Trong đó có:</para>
+        <para id="id9954169">hx là chiều cao khung tại vị trí x.</para>
+        <para id="id9954187">l:chiều dài làm việc của cảm biến .</para>
+        <para id="id9954193">W: số vòng dây.</para>
+        <para id="id9954198">R0 là điện trở toàn bộ của cảm biến.</para>
+        <para id="id9954215">S là tiết diện dây quấn.</para>
+        <para id="id9954223">rx là điện trở ứng với vị trí x.</para>
+        <para id="id9954243">Nếu tiếp điểm động dịch chuyển từ vị trí x đi một đoạn dx thì điện trở ứng với độ dịch chuyển đó là:</para>
+        <para id="id9954252">drx = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mfrac><m:mi>W</m:mi><m:mi>l</m:mi></m:mfrac><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>s</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {ρ "."  "." 2 \( b+h rSub { size 8{x} }  \)  "."  {  {W}  over  {l} }  "."  ital "dx"}  over  {s} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id11667831">Hình 7-9: Mạch đo mức chất lỏng dùng cảm biến Vì b&lt;&lt; hx và coi như b+hx 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>»</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{»} {}</m:annotation></m:semantics></m:math>hx nên có: </para>
+        <para id="id11667950">drx 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>W</m:mi></m:mrow><m:mrow><m:mi>l</m:mi><m:mtext>.</m:mtext><m:mi>s</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ approx  {  {ρ "."  "." 2 "." h rSub { size 8{x} }  "." W}  over  {l "." s} } } {}</m:annotation></m:semantics></m:math> .</para>
+        <para id="id10026679">Ứng dụng cảm biến điện trở trong bể đo mức chất lỏng hình 7-9.</para>
+        <para id="id10026685">Trong đó:</para>
+        <list id="id10026689" list-type="enumerated">
+          <item>Bể chất lỏng.</item>
+          <item>Phao nối với bộ phận cơ khí.</item>
+          <item>Tiếp điểm động.</item>
+          <item>Cảm biến. 5- Lô gô mét.</item>
+        </list>
+      </section>
+      <section id="id-572511881122">
+        <title>Cảm biến điện trở tiếp xúc (biến trở than)</title>
+        <para id="id10026728">Dựa trên nguyên lí sự thay đổi điện trở tiếp xúc giữa các hạt than khi lực ép lên (áp lực) trên chúng thay đổi. </para>
+        <para id="id10026739">Cấu tạo: gồm các hạt than được kết dính theo một phương pháp nhất định thành các đĩa đường kính từ 5 đến 30 mm dày 1mm đến 2mm. Mỗi cảm biến gồm 10 đến 15 đĩa than xếp chồng nên nhau và có điện trở khoảng vài chục Ôm. Để tăng độ ổn định khi làm việc cảm biến được đặt dưới áp suất ban đầu (khi không tải) khoảng 20kg/cm2, áp suất lớn nhất khi làm việc (có tải) đến (50  60) kg/cm2 thì điện trở cảm biến giảm (20  30)%. Đại lượng vào là lực F ra là Rk đặc tính vào ra như hình minh họa.</para>
+        <figure id="id10026815">
+          <media id="id3506429" alt=""><image src="../../media/graphics9-d4ab.png" mime-type="image/png" height="266" width="317"/></media>
+        </figure>
+        <para id="id10026839">quan hệ Rk = f(F) mô tả theo công thức : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>K</m:mi><m:msup><m:mi>F</m:mi><m:mi>m</m:mi></m:msup></m:mfrac></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:msub><m:mi>k</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{k} } = {  {K}  over  {F rSup {m} } }  size 12{+R rSub {k rSub { size 6{0} } } }} {}</m:annotation></m:semantics></m:math>, với:</para>
+        <para id="id9936590"><m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mi>K</m:mi><m:mi>:</m:mi></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="11pt"><m:mrow><m:mtext>hãû säú phuû thuäüc váût liãûu âéa than</m:mtext></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mi>:</m:mi></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="11pt"><m:mrow><m:mtext>hãû säú phuû thuäüc daûng tiãúp xuïc</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>k0</m:mtext></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="11pt"><m:mrow><m:mrow><m:mtext>âiãûn tråí tåïi haûn våïi aïp læûc eïp tåïi haûn</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow/></m:mrow><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr></m:mtable><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mrow></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{alignl { stack {
+ left lbrace  size 10{K: } size 11{"hãû säú phuû thuäüc váût liãûu âéa than"} {} # 
+ right none  left lbrace  size 12{ size 10{m: } size 11{"hãû säú phuû thuäüc daûng tiãúp xuïc"}}  {} # 
+ right none  left lbrace  size 12{ size 10{R rSub { size 8{"k0"} } : } size 11{"âiãûn tråí tåïi haûn våïi aïp læûc eïp tåïi haûn" "." }}  {} # 
+ right no } }  size 12{ lbrace }} {}</m:annotation></m:semantics></m:math>Nếu cảm biến gồm n đĩa thì:</para>
+        <para id="id9936774">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>R</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>k</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mfenced open="" close="">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mi>K</m:mi>
+                            <m:msup>
+                              <m:mi>F</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>m</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>R</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>k</m:mi>
+                                  <m:mstyle fontsize="6pt">
+                                    <m:mrow>
+                                      <m:mn>0</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfenced>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{k} } = \( n - 1 \)  left ( {  {K}  over  {F rSup { size 8{m} } } } +R rSub { size 8{k rSub { size 6{0} } } }  right )} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id9802409">Quan hệ Rk = f(F) là phi tuyến khi F tăng đến một giá trị nào đó thì Rk không giảm nữa và có tính chất trễ như đặc tính hình 7-10 là do tính chất không đàn hồi của vật liệu tạo nên. Đây là một nguyên nhân gây ra sai số, ngoài ra khi nhiệt độ  tăng thì điện trở cảm biến giảm ( tăng do môi trường hoặc do tổn hao trong cảm biến).</para>
+        <para id="id9802465">Ưu điểm : đơn giản, chất tạo từ vật liệu rẻ tiền, công suất tương đối lớn tới hàng trăm W và dòng qua đến vài A, không cần cơ cấu khuếch đại. Thường dùng đo áp lực và trong các bộ phận tự động điều chỉnh điện áp máy phát một chiều và xoay chiều.</para>
+        <para id="id9802487">Ví dụ: cảm biến trong tự động điều chỉnh điện áp máy phát một chiều hình 7-11 gồm:</para>
+        <para id="id9802507">Hình 7-11: Tự động điều chỉnh điện áp máy điện một chiều1-nam châm điện một chiều có cuộn dây nối song song với điện áp máy phát, lực hút nam châm sẽ thay đổi tùy điện áp ra. </para>
+        <para id="id9802556">2- lò xo cân bằng với lực nam châm 1, tạo ra lực ép lên đĩa than nhờ tay đòn 3, bộ phận thừa hành là cảm biến 4 nối với mạch kích từ máy phát.</para>
+      </section>
+      <section id="id-889459184318">
+        <title>Cảm biến kiểu biến dạng (tenzô) </title>
+        <para id="id9802576">Ta biết rằng khi có lực tác dụng vào vật dẫn thì kích thước và cấu trúc của chúng sẽ thay đổi làm điện trở thay đổi. Lợi dụng tính chất này người ta chế tạo cảm biến biến dạng dùng để đo và kiểm tra các lực biến dạng cơ của các chi tiết máy, có loại kiểu dây quấn, kiểu bán dẫn.</para>
+      </section>
+    </section>
+    <section id="id-513833327873">
+      <title>CẢM BIẾN ĐIỆN CẢM</title>
+      <section id="id-753657249834">
+        <title>Cảm biến có điện cảm thay đổi </title>
+        <figure id="id9802612">
+          <media id="id4835072" alt=""><image src="../../media/graphics10-4a62.png" mime-type="image/png" height="403" width="231"/></media>
+        </figure>
+        <para id="id10080635">Hình minh họa là loại cảm biến điện cảm đơn giản nếu bỏ qua từ trở lõi thép, từ thông rò và từ thông tản khe hở không khí làm việc thì ta có điện cảm.</para>
+        <para id="id10080650">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>L</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:msup>
+                                  <m:mi>W</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>G</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>δ</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:msup>
+                                  <m:mi>W</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                              <m:msub>
+                                <m:mi>μ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mfrac>
+                                <m:mi>S</m:mi>
+                                <m:mi>δ</m:mi>
+                              </m:mfrac>
+                              <m:mo stretchy="false">[</m:mo>
+                              <m:mi>H</m:mi>
+                              <m:mo stretchy="false">]</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mtext>Våïi: W</m:mtext>
+                        <m:mstyle fontsize="10pt">
+                          <m:mrow>
+                            <m:mtext> laì  säú voìng dáy cuäün dáy</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="10pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>μ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mi>:</m:mi>
+                              <m:mtext> = 1,25</m:mtext>
+                              <m:mtext>.</m:mtext>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>-6</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">[</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>H/m</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">]</m:mo>
+                              <m:mi/>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>laì</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mtext> âäü  tæì  tháøm cuía khäng khê</m:mtext>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtext>S : tiãút diãûn ngang maûch tæì </m:mtext>
+                              <m:mo stretchy="false">[</m:mo>
+                              <m:msup>
+                                <m:mi>m</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">]</m:mo>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>δ</m:mi>
+                              <m:mtext> : chiãöu daìi khe håí laìm viãûc </m:mtext>
+                              <m:mo stretchy="false">[</m:mo>
+                              <m:mi>m</m:mi>
+                              <m:mo stretchy="false">]</m:mo>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mtext>Ta coï:</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>I</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mfrac>
+                                  <m:mstyle fontsize="12pt">
+                                    <m:mrow>
+                                      <m:mi>U</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mstyle fontsize="12pt">
+                                    <m:mrow>
+                                      <m:msqrt>
+                                        <m:mrow>
+                                          <m:mo stretchy="false">(</m:mo>
+                                          <m:mrow>
+                                            <m:msub>
+                                              <m:mi>R</m:mi>
+                                              <m:mstyle fontsize="8pt">
+                                                <m:mrow>
+                                                  <m:mi>T</m:mi>
+                                                </m:mrow>
+                                              </m:mstyle>
+                                            </m:msub>
+                                            <m:mo stretchy="false">+</m:mo>
+                                            <m:mi>R</m:mi>
+                                          </m:mrow>
+                                          <m:mrow>
+                                            <m:msup>
+                                              <m:mo stretchy="false">)</m:mo>
+                                              <m:mstyle fontsize="8pt">
+                                                <m:mrow>
+                                                  <m:mn>2</m:mn>
+                                                </m:mrow>
+                                              </m:mstyle>
+                                            </m:msup>
+                                            <m:mo stretchy="false">+</m:mo>
+                                            <m:mo stretchy="false">(</m:mo>
+                                          </m:mrow>
+                                          <m:mi fontstyle="italic">ωL</m:mi>
+                                          <m:msup>
+                                            <m:mo stretchy="false">)</m:mo>
+                                            <m:mstyle fontsize="8pt">
+                                              <m:mrow>
+                                                <m:mn>2</m:mn>
+                                              </m:mrow>
+                                            </m:mstyle>
+                                          </m:msup>
+                                        </m:mrow>
+                                      </m:msqrt>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mstyle fontsize="12pt">
+                                  <m:mrow>
+                                    <m:mi>U</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mstyle fontsize="12pt">
+                                  <m:mrow>
+                                    <m:msqrt>
+                                      <m:mrow>
+                                        <m:mrow>
+                                          <m:msub>
+                                            <m:mi>R</m:mi>
+                                            <m:mstyle fontsize="8pt">
+                                              <m:mrow>
+                                                <m:msup>
+                                                  <m:mn>0</m:mn>
+                                                  <m:mstyle fontsize="8pt">
+                                                    <m:mrow>
+                                                      <m:mn>2</m:mn>
+                                                    </m:mrow>
+                                                  </m:mstyle>
+                                                </m:msup>
+                                              </m:mrow>
+                                            </m:mstyle>
+                                          </m:msub>
+                                          <m:mo stretchy="false">+</m:mo>
+                                          <m:mo stretchy="false">(</m:mo>
+                                        </m:mrow>
+                                        <m:mn>2π</m:mn>
+                                        <m:mstyle fontstyle="italic">
+                                          <m:mrow>
+                                            <m:msup>
+                                              <m:mtext>fW</m:mtext>
+                                              <m:mstyle fontsize="8pt">
+                                                <m:mrow>
+                                                  <m:mn>2</m:mn>
+                                                </m:mrow>
+                                              </m:mstyle>
+                                            </m:msup>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                        <m:msub>
+                                          <m:mi>G</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mi>δ</m:mi>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msub>
+                                        <m:msup>
+                                          <m:mo stretchy="false">)</m:mo>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mn>2</m:mn>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msup>
+                                      </m:mrow>
+                                    </m:msqrt>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{L=W rSup { size 8{2} } G rSub { size 8{δ} } =W rSup { size 8{2} } μ rSub { size 8{0} }  {  {S}  over  {δ} }  \[ H \] }  {} # 
+"Våïi: W" size 10{" laì  säú voìng dáy cuäün dáy"} {} # 
+ size 10{μ rSub { size 8{0} } :" = 1,25" "." "10" rSup { size 8{"-6"} }   \[  ital "H/m" \] ` ital "laì"" âäü  tæì  tháøm cuía khäng khê" "." } {} # 
+ size 12{"S : tiãút diãûn ngang maûch tæì " \[ m rSup { size 8{2} }  \]  "." }  {} # 
+ size 12{δ" : chiãöu daìi khe håí laìm viãûc " \[ m \]  "." }  {} # 
+ size 12{"Ta coï:"}  {} # 
+ size 12{ I= {  { size 12{U} }  over  { size 12{ sqrt { \( R rSub { size 8{T} } +R \)  rSup { size 8{2} } + \( ωL \)  rSup { size 8{2} } } } } } = {  { size 12{U} }  over  { size 12{ sqrt {R rSub { size 8{0}   rSup { size 8{2} } } + \( 2π ital "fW" rSup { size 8{2} } G rSub { size 8{δ} }  \)  rSup { size 8{2} } } } } } }  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id11676739">RT: điện trở tải, R: điện trở cuộn dây. Điện cảm L sẽ thay đổi nếu ta làm thay đổi khe hở , diện tích S hoặc độ từ thẩm , dẫn đến dòng điện i biến thiên tương ứng. Ứ́ng dụng hiện tượng này người ta chế tạo các loại cảm biến điện cảm khác nhau.</para>
+        <para id="id11676787">Cảm biến có phần ứng chuyển dịch ngang như hình 7-13. Độ nhạy của cảm biến khi khe hở thay đổi :</para>
+        <para id="id10170392">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>K</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>δ</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mfrac>
+                                    <m:mi fontstyle="italic">ΔL</m:mi>
+                                    <m:mi fontstyle="italic">Δδ</m:mi>
+                                  </m:mfrac>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:msub>
+                                  <m:mi>L</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>0</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>δ</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>0</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mfrac>
+                                      <m:mi fontstyle="italic">Δδ</m:mi>
+                                      <m:msub>
+                                        <m:mi>δ</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>0</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                    </m:mfrac>
+                                  </m:mrow>
+                                  <m:msup>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow/>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{K rSub { size 8{δ} } = -  {  {ΔL}  over  {Δδ} } = {  {L rSub { size 8{0} } }  over  {δ rSub { size 8{0} }  \( 1+ {  {Δδ}  over  {δ rSub { size 8{0} } } }  \)  rSup { size 8{2} } } } }  {} # 
+ {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10170563">Diện tích khe hở thay đổi là: 
+<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi fontstyle="italic">ΔL</m:mi><m:mi fontstyle="italic">ΔS</m:mi></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>S</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ {} # 
+ size 12{K rSub { size 8{δ} } = -  {  {ΔL}  over  {ΔS} } = {  {L rSub { size 8{0} } }  over  {S rSub { size 8{0} } } } }  {} 
+} } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10245398">L0 : giá trị điện cảm ban đầu của cảm biến ở  = 0; S = S0.</para>
+        <para id="id10245447"> và S : độ thay đổi khe hở và diện tích.</para>
+        <para id="id10245469">Độ nhạy K là hàm phi tuyến với  trong đó các trường hợp làm việc có độ phi tuyến nhỏ có thể chọn
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mi fontstyle="italic">Δδ</m:mi><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0,2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Δδ}  over  {δ rSub { size 8{0} } } } =0,2} {}</m:annotation></m:semantics></m:math>.</para>
+      </section>
+      <section id="id-810586278893">
+        <title>Sai số của cảm biến </title>
+        <para id="id10245580">Sai số của cảm biến chịu ảnh hưởng của nhiều yếu tố như :</para>
+        <para id="id10245590">+ Độ ổn định của biên độ và tần số nguồn cung cấp</para>
+        <para id="id10245597">+ Ảnh hưởng của nhiệt độ đến điện trở dây quấn và kích thước khe hở làm việc.</para>
+      </section>
+      <section id="id-0445333888877">
+        <title>Nhược điểm</title>
+        <para id="id10245614">Cảm biến điện cảm có các nhược điểm sau:</para>
+        <para id="id10245620">a) Xuất hiện lực hút điện từ tác dụng lên phần ứng, tạo ra phụ tải cơ trên phần tử cần đo lường, kiểm tra nên dẫn đến giảm độ chính xác khi cảm biến làm việc.</para>
+        <para id="id10245633">b) Dòng trong mạch luôn khác không, giá trị nhỏ nhất của nó ứng với vị trí khe hở  bé nhất (diện tích S lớn nhất) và bằng dòng từ hóa i0. Điều này không thuận tiện trong quá trình đo lường và làm việc.</para>
+        <para id="id10245667">c) Vì cảm biến có khe hở  lớn, để giảm kích thước và giá thành thì dùng nguồn cung cấu có tần số cao (100  3000) Hz và lớn hơn.</para>
+        <para id="id9996781">Ứng dụng cảm biến điện cảm như trong thiết bị tự động đo áp suất bình hơi từ xa,...</para>
+        <para id="id9996787">Ngoài ra còn cảm biến kiểu biến điện áp, biến áp vi sai và cảm biến đàn hồi từ.</para>
+        <figure id="id9996798">
+          <media id="id2507119" alt=""><image src="../../media/graphics11-ff0d.png" mime-type="image/png" height="368" width="317"/></media>
+        </figure>
+      </section>
+    </section>
+    <section id="id-437544925487">
+      <title>CẢM BIẾN CẢM ỨNG - CẢM BIẾN ĐIỆN DUNG - CẢM BIẾN ĐIỂM</title>
+      <section id="id-449404372357">
+        <title>Nguyên lí cảm biến cảm ứng</title>
+        <para id="id9996842">Làm việc dựa trên hiện tượng cảm ứng điện từ. Nếu từ thông móc vòng qua cuộn dây thay đổi thì sẽ xuất hiện một sức điện động cảm ứng trên cuộn dây. Loại này được chế tạo làm hai loại, cuộn dây chuyển động trong từ trường và cuộn dây đứng yên trong từ trường biến thiên.</para>
+        <para id="id9996857">Ứng dụng : làm cảm biến đo tốc độ.</para>
+      </section>
+      <section id="id-211793814576">
+        <title>Cảm biến điện dung </title>
+        <para id="id9996879">Nguyên lí : sự thay đổi thông số cần đo dẫn đến thay đổi thông số của điện dung tụ điện (khoảng cách hay bề mặt diện tích đặt lực thay đổi).</para>
+      </section>
+      <section id="id-200394361371">
+        <title>Cảm biến điểm </title>
+        <para id="id9996906">Là loại đơn giản nhất, đại lượng vào là độ chuyển dời, còn đại lượng ra là trạng thái đóng hay mở (độ dẫn điện của hệ thống tiếp điểm).</para>
+        <para id="id9996918">Với một khoảng chuyển dời quy định nào đó tiếp điểm của nó sẽ đóng hay mở làm xuất hiện tín hiệu ra cho ta biết độ dịch chuyển (độ dời lớn hay nhỏ so với quy định).</para>
+        <para id="id9996930">Dùng trong kiểm tra kích thước và phân loại chi tiết theo kích thước.</para>
+      </section>
+    </section>
+    <section id="id-153493602304">
+      <title>CẢM BIẾN QUANG </title>
+      <section id="id-235013886976">
+        <title>Tế bào quang dẫn</title>
+        <para id="id9996955">Các tế bào quang dẫn là một trong những cảm biến quang có độ nhạy cao. Cơ sở vật lí của tế bào quang dẫn là hiện tượng quang dẫn do kết quả của hiệu ứng quang điện nội (hiện tượng giải phóng hạt tải điện trong vật liệu dưới tác dụng của ánh sáng làm tăng độ dẫn điện của vật liệu).</para>
+        <para id="id9996969">a) Vật liệu để chế tạo cảm biến</para>
+        <para id="id9996982">Cảm biến quang thường được chế tạo bằng các chất bán dẫn đa tinh thể đồng nhất hoặc đơn tinh thể, bán dẫn riêng hoặc bán dẫn pha tạp, ví dụ như:</para>
+        <para id="id9996994">+Đa tinh thể :CdS, CdSe, CdTe, PbS, PbSe, PbTe.</para>
+        <para id="id9997000">+Đơn tinh thể:Ge, Si tinh khiết hoặc pha tạp Au, Cu, Sb, In, SbIn, AsIn, PIn, CdHgTe.</para>
+        <para id="id9997007">Vùng phổ làm việc của các vật liệu này khác nhau.</para>
+        <para id="id9997014">b) Các đặc trưng</para>
+        <para id="id9997026">+ Điện trở: giá trị điện trở tối Rc0 phụ thuộc vào dạng hình học, kích thước, nhiệt độ và bản chất lí hóa của vật liệu quang dẫn. Điện trở Rc của cảm biến khi bị chiếu sáng giảm rất nhanh khi độ rọi tăng lên. Sự phụ thuộc của điện trở vào thông lượng ánh sáng không tuyến tính, tuy nhiên có thể tuyến tính hóa bằng cách sử dụng một điện trở mắc song song với tế bào quang dẫn.</para>
+        <para id="id9997058">+Độ nhạy: độ dẫn của tế bào quang dẫn là tổng của độ dẫn trong tối và độ dẫn khi chiếu sáng. Độ nhạy phổ là hàm của nhiệt độ nguồn sáng: khi nhiệt độ tăng thì độ nhạy phổ tăng lên. </para>
+        <list id="id10417558" list-type="enumerated">
+          <item>Ứng dụng của tế bào quang dẫn</item>
+        </list>
+        <para id="id10417568">Tế bào quang dẫn được ứng dụng nhiều bởi chúng có tỉ lệ chuyển đổi tĩnh và độ nhạy cao cho phép đơn giản hóa trong việc ứng dụng (ví dụ điều khiển các rơle hình 7-14). Nhược điểm chính của tế bào quang dẫn là:</para>
+        <para id="id10417582">+Hồi đáp phụ thuộc một cách không tuyến tính vào thông lượng.</para>
+        <para id="id10417589">+Thời gian hồi đáp lớn.</para>
+        <para id="id10417595">+Các đặc trưng không ổn định (già hóa).</para>
+        <para id="id10417601">+Độ nhạy phụ thuộc vào nhiệt độ.</para>
+        <para id="id10417607">+Một số loại đòi hỏi phải làm nguội.</para>
+        <para id="id10417613">Người ta không dùng tế bào quang dẫn để xác định chính xác thông lượng. Thông thường chúng được sử dụng để phân biệt mức sáng khác nhau (trạng thái tối- sáng hoặc xung ánh sáng). Thực tế thì tế bào quang dẫn thường ứng dụng trong hai trường hợp:</para>
+        <para id="id10417627">+Để điều khiển rơle thì khi có thông lượng ánh sáng chiếu lên tế bào quang dẫn, điện trở của nó giảm đáng kể đủ để cho dòng điện I chạy qua tế bào. Dòng điện này được sử dụng trực tiếp hoặc thông qua khuếch đại để đóng mở rơle.</para>
+        <para id="id10417642">+Thu tín hiệu quang dùng để biến đổi xung quang thành xung điện. Sự ngắt quãng của xung ánh sáng chiếu lên tế bào quang dẫn sẽ được phản ánh trung thực qua xung điện của mạch đo, ứng dẫn để đo tốc độ quay của đĩa hoặc đếm vật. </para>
+        <figure id="id10417662">
+          <media id="id2325298" alt=""><image src="../../media/graphics12.png" mime-type="image/png" height="228" width="433"/></media>
+        </figure>
+      </section>
+      <section id="id-605584820294">
+        <title>Cáp quang</title>
+        <para id="id10417695">a) Cấu tạo và các tính chất chung</para>
+        <para id="id10417700">Hình 7-15 biểu diễn dạng đơn giản của cáp quang. Nó gồm một lõi với chiết suất n1 bán kính a (10 đến 100m) và một vỏ có chiết suất n2 &lt; n1 dày khoảng 50m. Vật liệu để chế tạo cáp quang bao gồm:</para>
+        <para id="id10417760">+SiO2 tinh khiết hoặc pha tạp nhẹ.</para>
+        <para id="id10417777">+Thủy tinh, thành phần của SiO2 và phụ gia Na2O3, B2O3, PbO,..</para>
+        <para id="id10417828">+Polime(trong một số trường hợp).</para>
+        <figure id="id10417837">
+          <media id="id5945240" alt=""><image src="../../media/graphics13.png" mime-type="image/png" height="129" width="353"/></media>
+        </figure>
+        <para id="id11889843">Ở mặt phân cách giữa hai môi trường có chiết suất tương ứng bằng n1 và n2 các góc 1 và 2 do tia sáng tạo thành với đường trực giác của mặt phẳng (hình 7-16) liên hệ với nhau bởi biểu thức Descates n1sin1= n2 sin2.</para>
+        <para id="id11889945">Khi n1&gt; n2 sẽ xảy ra phản xạ toàn phần nếu: </para>
+        <para id="id11889971">1&gt; Arcsin(n2/n1) = 0</para>
+        <para id="id11890013">Với điều kiện như vậy, trong cáp quang tia sáng sẽ bị giam giữ trong lõi và được truyền đi bằng phản xạ liên tục nối tiếp nhau (hình 7-16b). Ví dụ nếu n1=1,15 và n2= 1,50 sẽ có góc giới hạn 0=83030’. </para>
+        <figure id="id11890081">
+          <media id="id2307102" alt=""><image src="../../media/graphics14.png" mime-type="image/png" height="239" width="566"/></media>
+        </figure>
+        <para id="id11890105">b)Ứng dụng của cáp quang</para>
+        <para id="id11890110">+Trong truyền tin: đây là ứng dụng quan trọng nhất, truyền thông tin dưới dạng tín hiệu ánh sáng lan truyền trong cáp quang là để tránh các tín hiệu điện từ kí sinh hoặc để đảm bảo cách điện giữa mạch điện nguồn và máy thu. Trong ứng dụng này thông tin được truyền đi chủ yếu bằng cách mã hóa các xung ánh sáng. Đôi khi người ta có thể truyền thông tin đi bằng cách biến điệu biên độ hoặc tần số của ánh sáng. Khi thiết lập một đường dây truyền tin bằng cáp quang, phải đánh giá công suất của tín hiệu thu được cũng như sự tiêu hao năng lượng do cáp quang và các mối nối gây ra. </para>
+        <para id="id10129375">+Quan sát và đo bằng phương tiện quang học: cáp quang cho phép quan sát hoặc đo đạc bằng các phương pháp quang ở những chỗ khó tiếp cận hoặc trong các môi trường độc hại. Sử dụng cáp quang có thể dẫn ánh sáng tới được những vị trí mà trong điều kiện bình thường ánh sáng không thể chiếu tới được.</para>
+      </section>
+    </section>
+  </content>
+</document>

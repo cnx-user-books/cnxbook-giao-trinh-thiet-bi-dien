@@ -1,0 +1,403 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tiếp xúc điện</title>
+  <metadata>
+  <md:content-id>m30017</md:content-id><md:title>Tiếp xúc điện</md:title>
+  <md:abstract>Trình bày đại cương về tiếp xúc điện</md:abstract>
+  <md:uuid>b4328101-c5d9-4fb2-b9e6-ae8aea7aca14</md:uuid>
+</metadata>
+
+<content>
+    <para id="id9817112">ĐẠI CƯƠNG VỀ TIẾP XÚC ĐIỆN</para>
+    <section id="id-0911488670903">
+      <title>Khái niệm</title>
+      <para id="id9817125">Chỗ tiếp giáp giữa hai vật dẫn điện để cho dòng điện chạy từ vật dẫn này sang vật dẫn kia gọi là tiếp xúc điện. Bề mặt chỗ tiếp giáp của các vật dẫn điện gọi là bề mặt tiếp xúc điện.</para>
+      <para id="id9817139">Tiếp xúc điện chia ra làm ba dạng chính:</para>
+      <para id="id9817146">-Tiếp xúc cố định: là hai vật dẫn tiếp xúc liên kết chặt cứng bằng bulông, đinh vít, đinh rivê,...</para>
+      <para id="id9817171">-Tiếp xúc đóng mở: là tiếp xúc mà có thể làm cho dòng điện chạy hoặc ngừng chạy từ vật này sang vật khác (như các tiếp điểm trong thiết bị đóng cắt).</para>
+      <para id="id9817191">-Tiếp xúc trượt: là vật dẫn điện này có thể trượt trên bề mặt của vật dẫn điện kia (ví dụ như chổi than trượt trên vành góp máy điện).</para>
+      <para id="id9817214">Tiếp xúc đóng mở và tiếp xúc trượt đều có hai phần, phần động (gọi là tiếp điểm động) và phần tĩnh (gọi là tiếp điểm tĩnh).</para>
+      <para id="id9817225">Ba dạng tiếp xúc trên đều có thể tiến hành tiếp xúc dưới ba hình thức:</para>
+      <para id="id9817232">-Tiếp xúc điểm: là hai vật tiếp xúc với nhau chỉ ở một điểm hoặc trên bề mặt diện tích với đường kính rất nhỏ (như tiếp xúc hai hình cầu với nhau, hình cầu với mặt phẳng, hình nón với mặt phẳng,...)</para>
+      <para id="id9817258">-Tiếp xúc đường: là hai vật dẫn tiếp xúc với nhau theo một đường thẳng hoặc trên bề mặt rất hẹp (như tiếp xúc hình trụ với mặt phẳng, hình trụ với trụ,...)</para>
+      <para id="id9817282">-Tiếp xúc mặt: là hai vật dẫn điện tiếp xúc với nhau trên bề mặt rộng(ví dụ tiếp xúc mặt phẳng với mặt phẳng,...).</para>
+      <para id="id9817304">Các yêu cầu đối với tiếp xúc điện tùy thuộc ở công dụng, điều kiện làm việc, tuổi thọ yêu cầu của thiết bị và các yếu tố khác. Một yếu tố chủ yếu ảnh hưởng tới độ tin cậy làm việc và nhiệt độ phát nóng của tiếp xúc điện là điện trở tiếp xúc Rtx.</para>
+      <para id="id9817329"/>
+    </section>
+    <section id="id-635059213304">
+      <title>Điện trở tiếp xúc</title>
+      <para id="id9817341">Xét khi đặt hai vật dẫn tiếp xúc nhau(hình 2-1) , ta sẽ có diện tích bề mặt tiếp xúc :</para>
+      <para id="id9817350">Sbk= a . l.</para>
+      <para id="id9817369">Nhưng trên thực tế diện tích bề mặt tiếp xúc thực nhỏ hơn nhiều a.l vì giữa hai bề mặt tiếp xúc dù gia công thế nào thì vẫn có độ nhấp nhô, khi cho tiếp xúc hai vật với nhau thì chỉ có một số điểm trên tiếp giáp tiếp xúc. Do đó diện tích tiếp xúc thực nhỏ hơn nhiều diện tích tiếp xúc biểu kiến Sbk= a.l.</para>
+      <para id="id9817395">Diện tích tiếp xúc còn phụ thuộc vào lực ép lên trên tiếp điểm và vật liệu làm tiếp điểm, lực ép càng lớn thì diện tích tiếp xúc càng lớn.</para>
+      <figure id="id9817410">
+        <media id="id1170196251571" alt=""><image src="../../media/graphics1-64e9.png" mime-type="image/png" height="211" width="431"/></media>
+      </figure>
+      <para id="id9817434">Diện tích tiếp xúc thực ở một điểm(như mặt cầu tiếp xúc với mặt phẳng) xác định bởi:</para>
+      <para id="id9817443">S = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>F</m:mi><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {F}  over  {δ rSub { size 8{d} } } } } {}</m:annotation></m:semantics></m:math> (2.1) Trong đó:</para>
+      <para id="id10163557">F là lực ép vào tiếp điểm [kg].</para>
+      <para id="id10163566"><media id="id1170191631741" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="24" width="13"/></media><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> là ứng suất chống dập nát của vật liệu làm tiếp điểm [kg/cm2].</para>
+      <section id="id-535325850329">
+        <title>Bảng 2.1: Ứng suất chống dập nát của một số kim loại thông dụng</title>
+        <table id="id10163683" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>Kim loại</entry>
+                <entry>Ứng suất 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math>[N/cm2]</entry>
+                <entry>Kim loại</entry>
+                <entry>Ứng suất 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math>[N/cm2]</entry>
+              </row>
+              <row>
+                <entry>bạc </entry>
+                <entry>30.400</entry>
+                <entry>đồng cứng (hợp kim)</entry>
+                <entry>51.000</entry>
+              </row>
+              <row>
+                <entry>đồng mềm </entry>
+                <entry>38.200</entry>
+                <entry>nhôm</entry>
+                <entry>88.300</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id10164028">Nếu tiếp xúc ở n điểm thì diện tích sẽ lớn lên n lần so với biểu thức (2.1).</para>
+        <para id="id10164036">Dòng điện chạy từ vật này sang vật khác chỉ qua những điểm tiếp xúc, như vậy dòng điện ở các chỗ tiếp xúc đó sẽ bị thắt hẹp lại, dẫn tới điện trở ở những chỗ này tăng lên.</para>
+        <para id="id10164049">Điện trở tiếp xúc của tiếp điểm kiểu bất kì tính theo công thức:</para>
+        <para id="id10164055">Rtx = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>K</m:mi><m:msup><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {K}  over  {F rSup { size 8{m} } } } } {}</m:annotation></m:semantics></m:math> [<media id="id1170191349066" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="18" width="18"/></media>] ( 2.2) </para>
+        <para id="id10164172">K: hệ số phụ thuộc vật liệu và tình trạng bề mặt tiếp điểm ( theo bảng tra).</para>
+        <para id="id10164182">m: hệ số phụ thuộc số điểm tiếp xúc và kiểu tiếp xúc với:</para>
+        <para id="id10164190">+Tiếp xúc mặt m = 1</para>
+        <para id="id10164196">+Tiếp xúc đường m = 0,7</para>
+        <para id="id10164203">+Tiếp xúc điểm m = 0,5</para>
+        <para id="id10164209">Bảng 2.2: Tra trị số K trong công thức (2.2)</para>
+        <table id="id10164215" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>Kim loại tiếp xúc </entry>
+                <entry>Trị số K [
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA } {}</m:annotation></m:semantics></m:math>.N]</entry>
+                <entry>Kim loại tiếp xúc </entry>
+                <entry>Trị số K [
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA } {}</m:annotation></m:semantics></m:math>.N]</entry>
+              </row>
+              <row>
+                <entry>đồng – đồng</entry>
+                <entry>( 0,08 đến 0,14).10-2 </entry>
+                <entry>sắt - đồ̀ng</entry>
+                <entry>( 3,1).10-2</entry>
+              </row>
+              <row>
+                <entry>bạc – bạc</entry>
+                <entry>( 0,06)10-2</entry>
+                <entry>nhôm - đồng</entry>
+                <entry>( 0,38).10-2</entry>
+              </row>
+              <row>
+                <entry>nhôm - nhôm </entry>
+                <entry>( 0,127).10-2</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id10010975">Ngoài công thức (2.2) là công thức kinh nghiệm, người ta còn dùng phương pháp giải tích để dẫn giải rút ra công thức tính điện trở tiếp xúc điểm:</para>
+        <figure id="id10010989">
+          <media id="id1170190449969" alt=""><image src="../../media/graphics4-0674.png" mime-type="image/png" height="192" width="600"/></media>
+        </figure>
+        <para id="id10011013">Do vậy rõ ràng điện trở tiếp xúc của tiếp điểm ảnh hưởng đến chất lượng của thiết bị điện, điện trở tiếp xúc lớn làm cho tiếp điểm phát nóng. Nếu phát nóng quá mức cho phép thì tiếp điểm sẽ bị nóng chảy, thậm chí bị hàn dính. Trong các tiếp điểm thiết bị điện mong muốn điện trở tiếp xúc có giá trị càng nhỏ càng tốt, nhưng do thực tế có nhiều yếu tố ảnh hưởng đến Rtx nên không thể giảm Rtx cực nhỏ được như mong muốn.</para>
+      </section>
+    </section>
+    <section id="id-737629582909">
+      <title>Các yếu tố ảnh hưởng đến điện trở tiếp xúc (Rtx)</title>
+      <para id="id10011075">Điện trở tiếp xúc bị ảnh hưởng của nhiều yếu tố với mức độ khác nhau, ta xét ở đây một số yếu tố chủ yếu sau:</para>
+      <section id="id-635075446082">
+        <title>Vật liệu làm tiếp điểm</title>
+        <para id="id10011090">Từ (2.3) ta thấy hệ số chống dập nát 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> bé thì Rtx bé. Vì vậy đứng về mặt yêu cầu có điện trở tiếp xúc bé nên dùng các vật liệu mềm để làm tiếp điểm. Nhưng thực tế cần phải kết hợp các yếu tố khác(như độ bền cơ) nên vật liệu thường dùng là đồng, đồng thau mạ thiếc, thép mạ thiếc,...</para>
+      </section>
+      <section id="id-871926710696">
+        <title>Lực ép lên tiếp điểm</title>
+        <figure id="id10011189">
+          <media id="id1170191543577" alt=""><image src="../../media/graphics5-9641.png" mime-type="image/png" height="235" width="356"/></media>
+        </figure>
+        <para id="id10011213">Cũng từ công thức (2.2) và (2.3) lực F càng lớn thì Rtx càng nhỏ (hình 2-2)</para>
+        <para id="id10011232">Đường 1 biểu diễn điện trở tiếp xúc giảm theo chiều lực tăng, nếu giảm lực nén lên tiếp điểm điện trở tiếp xúc Rtx thay đổi theo đường 2.</para>
+        <para id="id10011252">Ta có thể giải thích là vì khi tăng lực nén bề lên mặt tiếp xúc thì không những bề mặt tiếp xúc bị biến dạng đàn hồi mà còn bị phá hủy cục bộ. Khi ta giảm lực ép thì một số điểm tiếp xúc vẫn còn giữ nguyên như khi lực ép lớn tác dụng. Tăng lực ép chỉ có tác dụng giảm Rtx ở giai đoạn đầu điện trở lớn và trung bình. Khi lực ép đủ lớn thì dù có tăng lực ép lên nữa thì điện trở tiếp xúc vẫn không thay đổi. </para>
+      </section>
+      <section id="id-0151787275277">
+        <title>Hình dạng của tiếp điểm</title>
+        <para id="id10011303">Hình dạng của tiếp điểm cũng ảnh hưởng đến Rtx. Cùng một lực nhưng kiểu tiếp xúc khác nhau thì Rtx cũng khác nhau. Từ các công thức trên ta thấy Rtx của tiếp xúc mặt nhỏ nhất vì có hệ số m lớn nhất (tra từ công thức 2.2).</para>
+      </section>
+      <section id="id-488999405946">
+        <title>Nhiệt độ của tiếp điểm</title>
+        <para id="id10011356">Nhiệt độ của tiếp điểm thay đổi sẽ làm Rtx thay đổi theo kết quả thí nghiệm với nhiệt độ nhỏ hơn 2000C có thể tính Rtx qua công thức:</para>
+        <para id="id10011398">R
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mrow/><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mtext>tx</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>q</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSub { size 8{"tx" \( q \) } } } {}</m:annotation></m:semantics></m:math> = Rtx (0)(1+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {3} } } {}</m:annotation></m:semantics></m:math><!--Sorry, this media type is not supported.--><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>q</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>) [<media id="id1170191298578" alt=""><image src="graphics6.wmf" mime-type="image/wmf" height="18" width="18"/></media>] (2.4) </para>
+        <para id="id10011664">Trong đó: Rtx(0): điện trở tiếp xúc ở 00C, <media id="id1170194701865" alt=""><image src="graphics7.wmf" mime-type="image/wmf" height="15" width="15"/></media>: hệ số nhiệt điện trở [1/0C].</para>
+        <para id="id9809478"><media id="id1170190512532" alt=""><image src="graphics8.wmf" mime-type="image/wmf" height="19" width="14"/></media>: Nhiệt độ của tiếp điểm [0C].</para>
+      </section>
+      <section id="id-643492443398">
+        <title>Tình trạng bề mặt tiếp xúc</title>
+        <para id="id9809537">Bề mặt tiếp xúc khi bị bẩn hoặc khi bị oxit hóa có Rtx lớn hơn nhiều Rtx của tiếp điểm sạch (do có nhiều điểm không được tiếp xúc trực tiếp bằng vật liệu làm tiếp điểm). Khi bị oxy hóa càng nhiều thì nhiệt độ phát nóng trên bề mặt tiếp xúc càng cao. Tiếp điểm bị oxy hóa có điện trở tiếp xúc tăng hàng chục lần(vì oxit của phần lớn kim loại dẫn điện kém hơn nhiều kim loại nguyên chất).</para>
+      </section>
+      <section id="id-433143186778">
+        <title>Mật độ dòng điện</title>
+        <para id="id9809583">Diện tích tiếp xúc được xác định tùy theo mật độ dòng điện cho phép. Theo kinh nghiệm đối với thanh dẫn bằng đồng cho tiếp xúc nhau khi nguồn ở tần số 50 Hz thì mật độ dòng điện cho phép là:</para>
+        <figure id="id9809601">
+          <media id="id1170187119263" alt=""><image src="../../media/graphics9-1927.png" mime-type="image/png" height="80" width="524"/></media>
+        </figure>
+        <para id="id9809625">Trong đó : I là giá trị dòng hiệu dụng ; S=Sbk diện tích tiếp xúc biểu kiến.</para>
+        <para id="id9809646">Biểu thức (2.5) trên chỉ đúng khi dòng điện biến thiên trong khoảng từ 200 đến 2000A. Nếu ngoài trị số đó thì có thể lấy:</para>
+        <para id="id9809656">I &lt; 200 A lấy Jcp = 0,31 [A/ mm2]</para>
+        <para id="id9809693">I &gt; 2000 A lấy Jcp = 0.12 [A/ mm2].</para>
+        <para id="id9809731">Khi vật dẫn tiếp xúc không phải là đồng thì mật độ dòng cho phép đối với vật liệu ấy có thể lấy theo công thức sau:</para>
+        <figure id="id9809745">
+          <media id="id1170191645197" alt=""><image src="../../media/graphics10-99f4.png" mime-type="image/png" height="101" width="476"/></media>
+        </figure>
+      </section>
+    </section>
+    <section id="id-89524557455">
+      <title>TIẾP ĐIỂM THIẾT BỊ ĐIỆN</title>
+      <section id="id-697326616169">
+        <title>Vật liệu làm tiếp điểm</title>
+        <para id="id9809788">Để thỏa mãn tốt các điều kiện làm việc khác nhau của tiếp điểm thiết bị điện thì vật liệu làm tiếp điểm phải có được những yêu cầu cơ bản sau:</para>
+        <para id="id9809796">-Có độ dẫn điện cao(giảm Rtx và chính điện trở của tiếp điểm).</para>
+        <para id="id9809818">-Dẫn nhiệt tốt (giảm phát nóng cục bộ của những điểm tiếp xúc).</para>
+        <para id="id9809829">-Không bị oxy hóa (giảm Rtx để tăng độ ổn định của tiếp điểm).</para>
+        <para id="id9809851">-Có độ kết tinh và nóng chảy cao (giảm độ mài mòn về điện và giảm sự nóng chảy hàn dính tiếp điểm đồng thời tăng tuổi thọ tiếp điểm).</para>
+        <para id="id9809867">-Có độ bền cơ cao (giảm độ mài mòn cơ khí giữ nguyên dạng bề mặt tiếp xúc và tăng tuổi thọ của tiếp điểm).</para>
+        <para id="id9809880">-Có đủ độ dẻo (để giảm điện trở tiếp xúc).</para>
+        <para id="id9809890">-Dễ gia công khi chế tạo và giá thành rẻ.</para>
+        <para id="id9809899">Thực tế ít vật liệu nào đáp ứng được đầy đủ các yêu cầu trên. Trong thiết kế sử dụng tùy từng điều kiện cụ thể mà trọng nhiều đến yêu cầu này hay yêu cầu khác. Những vật liệu thường dùng gồm:</para>
+        <list id="id9809913" list-type="enumerated">
+          <item>Đồng kĩ thuật điện: đồng nguyên chất thu được bằng điện phân. Nó đáp ứng hầu hết các yêu cầu trên. Nhược điểm chính của đồng kĩ thuật điện là rất dễ bị oxit hóa. </item>
+          <item>Đồng cađimi: đồng kĩ thuật điện pha thêm cađimi có tính chất cơ cao chống mài mòn tốt, khả năng chịu được hồ quang tốt hơn đồng kĩ thuật điện thông thường.</item>
+          <item>Bạc: là vật liệu làm tiếp điểm rất tốt do có độ dẫn điện cao và có điện trở tiếp xúc ổn định. Nhược điểm chủ yếu là chịu hồ quang kém nên sử dụng bị hạn chế.</item>
+          <item>Đồng thau: hợp kim đồng với kẽm được sử dụng làm tiếp điểm dập hồ quang.</item>
+          <item>Các hợp kim đồng khác: hợp kim đồng với nhôm, đồng với mangan, đồng với niken, đồng với silic và các hợp kim đồng khác được sử dụng làm tiếp điểm, đồng thời làm lò xo ép (ví dụ tiếp điểm tĩnh của cầu chì). Những tiếp điểm như vậy khi bị đốt nóng dễ bị mất tính đàn hồi.</item>
+          <item>Thép có điện trở suất lớn: thép thường bị oxy hóa cao nhưng là vật liệu rẻ nên vẫn được sử dụng làm tiếp xúc cố định để dẫn dòng điện lớn, trong các thiết bị thép thường được mạ.</item>
+          <item>Nhôm: có độ dẫn điện cao, rẻ nhưng rất dễ bị oxy hóa làm tăng điện trở suất. Nhược điểm nữa là hàn nhôm rất phức tạp, độ bền cơ lại kém.</item>
+          <item>Vonfram và hợp kim vonfram: có độ mài mòn về điện tốt và chịu được hồ quang tốt nhưng có điện trở tiếp xúc rất lớn. Hợp kim vonfram với vàng sử dụng cho tiếp điểm có dòng nhỏ. Hợp kim với molipđen dùng làm tiếp điểm cho những thiết bị điện thường xuyên đóng mở, khi dòng điện lớn thì vonfram và hợp kim vonfram sử dụng để làm tiếp điểm dập hồ quang.</item>
+          <item>Vàng và platin: không bị oxy hóa do đó có điện trở tiếp xúc nhỏ và ổn định, được sử dụng làm tiếp điểm trong thiết bị̣ điện hạ áp có dòng điện bé và quan trọng. Vàng nguyên chất và platin nguyên chất có độ bền cơ thấp nên thường được sử dụng dạng hợp kim với môlipđen hoặc với iriđi để tăng độ bền cơ.</item>
+          <item>Than và graphit: có điện trở tiếp xúc và điện trở suất lớn nhưng chịu được hồ quang rất tốt.</item>
+        </list>
+        <para id="id9810125">Thường dùng làm các tiếp điểm mà khi làm việc phải chịu tia lửa điện, đôi khi làm tiếp điểm dập hồ quamg.</para>
+        <list id="id9810136" list-type="enumerated">
+          <item>Hợp kim gốm: hỗn hợp về mặt cơ học của hai vật liệu không nấu chảy mà thu được bằng phương pháp thiêu kết hỗn hợp bột hoặc bằng cách tẩm vật liệu này lên vật liệu kia. Thường vật liệu thứ nhấ́t có tính chất kỹ thuật điện tốt, điện trở suất và điện trở tiếp xúc nhỏ, ít bị oxy hóa.Vật liệu thứ hai có tính chất cơ cao và chịu được hồ quang. Như vậy, chất lượng kim loại gốm là do tính chất của hỗn hợp quyết định. Kim loại gốm sử dụng rộng rãi nhất thường có gốc bạc như : bạc-niken, bạc- oxit cađimi, bạc- vonfram, bạc-môlipđen. Ngoài ra đôi khi người ta sử dụng kim loại gốm có gốc đồng như: đồng -vonfram, đồng -môlipđen, đồng cađimi làm tiếp điểm chính và tiếp điểm dập hồ quang.</item>
+        </list>
+        <para id="id9810185">Chú ý</para>
+        <para id="id9810190">+Với tiếp xúc cố định thường dùng vật liệu là đồng, nhôm, thép.</para>
+        <para id="id9810197">+Với tiếp xúc đóng/mở tùy theo dòng dẫn, nếu : </para>
+        <para id="id9810204">-Dòng điện bé dùng bạc, đồng, platin, vonfram, đôi khi vàng, môlipđen, niken.</para>
+        <para id="id9810215">-Dòng vừa đến lớn dùng đồng thau, kim loại hoặc hợp kim ít nóng chảy như vonfram, molipđen,...</para>
+        <para id="id9810226">-Dòng điện lớn thì thường dùng hợp kim gốm (sản phẩm hai kim loại ở dạng bột ép lại ơ ̉áp lực lớn, nhiệt độ cao. Hợp kim gốm rất cứng chịu được dòng lớn, khuyết điểm là độ dẫn điện kém, nên thường được chế tạo dạng tấm mỏng hàn trên bề mặt tiếp điểm của thiết bị).</para>
+      </section>
+      <section id="id-484456456566">
+        <title>Một số kết cấu tiếp điểm</title>
+        <list id="id9810253" list-type="enumerated">
+          <item>Phân ra làm các loại theo cấu tạo</item>
+        </list>
+        <para id="id9810263">Tiếp xúc cố định có các dạng</para>
+        <para id="id9810269">-Nối hai thanh tiết diện chữ nhật.</para>
+        <para id="id9810278">-Nối hai thanh tiết diện tròn (thanh tròn nối với nhau thường trong các thiết bị̣ điện như máy ngắt điện, máy biến dòng,...).</para>
+        <para id="id9810291">Loại tiếp xúc đóng mở và tiếp xúc trượt phân theo dòng điện</para>
+        <para id="id9810314">-Dòng bé : I
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ &lt;= {}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math>10 [mA]. </para>
+        <para id="id9810416">-Dòng vừa: I
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ &lt;= {}} {}</m:annotation></m:semantics></m:math> 100 [A].</para>
+        <para id="id10016775">-Dòng lớn: I &gt; 100 [A].</para>
+        <list id="id10016788" list-type="enumerated">
+          <item>Tiếp điểm rơle</item>
+        </list>
+        <para id="id10016799">Thường dùng bạc, platin tán hàn gá vào tiếp điểm, kích thước tiếp điểm do dòng điện cho phép quyết định (theo bảng có trong các sổ tay thiết kế).</para>
+        <list id="id10016811" list-type="enumerated">
+          <item>Tiếp điểm thiết bị điện khống chế </item>
+        </list>
+        <para id="id10016824">Các thiết bị như công tắ́c tơ, áptômát và thiết bị cao áp thường có dòng điện lớn. Thì những tiếp điểm chính mắc song song với tiếp điểm hồ quang khi tiếp điểm ở vị trí đóng dòng điện sẽ qua tiếp điểm chính (tiếp điểm) làm việc, khi mở hoặc bắt đầu đóng tiếp điểm hồ quang sẽ chịu hồ quang. Do đó bảo vệ được tiếp điểm làm việc.</para>
+        <para id="id10016838">Ta thường thấy tiếp điểm có các dạng như hình 2-3.</para>
+        <para id="id10016845">+Hình ngón: dùng trong công tắc tơ, tiếp điểm động vừa trượt vừa lăn trên tiếp điểm tĩnh do vậy có thể tự làm bóc lớp oxit trên bề mặt tiếp xúc.</para>
+        <para id="id10016868">+Tiếp điểm bắc cầu: dùng trong rơle và công tắc tơ.</para>
+        <para id="id10016887">+Tiếp điểm đối diện: dùng ở máy ngắt điện áp cao.</para>
+        <para id="id10016903">+Tiếp điểm hoa huệ: gồm một cánh hình thang giống cánh hoa huệ hay chữ z, tiếp điểm động là một thanh dẫn tròn.</para>
+        <para id="id10016921">+Tiếp điểm vuốt má: tiếp điểm động kiểu sống dao có thể trượt giữa hai vuốt tròn (làm tiếp điểm tĩnh) lò xo và dây được nối chặt với vuốt.</para>
+        <para id="id10016938">+Tiếp điểm chổi: tiếp điểm động hình chổi gồm những lá đồng mỏng 0,1
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math>0,2 mm xếp lại trượt lên sống dao tiếp điểm tĩnh. Để tăng lực ép trên tiếp điểm hình chổi thì thường có thêm bản đàn hồi. Loại này khi chổi bị cháy sẽ làm điện trở tăng nhanh do đó ít dùng làm tiếp điểm hồ quang.</para>
+        <para id="id10017018">Hình 2-3:Dạng một số tiếp xúc đóng mở: a) Tiếp điểm ngón, b) Tiếp điểm bắc cầu, c)Tiếp điểm kiểu cắm, d) Tiếp điểm kiểu đối diện, e) Tiếp điểm kiểu lưỡi, h) Tiếp điểm kiểu thủy ngân, g) Tiếp điểm kiểu vuốt má</para>
+        <para id="id10017053">+Tiếp điểm cắm: thường được dùng ở cầu dao, cầu chì, dao cách li,...áp lực lên tiếp điểm động khoảng P = (0,3
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 0.6) kg/cm2.</para>
+      </section>
+      <section id="id-468034556214">
+        <title>Nguyên nhân hư hỏng tiếp xúc và biện pháp khắc phục</title>
+        <list id="id10017138" list-type="enumerated">
+          <item>Nguyên nhân hư hỏng </item>
+        </list>
+        <para id="id10017155">Nguyên nhân hư hỏng tiếp xúc có rất nhiều, ta xét một số nguyên nhân chính sau:</para>
+        <para id="id10017163">a.1) Ăn mòn kim loại</para>
+        <para id="id10017176">Trong thực tế chế tạo dù gia công thế nào thì bề mặt tiếp xúc tiếp điểm vẫn còn những lỗ nhỏ li ti. Trong vận hành hơi nước và các chất có hoạt tính hóa học cao thấm vào và đọng lại trong những lỗ nhỏ đó sẽ gây ra các phản ứng hóa học tạo ra một lớp màng mỏng rất giòn. Khi va chạm trong quá trình đóng lớp màng này dễ bị bong ra. Do đó bề mặt tiếp xúc sẽ bị mòn dần, hiện tượng này gọi là hiện tượng ăn mòn kim loại.</para>
+        <para id="id10017201">a.2) Oxy hóa</para>
+        <para id="id10017213">Môi trường xung quanh làm bề mặt tiếp xúc bị oxy hóa tạo thành lớp oxit mỏng trên bề mặt tiếp xúc, điện trở suất của lớp oxit rất lớn nên làm tăng Rtx dẫn đến gây phát nóng tiếp điểm. Mức độ gia tăng Rtx do bề mặt tiếp xúc bị oxy hóa còn tùy nhiệt độ. Ở 20-30oC có lớp oxít dày khoảng 25.10-6mm. Theo thí nghiệm tiếp điểm đồng để ngoài trời sau một tháng Rtx tăng lên khoảng 10%. Ở nhiệt độ lớn hơn 700C sự oxit hóa rất nhanh. Theo thí nghiệm ở 1000C sau chỉ một giờ Rtx của tiếp điểm đồng tăng khoảng 50 lần. Ngoài ra việc luân phiên bị đốt nóng và làm nguội cũng tăng quá trình ôxit hóa. </para>
+        <para id="id10017324">a.3) Điện thế hóa học của vật liệu tiếp điểm</para>
+        <para id="id10017337">Mỗi chất có một điện thế hóa học nhất định. Lấy H làm gốc có điện thế âm (-) thì ta có bảng một số kim loại có điện thế hóa học như bảng sau:</para>
+        <para id="id10017349">Bảng 2.3: Điện thế hóa học của một số kim loại</para>
+        <table id="id10017355" summary="">
+          <tgroup cols="5">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry>Kim loại</entry>
+                <entry>Ag Cu </entry>
+                <entry>H Sn </entry>
+                <entry>Ni Co</entry>
+                <entry>Fe Al </entry>
+              </row>
+              <row>
+                <entry>Điện thế hóahọc [ V].</entry>
+                <entry>+0.8 +0.345 </entry>
+                <entry>0 -0.14 </entry>
+                <entry>- 0.2 -0.255 </entry>
+                <entry>-0.44 - 1.34</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id10017557">Hai kim loại có điện thế hóa học khác nhau khi tiếp xúc sẽ tạo nên một cặp hiệu điện thế hóa học, giữa chúng có một hiệu điện thế. Nếu bề mặt tiếp xúc có nước xâm nhập sẽ có dòng điện chạy qua, và kim loại có điện thế học âm hơn sẽ bị ăn mòn trước làm nhanh hỏng tiếp điểm.</para>
+        <para id="id10017571">a.4) Hư hỏng do điện</para>
+        <para id="id10017576">Thiết bị̣ điện vận hành lâu ngày hoặc không được bảo quản tốt lò xo tiếp điểm bị hoen rỉ yếu đi sẽ không đủ lực ép vào tiếp điểm. Khi có dòng điện chạy qua, tiếp điểm dễ bị phát nóng gây nóng chảy, thậm chí hàn dính vào nhau. Nếu lực ép tiếp điểm quá yếu có thể phát sinh tia lửa làm cháy tiếp điểm. Ngoài ra, tiếp điểm bị bẩn, rỉ sẽ tăng điện trở tiếp xúc, gây phát nóng dẫn đến hao mòn nhanh tiếp điểm.</para>
+        <para id="id10017601">b) Các biện pháp khắc phục </para>
+        <para id="id10017614">Để bảo vệ tiếp điểm khỏi bị rỉ và để làm giảm nhỏ điện trở tiếp xúc có thể thực hiện các biện pháp sau:</para>
+        <para id="id10017621">b.1) Đối với những tiếp xúc cố định nên bôi một lớp mỡ chống rỉ hoặc quét sơn chống ẩm.</para>
+        <para id="id10017641">b.2) Khi thiết kế ta nên chọn những vật liệu có điện thế hóa học giống nhau hoặc gần bằng nhau cho từng cặp.</para>
+        <para id="id10017664">b.3) Nên sử dụng các vật liệu không bị oxy hóa làm tiếp điểm.</para>
+        <para id="id10017679">b.4) Mạ điện các tiếp điểm: với tiếp điểm đồng, đồng thau thường được mạ thiếc, mạ bạc, mạ kẽm còn tiếp điểm thép thường được mạ cađini, niken, kẽm,...</para>
+        <para id="id10017705">b.5) Thay lò xo tiếp điểm: những lò xo đã rỉ, đã yếu làm giảm lực ép sẽ làm tăng điện trở tiếp xúc, cần lau sạch tiếp điểm bằng vải mềm và thay thế lò xo nén khi lực nén còn quá yếu.</para>
+        <para id="id10017730">b.6) Kiểm tra sửa chữa cải tiến: cải tiến thiết bị dập hồ quang để rút ngắn thời gian dập hồ quang nếu điều kiện cho phép.</para>
+      </section>
+      <section id="id-521711750565">
+        <title>Tình trạng làm việc của tiếp điểm khi ngắn mạch</title>
+        <para id="id10017762">Khi có ngắn mạch, nhiệt độ chỗ tiếp xúc tăng cao làm giảm tính đàn hồi và cường độ cơ khí của tiếp điểm. Nhiệt độ cho phép khi ngắn mạch quy định:</para>
+        <para id="id10017774">-Với đồng, đồng thau: [
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>θ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>] = (200
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math>300)0C</para>
+        <para id="id10017892">-Nhôm: [
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>θ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>] = (150
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math>200)0C</para>
+        <para id="id10042848">Tùy thời gian ngắn mạch có mật độ dòng điện cho phép khác nhau như bảng 2-4.</para>
+        <para id="id10042856">Bảng 2.4: Mật độ dòng điện cho phép </para>
+        <table id="id10042862" summary="">
+          <tgroup cols="6">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <tbody>
+              <row>
+                <entry>Vật liệu tiếp xúc</entry>
+                <entry namest="c2" nameend="c4">Mật độ dòng điện cho phép jcp [A/mm2 ] </entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>Thời gian ngắn mạch [s]</entry>
+                <entry>1s</entry>
+                <entry>5s</entry>
+                <entry>10s</entry>
+                <entry namest="c5" nameend="c6"/>
+              </row>
+              <row>
+                <entry>Đồng </entry>
+                <entry>152 </entry>
+                <entry>67</entry>
+                <entry>48</entry>
+                <entry namest="c5" nameend="c6"/>
+              </row>
+              <row>
+                <entry>Đồng thau</entry>
+                <entry>75 </entry>
+                <entry>38</entry>
+                <entry>27</entry>
+                <entry namest="c5" nameend="c6"/>
+              </row>
+              <row>
+                <entry>Nhôm</entry>
+                <entry>89</entry>
+                <entry>40</entry>
+                <entry>28</entry>
+                <entry namest="c5" nameend="c6"/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id10043210">Ngoài ra còn tùy tình trạng làm việc của tiếp điểm khi ngắn mạch xảy ra như:</para>
+        <para id="id10043218">-Tiếp điểm ở vị trí đóng khi ngắn mạch</para>
+        <para id="id10043224">Theo công thức kinh nghiệm Butkêvich: Im = K. <media id="id1170189011522" alt=""><image src="graphics11.wmf" mime-type="image/wmf" height="24" width="31"/></media> (2.7)</para>
+        <para id="id10043286">Với: Im: dòng điện biên độ làm tiếp điểm nóng chảy hàn dính.</para>
+        <para id="id10043304">K: hệ số tùy vật liệu làm tiếp điểm và số điểm tiếp xúc.</para>
+        <para id="id10043315">F: lực nén lên tiếp điểm, F = (20
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math>50) kg.</para>
+        <para id="id10043379">Hệ số K trong một số trường hợp cụ thể sau:</para>
+        <para id="id10043385">+ Tiếp điểm chổi đồng, đồng thau: K= 3000 đến 4000</para>
+        <para id="id10043395">+ Tiếp điểm hình ngón bằng đồng: K= 4100.</para>
+        <para id="id10043404">+ Tiếp điểm kiểu cắm đồng, đồng thau: K= 6000.</para>
+        <para id="id10043414">-Tiếp điểm trong quá trình đóng bị ngắn mạch</para>
+        <para id="id10043420">Lúc này sinh lực điện động kéo dời tiếp điểm, tiếp điểm động có tốc độ lớn dễ sinh hiện tượng hàn dính vì có chấn động.</para>
+        <para id="id10043431">Khi dòng chạy trong vật dẫn từ tiết diện lớn sang tiết diện nhỏ thường bị uốn cong sinh lực điện động theo công thức:</para>
+        <para id="id10043441">F = 1,02.10-8.i2ln
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>D</m:mi><m:mi>d</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {D}  over  {d} } } {}</m:annotation></m:semantics></m:math> (2.8)</para>
+        <para id="id10043527">D,d: đường kính tiết diện lớn và nhỏ [cm].</para>
+        <para id="id10043533">-Tiếp điểm trong quá trình ngắt bị ngắn mạch</para>
+        <para id="id10043547">Phát sinh hồ quang có thể làm cháy tiếp điểm. Tùy kim loại có trị cực tiểu áp và cực tiểu dòng có thể phát sinh hồ quang.</para>
+        <para id="id10043557">Bảng 2.5: Trị số dòng, áp cực tiểu </para>
+        <table id="id10043563" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Kim loại tiếp điểm</entry>
+                <entry>W Ag Cu Al Fe </entry>
+              </row>
+              <row>
+                <entry>Imin [A]</entry>
+                <entry>0,8 0,75 0,42 0,5 0,55 </entry>
+              </row>
+              <row>
+                <entry>Umin [V]</entry>
+                <entry>11,5 12 14 12,5 12,5 </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id10043741">+Khi cắt dòng bé</para>
+        <para id="id10043753">Nếu I<media id="id1170194980716" alt=""><image src="graphics12.wmf" mime-type="image/wmf" height="22" width="11"/></media>Imin , U<media id="id1170193656225" alt=""><image src="graphics13.wmf" mime-type="image/wmf" height="22" width="11"/></media>Umin : Giữa hai tiếp điểm hình thành một cầu kim loại nóng chảy, cầu bị đứt kim loại sẽ chảy từ anôt sang catôt. Vì vậy tiếp điểm là anôt bị mòn.</para>
+        <para id="id10043857">Nếu I<media id="id1170197147257" alt=""><image src="graphics14.wmf" mime-type="image/wmf" height="17" width="14"/></media>Imin , U<media id="id1170189830322" alt=""><image src="graphics15.wmf" mime-type="image/wmf" height="22" width="11"/></media>Umin : Hình thành các ion đến bắn phá phía catôt, kim loại sẽ chuyển từ catôt sang anôt.</para>
+        <para id="id10043954">+Trường hợp cắt dòng trung bình và dòng điện lớn</para>
+        <para id="id11681048">Hồ quang lớn cả catôt và anôt đều bị mòn. Cần chú ý tiếp điểm động khi đóng có khi bị hao mòn nhiều hơn khi mở.</para>
+        <para id="id11681059">Sự hao mòn tỉ lệ với dòng điện, số lần đóng mở và lượng điện tích qua tiếp điểm và thời gian cháy của hồ quang, đó là các hao mòn về điện (do dòng điện gây ra). Ngoài ra còn hao mòn về cơ, thông thường hao mòn về cơ bằng (1 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 3)% hao mòn điện.</para>
+      </section>
+    </section>
+  </content>
+</document>

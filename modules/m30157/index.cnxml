@@ -1,0 +1,1327 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Máy ngắt điện cao áp</title>
+  <metadata>
+  <md:content-id>m30157</md:content-id><md:title>Máy ngắt điện cao áp</md:title>
+  <md:abstract>Phần này trình bày về: CHỨC NĂNG- PHÂN LOẠI- CÁCH  LỰA CHỌN VÀ CẤU TRÚC của máy ngắt điện cao áp</md:abstract>
+  <md:uuid>0a4dc495-cf4f-4a75-a21b-3e61268f37d6</md:uuid>
+</metadata>
+
+<content>
+    <para id="id11689619">MÁY NGẮT</para>
+    <section id="id-785969360973">
+      <title>Chức năng</title>
+      <para id="id11689632">Máy ngắt điện cao áp dùng để đóng, cắt mạch khi có dòng phụ tải và cả khi có dòng ngắn mạch.</para>
+      <para id="id11689642">Máy ngắt cao áp là cơ cấu đóng mở cơ khí có khả năng đóng, dẫn liên tục và cắt dòng điện trong điều kiện bình thường và cả trong thời gian giới hạn khi xảy ra điều kiện bất thường trong mạch (ví dụ như ngắn mạch). Máy ngắt được sử dụng để đóng mở đường dây trên không, các nhánh cáp, máy biến áp, cuộn kháng điện và tụ điện. Chúng cũng được sử dụng cho thanh góp, sao cho điện năng có thể được truyền từ một thanh góp này sang một thanh góp khác.</para>
+      <para id="id11689670">Máy ngắt được thiết kế đặc biệt dùng cho các nhiệm vụ đặc biệt như đường sắt, ở đó sử dụng lưới 16
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {3} } } {}</m:annotation></m:semantics></m:math>Hz, phải dập tắt hồ quang dài hơn (dài hơn nửa sóng).</para>
+      <para id="id11651713">Máy ngắt được sử dụng cho lò nung chảy có hoạt động thường xuyên thì yêu cầu lực tác động nhỏ hơn và dung lượng cắt thấp hơn. Do vậy chúng ít chịu mài mòn, mặc dù chế độ đóng mở cao và khoảng thời gian làm việc dài.</para>
+      <para id="id11651728">Yêu cầu với chúng phải cắt nhanh, khi đóng/cắt không gây nổ hoặc cháy, kích thước gọn nhẹ, giá thành hạ. Trong máy ngắt cao áp vấn đề dập tắt hồ quang khi cắt ngắn mạch rất quan trọng. Do vậy thường căn cứ phương pháp dập hồ quang để phân loại máy ngắt.</para>
+      <para id="id11651744">Ngắt dòng điện ngắn mạch là chế độ làm việc nặng nhất và cơ bản. Song qúa điện áp sinh ra khi ngắt dòng điện bé của máy biến áp không tải, ngắt dòng điện dung của đường dây dài và nhiều trường hợp khác cũng là điều kiện làm việc nặng nề cho cả hệ thống ngắt.</para>
+      <para id="id11651759">Trong nhiều trường hợp đại lượng quá điện áp được xác định bằng sự đặc biệt của kết cấu máy ngắt, cho nên các yêu cầu đối với máy ngắt cao áp hiện đại không giống như đối với một máy cách li dòng điện đơn giản mà phải yêu cầu như thiết bị ngắt mạch có dòng điện không làm nguy hại cho hệ thống và đảm bảo an toàn chắc chắn. Chế tạo máy ngắt nếu chỉ có tác dụng để ngắt dòng điện phụ tải thì đơn giản hơn.</para>
+      <para id="id11651784">Theo nguyên tắc hệ thống dẫn điện của máy ngắt nối tiếp với mạch điện của các thiết bị điện cao áp. Khi đó các bộ phận kết cấu cơ bản của máy ngắt cần phải chống sự tác động nhiệt, điện từ trong khi làm việc bình thường cũng như khi ngắn mạch phải chống trường tĩnh điện tác động vào cách điệ̣n lúc điện áp định mức và cả trong lúc quá điện áp. Trong quá trình làm việc của máy ngắt còn có những hiện tượng sinh ra thêm nhiều phụ tải nhiệt, cơ và điện tác động vào từng bộ phận riêng của kết cấu máy ngắt (sự cháy của hồ quang điện khi ngắt, sự tăng áp suất của chất khí và chất lỏng trong không gian công tác, các bộ phận cơ chuyển động với gia tốc lớn và nhiều những hiện tượng khác). Trong trường hợp các dự trữ kết cấu của máy ngắt qui định không tương ứng với điều kiện cho trước thì mỗi yếu tố đã kể có thể là nguyên nhân sinh hư hỏng từng bộ phận hay toàn bộ các phần của máy ngắt, dẫn tới phá hỏng sự làm việc bình thường của một khu vực trong hệ thống điện, nghĩa là dẫn tới sự cố. Máy ngắt phải tự động hạn chế sự cố trong hệ thống, nên các bộ phận kết cấu của nó phải tuyệt đối ổn định đối với tác động nhiệt và lực điện động, cũng như đối với tác động của điện áp ở mọi giá trị.</para>
+      <para id="id11651820">a) Yêu cầu chung đối với máy ngắt</para>
+      <para id="id11651826">a.1) Sự tương ứng của các đặc tính máy ngắt đối với những qui định cho trước của nó.</para>
+      <para id="id11651838">a.2) Tất cả các bộ phận kết cấu của máy ngắt trong thời gian vận hành phải làm việc.</para>
+      <para id="id11651849">Các yêu cầu chung đối với máy ngắt cao áp được nêu trong các tiêu chuẩn kĩ thuật khác nhau (như tiêu chuẩn Liên Xô cũ OCT 687-41 hay các tiêu chuẩn quốc tế :IEC, DIN VDE, ANSI).</para>
+      <para id="id11651873">b) Các yêu cầu đặc biệt khác</para>
+      <para id="id11651879">Ngoài những yêu cầu chung, trong các trường hợp riêng cũng có những yêu cầu đặc biệt đối với máy ngắt, phụ thuộc vào điều kiện riêng mà máy ngắt làm việc, như:</para>
+      <para id="id11651891">b.1) Khả năng làm việc ở vùng ẩm ướt, nhiều bụi bặm và có chất nổ.</para>
+      <para id="id11651898">b.2) Khả năng làm việc ở vùng rất cao hơn mặt biển.</para>
+      <para id="id11651905">b.3) Khả năng làm việc ở các thiết bị di động (đầu máy xe lửa điện, tàu thủy,...).</para>
+      <para id="id11651914">b.4) Thích hợp với điều kiện làm việc ở nhiệt độ rất thấp.</para>
+      <para id="id11651921">Do năng lượng ngày càng phát triển, và áp dụng các phương pháp hoàn chỉnh trong vận hành hệ thống điện nên máy ngắt là một trong những bộ phận quan trọng nhất của hệ thống yêu cầu nâng cao các chỉ tiêu kĩ thuật vận hành như: tăng dòng điện định mức, tăng công suất ngắt, nâng cao tác động nhanh, tác động nhanh nhiều lần của AB (đóng lặp lại tự động), tăng độ chống ăn mòn của các bộ phận cơ và của cách điện; vận chuyển, lắp ráp, vận hành thuận tiện, an toàn về nổ và hỏa hoạn,...</para>
+      <para id="id11651956">Trong khi thiết kế máy ngắt hiện đại cần đặc biệt lưu ý đến vấn đề nâng cao các chỉ tiêu kinh tế kĩ thuật, trọng lượng ít nhất trong một đơn vị công suất ngắt. Kết cấu của máy ngắt cần phải đơn giản, vững chắc, các chi tiết và các mối kết cấu trong tất cả các loại máy ngắt phải thống nhất và cần phải áp dụng các phương pháp gia công tiên tiến. Trong chế tạo sử dụng rộng rãi các nguyên liệu có tính cơ, tính điện, tính nhiệt cao và kinh tế nhất (các nguyên liệu tiếp điểm đặc biệt, đồ gốm có độ bền cao,...).</para>
+    </section>
+    <section id="id-068156313936">
+      <title>Phân loại</title>
+      <list id="id11651995" list-type="enumerated">
+        <item>Máy ngắt nhiều dầu</item>
+      </list>
+      <para id="id11652004">Dầu vừa là chất cách điện đồng thời sinh khí để dập tắt hồ quang.</para>
+      <list id="id11652013" list-type="enumerated">
+        <item>Máy ngắt ít dầu</item>
+      </list>
+      <para id="id11652024">Lượng dầu ít chỉ đủ sinh khí dập tắt hồ quang còn cách điện là chất rắn.</para>
+      <list id="id11652032" list-type="enumerated">
+        <item>Máy ngắt không khí </item>
+      </list>
+      <para id="id11652052">Dùng khí nén để dập tắt hồ quang.</para>
+      <list id="id11652058" list-type="enumerated">
+        <item>Máy ngắt tự sinh khí</item>
+      </list>
+      <para id="id11652070">Dùng vật liệu cách điện có khả năng tự sinh khí dưới tác dụng của nhiệt độ cao của hồ quang. Khí tự sinh ra có áp suất cao dập tắt hồ quang.</para>
+      <list id="id11652081" list-type="enumerated">
+        <item>Máy ngắt điện từ</item>
+      </list>
+      <para id="id11652093">Hồ quang được dập trong khe hẹp làm bằng vật liệu rắn chịu được hồ quang, lực điện từ đẩy hồ quang vào khe.</para>
+      <list id="id10425387" list-type="enumerated">
+        <item>Máy ngắt chân không</item>
+      </list>
+      <para id="id10425399">Hồ quang được dập trong môi trường chân không.</para>
+      <list id="id10425406" list-type="enumerated">
+        <item>Máy ngắt SF6</item>
+      </list>
+      <para id="id10425424">Dùng khí SF6 để dập hồ quang.</para>
+    </section>
+    <section id="id-477807363034">
+      <title>Các thông số chính của máy ngắt</title>
+      <para id="id10425451">+ Uđm là điện áp dây lớn nhất mà máy ngắt có thể làm việc bình thường tin cậy trong thời gian dài.</para>
+      <para id="id10425472"> Uđm xác kích thước lớn nhỏ của máy ngắt, có các cấp sau: 3, 6, 10, 15, 20, 35, 110, 220, 330, 500, 750kV. Bộ phận mang điện chịu được các cấp dòng điện: 32, 63, 100, 200,..., 25000A.</para>
+      <para id="id10425497">+ Iđm là dòng chạy lâu dài qua máy ngắt mà không làm quá nhiệt và không gây hư hỏng, (liên quan kích thước các chi tiết trong máy ngắt).</para>
+      <para id="id10425520">+ Iđđm là dòng ổn định động định mức.</para>
+      <para id="id10425538">+ Inhđm là dòng ổn định nhiệt tương ứng thời gian ổn định định mức tnh .</para>
+      <para id="id10425565">+ Icđm là dòng cắt định mức chính là dòng ngắn mạch ba pha hiệu dụng toàn phần lớn nhất máy ngắt có thể cắt được mà không gây hư hại gì cho máy ngắt. Icđm xác định từ thực nghiệm. Vì máy ngắt phải cắt một số lần liên tục nên thí nghiệm đòi hỏi phải cắt được dòng cắt định mức theo chu trình sau:</para>
+      <para id="id10425604">C - 180 - ĐC - 180 - ĐC (theo tiêu chuẩn Liên Xô cũ).</para>
+      <para id="id10425610">C-0,3-ĐC - 60 - ĐC (theo tiêu chuẩn IEC với máy ngắt SF6).</para>
+      <para id="id10425628">Với loại máy ngắt 550MHMe-1P/S là loại siêu cao áp dùng để nối đất tụ bù đường dây 500kV có chu trình thao tác đặc biệt: C- 0,15 - Đ- 4- C- 15 - ĐC. </para>
+      <para id="id10425640">Để xác định Icđm theo quy định có:</para>
+      <para id="id10425658">* C: kí hiệu máy ngắt tác động cắt khi tín hiệu tới từ các rơle.</para>
+      <para id="id10425666">*ĐC: thao tác đóng máy ngắt lúc ngắn mạch và sau đó lại cắt ra.</para>
+      <para id="id10425674">*Đ: thao tác đóng máy ngắt.</para>
+      <para id="id10425681">* 180, 0,15, 60,...:là khoảng thời gian giữa hai lần thao tác liên tục tính bằng giây (s).</para>
+      <para id="id10425690">Công suất cắt định mức Scđm=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math>Uđm.Icgh </para>
+      <para id="id10425774">+ Icgh: dòng cắt lớn nhất cho phép khi U&lt;Uđm.</para>
+      <para id="id10425800">+ ttđ: khoảng thời gian tính từ khi có tín hiệu ngắt đến thời điểm hồ quang bị dập tắt trên cả ba pha.</para>
+      <para id="id10425820">- Tác động nhanh ttđ= (0,02  0,06)s.  </para>
+      <para id="id10425852">- Tác động trung bình ttđ = (0,15  0,1)s.</para>
+      <para id="id11637696">- Tác động chậm ttđ = (0,15  0,25)s.</para>
+      <para id="id11637723"> Ngoài ra yêu cầu máy ngắt có khả năng đóng mạch ngay cả khi đang có dòng ngắn mạch mà các đầu tiếp xúc không hư hại gì.</para>
+    </section>
+    <section id="id-453710061199">
+      <title>Cách lựa chọn máy ngắt</title>
+      <para id="id11637745">Các điểm chính cần chú ý khi lựa chọn máy ngắt bao gồm:</para>
+      <para id="id11637752">- Điện áp làm việc cực đại tại nơi đặt.</para>
+      <para id="id11637760">- Độ cao của trạm so với mặt biển.</para>
+      <para id="id11637767">- Dòng điện làm việc cực đại tại nơi đặt.</para>
+      <para id="id11637774">- Dòng ngắn mạch cực đại tại nơi đặt.</para>
+      <para id="id11637782">- Tần số hệ thống.</para>
+      <para id="id11637788">- Khoảng thời gian tồn tại dòng ngắn mạch.</para>
+      <para id="id11637796">- Chu kì đóng mở.</para>
+      <para id="id11637802">- Các điều kiện làm việc đặc biệt và điều kiện khí hậu.</para>
+      <para id="id11637811">Các trị số định mức có thể được lựa chọn ở bảng 11.1 và 11.2.</para>
+      <para id="id11637819">Các tiêu chuẩn quốc gia và quốc tế quan trọng để đánh giá máy ngắt gồm:</para>
+      <para id="id11637828">IEC, DIN VDE, ANSI (American National Standards Institution-viện tiêu chuẩn quốc gia Mỹ). Tiêu chuẩn Liên Xô cũ OCT 687-41</para>
+      <para id="id11637850">Khi chọn cần phải dựa vào</para>
+      <para id="id11637855">+ So sánh các chỉ tiêu của các kiểu máy ngắt hiện có với những tham số cho trước.</para>
+      <para id="id11637865">+ Đánh giá khả năng thực tế và nguyên tắc ở kết cấu của kiểu được chọn với các đặc tính yêu cầu cho trước.</para>
+      <para id="id11637876">Dưới đây giới thiệu sự phân loại và một vài kinh nghiệm có tính chất định hướng theo sự đánh giá so sánh các kiểu máy ngắt cao áp điện xoay chiều. Về phương diện chọn kiểu người ta phân loại máy ngắt theo:</para>
+      <para id="id11637891">+ Theo loại môi trường dập hồ quang.</para>
+      <para id="id11637898">+ Theo cách dập hồ quang.</para>
+      <para id="id11637904">+ Theo phương pháp cách điện ở chỗ cao áp của các phần dẫn điện.</para>
+      <para id="id11637913">+ Theo điện áp định mức.</para>
+      <para id="id11637919">+ Theo dòng điện định mức.</para>
+      <para id="id11637926">+ Theo công suất ngắt định mức.</para>
+      <para id="id11637933">+ Theo quan hệ về kết cấu của bộ phận truyền động cơ khí của máy ngắt với truyền động.</para>
+      <para id="id11637943">+ Theo thang tác động nhanh.</para>
+      <para id="id11637949">+ Theo sự tiện lợi cho AB tức thời.</para>
+      <para id="id11637968">Ở bảng 11.1 giới thiệu sự phân loại máy ngắt theo loại môi trường dập hồ quang và theo cách dập hồ quang. Bảng 11.2 giới thiệu các đặc điểm ưu và khuyết của các kiểu máy ngắt ở một số các thang điện áp khác nhau.</para>
+      <para id="id11637981">Theo điện áp định mức ngắt có thể chia ra làm hai nhóm chính.</para>
+      <para id="id11637989">- Máy ngắt điện áp 35kV và cao hơn là máy ngắt trạm biến áp. </para>
+      <para id="id11637997">- Máy ngắt điện áp 20kV và thấp hơn là máy ngắt máy phát.</para>
+      <para id="id11638005">Máy ngắt trạm biến áp là nhóm lớn, thường dòng điện định mức tới hơn 2000A. Với loại này yêu cầu khả năng ngắt rất cao (tớí hơn 20.000 MVA) tác động nhanh, tiện lợi đối với AB tức thời và nhiều đặc tính khác.</para>
+      <para id="id11638033">Máy ngắt trạm biến áp sử dụng ưu việt các loại máy ngắt sau:</para>
+      <para id="id11638041">+ Máy ngắt không khí (máy ngắt không khí trụ).</para>
+      <para id="id11638049">+ Máy ngắt ít dầu.</para>
+      <para id="id11638055">+ Máy ngắt nhiều dầu.</para>
+      <para id="id11638061">Hiện nay phổ biến máy ngắt kiểu mới SF6, khí elegas (SF6) có khả năng dập hồ quang rất cao, được sử dụng làm môi trường dập hồ quang. Kiểu máy ngắt này có những đặc tính kĩ thuật vận hành và kinh tế kĩ thuật cao.</para>
+      <para id="id11638097">Từ đó so sánh các tham số ở bảng 11.1, 11.2, và theo tài liệu hiện có đi đến kết luận máy ngắt không khí ưu việt hơn các máy ngắt khác, đặc biệt đối với máy ngắt có điện áp định mức 110kV và cao hơn.</para>
+      <para id="id11638112">Ở các trạm sự cần thiết để có khí nén cho máy ngắt không khí làm việc không nên cho rằng đó là nhược điểm, vì trong các trạm phân phối điện cao áp hiện đại hệ thống các máy ngắt, các cầu dao điều khiển bằng hơi là hợp lí nhất, hoàn chỉnh và thuận tiện nhất cho việc tự động hóa.</para>
+      <para id="id11638131">Tuy thế, đòi hỏi gia công chính xác, nên giá thành máy ngắt không khí cao hơn máy ngắt ít dầu khi cùng một chỉ tiêu trọng lượng.</para>
+      <para id="id11638141">Ứng dụng máy ngắt ít dầu về mặt kĩ thuật và kinh tế cho những nơi kém quan trọng hơn của hệ thống điện, ở đây các yêu cầu về trị số công suất ngắt, những đặc tính vận hành khác (tác động rất nhanh, AB tức thời, nhiều lần, ngắt một cách tin cậy dòng điện điện dung nhỏ, khả năng thường xuyên kiểm tra và thay đổi hệ thống tiếp xúc,...) có thể ít hơn.</para>
+    </section>
+    <section id="id-390155528374">
+      <title>Bảng 1: Phân loại máy ngắt theo môi trường dập và cách dập hồ quang</title>
+      <table id="id11718221" summary="">
+        <tgroup cols="7">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <tbody>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry namest="c5" nameend="c7">Các tham số định hướng</entry>
+            </row>
+            <row>
+              <entry>Loại môi trường dập hồ quang.</entry>
+              <entry>Cách dập hồ quang</entry>
+              <entry>Kiểu thiết bị dập hồ quang</entry>
+              <entry>Kiểu máy ngắt</entry>
+              <entry>Điện áp định mức [kV]</entry>
+              <entry>Dòng điện định mức [A]</entry>
+              <entry>Công suất ngắt định mức [MVA]</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>Dập hồ quang ở trong dầu</entry>
+              <entry>Tiếp xúc đứt quãng đơn giản trong dầu</entry>
+              <entry>Bình dầu</entry>
+              <entry>10</entry>
+              <entry>1500</entry>
+              <entry>50</entry>
+            </row>
+            <row>
+              <entry>Dầu</entry>
+              <entry>Làm lạnh ráo riết thân hồ quang trong buồng</entry>
+              <entry>buồng có bộ phận thổi dọc hay ngang trong dầu.</entry>
+              <entry>Bình dầu cả buồng dập hồ quang</entry>
+              <entry>35110330</entry>
+              <entry>200020002000</entry>
+              <entry>1000520025000</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>của sản phẩm tạo thành khí tách rời từ </entry>
+              <entry/>
+              <entry>ít dầu </entry>
+              <entry>1035110330</entry>
+              <entry>1500150020002000</entry>
+              <entry>3001000250010000</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>dầu (hỗn hợp khí hơi)</entry>
+              <entry>bức phên dập hồ quang</entry>
+              <entry>ít dầu kiểu chậu</entry>
+              <entry>15(20)</entry>
+              <entry>6000</entry>
+              <entry>2500</entry>
+            </row>
+            <row>
+              <entry>Chất lỏng không cháy </entry>
+              <entry>Làm lạnh ráo riết thêm hồ quang</entry>
+              <entry>buồng có bộ phận thổi trong nước</entry>
+              <entry>ít nước</entry>
+              <entry>15</entry>
+              <entry>600</entry>
+              <entry>300</entry>
+            </row>
+            <row>
+              <entry>(nước)</entry>
+              <entry>trong luồng hơi nước</entry>
+              <entry>bức phên dập hồ quang</entry>
+              <entry>nước kiểu chậu</entry>
+              <entry>15</entry>
+              <entry>2000</entry>
+              <entry>1500</entry>
+            </row>
+            <row>
+              <entry>Chất rắn sinh ra khí</entry>
+              <entry>Làm lạnh ráo riết thân hồ quang trong luồng của sản phẩm tạo thành khi tách ra từ chất rắn sinh ra khí.</entry>
+              <entry>Buồng có bộ phận thổi dọc hay ngang</entry>
+              <entry>Tự động khí</entry>
+              <entry>10</entry>
+              <entry>600</entry>
+              <entry>300</entry>
+            </row>
+            <row>
+              <entry>Không khí nén</entry>
+              <entry>Làm lạnh ráo riết thân hồ quang trong luồng</entry>
+              <entry>Buồng thổi không khí dọc </entry>
+              <entry>Không khí (không khí trục)</entry>
+              <entry>1035110400</entry>
+              <entry>2000200020002000</entry>
+              <entry>30001500500025000</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>không khí nén</entry>
+              <entry>hay ngang</entry>
+              <entry>Tự động điều khiển bằng hơi</entry>
+              <entry>10</entry>
+              <entry>400</entry>
+              <entry>2550</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry>Buồng thổi dọc có shun bằng điện trở nhỏ.</entry>
+              <entry>Không khí có shun bằng điện trở thấp .</entry>
+              <entry>15</entry>
+              <entry>12000</entry>
+              <entry>4000</entry>
+            </row>
+            <row>
+              <entry>Không khí và mặt phẳng làm lạnh của các thành buồng </entry>
+              <entry>Chuyển dịch bằng từ trường ngang và làm lạnh thêm hồ quang trong khe hẹp của buồng.</entry>
+              <entry>Buồng kiểu khe với hệ thống từ trường thổi.</entry>
+              <entry>Không khí điện từ với buồng có khe.</entry>
+              <entry>15</entry>
+              <entry>4000</entry>
+              <entry>7500</entry>
+            </row>
+            <row>
+              <entry>Không khí và mặt phẳng làm lạnh các điện cực.</entry>
+              <entry>Chia thân hồ quang ra nhiều phần liên tiếp bởi chuyển dịch bằng từ trường.</entry>
+              <entry>Buồng với sự làm lạnh bằng lưới với hệ thống từ trường thổi.</entry>
+              <entry>Không khí điện từ với những tấm lưới dập hồ quang.</entry>
+              <entry>15</entry>
+              <entry>2000</entry>
+              <entry>1000</entry>
+            </row>
+            <row>
+              <entry>Khí ele gas(SF6)</entry>
+              <entry>Làm lạnh thêm hồ quang trong luồng khí elegas.</entry>
+              <entry>Buồng thổi elegas dọc hay ngang</entry>
+              <entry>elegas</entry>
+              <entry>380 và cao hơn</entry>
+              <entry>2000và cao hơn</entry>
+              <entry>40000và cao hơn</entry>
+            </row>
+            <row>
+              <entry>Chân không </entry>
+              <entry>Phân tách thêm hồ quang trong chân không</entry>
+              <entry>Chân không dập hồ quang</entry>
+              <entry>Chân không</entry>
+              <entry>110 và cao hơn</entry>
+              <entry>600</entry>
+              <entry>250</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="id-8172934946">
+      <title>Bảng 2: So sánh về chất lượng các kiểu máy ngắt</title>
+      <table id="id11932474" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Kiểu máy ngắt và điện áp định mức (1)</entry>
+              <entry>Các ưu việt cơ bản(2)</entry>
+              <entry>Các nhược điểm cơ bản(3)</entry>
+            </row>
+            <row>
+              <entry>Bình dầu có buồng dập hồ quang điện áp 110kV và cao hơn</entry>
+              <entry>1. Cơ cấu tương đối đơn giản.2. Có khả năng đặt máy biến dòng ở bên trong.3. Năng lực ngắt cao.4. Thích hợp với các trạm ngoài trời.</entry>
+              <entry>1. Không an toàn về hỏa hoạn và phát nóng2. Cần thiết kiểm tra thường xuyên trạng thái dầu trong bình và trong các sứ vào cao áp.3. Khối lượng dầu lớn yêu cầu thời gian khá dài để kiểm tra buồng dập hồ quang và hệ thống tiếp xúc. Thời gian thay dầu lớn.4. Trong trạm biến áp cần thiết phải dự trữ dầu nhiều và các trang bị lọc dầu rất qui mô.5. Thực tế không thích hợp với các trạm trong nhà máy.6. Ít thích hợp cho AB tức thời nhiều lần trong chu trình.7. Các tiếp xúc dập hồ quang khá lớn.8. Chi phí nhiều cho sản xuất bình dầu.9. Trọng lượng lớn không thuận tiện cho chuyên chở lắp ráp.10. Không có khả năng tạo thành thể thống nhất với sự áp dụng những hệ thống lớn.</entry>
+            </row>
+            <row>
+              <entry>Máy ngắt ít dầu 35 kV và cao hơn.</entry>
+              <entry>1. Khối lượng dầu không lớn.2. Trọng lượng tương đối nhẹ.3. Cơ cấu rất đơn giản so với máy ngắt không khí4. Giá thành tương đối thấp.5. Thích hợp cho các trạm trong nhà và ngoài trời.6. Nhẹ hơn máy ngắt kiểu bình dầu ở điện áp 35 kV và cao hơn.7. Có khả năng tạo thành một thể thống nhất. </entry>
+              <entry>1. Không an toàn về hỏa hoạn và phát nổ, nhưng ít hơn ở các máy ngắt trên.2. Thực hiện AB tức thời nhiều lần phức tạp.3. Thực hiện lọc lại dầu khó.4. Sự cần thiết kiểm tra, và thay đổi thường xuyên dầu trong bình dập hồ quang.5. Các tiếp xúc dập hồ quang tương đối lớn.6. Không thích hợp với trường hợp ngắt thường xuyên.7. Đặt máy biến dòng bên trong khó khăn.8. Năng lực ngắt giới hạn tương đối kém. </entry>
+            </row>
+            <row>
+              <entry>Máy ngắt không khí 35 kV và cao hơn.</entry>
+              <entry>1. An toàn về hỏa hoạn và phát nổ.2. Tác động nhanh và thích hợp cho A
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontsize="10pt"><m:mrow><m:mi>Π</m:mi></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ size 10{Π}} {}</m:annotation></m:semantics></m:math>B trong bất kì chu trình nào.3. Năng lực ngắt cao.4. Ngắt dòng điện điện dung của đường dây không tải vững chắc.5. Các tiếp xúc dập hồ quang mòn ít.6. Thiết bị dập hồ quang dễ tiếp xúc và sự kiểm tra chúng đơn giản.7. Trong vận hành không phải tiêu tốn dầu cho máy ngắt.8. Trọng lượng tương đối nhẹ (so sánh với máy ngắt kiểu bình dầu).9. Có khả năng tạo thành một loạt với những mối thống nhất lớn.
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          Thích hợp cho cả trạm ngoài trời và trong nhà. </entry>
+              <entry>1. Ở trạm biến áp cần thiết phải có các thiết bị nén và lọc không khí.2. Cơ cấu chi tiết và các khâu tương đối phức tạp, mức độ chính xác gia công cao.3. Giá thành tương đối cao.4. Đặt máy biến dòng bên trong khó khăn.</entry>
+            </row>
+            <row>
+              <entry>Máy ngắt kiểu tự động khí.</entry>
+              <entry>1. Hoàn toàn an toàn về hỏa hoạn và phát nổ.2. Không cần dầu do đó việc vận hành đơn giản.</entry>
+              <entry>1. Giới hạn phía trên của điện áp định mức bị hạn chế (bé hơn 15kV).2. Mòn các bộ phận sản ra khí nên thay đổi đặc tính của thiết bị dập hồ quang do đó phải kiểm tra trạng thái thiết bị dập hồ quang.3. Các tiếp xúc dập hồ quang mòn nhiều.4. Không phù hợp với trạm ngoài trời.</entry>
+            </row>
+            <row>
+              <entry>Máy ngắt kiểu điện từ.</entry>
+              <entry>1. Hoàn toàn an toàn về hỏa hoạn và phát nổ.2. Mòn các tiếp xúc dập hồ quang và các bộ phận công tác của thiết bị dập hồ quang.3. Phù hợp với trạm ngắt thường xuyên.4. Năng lực ngắt khá cao.</entry>
+              <entry>1. Cơ cấu thiết bị dập hồ quang với hệ thống từ thổi tương đối phức tạp.2. Giới hạn phía trên của điện áp định mức bị hạn chế (không quá 20-35 kV).3. Sự phù hợp với trạm ngoài trời hạn chế.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id10625501">Theo các tham số cơ bản (điện áp định mức, dòng điện, công suất ngắt) máy ngắt kiểu bình dầu ngang hàng với máy ngắt không khí đặc biệt là sau khi kết cấu máy ngắt kiểu bình dầu có nhiều cải tiến.</para>
+      <para id="id10625522">Tuy vậy đặc tính vận hành của máy ngắt dầu trong nhiều trường hợp thua máy ngắt không khí, thí dụ như không an toàn về hỏa hoạn và phát nổ. Cho nên máy ngắt kiểu này chưa được phát triển nhiều trong sản xuất và sử dụng trong vận hành trạm và hệ thống điện, đặc biệt cho điện áp 110 kV và cao hơn.</para>
+      <para id="id10625538">Nhóm máy ngắt máy phát có đặc điểm là dòng điện định mức (bé hơn 12000A), công suất ngắt định mức rất lớn (tớí hơn 4000 MVA) cũng như dòng điện ngắt giới hạn lớn (tới hơn 100 - 150 kA).</para>
+      <para id="id10625552">Máy ngắt máy phát sử dụng máy ngắt ít dầu kiểu chậu và máy ngắt không khí (không khí trụ) là ưu việt hơn cả. Về nguyên tắc mà nói cũng có thể có khả năng chế tạo máy ngắt máy phát cho tham số trung bình, trên cơ sở của nguyên tắc dập hồ quang bằng điện từ (cùng với buồng có khe hay cùng với tấm lưới).</para>
+      <para id="id10625568">Hiện nay máy ngắt nhiều dầu không áp dụng làm máy ngắt máy phát.</para>
+      <para id="id10625576">Máy ngắt ít dầu kiểu chậu về nguyên tắc cũng có thể chế tạo với dòng điện định mức và công suất định mức rất lớn, có thể đạt tới giá trị lớn (hơn 2500 MVA). Song đặc tính vận hành của máy ngắt kiểu này kém máy ngắt không khí.</para>
+      <para id="id10625592">Nhiệm vụ sản xuất máy ngắt máy phát với tham số thật cao (dòng điện hơn 12.000A, công suất ngắt hơn 4000 MVA) đặc biệt khó khăn. Trong trường hợp này máy ngắt không khí có điện trở nhỏ dập hồ quang bên trong là phù hợp hơn cả.</para>
+      <para id="id10625610">Chúng ta sẽ rõ ở các chương sau, nhờ áp dụng điện trở shun nhỏ dập hồ quang trong quá trình ngắt, máy ngắt có thể dễ dàng dập tắt hồ quang lớn, mặc dù tần số của điện áp phục hồi rất lớn đối với các máy phát của hệ thống điện.</para>
+      <para id="id10625626">Máy ngắt với điện áp định mức đến 15 kV, dòng điện định mức đến 1500 A, với công suất ngắt định mức đến 400 - 500 MVA được xem là máy ngắt cung cấp.</para>
+      <para id="id10625639">Tất cả các kiểu máy ngắt kể trên đều nằm trong nhóm máy ngắt cung cấp:</para>
+      <para id="id10625646">a) Bình dầu có khoảng ngắt đơn giản.</para>
+      <para id="id10625654">b) Bình dầu có buồng dập hồ quang.</para>
+      <para id="id10625661">c) Ít dầu ( trong đó có kiểu chậu).</para>
+      <para id="id10625668">d) Ít chất lỏng không cháy.</para>
+      <para id="id10625674">đ) Tự sản khí.</para>
+      <para id="id10625680">e) Không khí.</para>
+      <para id="id10625686">g) Tự động điều chỉnh bằng hơi.</para>
+      <list id="id10625693" list-type="enumerated">
+        <item>Không khí dập hồ quang bằng điện từ.</item>
+        <item>Máy ngắt chân không.</item>
+      </list>
+      <para id="id10625710">Máy ngắt cung cấp có rất nhiều kiểu nhiều vẻ khác nhau cho nên rất khó đánh giá và lựa chọn. Trong khi giải quyết nhiệm vụ này cần phải chú ý đến hàng loạt suy luận. Trước hết cần phải biết máy ngắt có thể có tác dụng cho thiết bị không chỉ ở nhà máy điện mà cả ở các trạm biến áp của hệ thống lớn, nhưng chủ yếu là ở các thiết bị công nghiệp năng lượng của nhà máy xí nghiệp khai thác mỏ, hầm mỏ, nơi khai thác than bùn, công nghiệp khai thác dầu,..., cũng như trong mạng lưới nông nghiệp. Cho nên kết cấu máy ngắt này cần phải hết sức đơn giản, vững chắc trong vận hành, thuận tiện trong lắp ráp. Sản xuất máy ngắt như thế phải hàng loạt, giá thành thấp. </para>
+      <para id="id10625745">Trong khi chọn kiểu cần phải tính đến chỗ định đặt máy ngắt đang thiết kế. Trước hết, máy ngắt cung cấp có thể đặt ở trạm phân phối ngoài trời của nhà máy điện và trạm biến áp, ở trạm phân phối có tủ, ở mạch mở động cơ, ở các trạm biến áp của mạng lưới công suất nhỏ, ở các trạm biến áp nông nghiệp kiểu ngoài trời và các trạm biến áp ngầm của hầm mỏ,...Trong nhiều trường hợp máy ngắt cần phải đảm bảo đóng ngắt nhiều lần trong thời gian một ngày đêm (ví dụ máy ngắt thiết bị lò điện).</para>
+      <para id="id10625778">Điều kiện làm việc khác nhau dẫn đến cần thiết sử dụng tất cả các kiểu máy ngắt đã kể. Kinh nghiệm cho thấy rằng, hiện nay máy ngắt ít dầu và máy ngắt hồ quang bằng điện từ là vạn năng và hoàn chỉnh. Càng cải tiến kết cấu và vật liệu cách điện mới vững bền hơn máy ngắt điện từ được ứng dụng một cách khá ưu việt.</para>
+      <para id="id10625799">Cần phải đưa máy ngắt phụ tải vào nhóm đặc biệt chúng khác với máy ngắt cao áp bình thường là ở công suất ngắt nhỏ, nhờ đó kết cấu đơn giản hơn, trọng lượng và giá thành thấp hơn. Máy ngắt phụ tải cùng với cầu chì trong quan hệ đóng ngắt bằng giá máy ngắt cung cấp. Do có lợi về kinh tế máy ngắt phụ tải được sử dụng rộng rãi.</para>
+      <para id="id10625824">Các kiểu máy ngắt được sử dụng một cách ưu việt cho máy ngắt phụ tải gồm:</para>
+      <para id="id10625832">a) Tự sản khí.</para>
+      <para id="id10625838">b) Tự động điều khiển bằng hơi.</para>
+      <para id="id10625845">c) Điện từ.</para>
+      <para id="id10625851">Máy ngắt chân không cũng đã được áp dụng trong sản xuất.</para>
+    </section>
+    <section id="id-460200400679">
+      <title>Sơ đồ kết cấu của máy ngắt</title>
+      <para id="id10625868">Mỗi kiểu máy ngắt có thể được thực hiện với nhiều phương án kết cấu khác nhau, nhưng mỗi phương án trình bày dưới dạng một sơ đồ biểu hiện các đặc điểm chính của kết cấu đó. Sơ đồ kết cấu cần phải thể hiện:</para>
+      <para id="id10625876">+ Số lượng khoảng ngắt dòng điện trong mỗi pha, cách bố trí tương hỗ của tiếp điểm.</para>
+      <para id="id12279149">+ Số lượng, vị trí và cách bố trí tương hỗ của thiết bị dập hồ quang.</para>
+      <para id="id12279177">+ Kết cấu của mạch dẫn điện và cách bố trí tương hỗ của các bộ phận dẫn điện.</para>
+      <para id="id12279186">+ Phương pháp cách điện các bộ phận kết cấu có điện thế khác nhau và các phần nối đất.</para>
+      <para id="id12279194">a) b) c) Hình 11-1Sơ đồ kết cấu của các máy ngắt nhiều dầua) Một bình với khoảng ngắt đơn giản trong dầu.b) Máy ngắt kiểu ba bình (một cực) bình tròn với mỗi cực có hai buồng dập hồ quang.c) Máy ngắt kiểu ba bình (một cực) với mỗi cực có hai buồng dập hồ quang.Hình 11-2: Sơ đồ kết cấu của máy ngắt ít dầua) Mỗi cực có một khoảng ngắt trong bình kim loại, dùng cho thiết bị treo tường.b) Một cực có một khoảng ngắt trong bình sứ với máy biến dòng trong sứ xuyên, dùng cho thiết bị treo trên tường.c) Mỗi cực có hai khoảng ngắt dập hồ quang trong các bình kim loại, có hệ thống tiếp điểm chính và dập hồ quang với bộ truyền động cơ khí đặt trong khung đỡ.d) Mỗi cực có một khoảng ngắt trong bình sứ, với máy biến dòng trong sứ xuyên và truyền động cơ khí đặt trong khung treo.đ) Mỗi cực có một khoảng ngắt trong bình cách li có dao cách li ngoài, truyền động cơ khí đặt trong khung đỡ.e) Hai buồng dập hồ quang đặt nghiêng trên một sứ đỡ.g) Mỗi cực có một khoảng ngắt trong bình sứ với sứ đỡ đổ đầy dầu.h) Mỗi cực có một khoảng ngắt trong bình sứ thiết bị dập hồ quang và truyền động cơ khí cùng đặt trong sứ đỡ.</para>
+      <para id="id12279388">+ Cách bố trí định hướng các trụ kim loại, các bình dầu, các bình nén không khí, các thiết bị thải khí,...</para>
+      <para id="id12279397">+ Cấu trúc và bố trí truyền động cơ khí.</para>
+      <para id="id12279405">+ Cách bố trí tương hỗ của máy ngắt và truyền động.</para>
+      <para id="id12279413">Một số sơ đồ kết cấu máy ngắt chính giới thiệu ở các hình 11-1, 11-2, 11-3 và 11-4.</para>
+      <para id="id12279424">Chúng ta sẽ nghiên cứu đặc tính đặc biệt của một số kết cấu máy ngắt.</para>
+      <para id="id12279432">a) Trong kết cấu máy ngắt ít dầu với bình cách li, khi ở vị trí ngắt các tiếp điểm dập hồ quang còn lại trong dầu nối tiếp với khoảng ngắt dập hồ quang (nghĩa là khoảng ngắt được hình thành ở trong dầu) do tách dao cách li phụ đặc biệt, tạo thành đứt quãng trong không khí (xem hình 11-2).</para>
+      <para id="id12279458">Nhờ vậy cách điện của dụng cụ dập hồ quang được bỏ đi. Ở trong những máy ngắt này chỉ cho phép không dùng dao cách li trong trường hợp khi số lượng dầu đầy đủ trong bình dập hồ quang và dầu không mất tính cách điện.</para>
+      <para id="id12279475">b) Hình dạng và cách bố trí các bộ phận cách điện nằm trong dầu sao cho không có sự liên tục ngang của các bề mặt để các phần tử than nhỏ hình thành trong dầu có thể lắng xuống bề mặt đó để tạo thành con đường phóng điện theo bề mặt. Loại phóng điện như vậy thường dẫn đến sự cố nặng.</para>
+      <para id="id12279501">c) Trong các máy ngắt không khí (áp lực không khí có tác dụng đối với AB tức thời) sử dụng truyền động khi đặt trực tiếp ở bên trong dụng cụ dập hồ quang. Như thế trong nhiều trường hợp cần thiết có dao cách li gắn liền, nhờ nó sau khi dập tắt hồ quang tạo thành khoảng ngắt phụ (ở ngoài hay trong không khí nén).</para>
+      <para id="id12279534">Trong máy ngắt không khí có các bộ phận trung gian của quan hệ động giữa tiếp điểm dập hồ quang và bộ phận làm việc của truyền động làm máy ngắt loại này mất tính chất tác động nhanh.</para>
+      <para id="id12279548">d) Sơ đồ kết cấu máy ngắt đặt trong trạm phân phối điện có tủ (KPY) cần phải đảm bảo quan hệ giữa kết </para>
+      <para id="id12279564">cấu máy ngắt với các bộ phận còn lại của mạch là có lợi nhất, thường máy ngắt như thế có truyền động gắn liền trực tiếp, đảm bảo kiểm tra và sửa chữa thuận tiện trong quá trình vận hành và thay đổi máy ngắt.</para>
+      <para id="id12279579">Hình 11-4a,b cho cấu trúc cơ bản của máy ngắt cao áp SF6. Những bộ phận chính gồm: cơ cấu tác động, sứ cách điện, buồng ngắt, tụ điện và điện trở. Máy ngắt cao áp được chế tạo theo nguyên lí mođun. Số lượng buồng ngắt tăng theo điện áp và khả năng cắt. Buồng dập hồ quang tự thổi cần ít năng lượng hoạt động, được sử dụng cho điện áp đến 170kV và dòng điện cắt đến 40kA.</para>
+      <para id="id12279608">Máy ngắt một buồng được sử dụng cho điện áp tới 300kV và dòng cắt tới 50kA. Máy ngắt nhiều buồng được sử dụng cho dòng điện cao đến 80kA và điện áp  300 kV.</para>
+      <figure id="id12279635">
+        <media id="id2530963" alt=""><image src="../../media/graphics1-d85c.png" mime-type="image/png" height="444" width="590"/></media>
+      </figure>
+      <para id="id11931501">Hình 11-4: Sơ đồ kết cấu các máy ngắt không khí trạm ngoài trời điện áp 110kV</para>
+      <para id="id11931523">a) Hai khoảng ngắt đặt đứng cho mỗi cực, với sự chuyển động không khí một cách trình tự vào các buồng và dao cách li ở bên ngoài.</para>
+      <para id="id11931535">b) Hai khoảng ngắt cho mỗi cực, với cách đặt đứng các buồng dập hồ quang và dao cách li chìm trong không khí nén.</para>
+      <para id="id11931545">c) Hai quãng đứt cho mỗi cực, với cách đặt đứng các buồng dập hồ quang nằm ngang, sự chuyển không khí song song vào các buồng, không có dao cách li.</para>
+      <list id="id11931558" list-type="enumerated">
+        <item>Hai khoảng ngắt dập hồ quang đặt trong buồng có thể tích lớn chứa đầy không khí nén cho mỗi cực, không có dao phân li.</item>
+      </list>
+      <section id="id-669934290806">
+        <title>Bảng 3: Các trị số định mức phối hợp của máy ngắt (theo IEC và DIN VDE)</title>
+        <table id="id11931596" summary="">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry>Điện ápĐịnh mức[kV]</entry>
+                <entry>Dòng cắt ngắn mạch định mức.[kA]</entry>
+                <entry>Dòng điện định mức[ A]</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>2 </entry>
+                <entry>3 4 5 6 7 8</entry>
+              </row>
+              <row>
+                <entry>123</entry>
+                <entry>12,5202540</entry>
+                <entry>800 12501250 1600 20001250 1600 20001600 2000</entry>
+              </row>
+              <row>
+                <entry>145 </entry>
+                <entry>12,5202531,54050 </entry>
+                <entry>800 1250 1250 1600 20001250 1600 2000 1600 2000 31501600 2000 31502000 3150</entry>
+              </row>
+              <row>
+                <entry>170 </entry>
+                <entry>12,52031,54050 </entry>
+                <entry>800 12501250 1600 20001250 1600 2000 1600 2000 31501600 2000 31502000 3150</entry>
+              </row>
+              <row>
+                <entry>245 </entry>
+                <entry>2031,54050 </entry>
+                <entry>1250 1600 20001250 1600 20001600 2000 31502000 3150</entry>
+              </row>
+              <row>
+                <entry>300 </entry>
+                <entry>162031,550 </entry>
+                <entry>1250 1600 1250 1600 20001250 1600 2000 31501600 2000 3150</entry>
+              </row>
+              <row>
+                <entry>362 </entry>
+                <entry>2031,540</entry>
+                <entry>20001600 2000 2000 3150</entry>
+              </row>
+              <row>
+                <entry>420 </entry>
+                <entry>2031,54050 </entry>
+                <entry>1600 20001600 20001600 2000 31502000 3150 4000</entry>
+              </row>
+              <row>
+                <entry>525</entry>
+                <entry>40 </entry>
+                <entry>2000 3150 </entry>
+              </row>
+              <row>
+                <entry>765</entry>
+                <entry>40 </entry>
+                <entry>2000 3150 </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id-185149870859">
+        <title>Bảng 4: Các trị số phối hợp của máy ngắt (theo ASNI C37.06.1979)</title>
+        <table id="id12082350" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>Điện áp định mức[kV]</entry>
+                <entry>Điện áp định mức max[ kV]</entry>
+                <entry>Dòng điện cắt ngắn mạch định mức [kA]</entry>
+                <entry>Dòng điện định mức[A]</entry>
+              </row>
+              <row>
+                <entry>34</entry>
+                <entry>38</entry>
+                <entry>22</entry>
+                <entry>1200</entry>
+              </row>
+              <row>
+                <entry>69</entry>
+                <entry>72,5</entry>
+                <entry>37</entry>
+                <entry>2000</entry>
+              </row>
+              <row>
+                <entry>115</entry>
+                <entry>121</entry>
+                <entry>204063</entry>
+                <entry>1200 1600 2000 3000 3000</entry>
+              </row>
+              <row>
+                <entry>138</entry>
+                <entry>145</entry>
+                <entry>20406380</entry>
+                <entry>1200 1600 2000 3000 2000 30003000</entry>
+              </row>
+              <row>
+                <entry>161</entry>
+                <entry>169</entry>
+                <entry>1631,54050</entry>
+                <entry>1200 1600 2000 2000</entry>
+              </row>
+              <row>
+                <entry>230</entry>
+                <entry>245</entry>
+                <entry>31,54063</entry>
+                <entry>1600 2000 3000 2000 30003000</entry>
+              </row>
+              <row>
+                <entry>345</entry>
+                <entry>362</entry>
+                <entry>40</entry>
+                <entry>2000 3000 </entry>
+              </row>
+              <row>
+                <entry>500</entry>
+                <entry>550</entry>
+                <entry>40</entry>
+                <entry>2000 3000 </entry>
+              </row>
+              <row>
+                <entry>700</entry>
+                <entry>765</entry>
+                <entry>40</entry>
+                <entry>2000 3000 </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id9955659">Với điện áp đến 550kV và dòng điện cắt 63kA thì máy ngắt có hai buồng. Với điện áp và dung lượng lớn hơn số lượng buồng tăng thành bốn.</para>
+        <para id="id9955671">Với các điện áp thấp hơn và tự đóng lại ba pha, ba cực thường được lắp trên khung chung. Máy ngắt có bố trí một cực và có cơ cấu tác động được điều khiển riêng cho mỗi cực thường được sử dụng đối với điện áp 245kV và cao hơn. Máy ngắt cao áp có thể được lắp trên xe bánh xích hoặc bánh đặc. </para>
+      </section>
+    </section>
+    <section id="id-694114438074">
+      <title>NGUYÊN LÍ CẮT VÀ CÁC ĐIỀU KIỆN ĐÓNG CẮT KHẮC NGHIỆT</title>
+      <section id="id-664443818907">
+        <title>Dập hồ quang</title>
+        <para id="id9955707">Quá trình dập tắt hồ quang có thể theo hai dạng cơ bản sau:</para>
+        <list id="id9955714" list-type="enumerated">
+          <item>Dập tắt hồ quang một chiều (hình 11-5) </item>
+        </list>
+        <figure id="id9955735">
+          <media id="id6564425" alt=""><image src="../../media/graphics2-17d3.png" mime-type="image/png" height="359" width="282"/></media>
+        </figure>
+        <para id="id9955759">Hồ quang một chiều chỉ có thể dập tắt được bằng cách cưỡng bức dòng điện qua không. Điều đó có nghĩa là điện áp hồ quang Us phải cao hơn điện áp hiện diện ở máy ngắt (hình 11-5a). Có thể tạo nên điện áp hồ quang đủ lớn bằng các phương tiện hợp lí, chỉ có trong các mạch một chiều hạ áp và trung áp (máy ngắt thổi từ). Để dập tắt hồ quang một chiều trong mạch cao áp một chiều, điện áp phải được hạ thấp một cách tương ứng hoặc phải tạo nên dòng điện về "không" nhân tạo bằng cách thêm mạch cộng hưởng vào.</para>
+        <list id="id9955793" list-type="enumerated">
+          <item>Dập tắt hồ quang xoay chiều (hình 11-6)</item>
+        </list>
+        <figure id="id9955816">
+          <media id="id1170011275875" alt=""><image src="../../media/graphics3-2555.png" mime-type="image/png" height="337" width="318"/></media>
+        </figure>
+        <para id="id9955840">Hồ quang xoay chiều có thể dập tắt mỗi khi dòng điện qua không. Ở mạch cao áp nếu không có các biện pháp bổ xung, hồ quang cháy lại sau khi dòng điện qua không.</para>
+        <para id="id9955856">Ở các máy ngắt cao áp, plasma của hồ quang được làm mát tăng cường trong buồng dập hồ quang và do đó làm giảm điện dẫn của chúng ở dòng điện không, nhờ vậy điện áp phục hồi không đủ để cháy lại.Hình 11-7 minh họa các điện áp trên máy ngắt.</para>
+        <para id="id9955870">Khi ngắt tải điện cảm (hình 11-7a), điện áp máy ngắt dao động đến giá trị đỉnh của điện áp phục hồi. Máy ngắt phải có khả năng chịu đựng tốc độ tăng của điện áp phục hồi và giá trị đỉnh của nó. Một khi hồ quang bị dập tắt, cường độ điện môi giữa các tiếp điểm phải lớn hơn độ tăng điện áp phục hồi để đề phòng hồ quang cháy lại. Khi ngắt tải thuần trở (hình 11-7b) thì dòng điện bằng không và điện áp bằng không trở về đồng thời. Điện áp phục hồi ở máy ngắt tăng theo hình sin với tần số làm việc. Khe hở giữa các tiếp điểm có đủ thời gian để phục hồi cách điện. Khi đóng cắt tải điện dung (hình 11-7c), sau khi ngắt dòng điện thì điện áp nguồn (đầu cuối máy ngắt) dao động theo tần số hệ thống giữa  Um, trong khi ở đầu máy ngắt phía tụ điện vẫn được nạp ở +Um.</para>
+        <figure id="id10418547">
+          <media id="id1170011160155" alt=""><image src="../../media/graphics4-e515.png" mime-type="image/png" height="415" width="448"/></media>
+        </figure>
+      </section>
+      <section id="id-850303140291">
+        <title>Các điều kiện đóng cắt khắc nghiệt</title>
+        <figure id="id10418584">
+          <media id="id6367878" alt=""><image src="../../media/graphics5-d1a5.png" mime-type="image/png" height="321" width="587"/></media>
+        </figure>
+        <para id="id10418607">Tùy theo vị trí đặt, máy ngắt phải chịu đựng hàng loạt các điều kiện khác nhau, do vậy cần đặt ra những yêu cầu khác nhau đối với máy ngắt.</para>
+        <para id="id10418619">a) Ngắn mạch đầu cực (dòng ngắn mạch đối xứng) hình 11-8.</para>
+        <para id="id10418637">Ngắn mạch đầu cực là ngắn mạch ở phía tải ngay sát đầu cực máy ngắt. Dòng ngắn mạch là đối xứng nếu sự cố xảy ra ở thời điểm điện áp cực đại.</para>
+        <para id="id10418649">Điện áp phục hồi trở lại giá trị điện áp điều khiển. Độ tăng và biên độ điện áp quá độ được xác định bằng các thông số lưới. Các trị số sử dụng để thử nghiệm được cho trong IEC 56/VDE 0670.</para>
+        <para id="id10418658">b) Ngắn mạch đầu cực (dòng ngắn mạch không đối xứng)</para>
+        <para id="id10418672">Cộng thêm vào dòng ngắn mạch đối xứng có thành phần một chiều cũng bị ngắt. Độ lớn của nó phụ thuộc vào thời gian mở cơ cấu của máy ngắt. Thành phần một chiều của dòng ngắn mạch phụ thuộc vào thời điểm bắt đầu ngắn mạch (cực đại ở điện áp không) và hằng số thời gian của các thành phần phía nguồn cung cấp như máy phát, máy biến áp, cáp và đường dây cao áp (IEC và DIN VDE qui định hằng số thời gian là 45ms. Điều đó có nghĩa là thành phần một chiều bằng khoảng chừng 40%
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math>50% đối với thời gian mở thông thường của máy ngắt ngoài trời loại hiện đại SF6). </para>
+        <para id="id10418766">c) Ngắn mạch gần (hình 11-9)</para>
+        <para id="id10418783">Hình 11-10:Đóng mở không trùng phaa) Mạch tương đương đơn giản hóa<list id="id10418835" list-type="enumerated"><item>Ứng suất điện áp trên máy ngắt Hình 11-11: Ngắt dòng điện điện cảm nhỏ</item></list><list id="id10418861" list-type="enumerated"><item>Mạch tương đương đơn giản hóa</item><item>Các đường cong dòng điện và điện áp với dòng điện bị băm không cháy lại</item><item>Đường cong điện áp ứng với cháy lại </item></list>Là ngắn mạch trên đường dây trên không không xa máy ngắt (khoảng vài kilômét). Nó gây ra ứng suất đặc biệt nghiêm trọng cho máy ngắt bởi vì hai điện áp quá độ xếp chồng lên nhau (điện áp quá độ của lưới đường dây cung cấp và điện áp quá độ của phía đường dây). Ảnh hưởng tích lũy là bước tăng điện áp chỉ làm giảm dòng ngắn mạch một ít. Khoảng cách tới hạn của ngắn mạch phụ thuộc vào dòng điện, điện áp và môi trường dập hồ quang.</para>
+        <para id="id10418911">d) Đóng mở không trùng pha (hình 11-10)</para>
+        <para id="id10418927">Ứng suất điện áp (tần số nguồn) rất lớn nếu góc pha của các hệ thống ở phía máy ngắt khác nhau (các thành phần hệ thống tách rời hoặc các máy ngắt của máy phát điện hòa đồng bộ không chính xác).</para>
+        <para id="id10418939">e) Ngắt dòng điện điện cảm nhỏ (hình 11-11) </para>
+        <para id="id10418957">Tùy theo cấu hình lưới, việc ngắt mạch dòng điện cảm nhỏ như các cuộn kháng điện hoặc dòng từ hóa máy biến áp có thể làm điện áp phục hồi tăng nhanh và gây quá điện áp do kết quả của dòng điện băm (dập tắt cưỡng bức) trước khi chuyển mạch qua điểm không tự nhiên (các mạch thử nghiệm vẫn còn đang được thảo luận trong IEC và DIN VDE bởi vì quá điện áp phụ thuộc rất nhiều vào các tính chất riêng của tải điện cảm).</para>
+        <para id="id10418986">f) Đóng cắt dòng điện dung (hình 11-12)</para>
+        <para id="id10419002">Tình huống này tuy không tạo nên ứng suất nghiêm trọng nhưng nói chung máy ngắt cho phép tránh bị hồ quang cháy lại. Tuy nhiên về lí thuyết sự cháy lặp lại có thể làm tăng ứng suất tạo nên nhiều giá trị đỉnh của điện áp.</para>
+        <list id="id10419018" list-type="enumerated">
+          <item>Đóng cắt đường dây không tải và cáp</item>
+        </list>
+        <para id="id10419030">Điện dung trên một đơn vị chiều dài đường dây hoặc cáp tạo nên các điều kiện tương tự như đóng cắt tụ điện.</para>
+        <para id="id10419037">Hình 11-12: Đóng cắt dòng điện điện dung Hình 11-13: Ứng suất tiếp điểm khi nối a)Mạch tương đương đơn giản hóa. mạch điện cảm.b)Các đường cong dòng điện và điện áp a) Có hồ quang trướcc)Các đường cong dòng điện và điện áp khi b)Không có hồ quang trướcxảy ra cháy lại hồ quang </para>
+        <para id="id10069998">Các ứng suất trên tiếp điểm khi nối mạch điện cảm (hình 11-13).</para>
+        <para id="id10070005">Việc đóng mạch điện cảm và điện dung có thể tạo nên quá điện áp đến 100%. Do vậy, máy ngắt với điện áp cao và đường dây dài (khoảng trên 300 km) thường mắc thêm vào các điện trở khi đóng.</para>
+        <para id="id10070020"/>
+      </section>
+    </section>
+    <section id="id-598938506383">
+      <title>MÔI TRƯỜNG DẬP HỒ QUANG VÀ NGUYÊN LÍ TÁC ĐỘNG</title>
+      <para id="id10070035">Trong máy ngắt cao áp thiết bị dập hồ quang là bộ phận chính, khi ngắt mạch điện ở đó xảy ra các quá trình cơ bản dập hồ quang và tiếp theo đó là phục hồi độ bền về điện giữa các khoảng trống tiếp điểm.</para>
+      <para id="id10070051">Quá trình xảy ra rất phức tạp phụ thuộc vào sự làm việc của kiểu thiết bị dập hồ quang, phụ thuộc khả năng dập hồ quang của thiết bị và phụ thuộc vào đặc tuyến của quá trình đó. Dạng đặc tuyến của quá trình này phụ thuộc vào nguyên tắc tác động của thiết bị và vào các đặc điểm kết quả từng chi tiết của nó.</para>
+      <para id="id10070066">Tính và thiết kế thiết bị dập hồ quang là một trong các nhiệm vụ quan trọng khi thiết kế máy ngắt. Trong tính toán cần phải xác định các tham số của thiết bị và các đặc tuyến của nó:</para>
+      <para id="id10070081">Các tham số của thiết bị dập hồ quang:</para>
+      <para id="id10070088">- Số lượng và kích thước chính của các đường rãnh dập tắt hồ quang.</para>
+      <para id="id10070097">- Số lượng, vị trí tương hỗ và trị số các khoảng trống giữa các tiếp điểm trong lúc dập tắt hồ quang cũng như kích thước, hình dáng của tiếp điểm tạo thành các khoảng trống.</para>
+      <para id="id10070111">Các đặc tuyến của thiết bị dập hồ quang gồm:</para>
+      <para id="id10070118">- Đặc tuyến tốc độ chuyển động của các tiếp điểm dập hồ quang và của van (nếu có).</para>
+      <para id="id10070127">- Trị số lớn nhất và đặc tuyến thay đổi áp suất của môi trường tạo thành khí trong vùng dập hồ quang (trong các đường rãnh làm việc, trong không gian và trong các thiết kế để thải khí,...).</para>
+      <para id="id10070140">- Tốc độ cháy của môi trường dập hồ quang trong vùng dập hồ quang ở từng giai đoạn dập hồ quang.</para>
+      <para id="id10070150">- Tốc độ chuyển dịch của thân hồ quang trong từ trường (nếu áp dụng dập hồ quang bằng điện từ).</para>
+      <para id="id10070160">- Sự thay đổi điện áp trên hồ quang và năng lượng thải ra trong hồ quang.</para>
+      <para id="id10070169">- Sự thay đổi trạng thái (độ dẫn dư, độ bền điện, nhiệt độ,...) mà gọi là thân dư ở cuối nửa chu kì của dòng điện và sự phục hồi độ bền về điện của khoảng trống giữa các tiếp điểm.</para>
+      <para id="id10070184">Một số đặc tuyến</para>
+      <para id="id10070189">- Tốc độ chuyển động của các tiếp điểm.</para>
+      <para id="id10070197">- Áp lực của không khí hay khí tác động vào đầu rìa của tiếp điểm di động,... được sử dụng làm tham số cho trước để tính toán các khâu khác của máy ngắt liên quan đến các tiếp điểm của thiết bị dập hồ quang (truyền động cơ khí, truyền động, bình chứa không khí, van,...). Như vậy việc tính và chính xác hóa kích thước các chi tiết của thiết bị dập hồ quang phải tiến hành trước khi tính và gia công các khâu khác của máy ngắt.</para>
+      <para id="id10070223">Thiết bị dập hồ quang của các máy ngắt hiện đại phải thỏa mãn các yêu cầu chung:</para>
+      <para id="id10070232">+ Dập tắt hồ quang điện chắc chắn ở điện áp định mức cho trước, khi ngắt các dòng điện giới hạn (đến hàng chục kA) trong một thời gian nhất định.</para>
+      <para id="id10070245">+ Dập hồ quang điện chắc chắn và nhanh, không cháy lặp lại khi ngắt các dòng điện điện dung của điện dung của đường dây không tải và các dòng điện kháng của máy biến áp không tải.</para>
+      <para id="id10070259">+ Làm việc ổn định không thay đổi các đặc tuyến đoạn đầu trong thời gian vận hành đã qui định và số lần đóng ngắt quy định.</para>
+      <para id="id10070271">+ Kết cấu đơn giản, dễ gia công và thuận tiện trong vận hành.</para>
+      <para id="id10070279">+ Tiêu hao môi trường dập hồ quang (chất lỏng, không khí nén hay khí) để hoàn thành thao tác qui định cần phải ít nhất.</para>
+      <section id="id-748167319721">
+        <title>Dập hồ quang trong máy ngắt không khí</title>
+        <para id="id10070298">a) Quá trình dập hồ quang khi không khí thổi dọc</para>
+        <para id="id10070305">Làm lạnh thân hồ quang trong buồng không khí nén có cường độ cao là một trong những phương tiện dập hồ quang hiệu dụng ở các máy ngắt cao áp điện xoay chiều. Quá trình dập hồ quang phụ thuộc vào hình dáng và vị trí tương hỗ của các tiếp điểm và của miệng ống:</para>
+        <para id="id10070330">a.1) Khi thổi một phía - qua miệng ống kim loại (hình 11-14a).</para>
+        <para id="id10070340">a.2) Khi thổi một phía - qua miệng ống cách điện (hình 11-14b).</para>
+        <para id="id10070347">a.3) Khi thổi hai phía đối xứng - qua tiếp điểm kiểu miệng ống (hình 11-14c).</para>
+        <para id="id10070359">a.4) Khi thổi hai phía không đối xứng - qua tiếp điểm kiểu miệng ống (hình11-14d).</para>
+        <para id="id10070367">Các công trình nghiên cứu về lí thuyết và về thực nghiệm chỉ ra rằng, ở các thiết bị như thế có thể dập tắt hồ quang một cách kết quả nhất với các điều kiện chủ yếu sau:</para>
+        <para id="id10070381">+ Tốc độ của luồng không khí nén tại biên độ dòng điện khi trong miệng ống có hồ quang tắt không được nhỏ hơn giới hạn cho phép.</para>
+        <para id="id10070392">+ Ở ngay cuối nửa chu kì của dòng điện hồ quang, trong khoảng thời gian tương đối ngắn tốc độ của luồng khí nén miệng ống phải đạt tới giá trị tới hạn, còn trị số áp suất trong vùng thân dư phải lớn nhất.</para>
+        <para id="id10070408">Với các điều kiện trên quá trình nứt vỡ thân dư do ion đã xảy ra mãnh liệt và sự phục hồi độ bền về điện của khoảng trống giữa các tiếp điểm có quan hệ với quá trình đó. </para>
+        <para id="id10070421">Hình 11-14: Các cách thổi dọc trong bình của máy ngắt không khía) Thổi một phía qua miệng ống kim loạib) Thổi một phía qua miệng ống cách điệnc) Thổi hai phía đối xứng qua tiếp điểm kiểu miệng ốngd) Thổi hai phía không đối xứng qua tiếp điểm kiểu miệng ống</para>
+        <para id="id10424897">b) Dập hồ quang có thổi không khí dọc với shun bằng điện trở nhỏ </para>
+        <para id="id10424904">Shun hồ quang bằng điện trở nhỏ (dập hồ quang) là một trong các phương thức tăng khả năng ngắt của máy ngắt. Các sơ đồ nguyên lí có tính điển hình về sun hồ quang bằng điện trở nhỏ nêu ở hình 11-15. Khi ngắt các tiếp điểm tách rời ra và ở trong buồng dập hồ quang xuất hiện hai dòng hồ quang 1 và 2, một trong những đoạn đó được nối shun bằng điện trở nhỏ RS. Ở cuối nửa chu kì hồ quang thứ nhất sẽ tắt và hồ quang thứ hai (điện trở shun mắc nối tiếp với đoạn 1) sẽ tắt ở nửa chu kì sau.</para>
+        <para id="id10424938">Nhờ shun đó, sau khi hồ quang tắt tốc độ phục hồi điện áp và biên độ của điện áp phục hồi ở khoảng trống thứ nhất giảm xuống rất nhiều. Mắc tiếp điện trở vào mạch của đoạn hồ quang thứ hai tạo ra điều kiện thuận lợi để dập tắt, nhưng do trị số dòng điện ngắt giảm rất nhiều và trị số điện áp phục hồi cũng giảm. Như vậy, trong các thiết bị như thế quá trình dập hồ quang thuận lợi hơn trong các thiết bị không được shun bằng điện trở nhỏ.</para>
+        <para id="id10424966">Khi trị số điện trở chọn đúng thì ở các máy ngắt công suất ngắt không phụ thuộc vào tần số dao động tự do của điện áp phục hồi. Với máy ngắt không khí đặc điểm này rất quan trọng, vì nhờ đó có thể tạo ra được những máy ngắt công suất ngắt rất lớn ở điện áp máy phát, mà khi các phương pháp không dùng shun điện trở nhỏ khó thực hiện được, vì tần số dao động tự do ở điện áp máy phát tương đối lớn.</para>
+        <para id="id10424992">Ta sẽ xét quá trình dập hồ quang trong buồng dập hồ quang của máy ngắt không khí có hai khoảng ngắt, một trong hai khoảng ngắt đó được shun bằng điện trở nhỏ. Các sơ đồ tính toán điện của hai giai đoạn dập hồ quang và đặc tuyến ở hình 11-15 và 11-16.</para>
+        <para id="id10425007">Giai đoạn dập hồ quang thứ nhất có các đẳng thức:</para>
+        <para id="id10425015">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtable>
+                        <m:mtr>
+                          <m:mtd>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>i</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>i</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mstyle fontstyle="italic">
+                                          <m:mrow>
+                                            <m:mtext>hq</m:mtext>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msub>
+                                    <m:mi>i</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>S</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mtd>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mtd>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>i</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>S</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>R</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>S</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:msub>
+                                    <m:mi>U</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>S</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:msub>
+                                  <m:mi>U</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mstyle fontstyle="italic">
+                                        <m:mrow>
+                                          <m:mtext>hq</m:mtext>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mtd>
+                        </m:mtr>
+                      </m:mtable>
+                      <m:mo stretchy="true">}</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ left none  matrix {
+i=i rSub { size 8{ ital "hq"} } +i rSub { size 8{S} }  {} ##
+i rSub { size 8{S} } R rSub { size 8{S} } =U rSub { size 8{S} } =U rSub { size 8{ ital "hq"} } 
+}  right rbrace } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10425184">Uhq : điện áp trên thân hồ quang thứ nhất</para>
+        <para id="id10425203">Hình 11-15a) Sơ đồ để tính quá trình dập hồ quang trong buồng hồ quang có shun điện trở nhỏb) Các phương pháp shun hồ quang bằng điện trở nhỏ trong máy ngắt không khíUS : điện áp trên điện trở shun</para>
+        <para id="id10425263">ihq : dòng điện hồ quang</para>
+        <para id="id10425281">iS : dòng điện qua điện trở shun</para>
+        <para id="id10425299">RS: trị số điện trở shun</para>
+        <para id="id10425317">i : dòng điện của mạch ngắt.</para>
+        <para id="id10425324">Nếu lấy gần đúng theo đặc tuyến tĩnh của hồ quang, thì với trường hợp thổi dọc rất mạnh có điện áp trên thân hồ quang:</para>
+        <para id="id10425335">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>U</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>hq</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mi>A</m:mi>
+                          <m:msubsup>
+                            <m:mi>i</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>hq</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>m</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msubsup>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>l</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>hq</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{ ital "hq"} } = {  {A}  over  {i rSub { size 8{ ital "hq"} }  rSup { size 8{m} } } } l rSub { size 8{ ital "hq"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10430844">A =1400 : hệ số không đổi biểu thị cường độ làm lạnh thân hồ quang.</para>
+        <para id="id10430852">m :số mũ biểu thị phương pháp làm lạnh thân hồ quang. Trong trường hợp này có thể lấy m = 0,25.</para>
+        <para id="id10430864">lhq : chiều dài hồ quang, cm.</para>
+        <para id="id10430884">ihq : dòng điện hồ quang, A.</para>
+        <para id="id10430904">iS : dòng điện qua điện trở shun</para>
+        <para id="id10430924">RS : trị số điện trở sun, i: dòng điện của mạch ngắt.</para>
+        <para id="id10430945">Đặc tuyến V-A của hồ quang và đặc tuyến dập tắt hồ quang của shun ở hình 11-16. Ở gía trị 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hq</m:mtext></m:mrow></m:mstyle><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">S0</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{i rSub { size 8{0} } =i rSub { size 8{ ital "hq"0} } +i rSub { size 8{S0} } } {}</m:annotation></m:semantics></m:math> xuất hiện điều kiện rơi tức thời của dòng điện hồ quang đến trị số không, do quá độ chuyển dòng điện đó vào shun. Điều đó tương ứng với thời điểm xác định theo phương trình:</para>
+        <para id="id10431061">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>i</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>i</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>hq</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>i</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi fontstyle="italic">S0</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mtext>sin</m:mtext>
+                      <m:msub>
+                        <m:mi fontstyle="italic">wt</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{i rSub { size 8{0} } =i rSub { size 8{ ital "hq"0} } +i rSub { size 8{S0} } =I rSub { size 8{m} } "sin"wt rSub { size 8{0} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10431192">
+          <media id="id1170007175734" alt=""><image src="../../media/graphics6-bdad.png" mime-type="image/png" height="282" width="260"/></media>
+        </para>
+      </section>
+      <section id="id-563692147583">
+        <title>Dập hồ quang trong máy ngắt dầu</title>
+        <para id="id10431240">Dập hồ quang của máy ngắt dầu được thực hiện bằng cách làm lạnh thân hồ quang trong luồng của môi trường khí (hỗn hợp khí hơi) do sự phân li và bốc hơi của dầu do chính hồ quang tạo ra.</para>
+        <para id="id10431255">So sánh với quá trình dập tắt hồ quang trong luồng không khí lạnh, trong trường hợp này các điều kiện trao đổi nhiệt với môi trường xung quanh có đặc điểm:</para>
+        <para id="id10431268">- Trong thành phần hỗn hợp khí hơi chứa rất nhiều H2 (đến 90%) có tính dẫn nhiệt cao hơn so với không khí nhưng độ bền điện kém hơn.</para>
+        <para id="id10431291">- Luồng hỗn hợp khí ở vùng hồ quang cháy có nhiệt độ cao (800 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 25000K). Khi dòng điện hồ quang không lớn (thường tới 100A) thì điều kiện làm lạnh thân hồ quang khác nhau. Khi dòng điện lớn sự làm lạnh thân hồ quang xảy ra chủ yếu là do đối lưu cưỡng bức trong luồng hỗn hợp khí hơi ở áp suất lớn.</para>
+        <para id="id11668203">Dòng điện tăng cường độ làm lạnh đối lưu và trị số áp suất ở vùng dập hồ quang cũng tăng. Nhờ đó tạo ra được điều kiện rất tốt để phục hồi độ bền điện của khoảng trống giữa các tiếp điểm khi dòng điện qua trị số không.</para>
+        <para id="id11668218">Khi dòng điện nhỏ sự đối lưu và áp suất của khí ở vùng dập hồ quang sẽ giảm, như vậy điều kiện dập hồ quang xấu, thời gian hồ quang cháy sẽ tăng lên rõ rệt. Sự tăng áp suất trong vùng dập hồ quang do truyền dầu cưỡng bức dưới tác động của nguồn năng lượng cơ khí bên ngoài có thể cải tiến điều kiện dập hồ quang, thời gian hồ quang cháy sẽ giảm khi ngắt dòng điện nhỏ.</para>
+        <para id="id11668234">Trong tính toán gần đúng cho rằng các điều kiện dập tắt hồ quang đạt kết quả tốt nhất trong các thiết bị dập hồ quang của máy ngắt dầu là:</para>
+        <para id="id11668249">* Sự thổi của hỗn hợp khí hơi ở vùng hồ quang mãnh liệt (đặc biệt ở gần cuối nửa sóng dòng điện).</para>
+        <para id="id11668258">* Áp suất cao của hỗn hợp khí hơi ở vùng hồ quang vào cuối nửa chu kì của dòng điện.</para>
+        <para id="id11668267">* Khoảng cách nhỏ giữa bề mặt thân hồ quang và thành rãnh hình thành hồ quang bằng dầu xung quanh hay giữa bề mặt của chất cách điện cũng được tẩm dầu. </para>
+        <para id="id11668279">Do đó cần tạo được điều kiện thuận lợi nhất để làm bốc hơi mãnh liệt và hình thành các luồng hơi dầu bão hòa trực tiếp ở gần bề mặt thân hồ quang.</para>
+        <para id="id11668294">Một số hay tất cả các điều kiện kể trên trong các kết cấu về thiết bị dập hồ quang của máy ngắt dầu có mức độ khác nhau do cách chọn nguyên tắc tác động của thiết bị và hình dáng kết cấu kích thước của từng chi tiết. Theo nguyên tắc tác động thiết bị dập hồ quang của các máy ngắt dầu hiện đại có thể chia ra làm ba nhóm chính:</para>
+        <para id="id11668310">+ Thiết bị dập hồ quang thổi tự động. Điều kiện để dập tắt hồ quang của thiết bị này là: áp suất cao và tốc độ luồng khí ở vùng dập tắt hồ quang lớn - tạo nên do năng lượng tách ra từ hồ quang.</para>
+        <para id="id11668325">+ Thiết bị dập hồ quang thổi dầu cưỡng bức, ở thiết bị này nhờ bộ phận đặc biệt đẩy dầu đến khoảng ngắt.</para>
+        <para id="id11668336">+ Thiết bị dập hồ quang có bộ phận dập hồ quang bằng từ trong dầu. Dưới ảnh hưởng của từ trường ngang thân hồ quang chuyển dịch vào rãnh và khe hẹp tạo bởi các thành cách điện chứa đầy dầu, do đó tạo được điều kiện thuận lợi để dập hồ quang.</para>
+        <para id="id11668351">Do hiệu suất cao và tương đối đơn giản nên thiết bị dập hồ quang thổi tự động được áp dụng rộng rãi nhất.</para>
+        <para id="id11668362">Thiết bị của nhóm thứ hai ít được áp dụng vì khi ngắt dòng điện lớn thì thổi dầu cưỡng bức ít hiệu lực, kết cấu của buồng dập hồ quang và thiết bị bơm dầu rất phức tạp, cồng kềnh. Khi ngắt dòng điện bé thổi dầu cưỡng bức tác động tốt trong trường hợp riêng để dập tắt hồ quang chắc chắn hơn không cháy lặp lại khi ngắt dòng điện điện dung bé của đường dây. Thổi dầu cưỡng bức được áp dụng trong một số bình chứa thổi tự động như công cụ bổ sung. Thiết bị dập hồ quang có bộ phận dập bằng từ trường cũng không được áp dụng rộng rãi vì phương pháp này hiệu quả kém hơn phương pháp thổi tự động trong dầu.</para>
+        <para id="id11668398">Hình 11-17: Sơ đồ kết cấu của một số buồng dập hồ quang thổi tự động trong dầu1. Tiếp điểm cố định ; 2. Các chi tiết của buồng dập hồ quang3. Tiếp điểm di động; 4. Tiếp điểm trung gianChúng ta sẽ chỉ nghiên cứu các vấn đề kết cấu của các thiết bị dập hồ quang có thổi tự động trong dầu. Sơ đồ kết cấu của các thiết bị dập hồ quang hiện đại kiểu này ở hình 11-17 và 11-18.</para>
+        <para id="id11668468">Các thiết bị dập hồ quang có thổi tự động thường có dạng bình chứa cứng (hình 11-17) thân của nó được tạo thành bởi chi tiết nối cứng với nhau, hay là bình chứa đàn hồi (hình 11-18) được tạo thành bởi các chi tiết nối với nhau một cách đàn hồi nhờ các lò xo hay các miếng đệm đàn hồi.</para>
+        <para id="id11668483">Trong quá trình ngắt khi áp suất trong bình chứa tăng các chi tiết của bình chứa đàn hồi có thể bị ngăn cách tạo thành rãnh làm việc bổ sung trong vùng hồ quang cháy, nhờ đó tạo được các điều kiện thuận lợi hơn để dập tắt hồ quang.</para>
+        <para id="id11668498">Hình 11-18: Sơ đồ kết cấu của bình chứa đàn hồi có thổi tự động trong dầu1. Tiếp điểm cố định; 2. Bộ lò xo; 3. Chi tiết làm việc của bộ phận dập hồ quang; 4. Ống đệm5. Tiếp điểm di động; 6. Vòng đàn hồi</para>
+        <para id="id11668553">Tùy thuộc vào số lượng, vị trí tương hỗ của các tiếp điểm có trong bình chứa và vào trình tự lúc ngắt, buồng dập hồ quang có thể có nhiều phương án kết cấu khác nhau, thí dụ: </para>
+        <para id="id11668567">- Bình chứa có một khoảng ngắt chính của các tiếp điểm.</para>
+        <para id="id11668577">- Bình chứa có nhiều khoảng ngắt, có cùng điều kiện dập tắt hồ quang.</para>
+        <para id="id11668586">- Bình chứa có một khoảng ngắt chính và một khoảng ngắt phụ.</para>
+        <para id="id11668594">- Bình chứa có nhiều khoảng ngắt chính và nhiều khoảng ngắt phụ.</para>
+        <para id="id11668603">Khi trong bình chứa có khoảng ngắt phụ tạo được điều kiện phát sinh hơi ổn định trong vùng xác định của buồng dập hồ quang, một số trường hợp dập tắt hồ quang được đẩy mạnh ở khoảng ngắt chính.</para>
+        <para id="id11668618">Nhiều khoảng ngắt được áp dụng trong trường hợp điện áp làm việc rất cao và mục đích hạn chế của điện áp sinh ra trong lúc ngắt dòng điện cảm ứng nhỏ, một phần của các khoảng ngắt đó được nối shun bằng điện trở.</para>
+        <para id="id11668633">Với các điều kiện khác giống nhau khả năng dập hồ quang của các thiết bị đang xét ở mức độ cao được xác định bằng các kích thước, hình dạng và bố trí tương hỗ các rãnh làm việc của bình chứa.</para>
+        <para id="id11668648">Hướng của luồng khí dọc trục hay vuông góc với trục thân hồ quang tùy thuộc cách bố trí các rãnh. Trong các bình chứa hướng áp dụng các dạng thổi sau: thổi dọc (hình 11-17a, c), thổi ngang (hình 11-17e, b, g), thổi hỗn hợp (hình 11-17d) và thổi ngang ngược chiều (hình 11-17đ). Dựa vào điện áp định mức công suất ngắt so sánh kinh tế để chọn kiểu thổi. Một số bình chứa có thổi tự động có bổ sung thổi dầu cưỡng bức phải có thêm một bộ phận cơ khí.</para>
+        <para id="id11668654">Chúng ta sẽ qui định một số qui tắc ban đầu để tính toán các bình chứa có thổi tự động trong dầu. Trong trường hợp chung khi ngắt chu trình làm việc của bình chứa có thể chia ra làm ba giai đoạn chính.</para>
+        <para id="id11668669">Hình 11-19Sơ đồ các giai đoạn chính chu trình làm việc của thiết bị dập hồ quang thổi tự động trong dầua) Hồ quang cháy trong bong bóng khí hơi khép kínb) Hỗn hợp khí hơi cháy qua vùng dập hồ quangc) Để dầu vào bình chứa sau khi dập tắt hồ quangGiai đoạn thứ 1: sau khi các tiếp điểm tách rời nhau hồ quang cháy trong buồng khí (hình 11-19a). Trong giai đoạn này nhờ năng lượng tỏa ra từ hồ quang mà trữ lượng hỗn hợp khí hơi nén trong bình chứa tăng đến áp suất có thể dập tắt hồ quang ở các rãnh.</para>
+        <para id="id11903465">Giai đoạn thứ 2: (hình 11-19b) kể từ thời điểm hỗn hợp khí hơi bắt đầu chảy từ vùng bong bóng khí hơi qua các rãnh ra khỏi bình chứa. Giai đoạn này biểu hiện sự thay đổi áp suất khí trong bình chứa ở các rãnh và cường độ cháy của hỗn hợp. Giai đoạn này kết thúc bằng sự phục hồi độ bền điện của khoảng trống giữa các tiếp điểm, như vậy giai đoạn thứ hai là giai đoạn chủ yếu.</para>
+        <para id="id11903495">Giai đoạn thứ 3: (hình 11-19c) từ bình chứa khí nóng và hơi dầu dư được đẩy ra ngoài và dầu sạch được đổ vào bình chứa. Giai đoạn này chuẩn bị bình chứa cho lần ngắt tiếp sau. Trong các buồng dập hồ quang có A
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math>B giai đoạn này rất quan trọng.</para>
+        <para id="id11903571">Hai giai đoạn đầu có đặc điểm tổng hợp rất phức tạp về quá trình thủy động và nhiệt động liên quan lẫn nhau, khả năng dập hồ quang của thiết bị toàn bộ phụ thuộc vào hành trình của quá trình đó.</para>
+      </section>
+      <section id="id-479131558178">
+        <title>Dập hồ quang của máy ngắt tự sản khí</title>
+        <para id="id11903596">Trong các thiết bị dập hồ quang của máy ngắt tự sản khí dập tắt hồ quang ở trong luồng khí do vật liệu rắn sản khí ra dưới tác dụng của hồ quang.</para>
+        <section id="id-977259583796">
+          <title>Bảng 5: Các tham số về các sản phẩm tạo thành khí của các vật liệu rắn sản khí</title>
+          <table id="id11903622" summary="">
+            <tgroup cols="7">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <tbody>
+                <row>
+                  <entry>Thành phần của </entry>
+                  <entry namest="c2" nameend="c3">Phibra đỏ</entry>
+                  <entry namest="c4" nameend="c5">Nhựa phóoc-mal-đê-hyđuyarê</entry>
+                  <entry namest="c6" nameend="c7">Nhựa pôlimetakril</entry>
+                </row>
+                <row>
+                  <entry>Khí</entry>
+                  <entry>cm3</entry>
+                  <entry>%</entry>
+                  <entry>cm3</entry>
+                  <entry>%</entry>
+                  <entry>cm3</entry>
+                  <entry>%</entry>
+                </row>
+                <row>
+                  <entry>CO2COH2H2O</entry>
+                  <entry>70,32682,5468,43108,07</entry>
+                  <entry>5,2951,3435,248,13</entry>
+                  <entry>125,13584,88294,15609,32</entry>
+                  <entry>7,0035,0318,5838,49</entry>
+                  <entry>105,82955,64587,35418,30</entry>
+                  <entry>5,0747,7127,1820,04</entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mstyle fontsize="12pt">
+                            <m:mrow>
+                              <m:mi>S</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{S} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>1329,32</entry>
+                  <entry>100,00</entry>
+                  <entry>1613,48</entry>
+                  <entry>100,00</entry>
+                  <entry>2067,11</entry>
+                  <entry>100,00</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id11926106">Kết cấu thiết bị là một bình chứa, các thành và các chi tiết tạo thành các rãnh dập hồ quang làm bằng vật liệu cách điện sản khí. Khi hồ quang tiếp xúc nhiệt với các thành của các rãnh sẽ tạo thành lượng khí lớn, khi các rãnh có hình dáng và kích thước tương ứng thì có điều kiện cần thiết để dập tắt hồ quang: áp suất cao, tốc độ chảy của khí trong vùng dập hồ quang lớn.</para>
+          <para id="id11926125">Thường sử dụng các vật liệu sản khí sau: phibra đã lưu hóa, nhựa phooc-mal-đê-hyđ, Ôyarê và thủy tinh hữu cơ. Các tham số về khả năng sản khí của các vật liệu kể trên và sản phẩm tạo thành khí nêu ở bảng 11.5. </para>
+          <para id="id11926143">Khuynh hướng tạo thành muội than trên bề mặt buồng dưới tác dụng của nhiệt độ hồ quang cao là một trong các tính chất quan trọng để dập tắt hồ quang. Về mặt này phibra đã lưu hóa và thủy tinh hữu cơ là tốt hơn cả.</para>
+          <para id="id11926158">Sự tạo thành muội than ít đi khi cho thêm một ít axít boric vào bột nén của vật liệu đó (thí dụ thủy tinh hữu cơ).</para>
+          <para id="id11926169">Kinh nghiệm chỉ rằng, trong các thiết bị đã nêu dập tắt hồ quang chỉ đạt được trong trường hợp áp suất trong bình chứa ở thời điểm mở lỗ thổi vượt quá trị số tới hạn tối thiểu. Trong bất cứ trường hợp nào áp suất không thấp hơn 2 at (dòng điện mở 500 A).</para>
+          <para id="id11926185">Do ở gần lỗ thải khí có các chi tiết giảm âm (thí dụ tấm dạng phẳng nằm vuông góc với hướng của luồng), khí đi chậm vào lỗ, nên khả năng dập hồ quang bị giảm.</para>
+          <para id="id11926200">Thiết bị dập hồ quang của máy ngắt tự sản khí kiểu B
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Γ</m:mi><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Γ - "10"} {}</m:annotation></m:semantics></m:math> (hình 11-20) là bình chứa phẳng, trong đó các thành và màng ngăn làm bằng thủy tinh hữu cơ tạo thành thể tích bớt rung 1 và ra các rãnh dập hồ quang hẹp 2 và 3. Tiếp điểm kiểu hai ngón 4 nằm phía trên. Khi mở, tiếp điểm 5 chuyển động xuống phía dưới trong rãnh dập hồ quang.</para>
+          <para id="id11926278">Hình 11-20: Thiết bị dập hồ quang thổi ngang tự sản khí1. Thể tích bớt rung 2 và 3. Các rãnh dập hồ quang4. Tiếp điểm cố định5. Tiếp điểm di động6. Ống lót dập hồ quang</para>
+          <para id="id11926348">Khí được tạo thành trong thời gian hồ quang cháy ở phần trên của bình chứa đi vào thể tích giảm rung và áp suất ở đây tăng lên đến khi tiếp điểm di động mở rãnh 3, sau đó khí từ thể tích giảm rung và rãnh dập hồ quang bắt đầu chảy qua lỗ thải khí ở chi tiết giảm âm 6. Nhờ thổi dọc ngang nên tạo ra được điều kiện để dập tắt hồ quang.</para>
+          <para id="id11926362">Sau khi thanh tiếp điểm đi ra do tác động của lò xo, ống lót bằng thủy tinh hữu cơ 7 nén thân hồ quang. Nhờ đó dập tắt hồ quang bảo đảm chắc chắn khi ngắt dòng điện nhỏ và loại trừ được khả năng khí đốt nóng vượt ra ngoài bình chứa khi ngắt dòng điện lớn.</para>
+        </section>
+      </section>
+      <section id="id-541432132391">
+        <title>Dập hồ quang bằng từ</title>
+        <para id="id11926389">Các thiết bị dập hồ quang gọi là dập tắt bằng từ là do dùng ảnh hưởng của từ trường ngang hồ quang tạo chuyển dịch và được làm lạnh theo nhiều kiểu khác nhau hay phản ion hóa. Trong các thiết bị có các kiểu dập hồ quang sau:</para>
+        <para id="id11926408">a) Phân chia hồ quang ra thành nhiều hồ quang ngắn, sau đó dập tắt ở các điện cực lạnh.</para>
+        <para id="id11926416">b) Do kết quả của sự kéo dài và chuyển dịch với tốc độ lớn trong không khí, thân hồ quang được làm lạnh một cách đối lưu ngang.</para>
+        <para id="id11926434">Hình 11-21: Sơ đồ dập tắt hồ quang trong bình kiểu rãnh1. Hồ quang điện; 2. Vùng kéo dài sơ bộ; 3. Vùng dập hồ quang</para>
+        <para id="id11717608">c) Làm lạnh thân hồ quang trong rãnh phẳng hẹp do các thành của bình chứa tạo nên, hồ quang bị đẩy qua đó bằng từ trường ngang. Như vậy, trong các thiết bị này từ trường ngang thường được tạo ra bằng dòng điện hồ quang là phương tiện nâng cao hiệu quả của phương pháp làm lạnh kiểu khác nhau trong không khí ở áp suất bình thường.</para>
+        <para id="id11717631">Ngày nay thường sử dụng các buồng dập hồ quang kiểu rãnh là kinh tế và hiệu quả hơn cả, cho nên sau này ta sẽ chỉ nghiên cứu cách tính và kết cấu các thiết bị như thế. Sơ đồ của buồng dập hồ quang kiểu rãnh ở hình 11-21.</para>
+        <para id="id11717647">Sau khi các tiếp điểm tách rời dưới ảnh hưởng của từ trường ngang (thường được tạo bằng dòng điện hồ quang) thân hồ quang nhanh chóng bị kéo dài và sau đó chuyển dịch vào vùng dập tắt, ở đấy các thành cách điện chịu nhiệt của bình chứa tạo thành rãnh hẹp. Khi đó, nếu chiều rộng của rãnh nhỏ hơn đường kính của thân hồ quang (d&gt;) thì thân hồ quang bị biến dạng, tiết diện của nó thành hình chữ nhật bị kéo dài và diện tích tiếp xúc với bề mặt của các thành được tăng lên. Nhờ đó, giữa hồ quang và bề mặt của các thành tạo ra được sự tiếp xúc về nhiệt đảm bảo tản nhiệt tốt. Trong trường hợp này sự đối lưu và làm lạnh thân hồ quang bằng luồng không khí ngược chiều đóng vai trò không đáng kể.</para>
+        <para id="id11717685">Trong trường hợp đang xét, các tiết diện trong vùng thân hồ quang giảm là do sự tái hợp một cách mạnh mẽ trên bề mặt các thành lạnh.</para>
+        <para id="id11717696">Các công trình nghiên cứu đã chỉ ra, đối với phương pháp làm lạnh như vậy tỉ lệ giữa dòng điện hồ quang Ihq, građien điện áp trên thân hồ quang Ehq và đạo hàm của chúng theo thời gian có thể đặt trong dạng đặc tuyến V-A động.</para>
+      </section>
+      <section id="id-109315859861">
+        <title>Dập trong khí SF6</title>
+        <para id="id11717745">Máy ngắt sử dụng khí SF6 (Sunfua hexaflo) làm môi trường cách điện và dập hồ quang đã vận hành có kết quả trên toàn thế giới từ hơn 25 năm qua.</para>
+        <para id="id11717768">Khí này đặc biệt thích hợp làm môi trường dập hồ quang do nó có độ bền điện môi và suất dẫn nhiệt cao.</para>
+        <para id="id11717778">Máy ngắt kiểu pittông được sử dụng cho các khả năng cắt cao, trong khi máy ngắt sử dụng kĩ thuật tự thổi được sử dụng cho khả năng cắt trung bình.</para>
+        <para id="id11717790">a) Nguyên lí pittông</para>
+        <para id="id11717802">Hình 11-22: Phương pháp tác động pít tông đưa ra 4 giai đoạn của quá trình mởa)Vị trí đóng; b) Hành trình mở bắt đầu; c) Các tiếp điểm hồ quang phân tách; d)Vị trí mở:1.Tiếp điểm một chiều tĩnh; 2.Tiếp điểm hồ quang tĩnh; 3.Tiếp điểm hồ quang động;4.Tiếp điểm một chiều động; 5.Xilanh nén; 6.Pittông nén; 7.Cần tác động; 8.Lỗ dập hồ quangHình 11-22 đưa ra bố trí và nguyên lí tác động của buồng dập hồ quang kiểu pittông. Bộ dập gồm tiếp điểm tĩnh và tiếp điểm động với xilanh thổi. Trong hành trình mở, thể tích của xilanh thổi giảm đi đều đặn và do đó áp suất khí trong buồng tăng cho đến khi tiếp điểm tĩnh và tiếp điểm động tách rời.</para>
+        <para id="id11717885">Hình 11-23: Kĩ thuật tự thổi với máy ngắt cao ápa)Vị trí đóng; b)Vị trí mở; c)Ngắt dòng điện nhỏ (nguyên lí pittông); d)Cắt dòng ngắn mạch(nguyên lí tự thổi): 1.Tiếp điểm dòng một chiều tĩnh, 2.Tiếp điểm hồ quang tĩnh, 3.Tiếp điểm hồ quang động, 4.Tiếp điểm dòng một chiều động, 5.Thể tích nén, 6.thể tích đốt nóng, 7.Cần tác động, 8. Lỗ dập hồ quangUd[kV]300250200150100500102030S[mm]12345Hình 11-25: Tính chất điện môi - điện áp với khoảng cách phóng điện1.Dầu biến áp; 2. Không khí 1bar; 3. Chân không;4.Khí SF6 1bar; 5. Khí SF6 5bar.inSự tách của các tiếp điểm gây nên hồ quang làm tăng áp suất của khí SF6 bên trong xi lanh. Khi áp suất đủ lớn để khí nén thoát ra và thổi hồ quang, giải phóng năng lượng của hồ quang và làm cho hồ quang bị dập tắt.</para>
+        <para id="id12088043">Hình dạng lỗ của cả hai tiếp điểm tạo nên đặc tính thổi và dập tắt tối ưu.</para>
+        <para id="id12088051">b) Phương pháp cắt tự thổi</para>
+        <para id="id12088063">Kĩ thuật tự thổi của ABB (xem hình 11-23) được thử nghiệm thành công nhiều năm trong máy ngắt khí SF6 trung áp, đã được dùng dưới dạng biến đổi cho máy ngắt cao áp vào năm 1935 và do vậy không cần cuộn nam châm quay hồ quang.</para>
+        <para id="id12088094">Hình 11-23 cho cách bố trí và nguyên lí hoạt động của buồng dập hồ quang tự thổi dùng cho điện áp tới 170kV và dòng 40kA.</para>
+        <para id="id12088105">P[bar]cbaSF6U[kV]654321050100150U[kV]1600400200020100IK[kA]80040608024Buồng dập hồ quang /cựcHình 11-24: Tính chất điện môi của các môi trường cách điện khác nhau. Cường độ đánh thủng U với khoảng cách điện cực 38mm theo Hình 11-26: Khả năng cắt của buồng dập hồ quangáp suất p: a)Dầu biến áp, b)Không khí nén, U-Điện áp định mức c)Đường không khí chuẩn ở áp suất khí quyển Ik-Dòng cắt ngắn mạch định mứcCũng giống như nguyên lí pittông, khi dòng điện nhỏ, áp suất đòi hỏi để thổi hồ quang được tạo nên trong hành trình mở bằng nén khí trong thể tích 5 (hình 11-23c). Khi xảy ra ngắn mạch, năng lượng của hồ quang do dòng điện lớn sinh ra đốt nóng và nâng áp suất khí trong thể tích 6 (hình 11-23d). Áp suất tăng này không đặt ra yêu cầu nào cho cơ cấu thao tác, kết quả là cơ cấu thao tác chỉ để có năng lượng cho hành trình đóng cắt dòng điện làm việc. So với nguyên lí pittông, phương pháp tự thổi chỉ đòi hỏi khoảng 20% năng lượng tác động đối với máy ngắt cùng tính năng kĩ thuật. Ưu điểm vận hành là cơ cấu truyền động chắc chắn, ứng suất cơ lên hệ thống nhỏ, tải động trên nền nhỏ hơn, mức ồn nhỏ hơn và nói chung độ tin cậy được nâng cao.</para>
+        <para id="id12122261">Tính chất điện môi nói chung của môi trường cách điện khí SF6, dầu biến áp (a), không khí nén (b) và áp không khí ở suất khí quyển (c) được minh họa trên hình 11-24. Cường độ điện môi ngoài của buồng dập hồ quang phụ thuộc vào áp suất của không khí xung quanh mà không phụ thuộc vào áp suất khí SF6 bên trong buồng. Cường độ điện môi bên trong buồng được xác định bằng áp suất khí SF6 và khoảng cách giữa các tiếp điểm. Biểu đồ nêu lên quan hệ cơ bản giữa cường độ bên trong và bên ngoài (đường cong SF6 đến đường cong c). Hình 11-26 cho khả năng đóng cắt thực tế của buồng dập hồ quang được sử dụng trong loạt máy ngắt SF6 ngoài trời.</para>
+      </section>
+    </section>
+    <section id="id-656079894707">
+      <title>CƠ CẤU TÁC ĐỘNG VÀ ĐIỀU KHIỂN</title>
+      <section id="id-448436067661">
+        <title>Cơ cấu tác động lò xo</title>
+        <para id="id12122359">Cơ cấu tác động lò xo là hệ thống cơ khí ở đó năng lượng được tích trong lò xo. Lò xo được nén bằng động cơ điện và được giải phóng bằng chốt.</para>
+        <para id="id12122374">Hình 11-27: Cơ cấu tác động lò xo(ABB)<list id="id12122415" list-type="enumerated"><item>Mặt trước; b) Cơ cấu tác động. 1. Thanh tác động, 2. Cần tác động, 3.Công tắc phụ,</item></list>4.Công tắc điều khiển, 5.Công tắc chọn điều khiển tại chỗ/Điều khiển từ xa, 6.Công tắc hạn chế khóa liên động,7. Lò xo đóng, 8. Đèn chỉ thị, 9. Công tắc tắt động cơ</para>
+        <para id="id12122447">Cơ cấu tác động máy ngắt gồm bộ trữ năng lượng, bộ điều khiển và bộ truyền năng lượng. Bộ trữ phải có khả năng cung cấp năng lượng tối thiểu đủ để thực hiện chu trình tự đóng lại.</para>
+        <para id="id12122460">Khi máy ngắt nhảy, nam châm nhả chốt, lực của lò xo được sử dụng để chuyển tiếp điểm ra khỏi bộ truyền lực cơ khí.</para>
+        <para id="id12122470">Hình 11-27 trình bày mặt trước và mặt bên của cơ cấu tác động lò xo các máy ngắt SF6 ngoài trời của ABB. Hình 11-28 là cơ cấu tác động lò xo trong máy ngắt của hãng AEG.</para>
+      </section>
+      <section id="id-516599225169">
+        <title>Cơ cấu tác động dùng khí nén</title>
+        <para id="id12122505">Cơ cấu khí nén sử dụng khí nén chứa trong thùng chứa đặt trực tiếp trên máy ngắt. Van hình xuyến cho phép khí nén qua xilanh tác động (khi đóng) hoặc tới áp suất khí quyển (khi cắt). Thùng chứa không khí được nạp đầy bằng máy nén.</para>
+      </section>
+      <section id="id-879771982461">
+        <title>Cơ cấu tác động thủy lực</title>
+        <para id="id12122529">Cơ cấu thủy lực có bình chứa nitơ để tích năng lượng cần thiết. Bộ đệm khí nitơ bị nén truyền áp lực lên dầu thủy lực. Năng lượng cần để tác động các tiếp điểm được truyền bằng pittông thủy lực.</para>
+        <para id="id12122547">Hệ thống làm việc theo nguyên lí pittông vi sai. Phía "MỞ" (thanh pittông) diện tích tiết diện của thanh pittông nhỏ hơn phía "ĐÓNG" (mặt pittông). Thanh pittông thường xuyên chịu áp suất. Mặt khác, phía bề mặt pittông chịu áp suất hệ thống khi đóng và khi mở.</para>
+        <para id="id12122561">Hệ thống được nạp lại bằng truyền động động cơ bơm thủy lực, nó truyền dầu từ khối áp suất thấp đến bộ chứa nitơ.</para>
+      </section>
+      <section id="id-49646072348">
+        <title>Hình 11-28: Chức năng vận hành của một cơ cấu điều khiển cắt kiểu lò xo(AEG)1.động cơ; 2.hộp số; 3.bánh xích; 4.lò xo đóng; 5.dây xích; 6.đĩa cam dày(đĩa lệch tâm) ; 7.cam bị dẫn; 8.cuộn dây hành trình; 9.chốt hãm mở; 10-hộp tay quay; 11.lò xo hành trình nhả; 12.cực máy ngắt; 13.thanh truyền nối; 14.đường trục tay đòn chính; 15.đệm dầu giảm chấn; 16.cuộn dây đóng; 17.chốt hãm đóngCơ cấu tác động lò xo thủy lực </title>
+        <para id="id12122633">Hình 11-29: Mặt cắt cơ cấu tác động lò xo thủy lực dùng cho máy ngắt tự thổi SF61.Lò xo, 2.Pittông lò xo, 3.Xilanh tác động, 4.Cần pittông, 5. Điểm nối đo lường, 6. nối đổ dầu,7.Khối bơm, 8. Trục truyền động bơm, 9. Máy bơm</para>
+        <para id="id11668785">Cơ cấu lò xo thủy lực là phối hợp của hệ thống thủy lực và lò xo. Năng lượng được tích lũy trong lò xo và được kéo căng bằng thủy lực. Năng lượng được truyền bằng thủy lực, khi các tiếp điểm máy ngắt đóng hay mở bằng pittông vi sai, cơ cấu làm việc hoàn toàn như ở hệ thống thủy lực.</para>
+        <para id="id11668799">Cơ cấu lò xo thủy lực của ABB có nhiều kích cỡ. Tất cả được thiết kế sao cho không có ống nối ngoài. Mọi điểm làm kín áp suất động lớn bố trí giữa dầu áp suất cao và dầu áp suất thấp, như vậy dầu không có thể thoát ra ngoài khi có rò rỉ nhẹ. Mặt cắt cơ cấu lò xo thủy lực của máy ngắt tự thổi có thể xem hình 11-29.</para>
+        <para id="id11668815">Các máy ngắt cao áp hiện đại thường được trang bị bằng cơ cấu tác động lò xo thủy lực hoặc cơ cấu lò xo.</para>
+      </section>
+      <section id="id-59993428471">
+        <title>Điều khiển điện</title>
+        <para id="id11668833">Bộ chỉ thị lệch pha dùng cho máy ngắt có tác động một cực. Nếu mạch "NHẢY" của cực máy ngắt bị hư hỏng, cực này không đáp ứng với lệnh "NHẢY" và ba cực máy ngắt ở các vị trí khác nhau. Hệ thống chỉ thị lệch pha phát hiện sai lệch này và sau khi đặt lại thời gian chờ đợi 2 giây, nó tác động thao tác "MỞ" của ba cực máy ngắt. Máy ngắt ba cực tự đóng lại không cần đến giám sát lệch pha, bởi vì ba cực có liên hệ về cơ khí và do vậy không có các vị trí khác nhau.</para>
+      </section>
+      <section id="id-547989485565">
+        <title>Điều khiển chống bơm</title>
+        <para id="id11668869">Điều khiển chống bơm đề phòng thao tác lặp lại không mong muốn của một hoặc nhiều máy ngắt nếu lệnh "MỞ" tiếp theo là lệnh "ĐÓNG" bị lặp lại. Do đó máy ngắt phải đóng không quá một lần sau đó bị khóa, nghĩa là nó cần nằm ở vị trí "MƠ"̉ bất chấp các lệnh điều khiển nào được áp dụng hoặc kéo dài bao lâu.</para>
+      </section>
+      <section id="id-265275093954">
+        <title>Thao tác động cơ không dừng</title>
+        <para id="id11668899">Tùy theo thiết kế hệ thống và thực hiện chu trình đóng cắt, máy bơm hoặc máy nén đòi hỏi một khoảng thời gian để khôi phục năng lượng đã mất. Nếu có rò trên hệ thống nén, động cơ khởi động lại hoặc chạy liên tục. Chạy không dừng được thể hiện như rối loạn và sẽ đưa ra tín hiệu.</para>
+      </section>
+      <section id="id-913301101034">
+        <title>Giám sát khí SF6</title>
+        <para id="id11668923">Khả năng cắt của máy ngắt phụ thuộc vào mật độ khí trong buồng cắt và được đo bằng đồng hồ đo áp suất có bù nhiệt. Sẽ có báo động nếu mật độ khí giảm tới giá trị đặt trước và nếu như mật độ giảm tiếp đến giới hạn quy định tối thiểu thì máy ngắt sẽ bị khóa lại.</para>
+      </section>
+      <section id="id-565964860726">
+        <title>Điều khiển tại chỗ/Điều khiển từ xa</title>
+        <para id="id11668948">Cho phép công việc được tiến hành trên máy ngắt, thường có thể được điều khiển tại chỗ ở tủ điện, cũng có thể chuyển từ điều khiển từ xa sang điều khiển tại chỗ bằng công tắc chọn.</para>
+      </section>
+      <section id="id-21590295851">
+        <title>Giám sát năng lượng</title>
+        <para id="id11668971">Với các cơ cấu tác động bằng khí nén và thủy lực, áp suất không khí hoặc dầu được chỉ thị và điều khiển bằng công tắc áp suất nhiều cực. Nó thực hiện các chức năng sau đây:</para>
+        <para id="id11668985">- Điều khiển máy nén hoặc động cơ bơm.</para>
+        <para id="id11668993">- Khoá liên động "MƠ"̉, khóa liên động "ĐÓNG", khóa liên động "TỰ ĐÓNG LẠI" tùy theo áp suất có trong hệ thống.</para>
+        <para id="id11669003">Cơ cấu lò xo thủy lực không đòi hỏi điều khiển áp suất. Thay vào đó là các bộ chỉ thị hệ thống cửa và điều khiển ứng suất lò xo (hành trình lò xo) được xem như là năng lượng để tác động.</para>
+      </section>
+      <section id="id-726067420929">
+        <title>Tự đóng lại</title>
+        <para id="id11669028">Bộ tự đóng lại một cực hoặc ba cực được chọn tùy theo kiểu nối đất hệ thống, phạm vi của lưới liên lạc, chiều dài đường dây và đầu nguồn cung cấp từ các nhà máy điện lớn.</para>
+        <para id="id11669042">Các lệnh nhảy từ hệ thống bảo vệ lưới (quá dòng điện và bảo vệ đường dây) được đánh giá một cách khác nhau đối với các máy ngắt tương ứng.</para>
+        <para id="id11669055">Trong các máy ngắt có tự đóng lại một pha, mỗi cực có cơ cấu tác động được điều khiển riêng rẽ, do vậy bất cứ cực nào cũng có thể được nhảy một cách độc lập. Tuy nhiên, cả ba cực được đóng đồng thời và hệ thống năng lượng phụ dùng cho ba cực được cung cấp từ một nguồn duy nhất. Khoảng sự cố quá độ có thể được giới hạn về thời gian và địa điểm mà không làm ảnh hưởng đến các bộ phận lớn hơn của hệ thống. Sự nhảy một pha cải thiện mức ổn định của hệ thống lưới vẫn duy trì đồng bộ. Ba cực của các máy ngắt một pha tự đóng lại có thể được điều khiển sao cho chúng có thể mở hoặc đóng đồng thời.</para>
+        <para id="id11669092">Các máy ngắt ba pha tự đóng lại có trụ tác động duy nhất cho cả ba cực. Ba cực được liên hệ cơ khí với nhau và với cơ cấu thao tác. Do vậy chỉ có thể được đóng hoặc mở đồng thời. Trong các lưới ổn định (nơi sự mất đồng bộ ít xảy ra), các máy ngắt ba pha tự đóng lại rút ngắn thời gian ngừng có thể.</para>
+      </section>
+    </section>
+    <section id="id-817668416698">
+      <title>MỘT SỐ LOẠI MÁY NGẮT </title>
+      <section id="id-655038283816">
+        <title>Máy ngắt nhiều dầu</title>
+        <para id="id11669126">a) Cấu tạo (hình 11-30) </para>
+        <para id="id11669154">Thùng dầu chứa dầu biến áp, với điện áp 10kV thì ba pha được đặt trong một thùng còn 35kV trở lên mỗi pha trong một thùng riêng, thùng cấu tạo bằng thép, mặt trong lót cách điện 4 để ngăn hồ quang 5 lan ra vỏ. Khi ba pha đặt trong một thùng thì giữa các pha có tấm cách điện để tăng khả năng cách điện các pha và ngăn hồ quang các pha không tràn sang nhau. </para>
+        <para id="id11669173">Để an toàn, nắp và thùng thường nối đất, nắp thùng bằng gang đúc không từ tính với điện áp 35kV trở lại, 110kV trở lên làm bằng thép. Sứ xuyên đặt nghiêng để tăng khoảng cách hai phần mang điện trong không khí.</para>
+        <para id="id11669187">Hình 11-30: Máy ngắt nhiều dầuHình 1.2: Máy ngắt BM 612435 Với điện áp 10kV trở lại sứ xuyên bằng vật liệu sứ với điện áp 35kV sứ xuyên dọc chiều dài thanh dẫn còn lót cách điện ba kê lit còn với 110kV trong sứ có dầu cách điện.</para>
+        <para id="id9944694">Lõi sứ xuyên chính là thanh tiếp xúc cố định 2, đầu tiếp xúc động 1 gắn với bộ truyền động, máy ngắt đóng/ cắt nhờ lò xo 6 và trục truyền.</para>
+        <para id="id9944706">b) Nguyên lí</para>
+        <para id="id9944710">Khi đóng tác động vào trục truyền kéo đầu tiếp xúc di động lên lò xo 6 bị nén khi máy ngắt đóng, quá trình cắt được thực hiện bằng tay hay tự động. Khi chốt thả lỏng dưới tác dụng của lực nén lò xo 6, đầu tiếp xúc 1 nhanh chóng hạ xuống khi hồ quang xuất hiện bọt khí và hơi dầu áp suất cao dập tắt.</para>
+        <para id="id9944730">c) Đặc điểm</para>
+        <para id="id9944742"> Vít giữ nắp vào thùng, với máy ngắt dầu yêu cầu lưu ý mức dầu, nếu dầu thấp quá khí bay lên khoảng trên do chưa làm mát đủ có thể gây nổ, nhưng dầu quá cao áp lực lớn cũng gây nổ, thích hợp là khoảng trống (20 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 30)% thể tích thùng.</para>
+        <para id="id9944810"> Máy ngắt nhiều dầu  35kV đặt máy biến dòng trong sứ xuyên mà dây sơ cấp chính là thanh dẫn trong sứ, cách điện sơ- thứ là sứ xuyên.</para>
+        <para id="id9944834"> Máy ngắt nhiều dầu ở trên có nhược là kích thước to nên chỉ dùng ở điện áp 10kV, để khắc phục nhược này tại chỗ cắt bố trí thêm buồng dập hồ quang ngăn thành ngăn mỗi ngăn có một chỗ cắt. Thời gian cắt vẫn dài (0,150,2)0s, máy ngắt nhiều dầu có buồng dập hồ quang có thể chế tạo tới điện áp (35220)kV.</para>
+        <para id="id9944883">Liên xô (cũ) chế tạo loại không buồng dập nhiều dầu BM, BM, BC loại có buồng MK
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id10646639">4123</para>
+      </section>
+      <section id="id-304648986997">
+        <title>Máy ngắt ít dầu </title>
+        <para id="id12083174">Cấu tạo - Nguyên lí (hình 11-31).</para>
+        <para id="id12083188">Hình 11-31: Cấu trúc máy ngắt ít dầu1.đầu tiếp xúc;2.buồng dập hồ quang;3.đầu tiếp xúc cố định;4.đầu tiếp xúc làm việcDầu chỉ làm việc dập hồ quang nên số lượng ít, loại này gọn, nhẹ, nhất thiết phải có buồng dập thổi ngang.</para>
+        <para id="id12083238">Thân máy kiểu treo gắn trên sứ cách điện cả ba pha trên cùng một khung đỡ, mỗi pha (cực) có một chỗ cắt với buồng dập tắt hồ quang riêng.</para>
+        <para id="id12083249">Có loại có thêm đầu tiếp xúc làm việc ở ngoài dùng cho máy có dòng định mức lớn.</para>
+        <para id="id12083257">Với máy ngắt ít dầu từ 35kV tới 110kV có một chỗ cắt trên một pha, máy ngắt điện áp cao hơn có nhiều chỗ ngắt hơn.</para>
+        <para id="id10023639">Liên xô cũ chế tạo BM-133; BM-10. Máy BM
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math>-10kV; BM
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math>, BM
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math> có dòng đến 3200A/10 dòng cắt tới 31,2kA. Thời gian dập hồ quang (0,015  0,025)s, tương ứng có loại M, M cải tiến thành BM20-90/11200 dùng cho máy phát điện có dòng tới Iđm=11200A.</para>
+        <para id="id10023931">Máy ngắt ít dầu thường dùng cho TBPP trong nhà có điện áp 6, 10, 20, 35 đến 110kV. TBPP ngoài trời 35, 110, 220kV có công suất lớn.</para>
+      </section>
+      <section id="id-375711596279">
+        <title>Máy ngắt không khí</title>
+        <para id="id10023950">Trong loại này hồ quang được dập tắt nhờ khí thổi của không khí được nén ở áp suất từ (8 20)at, cách điện bằng sứ hoặc vật liệu rắn.</para>
+        <para id="id10023972">Cấu trúc loại máy ngắt không khí rất khác nhau tùy điện áp định mức và khoảng cách các đầu tiếp xúc vào vị trí cắt và cách truyền không khí nén vào buồng dập hồ quang ví dụ hình 11-32.</para>
+        <para id="id10023986">Với máy ngắt không khí dòng định mức lớn có 2 phần:</para>
+        <para id="id10023993">+ mạch chính (dao cách li)</para>
+        <para id="id10023999">+ mạch dập hồ quang (buồng dập, điện trở shun)</para>
+        <para id="id10024007"> Khí nén 200 N/cm2có thời gian dập 0,01s và toàn bộ thời gian tác động khoảng 0,17s.</para>
+        <para id="id10024027">Đặc điểm việc đóng cắt nhờ khí nén, máy ngắt hình 11-32 không tự đóng lại được, thường dùng cho máy phát điện công suất lớn.</para>
+        <para id="id10024045">Với TBPP ngoài trời loại máy ngắt không khí có buồng dập hồ quang từ 110kV có 2 hoặc nhiều chỗ cắt (220kV có 5 chỗ cắt, 330kV có 8 chỗ cắt, 500kV có 9 chỗ cắt). Máy 220kV trở lên còn thêm bộ phân áp bằng tụ và điện trở nhằm cân bằng áp giữa các đầu tiếp xúc của bộ cách li khi máy ngắt cắt.</para>
+        <para id="id10024059">Hình 11-32: Cấu trúc máy ngắt không khí1.bình chứa khí; 2.buồng dập hồ quang; 3.điện trở shun;4.đầu tiếp xúc chính; 5.bộ cách li; 6.bộ phân áp bằng tụCác yếu tố ảnh hưởng đến quá trình dập hồ quang gồm: trị số áp suất, tốc độ chảy khí nén, tần số riêng của lưới, khoảng cách giữa các tiếp điểm, diện tích lỗ thải khí cũng như hướng tác động của luồng khí nén vào thân hồ quang.</para>
+        <para id="id10024129">+ Đặc điểm: trên bình khí nén đặt tủ điều khiển gồm các van đóng mở khí nén, các nam châm điều khiển, các bộ tiếp điểm truyền động bằng khí nén, các hộp đấu nối mạch nhị thứ, các tín hiệu chỉ vị trí đóng mở, áp kế khí nén, công tơ đếm số lần đóng cắt,... Mỗi pha có bộ truyền động riêng nên máy ngắt không khí có thể đóng lại theo từng pha.</para>
+        <para id="id10024144">Các đầu tiếp xúc có thể đặt ngoài bình khí nén (lúc muốn đóng lại máy ngắt phải tháo khí bằng van để áp suất bình giảm còn khoảng 100N/cm2 lò xo mới đóng được) loại đặt trong bình khí nén thì tốc độ dập hồ quang nhanh hơn loại này chỗ cắt tùy thuộc Uđm (110kV - 1chỗ, 220kV - 2 chỗ, 330kV - 4 chỗ, 500kV - 6 chỗ, 750kV - 8 chỗ cắt). </para>
+        <para id="id10024185">Để phân bố điện áp trên các chỗ ngắt thì đều dùng bộ phân áp điện dung và điện trở. Loại BB - Uđm = 750kV thời gian cắt (0,02  0,025)s.</para>
+        <para id="id10024222">So với máy ngắt dầu máy ngắt không khí ưu điểm an toàn về nổ, cháy, tác động nhanh và có thể tự đóng lại, khả năng cắt lớn, độ mòn tiếp xúc ít dùng cả cho thiết bị ngoài trời và trong nhà. Tuy vậy đòi hỏi trạm khí nén, ống dẫn khí và cấu tạo các chi tiết phức tạp hơn.</para>
+      </section>
+      <section id="id-242358983649">
+        <title>Máy ngắt tự sinh khí</title>
+        <para id="id10024245">Đặc điểm: hồ quang được dập tắt bằng khí do vật liệu rắn tự sinh khí dưới tác dụng nhiệt độ cao của hồ quang còn cách điện cũng là vật liệu rắn hình 11-33 máy ngắt BH10 gọi là máy ngắt phụ tải.</para>
+        <para id="id10024266">Có hai tiếp xúc, tiếp xúc chính không nằm trong buồng dập hồ quang sẽ mở trước, tiếp xúc hồ quang mở sau (có cố định và di động) nằm trong buồng dập hồ quang, lúc hồ quang xuất hiện vật liệu sinh khí dưới tác dụng nhiệt độ cao bị đốt cháy sinh khí tạo áp suất lớn để dập hồ quang. Điều khiển máy ngắt bằng tay hoặc truyền động điện từ.</para>
+        <para id="id10024281">Loại máy ngắt phụ tải thường dùng cho mạng cung cấp xí nghiệp hoặc thành phố.</para>
+        <para id="id10024292">a) b)Hình 11-33: Máy ngắt phụ tải kiểu BH-10: a) hình dạng chung;b) buồng dập hồ quang</para>
+      </section>
+      <section id="id-00237346507085">
+        <title>Máy ngắt điện từ</title>
+        <para id="id11715309">Chế tạo với điện áp 6 tới 10kV dòng Iđm = 3200A dòng cắt tới 40kA. Không cần dầu hay khí nén để dập hồ quang, các tiếp xúc chính và dập hồ quang đều nằm trong không khí, khi mở thì tiếp xúc hồ quang mở sau, hồ quang xuất hiện dưới tác dụng lực điện động hồ quang bị kéo vào khe dập, hồ quang làm đóng cuộn dây từ trường, từ trường tạo thành càng đẩy nhanh hồ quang (tới 30m/s) vào trong buồng dập để dập tắt sau khoảng (0,01  0,02)s.</para>
+        <para id="id11715346">Máy ngắt điện từ ưu điểm là an toàn về nổ cháy, hao mòn tiếp xúc it thuận lợi cho đóng mở thường xuyên. Nhược điểm là cấu tạo phức tạp chỉ chế tạo tới điện áp 15 tới 20kV, ít dùng ngoài trời.</para>
+      </section>
+      <section id="id-843432366178">
+        <title>Máy ngắt chân không</title>
+        <para id="id11715369"> Do đặc điểm độ bền điện của chân không (áp suất 10-5  10-6 mmHg), cao hơn nhiều không khí thường, nên người ta dùng máy ngắt chân không.</para>
+        <para id="id11715404">Nguyên lí</para>
+        <para id="id11715409">Khi mở tiếp xúc, diện tích tiếp xúc giảm nhanh kim loại bị nóng chảy thành cầu nối, sau thời gian ngắn cầu nối kim loại hóa hơi ở giữa hồ quang, trong chân không các phân tử bị khuếch tán vào nhanh. Để giảm mức hóa hơi các tiếp xúc làm bằng kim loại khó nóng chảy.</para>
+        <para id="id11715423"> Hình 11-34 cơ cấu buồng dập hồ quang cho phép điện áp 10kV thì đóng mở ở dòng 600A là 500 lần, với dòng 200A tới 30000 lần.</para>
+        <para id="id11715437">Loại này có nhược điểm dòng cắt không lớn, thường dùng cho các lò hồ quang. Hình 11-23 là mặt cắt của buồng đóng cắt chân không 12kV, 1250 A, dòng cắt 25kA.</para>
+      </section>
+      <section id="id-388695408868">
+        <title>Hình 11-35: Mặt cắt của buồng đóng cắt chân không 12kV, 1250A, 25kA.1.trục tĩnh;2. tấm chắn;3. sứ cách điện buồng; 4.ống xếp kim loại;5. dẫn hướng; 6. trục động; 7. các tiếp điểm mặt phẳng Hình 11-34: Cơ cấu buồng dập1,9.ống thép;2.hộp xếp;3.tiếp xúc di động;4,6.tiếp xúc nối bằng vofram;7.tiếp xúc cố định;5,8.tấm chắn kim loại;11.bình thủy tinh;12.bích thépMáy ngắt khí cách điện SF6 (GIS) </title>
+        <para id="id11715572">a) Khái niệm chung</para>
+        <para id="id11715585">Khí SF6 có khả năng dập tắt hồ quang rất cao nên được dùng để dập hồ quang trong máy ngắt khí. Trong loại máy ngắt này hồ quang được dịch chuyển trong khí SF6 khi máy ngắt mở. Trên các tiếp xúc cố định và di động gắn các nam châm tạo từ trường có hướng ngược nhau để làm dịch chuyển hồ quang thành hình xuyến trong SF6. Buồng dập làm bằng sứ chứa khí SF6.</para>
+        <para id="id11715643"> Các máy 135, 110kV có một buồng dập trên một pha, 220kV có hai buồng dập trên một pha. Đặc biệt chế tạo máy ngắt nhiều hướng để thay cho nhiều máy ngắt một hướng. Trên máy ngắt có gắn áp kế chỉ áp suất SF6, hiện nay loại này chế tạo tới điện áp 750kV, công suất cắt Scđm tới (40000  50000)MVA. Tuy nhiên, chúng có nhược điểm là phải có thiết bị làm sạch khí SF6 nên giá thành còn cao. Máy ngắt khí cách điện SF6 được sử dụng từ khoảng năm 1969. Khoảng điện áp định mức từ 7,2 đến 800 kV, dòng điện cắt tới 63kA, trong trường hợp đặc biệt tới 80 kA.</para>
+        <para id="id11715721">Các ưu điểm của máy ngắt khí SF6 là: chắc chắn, trọng lượng thấp, độ tin cậy cao, an toàn chống điện áp tiếp xúc, bảo dưỡng dễ dàng và tuổi thọ cao. Thời gian lắp đặt tại chỗ ngắn vì sử dụng cấu kiện lắp sẵn và thử nghiệm tại nhà máy từng tổ lớn hoặc các gian hoàn chỉnh. Thiết bị GIS thường có cấu trúc môđun. Tất cả các bộ phận như thanh góp, dao cách li, máy ngắt, máy biến áp đo lường, đầu nối cáp đều nằm trong vỏ kín nối đất và chứa đầy khí SF6 .</para>
+        <para id="id11715769">Điện áp dưới 170 kV thì ba pha của máy ngắt thường có vỏ chung, khi có điện áp cao hơn các pha được tách riêng. Dưới điện áp 72,5 kV môi trường cách điện khí SF6 có thể được sử dụng ở áp suất thường. Khi ở điện áp cao hơn, áp suất khí làm việc từ 3,5 đến 4,5 bar, trong một số trường hợp tới 6 bar. Máy có điện áp nhỏ hơn 72,5 kV do áp suất khí thấp nên vỏ có thể làm bằng thép lá hàn kín. Máy ngắt điện áp cao hơn dùng vỏ bằng nhôm đúc không sắt từ, chống rỉ và chịu ăn mòn.</para>
+        <para id="id11715801">b) Môi trường khí SF6 </para>
+        <para id="id11715821">Hình 11-36: Biểu đồ áp suất/ nhiệt độ của khí SF6 sạchP[bar]SF6[g/l]t[độ]020 40 60-60 -40 -20 10203040506012345678910Khí SF6 được sử dụng vừa làm môi trường cách điện vừa làm môi trường dập hồ quang. SF6 được sử dụng làm chất cách điện trong tất cả các bộ phận thiết bị và trong máy ngắt. Dùng để dập hồ quang vì do khí SF6 là khí mang điện tử âm, có độ bền điện môi ở áp suất khí quyển gấp khoảng ba lần không khí. SF6 là loại khí không độc, không mùi, trơ về hóa và có tính chất dập hồ quang tốt hơn không khí từ 3 đến 4 lần khi ở cùng một áp suất. Khí SF6 hiện nay không nằm trong danh mục các chất nguy hiểm. Bảo quản và sử dụng khí SF6 phải tuân theo các quy định (như theo IEC 376). Áp suất khí dập hồ quang từ 6 đến 7 bar. Quan hệ giữa áp suất và nhiệt độ của khí SF6 sạch cho trên hình 11-36. Áp suất khí được theo dõi trong buồng kín riêng và cả trong buồng máy ngắt. Cần tính đến tổn thất khí (dưới 1 trong một năm). Không cần đặt các thiết bị tự động đóng. Khi hồ quang xuất hiện sẽ làm phân giải một lượng nhỏ khí SF6, nhưng sau đó nó lại được kết hợp gần như hoàn toàn thành lại SF6. Các sản phẩm phân giải phản ứng với nước trong khí ẩm được kiểm soát bằng các bộ lọc khô đặt trong máy ngắt. Trước khi bơm khí SF6 cần làm thoát hàm lượng ẩm ban đầu.</para>
+        <para id="id12078528">c) Máy ngắt SF6 dùng cho điện áp 52 đến 72,5 kV</para>
+        <para id="id12078554">Loại này các ngăn thanh góp máy ngắt và buồng nhánh được phân cách với nhau và kín khí. Áp suất khí cách điện là 1 bar, khi nạp khí tạo nên áp suất dương 0,2 bar. Ngăn truyền động và điều khiển chứa không khí ở áp suất thường. Ở đây đặt cơ cấu vận hành điều khiển điện và hệ thống theo dõi khí cho tất cả các ngăn có chứa khí của gian. Cửa trước có sơ đồ nhánh và các nút ấn có điều khiển cần thiết. Không đòi hỏi các tủ có điều khiển riêng. Các dao cách li điều khiển bằng động cơ là loại quay ba vị trí. Máy ngắt có cơ cấu thao tác lò xo tích năng lượng và làm việc theo nguyên lí tự thổi. Các ngăn khí dập hồ quang của máy ngắt ba cực được nối liên động và phân cách với ngăn khí cách điện. Áp suất định mức 6 bar được theo dõi bằng rơle tỉ trọng. Các máy biến dòng là máy kiểu trụ đỡ đổ nhựa có hai đến bốn lõi.</para>
+        <para id="id12078600">Các máy biến điện áp cảm ứng cũng đổ nhựa êpôxy, thường có dây quấn đo lường ở phía thứ cấp, dây quấn tam giác hở dùng cho bảo vệ sự cố chạm đất. Để thử nghiệm cáp bằng điện áp một chiều, phía sơ cấp của máy biến điện áp được ngắt từ bên ngoài. Bộ nối ngoài có thể phù hợp với cáp dầu hoặc cáp XLPE, các ống thanh góp dẫn SF6 cùng nối ra ngoài và các thanh góp có cách điện bằng chất rắn. Các kích thước nhỏ cho phép lắp ráp sẵn ( hãng ABB có máy ngắt loại ENK - 2 có thể đáp ứng cấu hình cho loại trạm bất kì.</para>
+        <para id="id12078667">d) Máy ngắt SF6 dùng ở điện áp 72,5 đến 800 kV</para>
+        <para id="id12078689">Máy ngắt SF6 kiểu ELK của ABB, dùng cho điện áp từ 72,5 cho đến 800 kV. ABB sử dụng năm kích thước theo môđun có cùng thiết kế cơ sở. Cấu trúc theo môđun có ưu điểm là sản xuất được số lượng lớn, các cấu kiện tiêu chuẩn, bảo quản dự phòng đơn giản và tính năng đồng nhất. Bằng cách phối hợp các cấu kiện môđun kích thước khác nhau có thể tập hợp lại thành các thiết bị đóng cắt cho các cấu hình mạch cơ bản. Do vậy chúng có thể đáp ứng yêu cầu của mọi sơ đồ. Như chỉ dẫn chung, điểm đặt cho thiết bị hoàn toàn kín phải tuân theo các yêu cầu của DIN VDE 0101 dùng cho các trạm máy ngắt trong nhà. Gian xưởng cấu trúc gọn nhẹ, có một số thiết bị bảo vệ chống các sự cố bên ngoài. Máy ngắt SF6 cũng có thể đặt ngoài trời.</para>
+        <para id="id12078777">Các linh kiện </para>
+        <para id="id12078785">Các thanh góp được phân cách bằng sứ cách điện ở mỗi gian và tạo nên một bộ gồm các dao cách li thanh góp và cầu dao nối đất. Máy ngắt hoạt động theo nguyên lí tự thổi hay nén. Máy ngắt có từ một đến bốn chỗ ngắt trong một cực, phụ thuộc vào kích thước modul. Trong khi thao tác mở, pittông của mỗi buồng dập hồ quang phát khí SF6 có áp suất cần thiết để dập hồ quang. Cơ cấu lò xo thủy lực tác động lên một hoặc cả ba cực. Trong máy ngắt dùng nguyên lí nén, cơ năng của cơ cấu tác động được sử dụng để phát sinh dòng khí. Trái lại, máy ngắt tự động thổi sử dụng nhiệt năng của bản thân hồ quang, nó tiết kiệm tới 80% năng lượng tác động đòi hỏi. Cầu dao phụ tải được sử dụng trong các trạm phân phối nhỏ hơn.</para>
+        <para id="id12088676">Hình 11-37: Mặt cắt gian máy ngắt SF6 điện áp 420 đến 500kV của ABB1.thanh góp;2.dao cách li thanh góp;3.máy ngắt;4.dao cách li đường dây cung cấp;5.máy biến dòng;6.máy biến điện áp;7.ống nối ngoài;8.cầu dao nối đất bảo dưỡng;9.cầu dao nối đất tốc độ cao Chúng có khả năng cắt dòng điện tải, cắt và đóng máy biến áp cũng như cắt đường dây và cáp không tải.</para>
+        <para id="id12088749">Chúng có khả năng đóng dòng điện ngắn mạch và dẫn dòng điện ngắn mạch trong thời gian ngắn. Chúng cũng làm việc theo nguyên lí thổi áp lực và có cơ cấu tác động lò xo truyền động bằng động cơ. Các máy biến dòng dùng để đo lường và bảo vệ là kiểu lõi hình xuyến, có thể bố trí trước hoặc sau máy ngắt tùy theo quan niệm bảo vệ. Cách điện sơ cấp do khí SF6 đảm nhiệm. Các máy biến điện áp đo lường và bảo vệ có thể được nối ở phía thứ cấp, hai dây quấn đo và dây quấn nối tam giác hở để phát hiện sự cố chạm đất.</para>
+        <para id="id12088816">Các máy biến điện áp cảm ứng đặt trong vỏ chứa khí SF6 cũng sử dụng máy biến điện áp cách điện lá với SF6 làm chất cách điện chính. Cũng có thể sử dụng các máy biến điện áp điện dung, thường đối với điện áp trên 300 kV. Tụ điện cao áp loại cách điện dầu và chứa khí SF6 trong vỏ. Các tụ hạ áp và các thiết bị hòa hợp điện cảm được đặt trong tủ riêng có vỏ nối đất. Cũng cho phép các đầu điện dung phối hợp với các bộ khếch đại đo lường điện tử. Hộp đầu cáp có thể thích hợp với mọi loại cáp cao áp có tiết diện đến 2000 mm2. Các tiếp điểm cách li và phương tiện nối được sử dụng để thử nghiệm cáp ở điện áp một chiều.</para>
+        <para id="id12088923">Nếu là dao cách li nhánh phải mở đủ rộng trong quá trình thử nghiệm. Cầu dao nối đất tốc độ cao có khả năng đóng dòng ngắn mạch hoàn toàn. Đạt được tốc độ đóng cao nhờ cơ cấu tác động lò xo truyền động bằng động cơ, có thể thao tác bằng tay. Cầu dao nối đất bảo dưỡng (đáp ứng yêu cầu có thể có trong quá trình sản xuất) thường được đặt trước hoặc sau máy ngắt. Bình thường chúng được lắp trên vỏ cách điện và được thao tác bằng tay hoặc chỉ bằng động cơ khi phía cao áp không có điện. Có thể bỏ cầu dao nối đất bảo dưỡng sau máy ngắt, nếu đã có cầu dao nối đất tốc độ cao ở phía đường dây. Ống nối SF6 ngoài trời cho phép máy ngắt kiểu vỏ kín được nối tới đường dây trên không hoặc các đầu cuối của máy biến áp.</para>
+        <para id="id12089013">Ống nối đầu SF 6 của máy biến điện áp được nối trực tiếp với máy ngắt không qua ghép nối ngoài trời. Ống nối được bắt bulông trực tiếp vào thùng máy biến áp. </para>
+        <para id="id12089046">Hình 11-38: Máy ngắt của hãng E.I.BLoại điện áp tới 52kV, dòng cắt 12,5 kACác ống mềm phải chịu dãn nở nhiệt và dung sai lắp đặt. Mỗi gian có tủ điều khiển chứa tất cả thiết bị cần thiết cho điều khiển, tín hiệu hóa, giám sát và cấp nguồn tự dùng (bố trí gian máy ngắt xem hình 11 -37). Loại vỏ nhôm kín khí có trọng lượng thấp và chỉ yêu cầu nền móng nhẹ.</para>
+        <para id="id12089133">Vỏ bọc quanh phần có điện dựa trên cách điện nhựa và được cách điện với vỏ bằng khí SF6 có áp suất 3,5 đến 4,5 bar.</para>
+        <para id="id12089168">Rào cách điện chia gian thành các ngăn khí được hàn kín với nhau.</para>
+        <para id="id12089182">Điều đó làm giảm tối thiểu các ảnh hưởng của các linh kiện khác(ví dụ khi mở rộng trạm hoặc trong trường hợp sự cố), như vậy làm đơn giản việc kiểm tra và bảo dưỡng. Mặt bích nối có vòng đệm không lão hóa. Lượng khí rò chỉ có thể thoát ra ngoài mà không nằm ở giữa các ngăn.</para>
+        <para id="id12089220">Máy ngắt hình 11-37 trên có 3 buồng dập hồ quang trên một pha. Phụ thuộc vào khả năng cắt, một cực có thể có đến 4 buồng dập nối tiếp nhau. Các máy ngắt có thể làm việc với dòng điện cắt đến 63 kA.</para>
+        <para id="id12089238">Trong các nhánh nơi chỉ phải cắt dòng điện tải, có điện áp định mức 362 kV, có thể sử dụng cầu dao phụ tải thay cho máy ngắt vì lí do kinh tế. Mỗi bộ cầu dao có cơ cấu thao tác dễ dàng, vận hành bằng tay trong trường hợp khẩn cấp (bố trí ngoài vỏ). </para>
+        <para id="id12089266">e) Giới thiệu máy ngắt của các hãng AEG và E.I.B</para>
+        <para id="id12089275">Hình 11-40 là sơ đồ các quá trình tác động cắt của máy ngắt khí SF6 kiểu pitông do AEG sản xuất, hình 11-38 một loại máy ngắt của E.I.B.</para>
+        <para id="id12089297">Hình 11-39 là sơ đồ mặt cắt máy ngắt AR 12 của ABB. </para>
+        <para id="id11917855">Hình 11-39. Máy ngắt AR 12(sơ đồ cắt dọc một cực)1.trụ đỡ cách điện2.bộ lọc3.vòng tiếp xúc4.xy lanh dẫn điện chính5.ống tiếp xúc cố định6.vỏ bao quanh7.mũi cách li8.ống tiếp xúc di chuyển9.xilanh nén10-píttông cố định11.thanh truyền động12.đồng hồ áp kế13.các bulông chống14.tấm lót15.bảng nối điện16.xy lanh dẫn động17.hộp van18.thùng khí nén19.ổ cắm nối điện20-công tắc bổ trợ(phụ)21.kết cấu phía dưới</para>
+        <para id="id11918024">Hình 11-40: Sơ đồ quá trình cắt tiếp điểm máy ngắt kiểu píttông của ABBa)Vị trí píttông đóng, b) Cắt dòng điện ngắn mạch, c)Cắt các dòng điện nhỏ, d)Píttông mở1.tiếp điểm hồ quang;2.mũi cách li;3.tiếp điểm làm việc;4.tiếp điểm hồ quang;5.tiếp điểm làm việc;6.buồng áp suất lớn;7.tiếp điểm làm việc;8.van;9.xilanh nén áp lực lớn; 10.xilanh ; 11.van</para>
+      </section>
+      <section id="id-945254970164">
+        <title>Máy ngắt tự đóng lại 3 pha điều khiển bằng điện tử</title>
+        <section id="id-0603025798186">
+          <title>Giới thiệu</title>
+          <para id="id11918103">Máy ngắt tự động đóng lại (Recloser) điều khiển điện tử là một thiết bị bảo vệ quá dòng rất tin cậy, dùng cho lưới phân phối điện áp đến 38 kV.</para>
+          <para id="id11918115">Hình 11-41: Máy ngắt tự động đóng lại loại VWVE27 điều khiển điện tử dập quang trong dầu </para>
+          <para id="id11918153">Do kết cấu gọn nhẹ, các thiết bị này dễ dàng lắp đặt trên trụ hay trong các trạm. Nhờ bộ phận điều khiển tự động đóng lại, các máy tự động đóng lại này cho phép có được sự phối hợp rất tốt và có khả năng ứng dụng mà các thiết bị bảo vệ khác của hệ thống khó thể có được.</para>
+          <para id="id11918168">Hoạt động của máy ngắt tự động đóng lại được lập trình trong một bộ điều khiển điện tử có đặc tính cắt theo số lần đặt trước và thời gian tự động đóng lại chính xác. Chương trình làm việc rất chính xác và cố định, cho phép phối hợp chặt chẽ với các thiết bị bảo vệ khác trong hệ thống điện. Khi yêu cầu bảo vệ của hệ thống thay đổi, việc chỉnh định các giá trị đặt cho chương trình dễ dàng thực hiện mà không làm mất đi cấp chính xác hay tính nhất quán của bảo vệ trước đó.</para>
+          <para id="id11918196">Các loại máy ngắt tự động đóng lại đã có như loại Kyle trong nhóm W - VWE, VWVE27, VWVE38X, WE, WVE27 và WVE38X có dãy thông số định mức rộng đáp ứng được các nhu cầu khác nhau của hệ thống điện. Ngoài ra các phụ kiện điều khiển cho phép đáp ứng chương trình bảo vệ đạt tính linh động tối đa khi vận hành hệ thống.</para>
+        </section>
+        <section id="id-521317093229">
+          <title>Thông số định mức và đặc điểm</title>
+          <para id="id11918220">Máy ngắt tự động đóng lại 3 pha bảo vệ cho hệ thống loại WE và VWE có điện áp định mức từ 2,4 đến 14,4 k V. Loại VWE27 hay VWVE27 có thể dùng cho hệ thống có điện áp định mức đến 24,9 kV. Bảo vệ cho hệ thống điện áp cao hơn (24,9 kV đến 34,5 kV) sẽ dùng máy ngắt tự động đóng lại loại WVE38X và VWVE38X. Bảng 11.6 ghi tóm tắt các thông số định mức cho nhóm máy ngắt tự động đóng loại này.</para>
+          <para id="id11918236">* Có thể tăng lên 800A</para>
+        </section>
+        <section id="id-222540932197">
+          <title>Hoạt động</title>
+          <para id="id11918249">Máy biến dòng cảm nhận đặt trong máy ngắt tự động đóng lại cung cấp tín hiệu phát hiện sự cố đến bộ điều khiển điện tử. Tín hiệu đóng và cắt từ bộ điều khiển sẽ làm mạch điện trong máy ngắt tự động đóng lại hoạt động. Các loại máy ngắt tự động đóng lại tuy có trị định mức khác nhau nhưng vẫn sử dụng một tỉ số biến dòng duy nhất nên giá trị cắt nhỏ nhất không phụ thuộc vào giá trị dòng làm việc và định mức cắt của máy ngắt tự động đóng lại. Ngoài ra việc lựa chọn các đặc tính thời gian - dòng điện từ các đường cong có sẵn, các giá trị cắt tối thiểu, thời gian chỉnh định đóng hay reset và những phụ kiện làm cho việc phối hợp của máy ngắt tự động đóng lại với các thiết bị khác rất linh hoạt.</para>
+        </section>
+        <section id="id-154056809649">
+          <title>BẢNG 6: Tóm tắt các thông số định mức</title>
+          <table id="id11918293" summary="">
+            <tgroup cols="5">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <tbody>
+                <row>
+                  <entry>Điện áp định mức (kV)</entry>
+                  <entry>Dòng điện làm việc liên tục lớn nhất (A)</entry>
+                  <entry>Định mức dòng cắt lớn nhất ở điện áp định mức ( A - đối xứng)</entry>
+                  <entry>Môi trường dập tắt hồ quang</entry>
+                  <entry>Loại Recloser</entry>
+                </row>
+                <row>
+                  <entry>14,414,424,924,934,534,5</entry>
+                  <entry>560*560*560*560*560*560*</entry>
+                  <entry>1000012000800012000800012000</entry>
+                  <entry>DầuChân khôngDầu Chân khôngDầu Chân không</entry>
+                  <entry>WEVWEWVE27VWVE27WVE38XVWVE38X</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+        <section id="id-0388006329367">
+          <title>Cuộn dây đóng</title>
+          <para id="id11918546">Tiếp điểm chính của máy ngắt tự động đóng lại nhờ cuộn dây đóng, quá trình đóng đồng thời tích đủ năng lượng cho cơ cấu cắt. Cuộn dây điện áp cao được nối vào hệ thống từ phía nguồn của máy ngắt tự động đóng lại, việc lựa chọn điện áp định mức của cuộn dây căn cứ vào áp dây của điện áp lưới đang làm việc. Có thể chọn cuộn dây điện áp thấp, khi đó điện áp tự dùng phải được cung cấp cho máy ngắt tự động đóng lại.</para>
+          <para id="id11918552">Cắt hồ quang trong môi trường dầu hay trong chân không</para>
+          <para id="id11698288">Có nhiều loại môi trường cắt cho máy ngắt tự động đóng lại. Máy ngắt tự động đóng lại loại WE, WVE27WE và WVE38 sử dụng dầu làm môi trường dập tắt hồ quang. Tiếp điểm loại cầu gồm hai tiếp điểm nối tiếp trên mỗi pha. Buồng dập hồ quang kiểu tự sinh riêng biệt hiệu quả, từ mức tải nhỏ nhất đến mức dòng sự cố lớn nhất.</para>
+          <para id="id11698303">Máy ngắt tự động đóng lại loại VWVE dùng chân không làm môi trường cắt hồ quang, có tuổi thọ tiếp điểm và chu kì làm việc dài hơn. Việc cắt từng pha được thực hiện nhờ cơ cấu tiếp điểm nằm trong buồng cắt chân không, khi đó tất cả hồ quang sinh ra đều nằm trong chân không. Việc cắt hồ quang ở mức năng lượng bé trong chân không giúp cho máy ngắt tự động đóng lại làm việc nhẹ nhàng hơn và kéo dài tuổi thọ cơ cấu đóng cắt.</para>
+          <para id="id11698323">Do đó máy ngắt tự động đóng lại với cơ cấu cắt trong chân không rất ít khi cần bảo trì, thời gian giữa hai lần thay dầu cũng dài hơn do cách điện không bị nhiễm bẩn trong quá trình cắt hồ quang.</para>
+        </section>
+        <section id="id-320260366126">
+          <title>Bảo vệ quá điện áp</title>
+          <para id="id11698347">Máy ngắt tự động đóng lại được bảo vệ quá điện áp nhờ các chống sét, lắp cả hai phía nguồn và tải (hoặc lắp phía nguồn nếu chỉ bảo vệ quá điện áp cho một phía) cho trường hợp máy ngắt tự động đóng lại lắp trên đường dây và chống sét lắp phía tải, trường hợp máy ngắt tự động đóng lại lắp tại trạm được trình bày sau.</para>
+          <para id="id11698362">Một bộ máy ngắt tự động đóng lại điều khiển điện tử gồm các phần sau:</para>
+          <para id="id11698371"> Máy ngắt tự động đóng lại và phụ kiện.</para>
+          <para id="id11698389"> Bộ điều khiển điện tử và phụ kiện.</para>
+          <para id="id11698407"> Cáp nối mạch điều khiển.</para>
+          <para id="id11698424"> Phụ kiện treo máy ngắt tự động đóng lại (theo yêu cầu).</para>
+        </section>
+        <section id="id-25705213407">
+          <title>Đặc điểm và mô tả chi tiết</title>
+          <para id="id11698450">Máy ngắt tự động đóng lại như loại Kyle (dầu) ba pha, nhóm W điều chỉnh rộng, lập trình được của bộ điều khiển điện tử cho phép thỏa mãn các yêu cầu đa dạng.</para>
+          <para id="id11698464">Có thể lựa chọn môi trường dập tắt hồ quang trong dầu hay trong chân không.</para>
+          <para id="id11698471">* Máy ngắt tự động đóng lại dầu loại WE, WVE và WVE38X (hình 11-42)</para>
+          <para id="id11698479">Hình 11-42: Cơ cấu đơn giản của máy ngắt tự đóng lại loại WE điều khiển điện tử ( Kết cấu các loại WVE27, WVE38X,...tương tự, trừ buồng cắt chân không với các loại VWE, VWVE27 và VWVE38X</para>
+          <para id="id11698522">Tiếp điểm dạng cầu nối giúp ngắt dòng ra làm hai phần nối tiếp nhau trên mỗi pha. Mỗi tiếp điểm ngắt dòng nằm trong buồng dập hồ quang riêng, kiểu tự sinh, có rãnh hở, giúp máy ngắt tự động đóng lại cắt dòng một cách hiệu quả.</para>
+          <para id="id11698537">* Máy ngắt tự động đóng lại chân không loại VWE, VWVE27 và VWVE38</para>
+          <para id="id11698544">Việc cắt dòng trong từng pha được thực hiện bằng một bộ tiếp điểm đặt riêng trong buồng dập hồ quang chân không. Việc cắt hồ quang năng lượng thấp trong chân không giúp kéo dài chu kì làm việc, giảm ồn, nâng cao tuổi thọ cơ cấu truyền động của máy ngắt tự động đóng lại. Lực đóng tiếp điểm là do cuộn dây đóng, cuộn này được cấp điện từ điện áp dây, lấy ngay trong máy ngắt tự động đóng lại.</para>
+          <para id="id11698559">Cuộn dây này đóng tất cả các tiếp điểm chính của ba pha, đồng thời nén lò xo nhả để chuẩn bị cho quá trình cắt tiếp theo. Bộ điều khiển cung cấp tín hiệu để đóng/cắt.</para>
+          <para id="id11698572">Ba biến dòng tỉ số 1000:1 đặt trong máy ngắt tự động đóng lại có nhiệm vụ phát hiện dòng sự cố. Các biến dòng này liên tục đo dòng điện, cảm nhận bằng một mạch điện tử. Khi dòng trong mạch tăng cao hơn mức dòng điện cắt nhỏ nhất và sau một thời gian trễ, bộ điều khiển cấp điện cho cuộn dây cắt, làm nhả lò xo, mở các tiếp điểm chính của ba pha. Nếu có lập trình tự đóng lại, bộ điều khiển sẽ kích hoạt cơ cấu đóng. Máy ngắt tự động đóng lại được thiết kế theo kiểu tự vận hành mà không cần nguồn độc lập nào bên ngoài (trừ khi có yêu cầu bởi vài phụ kiện).</para>
+          <para id="id11698606">Hình 11-43: Máy ngắt tự đóng lại chân không loại VWVE38X(tháo khỏi vỏ thùng)</para>
+          <para id="id11698643"/>
+          <para id="id11698647">Bộ phận điều khiển máy ngắt tự động đóng lại bằng mạch điện tử giúp cài đặt đơn giản trình tự cắt sự cố quá dòng pha và đất sẽ khóa máy ngắt tự động đóng lại. Trị số cắt dòng sự cố pha hoặc đất là nhỏ nhất, thời gian cắt, đóng lại và thời gian reset được chỉnh đặt tại bộ điều khiển mà không cần cắt điện máy. Do có thể lựa chọn 2 đường cong bảo vệ (thời gian - dòng điện) trong vô số các đường cong nên việc sử dụng máy ngắt tự động đóng lại bảo vệ trên lưới rất linh hoạt.</para>
+          <para id="id11698669">c) Cấu tạo</para>
+          <para id="id11698676">Giống như các loại máy ngắt tự động đóng lại khác của hãng Kyle, những loại máy ngắt tự động đóng lại đều được thiết kế có tuổi thọ làm việc cao và ít cần bảo trì nhất. Nắp được đúc bằng nhôm. Thùng làm bằng thép cứng, mặt ngoài sơn polister. (Munsell5BG 7,0/0,4; màu chuẩn là xanh nhạt).</para>
+          <para id="id11698692">Một vòng đệm lót nằm lọt trong rãnh giúp giữ kín dầu và tạo mối ghép rất </para>
+          <para id="id11698701">kín giữa nắp và thùng bất chấp các điều kiện thời tiết. Van lấy mẫu dầu và xả dầu 0,5 inch nằm gần đáy thùng.</para>
+          <para id="id11698711">Máy ngắt tự động đóng lại được giữ bằng các bu lon bắt nắp với giá treo. Toàn bộ cơ cấu làm việc bên trong đều được treo gắn với nắp cho phép tháo rời vỏ thùng ra mà không ảnh hưởng gì đến cơ cấu truyền động cũng như các bộ phận của nắp máy. </para>
+          <para id="id11698726">Ba buồng cắt chân không cố định trên các ống đỡ làm bằng sợi epoxy thủy tinh có độ bền điện và bền cơ cao, khả năng chống ẩm tốt.</para>
+          <para id="id11698737">Buồng cắt hồ quang trong dầu (hình 11-44)</para>
+          <para id="id11698744">Hình 11-44: Buồng dập hồ quang trong dầu Hình 11-45:Buồng dập hồ quang trong chân không</para>
+          <para id="id11698794">Các máy ngắt tự động đóng lại loại WE, WVE27 và WVE38X dùng dầu làm môi trường dập tắt hồ quang. Việc dập tắt hồ quang nhanh chóng (xuống còn 2,5 chu kì) được thực hiện nhờ tiếp điểm loại cầu nối, tạo ra tiếp điểm nối tiếp trên mỗi pha. Tiếp điểm động dạng lưỡi lê, làm bằng hợp kim tungsten mạ bạc, có tính chịu mài mòn và độ dẫn điện tốt. Tiếp điểm tĩnh dạng hoa tulip mạ bạc, định vị bằng lò xo đàn hồi. Tiếp điểm tự làm sạch nhờ thao tác chà sát khi đóng và mở. Mỗi tiếp điểm có một cơ cấu dập hồ quang riêng loại tự sinh, gồm các buồng hồ quang có rãnh thoát ghép lại. </para>
+          <para id="id11698834">Buồng cắt hồ quang trong chân không (hình 11-45)</para>
+          <para id="id11698841">Các Máy ngắt tự động đóng lại loại VWE, VWVE27 và VWVE38X sử dụng buồng cắt hồ quang trong chân không. Buồng cắt trong chân không dập hồ quang ở mức năng lượng thấp nhanh chóng, kéo dài tuổi thọ tiếp điểm và tuổi thọ buồng cắt, tạo ứng suất cơ học nhỏ và có mức độ an toàn cao.</para>
+          <para id="id11698856"/>
+          <para id="id11698860">Hình 11-46: Sơ đồ cung cấp điện áp cho cuộn dây solenoid đóng điện cao áp </para>
+          <para id="id11698910">Khi dập tắt hồ quang trong chân không, tuổi thọ của buồng cắt và tiếp điểm lớn hơn nhiều lần so với trong dầu và máy ngắt tự động đóng lại gần như không cần bảo trì. Ngoài ra ứng suất cơ học và độ độ mài mòn của các cơ cấu đều giảm đáng kể vì khoảng dịch chuyển của các tiếp điểm trong trường hợp này ngắn hơn. Các buồng cắt hồ quang trong chân không được thiết kế với vỏ buồng cắt bằng hợp kim gốm có độ bền cao và duy trì độ chân không lâu dài. Loại hợp kim gốm - nhôm có độ bền gấp 5 lần thủy tinh, có thể được gia công xử lí ở nhiệt độ cao hơn, để sản phẩm có độ tinh khiết cũng như độ chân không cao vì khí helium không lọt vào được. Bên trong buồng cắt là một bộ tiếp điểm động và tĩnh. Tiếp điểm động di chuyển với khoảng di chuyển độ 0,5 inch. Trục của nó luồn trong ống đỡ đàn hồi duy trì độ chân không. Các tiếp điểm làm bằng một loại hợp kim đặc biệt không bị hàn dính. Do chỉ cần một lượng nhiễm bẩn nhỏ nhất bên trong buồng cũng có thể giảm đi đáng kể tuổi thọ của buồng cắt chân không, nên việc sản xuất các buồng cắt chân không này được thực hiện trong các phòng siêu sạch, tránh mọi nguồn gây nhiễm bẩn nhỏ nhất. </para>
+          <para id="id11698945">d) Hoạt động của máy ngắt tự động đóng lại</para>
+          <para id="id11698952">Cắt: khi dòng tải tăng, vượt quá giá trị cắt nhỏ nhất tương ứng với đặc tính thời gian - dòng điện đặt trước của máy ngắt tự động đóng lại thì bộ điều khiển sẽ cấp điện cho cuộn dây cắt. Cuộn này làm nhả chốt gài lò xo và mở tiếp điểm. Thời gian mở tối đa là 2,7 chu kì đối với các loại VWE, VWVE, WE, WVE.</para>
+          <para id="id11698964">Đóng:lực đóng cũng là lực để nén lò xo nhả, được cung cấp từ một cuộn dây đóng hoạt động ở điện áp cao. Khi các tiếp điểm của máy ngắt tự động đóng lại, píttông của cuộn dây bị gài ở vị trí dưới, chốt này sẽ nhả đồng thời với khi lò xo nhả bung ra và píttông của cuộn dây chạy lên chuẩn bị cho hành trình kế tiếp đóng máy ngắt.</para>
+          <para id="id11903957">Vào thời điểm đóng lại được lập trình trước, bộ điều khiển điện tử cấp điện cho cuộn dây kiểu xoay. Khi đó píttông bị hút vào cuộn dây, làm đóng các tiếp điểm của máy ngắt tự động đóng lại và đồng thời nén các lò xo nhả. Hành trình của píttông cũng cắt điện 2 tiếp điểm công tắc tơ cao áp, làm cuộn dây đóng mất điện. Cơ cấu truyền động của máy ngắt tự động đóng lại khi đóng sẽ mở một tiếp điểm trên mạch cuộn dây xoay làm mất điện cung cấp đến cuộn dây xoay. Dây xoay này đóng 2 tiếp điểm nối tiếp (trên mạch cuộn dây đóng) trong thời gian ngắn và cấp điện áp dây cho cuộn dây đóng. Cuộn dây đóng (hình 11-46) được thiết kế làm việc ở chế độ ngắn hạn lặp lại, không liên tục. Trường hợp píttông của cuộn dây hay tiếp điểm trên mạch của cuộn đóng có vấn đề làm cho cuộn dây đóng có điện trong một thời gian kéo dài thì cầu chì bảo vệ cuộn dây đóng sẽ cắt mạch cao áp để tránh cuộn dây đóng bị cháy.</para>
+        </section>
+        <section id="id-00325828779153">
+          <title>Thao tác bằng tay</title>
+          <para id="id11904006">Máy cắt tự động đóng lại có thể cắt bằng tay vào bất kì lúc nào bằng cách kéo cần thao tác nằm dưới tủ điều khiển, kéo cần lên sẽ sẵn sàng cho máy ngắt tự động đóng lại vào trạng thái đóng, tuy vậy tiếp điểm chính của máy ngắt tự động đóng lại chưa đóng. Máy ngắt tự động đóng lại chỉ đóng khi kéo cần lên, vặn tay vặn ở mặt trước tủ điều khiển qua vị trí đóng và điện áp cao phía nguồn đã được cấp đến máy ngắt tự động đóng lại. Một cờ chỉ thị màu đỏ nằm kế cần thao tác cho biết tình trạng đóng hoặc cắt của tiếp điểm của máy ngắt tự động đóng lại.</para>
+        </section>
+        <section id="id-222023226979">
+          <title>Đo lường tín hiệu dòng</title>
+          <para id="id11904049">Máy ngắt tự động đóng lại có 3 biến dòng tỉ số 1000:1. Các biến dòng đo được cả dòng pha và dòng đất (dòng thứ tự 0), chúng được nối tới tủ điều khiển nhờ một dây cáp dài, nhờ vậy cho phép lắp đặt được bộ điều khiển xa máy ngắt tự động đóng lại.</para>
+        </section>
+        <section id="id-905161853115">
+          <title>Tủ điều khiển điện tử</title>
+          <para id="id11904073">Máy ngắt tự động đóng lại loại VWE, VWVE27, VWVE38, WE, WVE27 và WVE được điều khiển bằng tủ điều khiển điện tử. Có thể dùng nhiều loại tủ điều khiển khác nhau (tùy yêu cầu). Sau đây giới thiệu sơ lược về tủ điều khiển vi xử lí F4C.</para>
+          <para id="id11904089">Hình 11-47 là tủ điều khiển máy ngắt tự động đóng lại loại 4C - ME, dùng kĩ thuật vi xử lí để vận hành và có độ linh hoạt cao. Tất cả các thông số điều khiển chuẩn gồm: dòng cắt sự cố chạm đất nhỏ nhất, lựa chọn đặc tuyến dòng điện - thời gian, trình tự làm việc của máy ngắt tự động đóng lại có thể hoàn toàn lập trình được. Dùng bàn phím đơn giản để lập trình cho tủ điều khiển, các phím chức năng chuyên dùng và màn hình LCD (tinh thể lỏng) cho phép dễ dàng lập trình và kiểm tra lại các trị số đã đặt. Bộ điều khiển được trang bị 41 đặc tuyến dòng điện - thời gian chọn bằng phím, có thể chuyển đổi được giữa các giá trị pha và đất. Mỗi đặc tuyến có thể được thay đổi hoặc theo chiều thẳng đứng, hoặc cộng thêm một hằng số vào trục thời gian và như thế tạo ra vô số đặc tuyến. 10 mặt hiển thị LCD ở mặt trước tủ cho biết ngay tình trạng của bộ điều khiển và máy ngắt tự động đóng lại. Bộ điều khiển có các đặc điểm chuẩn như: giám sát, hiển thị trạng thái từ xa, hiển thị sự cố nhờ màn hình LCD và bộ đếm, bộ ghi các sự kiện, đo đạc dòng cũng như hiển thị đồ thị phụ tải.Bộ điều khiển vi xử lí cũng có thể được trang bị một card input/output (đầu vào/ đầu ra) nhằm mở rộng khả năng giám sát của bộ điều khiển. </para>
+          <section id="id-394552094481">
+            <title>Tủ điều khiển từ FXA</title>
+            <para id="id11904155">Bộ điều khiển vi xử lí FXA có các khả năng xử lí dữ liệu rất mạnh và tính linh hoạt cao cũng như độ tin cậy cao trong vận hành. Bộ điều khiển FXA có khả năng bảo vệ quá dòng pha / đất với các tầm rất rộng để đặt các giá trị cắt, các đường cong dòng điện thời gian, các chế độ điều khiển.</para>
+            <para id="id11904170">11 LED chỉ thị cho phép quan sát các tình trạng hoạt động của máy ngắt tự động đóng lại. Bộ điều khiển FXA có khả năng mở rộng khi hoạt động trong hệ thống SCADA. Bộ điều khiển FXA có khả năng giao tiếp được với máy tính, do đó tất cả các thông số hoạt động dễ dàng cài đặt thông qua chương trình này chạy trên môi trường Window.</para>
+            <para id="id11904186">Trong phần mềm của bộ điều khiển FXA có một thư viện chuẩn cùng 41 đường cong thời gian - dòng điện giúp cho việc phối hợp bảo vệ. Chương trình TTC Editor đi kèm theo phần mềm này cho phép người sử dụng tạo ra những đường cong cần thiết cho việc phối hợp bảo vệ. Ngoài ra còn cho phép đọc các dữ liệu ghi nhận được trong quá trình hoạt động.   </para>
+          </section>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

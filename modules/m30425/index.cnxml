@@ -1,0 +1,1548 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Cơ cấu điện từ</title>
+  <metadata>
+  <md:content-id>m30425</md:content-id><md:title>Cơ cấu điện từ</md:title>
+  <md:abstract>Phần này trình bày khái niệm chung về mạch từ</md:abstract>
+  <md:uuid>9c03ef55-3ec9-4d5f-bc03-1d6a41929b5c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id10063083">KHÁI NIỆM CHUNG VỀ MẠCH TỪ </para>
+    <section id="id-302395367791">
+      <title>Khái niệm</title>
+      <para id="id10657907">Các thiết bị điện như rơle, công tắc tơ, khởi động từ, áp tô mát,...đều có bộ phận làm nhiệm vụ biến đổi từ điện năng ra cơ năng. Bộ phận này gồm có cuộn dây và mạch từ gọi chung là cơ cấu điện từ, chia làm hai loại xoay chiều và một chiều. Để nắm được những quy luật điện từ ta xét mạch từ và phương pháp tính toán mạch từ. </para>
+      <figure id="id10657916">
+        <media id="id9758574" alt=""><image src="../../media/graphics1-6fa3.png" mime-type="image/png" height="215" width="292"/></media>
+      </figure>
+      <para id="id10658289">Mạch từ được chia làm các phần:</para>
+      <para id="id9805603">- Thân mạch từ.</para>
+      <para id="id9805609">- Nắp mạch từ.</para>
+      <para id="id9805615">- Khe hở không khí chính  và khe hở phụ p.</para>
+      <para id="id10110985">- Khi cho dòng điện chạy vào cuộn dây thì trong cuộn dây có từ thông  đi qua, từ thông này cũng chia làm ba phần :</para>
+      <para id="id10025063">a) Từ thông chính  là thành phần qua khe hở không khí gọi là từ thông làm việc lv.</para>
+      <para id="id9808930">b) Từ thông tả̉n t là thành phần đi ra ngoài khe hở không khí xung quanh </para>
+      <para id="id9802258">c) Từ thông rò r là thành phần không đi qua khe hở không khí chính mà khép kín trong không gian giữa lõi và thân mạch từ.</para>
+    </section>
+    <section id="id-855062973569">
+      <title>Tính toán mạch từ</title>
+      <para id="id9801596">Tính toán mạch từ thực chất là giải hai bài toán:</para>
+      <list id="id9801604" list-type="enumerated">
+        <item>Bài toán thuận : biết từ thông  tính sức từ động</item>
+      </list>
+      <para id="id10070684">F = IW loại này gặp khi thiết kế một cơ cấu điện từ mới.</para>
+      <para id="id10124083">b) Bài toán nghịch : biết sức từ động F = IW cần tìm từ thông (gặp khi kiểm nghiệm các cơ cấu điện từ có sẵn).</para>
+      <para id="id10123491">Để giải quyết được hai bài toán trên cần phải dựa vào các cơ sở lí thuyết sau:</para>
+      <para id="id10123497">- Biết đường cong từ hóa của vật liệu sắt từ.</para>
+      <para id="id10068258">- Nắm vững các định luật cơ bản về mạch từ.</para>
+      <para id="id10068266">- Biết được từ dẫn khe hở.</para>
+    </section>
+    <section id="id-118820121852">
+      <title>Các lí thuyết cơ sở </title>
+      <list id="id9803664" list-type="enumerated">
+        <item>Đường cong từ hóa B = f(H) hình minh họa </item>
+      </list>
+      <figure id="id9804342">
+        <media id="id6166800" alt=""><image src="../../media/graphics2-f8fe.png" mime-type="image/png" height="182" width="229"/></media>
+      </figure>
+      <para id="id9936089">b) Các định luật cơ bản mạch từ </para>
+      <para id="id9802899"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mmultiscripts><m:mtext/><m:mprescripts/><m:mn>1</m:mn><m:none/></m:mmultiscripts><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>ψ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>;</m:mi><m:msub><m:mi>W</m:mi><m:msub><m:mi>t</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>ψ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mi>;</m:mi></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">ΔW</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ψ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ψ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{W rSub { size 8{t rSub { size 6{1} } } } = {  {I"" lSub {1}  size 12{ψ rSub {1} }}  over  { size 12{2} } }  size 12{;W rSub {t rSub { size 6{2} } } } size 12{ {}= {  {I rSub {2}  size 12{ψ rSub {2} }}  over  { size 12{2} } } } size 12{;}}  {} # 
+ size 12{ΔW rSub { size 8{t} } = {  {I rSub { size 8{1} } +I rSub { size 8{2} } }  over  {2} }  \( ψ rSub { size 8{2} }  - ψ rSub { size 8{1} }  \) }  {} 
+} } {}</m:annotation></m:semantics></m:math>+ Định toàn dòng điện 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mo stretchy="false">∮</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mi>l</m:mi></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Hdl</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "IW"= lInt rSub { size 8{l} }  {}  ital "Hdl"} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id9971812">+ Định luật Ohm trong mạch từ: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>φ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>F</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>M</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>M</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{φ= {  {F}  over  {R rSub { size 8{M} } } } = {  { ital "IW"}  over  {R rSub { size 8{M} } } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id9971785">+Định luật Kiếc Khốp 1 cho mạch từ : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:msub><m:mi>φ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {φ rSub { size 8{i} } } =0} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id10116304">+Định luật Kiếc Khốp 2 cho mạch từ: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:msub><m:mi>φ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Mi</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∑</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {φ rSub { size 8{i} } R rSub { size 8{ ital "Mi"} } = Sum {F rSub { size 8{i} } } } } {}</m:annotation></m:semantics></m:math> (tổng đại số độ sụt từ áp trên một mạch từ kín bằng tổng đại số các sức từ động tác dụng trong mạch từ đó).</para>
+      <para id="id9981221">c) Từ dẫn của khe hở </para>
+      <para id="id9981228">Vì mạch từ có độ từ thẩm (hệ số dẫn từ) lớn hơn không khí nhiều nên từ trở toàn bộ mạch từ hầu như chỉ phụ thuộc vào từ trở khe hở không khí. Trong tính toán thường dùng từ dẫn
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>M</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G= {  {1}  over  {R rSub { size 8{M} } } } } {}</m:annotation></m:semantics></m:math>. Tương tự như mạch điện thì trong mạch từ dẫn G tỉ lệ thuận với tiết diện mạch từ, tỉ lệ nghịch với chiều dài khe hở không khí.</para>
+      <para id="id10111380">Có : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:mi>δ</m:mi></m:mfrac><m:mi/><m:mtext>tæång âæång maûch âiãûn  </m:mtext><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">=</m:mo><m:mi>α</m:mi></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:mi>l</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G=μ rSub { size 8{0} }  "."  {  {S}  over  {δ} } `"tæång âæång maûch âiãûn  "g=α "."  {  {S}  over  {l} } } {}</m:annotation></m:semantics></m:math>với:</para>
+      <para id="id9788656">+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>G</m:mi><m:mfenced open="[" close="]"><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Wb</m:mtext></m:mrow></m:mstyle><m:mi>A</m:mi></m:mfrac></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G left [ {  { ital "Wb"}  over  {A} }  right ]} {}</m:annotation></m:semantics></m:math> :từ dẫn khe hơ ̉ không khí.</para>
+      <para id="id10634579">+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Wb</m:mtext></m:mrow></m:mstyle><m:mrow><m:mi>A</m:mi><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>cm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{0} } =1,"25" "." "10" rSup { size 8{ - 8} }  {  { ital "Wb"}  over  {A "."  ital "cm"} } } {}</m:annotation></m:semantics></m:math>: hệ số từ thẩm không khí.</para>
+      <para id="id9788679">+  [cm]: chiều dài khe hở.</para>
+      <para id="id10185001">+S [ cm2]: diện tích từ thông đi qua ( tiết diện).</para>
+      <para id="id10113989">Công thức này dùng trên cơ sở giả thiết : từ thông qua khe hở không khí phân bố đều đặn ( các đường sức từ song song với nhau), công thức chỉ đúng khi khe hở rất bé, (khe hở lớn thì càng ra mép càng không song song). Thực tế tính từ dẫn rất phức tạp, tùy yêu cầu chính xác mà có các phương pháp tính từ dẫn khác nhau.</para>
+    </section>
+    <section id="id-248455273684">
+      <title>TÍNH TỪ DẪN KHE HỞ KHÔNG KHÍ CỦA MẠCH TỪ </title>
+      <section id="id-908011829335">
+        <title>Tính từ dẫn bằng phương pháp phân chia từ trường</title>
+        <para id="id9981627">Xét ví dụ : Có một cực từ tiết diện chữ nhật đặt song song với mặt phẳng. Giả thiết chiều  đi từ cực từ xuống mặt phẳng (hình minh họa).</para>
+        <figure id="id9971911">
+          <media id="id5144242" alt=""><image src="../../media/graphics3-8c94.png" mime-type="image/png" height="305" width="376"/></media>
+        </figure>
+        <para id="id10184749"> Nếu tính từ dẫn khe hở bằng phương pháp phân chia từ trường ta sẽ phân từ trường thành nhiều phần nhỏ sao cho ở mỗi phần từ trường phân bố đều(có các đường sức từ song song với nhau) để áp dụng công thức cơ bản tính từ dẫn đã có ở trên. Ở đây ta chia làm 17 phần gồm :</para>
+        <para id="id10184765">+) 1 hình hộp chữ nhật thể tích: a. b. </para>
+        <para id="id10115984">+) 4 hình 1/4 trụ tròn có đường kính 2 chiều cao a và b</para>
+        <para id="id9789162">+) 4 hình trụ 1/4 rỗng có đường kính trong 2 đường kính ngoài 2 + 2m</para>
+        <figure id="id9789138">
+          <media id="id3573679" alt=""><image src="../../media/graphics4-1f0d.png" mime-type="image/png" height="401" width="600"/></media>
+        </figure>
+        <para id="id10115478">Từ dẫn của từng phần cho theo bảng 1. Trong đó từ dẫn chính G là của trụ chữ nhật, tổng các từ dẫn còn lại là từ dẫn tản. Có
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:munderover><m:mo stretchy="false">∑</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mtext>17</m:mtext></m:mrow></m:mstyle></m:munderover><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G= Sum cSub { size 8{i=1} }  cSup { size 8{"17"} }  {G rSub { size 8{i} } } } {}</m:annotation></m:semantics></m:math>: nếu có hai từ dẫn nối song song thì nối từ dẫn tương đương Gtđ= G1 + G2.</para>
+        <para id="id9981187">Nếu nối tiếp thì từ dẫn tương đương là
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">tâ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{tâ} } = {  {G rSub { size 8{1} } G rSub { size 8{2} } }  over  {G rSub { size 8{1} } +G rSub { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id10094606">Ưu điểm : tính bằng phương pháp này có ưu điểm là chính xác, rõ ràng dễ kiểm tra. </para>
+        <para id="id10094619">Nhược điểm : có nhiều công thức nên chỉ dùng để tính kiểm nghiệm</para>
+      </section>
+      <section id="id-0737038868644">
+        <title>Tính từ dẫn bằng công thức kinh nghiệm ( dùng khi tính toán sơ bộ ) </title>
+        <figure id="id9788432">
+          <media id="id9230930" alt=""><image src="../../media/graphics5-9b2e.png" mime-type="image/png" height="432" width="297"/></media>
+        </figure>
+        <section id="id-496700972926">
+          <title>a) Từ dẫn khe hở không khí giữa nắp và lõi tạo thành góc  (hình a)</title>
+          <para id="id10184960">G = K . G0</para>
+          <para id="id10115902">Với: K: hệ số điều chỉnh</para>
+          <para id="id9971946"><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>75</m:mtext><m:mroot><m:mi>ϕ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K=2,"75" nroot { size 8{4} }  {ϕ} } {}</m:annotation></m:semantics></m:math>, ( tính theo rađian).</para>
+          <para id="id9971842"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow/></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ {} # 
+ {} # 
+ {} 
+} } {}</m:annotation></m:semantics></m:math> + 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:mi>δ</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{0} } =μ rSub { size 8{0} }  "."  {  {S}  over  {δ} } } {}</m:annotation></m:semantics></m:math></para>
+          <para id="id9971738">+ S :tiết diện lõi [cm2].</para>
+          <para id="id9972041"> +  : độ dài trung bình khe hở không khí (cm).</para>
+        </section>
+        <section id="id-627710382073">
+          <title>0 = 1,25 . 10-8 [ Wb/A. cm= H/cm].</title>
+          <para id="id10184902">
+            <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+          </para>
+        </section>
+        <section id="id-47381418908">
+          <title>b ) Từ dẫn giữa cực từ tròn với mặt phẳng (hình b)</title>
+          <para id="id9981247">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>G</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msub>
+                            <m:mi>μ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mfrac>
+                          <m:mi>S</m:mi>
+                          <m:mi>δ</m:mi>
+                        </m:mfrac>
+                        <m:mfenced open="" close="">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mn>2,</m:mn>
+                                  <m:mtext>08</m:mtext>
+                                </m:mrow>
+                                <m:mi>d</m:mi>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mi>δ</m:mi>
+                          </m:mrow>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{0} } =μ rSub { size 8{0} }  "."  {  {S}  over  {δ} }  left (1+ {  {2,"08"}  over  {d} } δ right )} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <section id="id-449449299159">
+            <title>c) Từ dẫn giữa hai cực từ chữ nhật(hình c)</title>
+            <para id="id9981422">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>G</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>K</m:mi>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:msub>
+                            <m:mi>μ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mi>S</m:mi>
+                              <m:mi>δ</m:mi>
+                            </m:mfrac>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>K</m:mi>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:msub>
+                            <m:mi>G</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{G=K "." μ rSub { size 8{0} }  "."  {  {S}  over  {δ} } =K "." G rSub { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="id10126985"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mn>0,</m:mn><m:mtext>58</m:mtext></m:mrow><m:mrow><m:mi>m</m:mi><m:mtext>.</m:mtext><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mfenced open="" close=""><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mi>m</m:mi></m:mrow></m:mfenced><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mn>0,</m:mn><m:mtext>31</m:mtext></m:mrow><m:mrow><m:mi>m</m:mi><m:mtext>.</m:mtext><m:msup><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+m right )+ {  {0,"31"}  over  {m "." n rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>, với 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>a</m:mi></m:mfrac></m:mrow><m:mi>;</m:mi><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>δ</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {b}  over  {a} } ;n= {  {a}  over  {δ} } } {}</m:annotation></m:semantics></m:math></para>
+          </section>
+        </section>
+        <section id="id-618694782571">
+          <title>d) Từ dẫn giữa mặt phẳng và cực từ đặt ở đầu mặt phẳng(hình d)</title>
+          <section id="id-138210004911">
+            <title>G = K .G0 = K .0 . S/ </title>
+            <para id="id10061980">
+              <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+            </para>
+          </section>
+          <section id="id-108149641106">
+            <title>Với 
+K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+1,5m right )+ {  {0,"31"}  over  {m "." n rSup { size 8{2} } } } } {}</title>
+            <para id="id9803505">e) Từ dẫn giữa mặt phẳng và cực từ đặt ở giữa mặt phẳng</para>
+            <para id="id9803512">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>G</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>K</m:mi>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:msub>
+                            <m:mi>μ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mi>S</m:mi>
+                              <m:mi>δ</m:mi>
+                            </m:mfrac>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>K</m:mi>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:msub>
+                            <m:mi>G</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{G=K "." μ rSub { size 8{0} }  "."  {  {S}  over  {δ} } =K "." G rSub { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="id10126072">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>K</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mn>0,</m:mn>
+                                  <m:mtext>58</m:mtext>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>m</m:mi>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mfenced open="" close="">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>2m</m:mn>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>0,</m:mn>
+                                <m:mtext>31</m:mtext>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mi>m</m:mi>
+                                <m:mtext>.</m:mtext>
+                                <m:msup>
+                                  <m:mi>n</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+2m right )+ {  {0,"31"}  over  {m "." n rSup { size 8{2} } } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+          </section>
+        </section>
+      </section>
+      <section id="id-987369106358">
+        <title>Tính từ dẫn bằng phương pháp giải tích</title>
+        <para id="id10023399">Nguyên tắc của phương pháp này là dựa vào tính chất tương đương giữa sự phân bố từ trường xung quanh vật dẫn từ với điện trường xung quanh vật dẫn điện. Điều kiện bờ giống nhau thì cũng giải tương tự.</para>
+        <para id="id9803130">Ví dụ: hai vật dẫn từ đặt song song với nhau, nếu ở điện trường thì có công thức: </para>
+        <para id="id10125085">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mstyle fontsize="10pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mtext>Q=C</m:mtext>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:msub>
+                                      <m:mi>ϕ</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>1</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msub>
+                                      <m:mi>ϕ</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msub>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mstyle fontsize="10pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>Q</m:mi>
+                                  <m:mi/>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>laì</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mi/>
+                                  <m:mtext>âiãûn têch trãn váût dáùn</m:mtext>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="10pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>C</m:mi>
+                              <m:mi/>
+                              <m:mtext>laì</m:mtext>
+                              <m:mi/>
+                              <m:mtext>âiãûn dung</m:mtext>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="10pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>ϕ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mi>,</m:mi>
+                              <m:msub>
+                                <m:mi>ϕ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mi/>
+                              <m:mtext>laì </m:mtext>
+                              <m:mi/>
+                              <m:mtext>âiãûn thãú cuía váût dáùn 1 vaì 2</m:mtext>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ size 10{"Q=C" \( ϕ rSub { size 8{1} }  - ϕ rSub { size 8{2} }  \) }}  {} # 
+ size 12{ size 10{Q` ital "laì"``"âiãûn têch trãn váût dáùn" "." }}  {} # 
+ size 10{C`"laì"`"âiãûn dung" "." } {} # 
+ size 10{ϕ rSub { size 8{1} } ,ϕ rSub { size 8{2} } `"laì "`"âiãûn thãú cuía váût dáùn 1 vaì 2" "."  } {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10111008">Với điện tích Q, điện dung C, điện thế .</para>
+        <para id="id10126527">Ỏ̉ từ trường có : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>φ</m:mi><m:mo stretchy="false">=</m:mo><m:mi>G</m:mi></m:mrow><m:mfenced open="" close=""><m:mrow><m:msub><m:mi>u</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>u</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{φ=G left (u rSub { size 8{1} }  - u rSub { size 8{2} }  right )} {}</m:annotation></m:semantics></m:math> với: </para>
+        <para id="id10029714">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mstyle fontsize="10pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>φ</m:mi>
+                                  <m:mtext> laì tæì thäng  giæîa hai váût dáùn</m:mtext>
+                                  <m:mtext>.</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="10pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtext>G laì tæì dáùn giæîa hai váût dáùn</m:mtext>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="10pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>U</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mi>,</m:mi>
+                              <m:msub>
+                                <m:mi>U</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mi>:</m:mi>
+                              <m:mtext>laì  tæì thãú  cuía váût dáùn 1 vaì 2</m:mtext>
+                              <m:mtext>.</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ size 10{φ" laì tæì thäng  giæîa hai váût dáùn" "." }}  {} # 
+ size 10{"G laì tæì dáùn giæîa hai váût dáùn" "." } {} # 
+ size 10{U rSub { size 8{1} } ,U rSub { size 8{2} } :"laì  tæì thãú  cuía váût dáùn 1 vaì 2" "."  } {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10111044">có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">=</m:mo><m:mi>K</m:mi></m:mrow><m:mtext>.</m:mtext><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G=K "." C} {}</m:annotation></m:semantics></m:math>và K: hệ số phụ thuộc đơn vị chọn.</para>
+        <para id="id10655827">Ở đây: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>ε</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K= {  {μ rSub { size 8{0} } }  over  {ε rSub { size 8{0} } } } } {}</m:annotation></m:semantics></m:math>với 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mfrac><m:mrow><m:mi>W</m:mi><m:mtext>.</m:mtext><m:mi>b</m:mi></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Acm</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mi>;</m:mi><m:mrow><m:msub><m:mi>ε</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4π</m:mn><m:mtext>.</m:mtext><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mtext>11</m:mtext></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">[</m:mo><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">/</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>cm</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{0} } =1,"25" "." "10" rSup { size 8{ - 8} }  {  {W "." b}  over  { ital "Acm"} } ;ε rSub { size 8{0} } = {  {1}  over  {4π "." 9 "." "10" rSup { size 8{"11"} } } }  \[ F/ ital "cm" \] } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id9805347">Vậy với mô hình toán học giống nhau khi đã tìm ra điện dung C thì sẽ tìm ra từ dẫn G.</para>
+      </section>
+      <section id="id-242665000843">
+        <title>Một số công thức có được bằng phương pháp giải tích</title>
+        <para id="id10022756">a) Từ dẫn giữa mặt trụ song song với một mặt phẳng lớn (khoảng cách a&gt;4r)</para>
+        <para id="id9925681">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>G</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>2π</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mi>μ</m:mi>
+                          <m:mtext>.</m:mtext>
+                          <m:mi>l</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mtext>ln</m:mtext>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msqrt>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mi>r</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:msqrt>
+                            </m:mrow>
+                            <m:mi>r</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{G= {  {2π "." μ "." l}  over  {"ln" {  {a+ sqrt {a rSup { size 8{2} }  - r rSup { size 8{2} } } }  over  {r} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id9808969">b) Từ dẫn hai mặt trụ tròn song song (khoảng cách b&gt;4d)</para>
+        <para id="id10063056">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>G</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>μ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mtext>.</m:mtext>
+                            <m:mi>π</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mtext>ln</m:mtext>
+                            <m:mfrac>
+                              <m:mi>b</m:mi>
+                              <m:mi>r</m:mi>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mi>l</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{G= {  {μ rSub { size 8{0} }  "." π}  over  {"ln" {  {b}  over  {r} } } }  "." l} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10109291">c) Từ dẫn giữa hai mặt trụ đồng tâm bán kính r1 và r2</para>
+        <para id="id10066785">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>G</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mfrac>
+                        <m:mn>2πl</m:mn>
+                        <m:mrow>
+                          <m:mtext>ln</m:mtext>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>r</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>r</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{G=μ rSub { size 8{0} }  "."  {  {2πl}  over  {"ln" {  {r rSub { size 8{2} } }  over  {r rSub { size 8{1} } } } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id9925328">d) Từ dẫn giữa hai mặt cực từ chữ nhật đặt song song ở trong cùng một mặt phẳng</para>
+        <para id="id10062512"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>l</m:mi><m:mn>2π</m:mn></m:mfrac><m:mtext>.</m:mtext><m:mtext>ln</m:mtext><m:mfenced open="" close=""><m:mrow><m:mrow><m:mrow><m:msup><m:mn>2m</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2m</m:mn></m:mrow><m:msqrt><m:mrow><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G=μ rSub { size 8{0} }  "."  {  {l}  over  {2π} }  "." "ln" left (2m rSup { size 8{2} }  - 1+2m sqrt {m rSup { size 8{2} }  - 1}  right )} {}</m:annotation></m:semantics></m:math>, với 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2b</m:mn><m:mo stretchy="false">+</m:mo><m:mi>d</m:mi></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {2b+d}  over  {d} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10658173">Ngoài ra còn phương pháp vẽ nhưng chỉ dùng khi cực từ hình dạng phức tạp không thể dùng biểu diễn toán học được.</para>
+      </section>
+    </section>
+    <section id="id-773884931935">
+      <title>TÍNH TOÁN MẠCH TỪ </title>
+      <section id="id-544744704686">
+        <title>Tính mạch từ một chiều</title>
+        <para id="id9803321">+ Mạch từ một chiều khi làm việc, trong mạch có dòng không đổi I, từ thông =const nên không có tổn hao dòng xoáy, lõi được làm bằng vật liệu sắt từ khối để dễ gia công cơ khí.</para>
+        <para id="id8477932">Trình tự tính toán mạch từ:</para>
+        <para id="id8477938">* Vẽ mạch từ đẳng trị.</para>
+        <para id="id8477945">* Tính từ dẫn G của khe hở không khí và toàn mạch.</para>
+        <para id="id10171959">* Giải mạch từ, tìm các tham số chưa biết.</para>
+        <para id="id10171967">Trong quá trình làm việc khe hở không khí thay đổi làm từ thông  biến thiên do vậy ta chia được ra các trường hợp:</para>
+        <para id="id10657926">a) Tính mạch từ một chiều khi không xét từ thông rò</para>
+        <para id="id10657935">Với mạch từ khe hở không khí bé, cuộn dây phân bố đều trên mạch từ thì có thể bỏ qua từ thông rò.</para>
+        <para id="id10635035">Ví dụ: xét mạch từ hình xuyến như hình minh họa; phần sắt từ chiều dài l, tiết diện S, khe hở  có từ thông rò rò=0. </para>
+        <figure id="id9995297">
+          <media id="id8491539" alt=""><image src="../../media/graphics6-8209.png" mime-type="image/png" height="255" width="251"/></media>
+        </figure>
+        <para id="id9982823">Giải:</para>
+        <para id="id9982827">a.1) Biết  cần tìm F=IW (do ro=0 nên = do IW sinh ra. </para>
+        <para id="id10185726"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≈</m:mo><m:mi>B</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>φ</m:mi><m:mi>S</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{δ} }  approx B= {  {φ}  over  {S} } } {}</m:annotation></m:semantics></m:math>,theo định luật toàn dòng điện có:</para>
+        <para id="id9981661"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Hl</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>δ</m:mi><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mi>δ</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "IW"= ital "Hl"+H rSub { size 8{δ "." } } δ} {}</m:annotation></m:semantics></m:math> (*), từ trị số B ta tra ra H, với S là tiết diện mạch từ [m2]</para>
+        <para id="id10179496">Với trị số từ cảm là B thì: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{δ} } = {  {B rSub { size 8{δ} } }  over  {μ rSub { size 8{0} } } } } {}</m:annotation></m:semantics></m:math>, thay giá trị H vào (*) ta có F=IW.</para>
+        <para id="id10023033">Hoặc dùng phương trình: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mi>φ</m:mi></m:mrow><m:mfenced open="" close=""><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>M</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IW"=φ left (R rSub { size 8{M} } + {  {1}  over  {G rSub { size 8{δ} } } }  right )} {}</m:annotation></m:semantics></m:math></para>
+        <figure id="id10108729">
+          <media id="id7986966" alt=""><image src="../../media/graphics7-d712.png" mime-type="image/png" height="255" width="280"/></media>
+        </figure>
+        <para id="id10126209">a.2) Biết IW cần tìm </para>
+        <para id="id10658400">Có : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mi>H</m:mi></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mi>δ</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IW"=H "." l+H rSub { size 8{δ} }  "." δ} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10070595">Với: 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>B</m:mi><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mi>;</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:mi>δ</m:mi></m:mfrac><m:mtext> n</m:mtext><m:mtext>ãn coï</m:mtext><m:mi>:</m:mi><m:mrow><m:mi>δ</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{alignl { stack {
+ left lbrace H rSub { size 8{δ} } = {  {B rSub { size 8{δ} } }  over  {μ rSub { size 8{0} } } } = {  {B}  over  {μ rSub { size 8{0} } } } ; {} # 
+ right none  left lbrace G rSub { size 8{δ} } =μ rSub { size 8{0} }  "."  {  {S}  over  {δ} } " n""ãn coï":δ=μ rSub { size 8{0} }  "."  {  {S}  over  {G rSub { size 8{δ} } } }  {} # 
+ right no } }  lbrace } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id9938131"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Hl</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BS</m:mtext></m:mrow></m:mstyle><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IW"= ital "Hl"+ {  { ital "BS"}  over  {G rSub { size 8{δ} } } } } {}</m:annotation></m:semantics></m:math>. Chia hai vế cho l.</para>
+        <para id="id10172387">Ta có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle><m:mi>l</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>H</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>B</m:mi><m:mtext>.</m:mtext><m:mi>S</m:mi></m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mi>l</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "IW"}  over  {l} } =H+ {  {B "." S}  over  {G rSub { size 8{δ} } l} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10123465">Trên đường cong từ hóa sắt từ đặt 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mstyle fontstyle="italic"><m:mrow><m:mtext>oa</m:mtext></m:mrow></m:mstyle><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { ital "oa"}} } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle><m:mi>l</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {}= {  { ital "IW"}  over  {l} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10125543">- Chọn tỉ lệ xích trục hoành mH (A.vòng/khoảng).</para>
+        <para id="id10125562">- Chọn tỉ lệ xích trục tung mB (Gauss/khoảng).</para>
+        <para id="id9802752">Với: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tg</m:mtext></m:mrow></m:mstyle><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>l</m:mi></m:mrow><m:mi>δ</m:mi></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:msub><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>H</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "tg"α= {  {G rSub { size 8{δ} }  "." l}  over  {δ} }  "."  {  {m rSub { size 8{H} } }  over  {m rSub { size 8{B} } } } } {}</m:annotation></m:semantics></m:math> (cắt đường cong từ hóa tại b) từ b hạ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>bc</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">⊥</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OH</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "bc" ortho  ital "OH"} {}</m:annotation></m:semantics></m:math>như vậy có</para>
+        <para id="id10029773">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mover accent="true">
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>Oc</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo>¯</m:mo>
+                      </m:mover>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>m</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>H</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>H</m:mi>
+                      </m:mrow>
+                      <m:mi>;</m:mi>
+                      <m:mover accent="true">
+                        <m:mrow>
+                          <m:mi/>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>ca</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mo>¯</m:mo>
+                      </m:mover>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>m</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>H</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>BS</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>G</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>δ</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mtext>.</m:mtext>
+                            <m:mi>l</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mi>;</m:mi>
+                      <m:mi/>
+                      <m:mover accent="true">
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>bc</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo>¯</m:mo>
+                      </m:mover>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>m</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>B</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {overline  { ital "Oc"}}  "." m rSub { size 8{H} } =H; {overline  {~ ital "ca"}}  "." m rSub { size 8{H} } = {  { ital "BS"}  over  {G rSub { size 8{δ} }  "." l} } ;`~ {overline  { ital "bc"}}  "." m rSub { size 8{B} } =B} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id9803699">do đó
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>φ</m:mi><m:mo stretchy="false">=</m:mo><m:mi>B</m:mi></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>φ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{φ=B "." S=φ rSub { size 8{δ} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id10124012">Rút ra trường hợp tổng quát </para>
+        <para id="id10124018">* Đối với những bài toán sức từ động IW giống nhau, nhưng khe hở không khí  khác nhau (tiết diện S khác nhau) thì có thể giải được nhanh chóng bằng cách kẻ từ a các đoạn ab’, ab”,... tạo với trục hoành các góc ’, ”,... tung độ các điểm b’, b” là trị số B cần tìm.</para>
+        <para id="id9935112">* Khi khe hở không khí  và tiết diện S bằng nhau nhưng sức từ động IW khác nhau thì trên trục hoành ta đặt những đoạn thẳng oa’, oa”,...có giá trị bằng
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>l</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {I rSub { size 8{1} } W rSub { size 8{1} } }  over  {l rSub { size 8{1} } } } } {}</m:annotation></m:semantics></m:math>; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mi>l</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {I rSub { size 8{2} } W rSub { size 8{2} } }  over  {l} } } {}</m:annotation></m:semantics></m:math> và kẻ a’b’//a”b” tung độ b’, b” là trị từ cảm B cần tìm.</para>
+        <para id="id10025228">b) Tính mạch từ một chiều khi xét từ thông rò</para>
+        <para id="id10125042">Khi nắp mạch từ mở thì lượng từ thông rò lớn đáng kể nên khi tính phải xét đến.</para>
+        <para id="id10125051">Tính hệ số từ thông rò : </para>
+        <para id="id10125069">Xét mạch từ hình minh họa, ta xét sự phân bố từ thông rò dọc theo chiều cao mạch từ lõi. </para>
+        <figure id="id10123542">
+          <media id="id9676817" alt=""><image src="../../media/graphics8-3f33.png" mime-type="image/png" height="202" width="216"/></media>
+        </figure>
+        <para id="id10657850">Sức từ động trên một đoạn x là 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>x</m:mi><m:mi>l</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{X} } = ital "IW" "."  {  {x}  over  {l} } } {}</m:annotation></m:semantics></m:math> theo vi phân dx là 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">dφ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mi>g</m:mi><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{dφ rSub { size 8{ ital "rx"} } =F rSub { size 8{x} }  "." g "."  ital "dx"} {}</m:annotation></m:semantics></m:math> (g: từ dẫn rò trên đơn vị chiều dài x).</para>
+        <para id="id9801426">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:munderover>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:munderover>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi fontstyle="italic">dφ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>rx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:munderover>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:munderover>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>F</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mtext>.</m:mtext>
+                            <m:mi>g</m:mi>
+                            <m:mtext>.</m:mtext>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>IW</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mi>g</m:mi>
+                                </m:mrow>
+                                <m:mi>l</m:mi>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mn>2</m:mn>
+                              </m:mfrac>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mi>φ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>rx</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ Int cSub { size 8{0} }  cSup { size 8{x} }  {dφ rSub { size 8{ ital "rx"} } = Int cSub { size 8{0} }  cSup { size 8{x} }  {F rSub { size 8{x} }  "." g "."  ital "dx"= {  { ital "IW" "." g}  over  {l} }  "."  {  {x rSup { size 8{2} } }  over  {2} } =φ rSub { size 8{ ital "rx"} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10070637">Khi x = 0 thì 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>coï</m:mtext><m:mi/><m:mrow><m:msub><m:mi>φ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mi>;</m:mi><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>l</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"coï"`φ rSub { size 8{ ital "rx"} } =0;x=l} {}</m:annotation></m:semantics></m:math> nên : </para>
+        <para id="id9805842">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>φ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>rx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msub>
+                            <m:mi>φ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>r</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>IW</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mi>g</m:mi>
+                      <m:mtext>.</m:mtext>
+                      <m:mfrac>
+                        <m:mi>l</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{φ rSub { size 8{ ital "rx"} } =φ rSub { size 8{r} } = ital "IW" "." g "."  {  {l}  over  {2} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id9925668">Có thể xem từ thông rò r chạy qua một từ dẫn tập trung có giá trị bằng
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>g</m:mi><m:mtext>.</m:mtext><m:mfrac><m:mi>l</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g "."  {  {l}  over  {2} } } {}</m:annotation></m:semantics></m:math>, từ dẫn rò tập trung được gọi là từ dẫn rò quy đổi.</para>
+        <para id="id11684652">- Để đánh giá từ thông rò nhiều hay ít ta dùng hệ số từ thông rò :</para>
+        <para id="id10022875">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>σ</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mi>φ</m:mi>
+                            <m:msub>
+                              <m:mi>φ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>δ</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>φ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>δ</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi>φ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>r</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>φ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>t</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>φ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>δ</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>φ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>r</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>φ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>t</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>φ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>δ</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{σ= {  {φ}  over  {φ rSub { size 8{δ} } } } = {  {φ rSub { size 8{δ} } +φ rSub { size 8{r} } +φ rSub { size 8{t} } }  over  {φ rSub { size 8{δ} } } } =1+ {  {φ rSub { size 8{r} } +φ rSub { size 8{t} } }  over  {φ rSub { size 8{δ} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10179626">Với:</para>
+        <para id="id10179632"> : từ thông tổng do cuộn dây sinh ra</para>
+        <para id="id10179650">: từ thông khe hở</para>
+        <para id="id10634894">r: từ thông rò</para>
+        <para id="id10179523">vì  tỉ lệ với từ dẫn nên:</para>
+        <para id="id10179541">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>σ</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>G</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>δ</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>G</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>r</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>G</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>t</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mi>G</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>δ</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{σ= {  {G rSub { size 8{δ} } +G rSub { size 8{r} } +G rSub { size 8{t} } }  over  {G rSub { size 8{δ} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10652576">Trong đó:</para>
+        <para id="id10652581">- Khi nắp mở r lớn thì lấy =(1,8 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math>3).</para>
+        <para id="id10655911">- Khi nắp đóng r nhỏ thì lấy =(1,05 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math>1,1).</para>
+        <para id="id10653221">Chú ý:</para>
+        <para id="id10653233">- Khi nắp mở có thể bỏ qua từ trở của mạch từ nhưng phải xét đến từ thông rò, nên có mạch từ đẳng trị như hình minh họa.</para>
+        <figure id="id9802712">
+          <media id="id9655919" alt=""><image src="../../media/graphics9-7ad4.png" mime-type="image/png" height="224" width="224"/></media>
+        </figure>
+        <para id="id10653238">- Khi nắp đóng có thể bỏ qua từ thông rò vì bé nhưng phải kể đến từ trở.</para>
+      </section>
+      <section id="id-644952426638">
+        <title>Tính mạch từ xoay chiều</title>
+        <para id="id10658041">Mạch từ xoay chiều khác mạch từ một chiều vì những đặc điểm sau:</para>
+        <para id="id10658050">a) Trong mạch từ xoay chiều: i=i(t) nên =msint dòng biến thiên có hiện tượng từ trễ, dòng xoáy, dòng điện chạy trong cuộn dây phụ thuộc vào điện kháng của cuộn dây, mà điện kháng phụ thuộc từ dẫn mạch từ nên từ trở toàn mạch từ càng lớn (khe hở không khí càng lớn) thì điện kháng càng bé và dòng điện trong cuộn dây càng lớn. Khi nắp mạch từ mở dòng điện khoảng I= (415)Iđm.</para>
+        <para id="id10128621">Chú ý: khi đóng điện cơ cấu điện từ, phải kiểm tra nắp xem đóng chưa, nếu nắp mở có thể làm cuộn dây bị cháy.</para>
+        <para id="id10128636">b) Lực hút điện từ F biến thiên F=F(t) có thời điểm F=0 có thời điểm F=Fmax dẫn đến mạch từ khi làm việc bị rung, để hạn chế rung người ta đặt vòng ngắn mạch. Từ thông biến thiên làm xuất hiện sức điện động trong vòng ngắn mạch, trong vòng có dòng điện mắc vòng khép kín, làm vòng ngắn mạch nóng lên. Gọi Wnm là số vòng ngắn mạch (thường Wnm=1). Theo định luật toàn dòng điện có: </para>
+        <para id="id10655480">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>IW</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msub>
+                                  <m:mi>I</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mstyle fontstyle="italic">
+                                        <m:mrow>
+                                          <m:mtext>nm</m:mtext>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>W</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mstyle fontstyle="italic">
+                                        <m:mrow>
+                                          <m:mtext>nm</m:mtext>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mi>φ</m:mi>
+                              </m:mrow>
+                              <m:mfenced open="" close="">
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>R</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>δ</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msub>
+                                    <m:mi>R</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>t</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="11pt">
+                          <m:mrow>
+                            <m:mtext>nãn coï: </m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>IW</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>φ</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mfenced open="" close="">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>R</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>δ</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi>R</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>t</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:msubsup>
+                              <m:mi>W</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>nm</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msubsup>
+                            <m:msub>
+                              <m:mi>r</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>nm</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mfrac>
+                          <m:mi fontstyle="italic">dφ</m:mi>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dt</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ ital "IW"+I rSub { size 8{ ital "nm"} } W rSub { size 8{ ital "nm"} } =φ left (R rSub { size 8{δ} } +R rSub { size 8{t} }  right )}  {} # 
+ size 11{"nãn coï: "} ital "IW"=φ left (R rSub { size 8{δ} } +R rSub { size 8{t} }  right )+ {  {W rSub { size 8{ ital "nm"} }  rSup { size 8{2} } }  over  {r rSub { size 8{ ital "nm"} } } }  "."  {  {dφ}  over  { ital "dt"} }  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10173831"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>φ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mn>2</m:mn></m:mfrac></m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mrow><m:mfenced open="" close=""><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfenced><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Jω</m:mi></m:mrow><m:mfrac><m:msubsup><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IW"= {  {φ rSub { size 8{m} } }  over  {2} }  left [ left (R rSub { size 8{δ} } +R rSub { size 8{t} }  right )+Jω {  {W rSub { size 8{ ital "nm"} }  rSup { size 8{2} } }  over  {r rSub { size 8{ ital "nm"} } } }  right ]} {}</m:annotation></m:semantics></m:math>, gọi 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{t} } = {  {W rSub { size 8{ ital "nm"} } }  over  {r rSub { size 8{ ital "nm"} } } } } {}</m:annotation></m:semantics></m:math>là từ kháng của vòng ngắn mạch thì có:</para>
+        <para id="id10024428">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>IW</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>φ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mfenced open="[" close="]">
+                        <m:mrow>
+                          <m:mfenced open="" close="">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>R</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>δ</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi>R</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>t</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msub>
+                                <m:mtext>Jx</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>t</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mfenced>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{2 ital "IW"=φ rSub { size 8{m} }  left [ left (R rSub { size 8{δ} } +R rSub { size 8{t} }  right )+ ital "Jx" rSub { size 8{t} }  right ]} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10125467"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>Jx</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mi>:</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{t} } =R rSub { size 8{δ} } +R rSub { size 8{t} } + ital "Jx" rSub { size 8{t} } :} {}</m:annotation></m:semantics></m:math>với Rt: từ trở mạch từ.</para>
+        <para id="id9935138">Đặc điểm: từ kháng trong mạch xoay chiều tiêu thụ công suất tác dụng.</para>
+        <para id="id10185811">c) Trong mạch từ xoay chiều có tổn hao dòng xoáy từ trễ làm nóng mạch từ, có thể xem như tổn hao trong vòng ngắn mạch. Nếu gọi Pxt là công suất hao tổn do dòng xoáy và từ trễ thì có thể biểu diễn dưới dạng tương đương như một vòng ngắn mạch.</para>
+        <para id="id10185843"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msubsup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{ ital "xt"} } =I rSub { size 8{ ital "nm"} }  rSup { size 8{2} }  "." r rSub { size 8{ ital "nm"} } } {}</m:annotation></m:semantics></m:math>hay 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msubsup><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>ω</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:msubsup><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:msubsup><m:mi>φ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{ ital "xt"} } = {  {B rSub { size 8{ ital "nm"} }  rSup { size 8{2} } }  over  {r rSub { size 8{ ital "nm"} } } } = {  {ω rSup { size 8{2} }  "." W rSub { size 8{ ital "nm"} }  rSup { size 8{2} } }  over  {2 "." r rSub { size 8{ ital "nm"} } } }  "." φ rSub { size 8{m} }  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id9805919">Có: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>ω</m:mi><m:mtext>.</m:mtext><m:msubsup><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup></m:mrow><m:msub><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mn>2P</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mstyle fontstyle="italic"><m:mrow><m:msubsup><m:mtext>ωφ</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nm</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {ω "." W rSub { size 8{ ital "nm"} }  rSup { size 8{2} } }  over  {r rSub { size 8{ ital "nm"} } } } = {  {2P rSub { size 8{ ital "xt"} } }  over  { ital "ωφ" rSub { size 8{m} }  rSup { size 8{2} } } } =X rSub { size 8{ ital "nm"} } } {}</m:annotation></m:semantics></m:math>gọi là từ kháng thay thế tương đương đặc trưng cho tiêu hao công suất tác dụng do dòng xoáy và từ trễ.</para>
+        <para id="id9803549">d) Từ dẫn rò quy đổi</para>
+        <para id="id9803554">Khác với mạch một chiều vì:</para>
+        <para id="id9803563">- Sức từ động tổng F=IW sức từ động đoạn X là 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>x</m:mi><m:mi>l</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{X} } = ital "IW" "."  {  {x}  over  {l} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10431952"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>W</m:mi></m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>l</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{x} } =W {  {x}  over  {l} } } {}</m:annotation></m:semantics></m:math>từ thông mắc vòng đoạn x là 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{ ital "rx"} } =W rSub { size 8{x} }  "." f rSub { size 8{ ital "rx"} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id10123124">Cuối cùng có : 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>r</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>g</m:mi><m:mtext>.</m:mtext><m:mi>l</m:mi></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{r} } = {  {g "." l}  over  {3} } } {}</m:annotation></m:semantics></m:math>là từ dẫn rò trong mạch xoay chiều.</para>
+        <para id="id10110144">Về phương pháp tính toán mạch từ xoay chiều cũng giống ở mạch từ một chiều nhưng phải lưu ý bốn đặc điểm trên. Ví dụ mạch từ xoay chiều như hình minh họa:</para>
+        <figure id="id10110172">
+          <media id="id3559489" alt=""><image src="../../media/graphics10-74e8.png" mime-type="image/png" height="232" width="224"/></media>
+        </figure>
+        <para id="id9995843">- Khi vẽ mạch từ đẳng trị phải xét đến tác dụng của vòng ngắn mạch, tổn hao dòng xoáy và từ trễ.</para>
+        <para id="id9995853">- Khi nắp đóng, bỏ qua từ thông rò nhưng phải kể đến từ trễ và từ kháng mạch từ nên dạng như hình minh họa a. </para>
+        <para id="id10658293">- Khi nắp mạch từ mở, có thể bỏ qua từ trở và từ kháng của mạch từ, nhưng phải xét đến từ thông rò cho nên mạch từ đẳng trị có dạng như hình minh họa b. </para>
+        <figure id="id10658309">
+          <media id="id7962527" alt=""><image src="../../media/graphics11-df82.png" mime-type="image/png" height="261" width="463"/></media>
+        </figure>
+      </section>
+    </section>
+  </content>
+</document>

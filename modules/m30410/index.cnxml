@@ -1,0 +1,354 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Công tắc tơ</title>
+  <metadata>
+  <md:content-id>m30410</md:content-id><md:title>Công tắc tơ</md:title>
+  <md:abstract>Phần này trình bày khái quát và công dụng của công tắc tơ</md:abstract>
+  <md:uuid>0ee35ef0-180a-4063-9d57-5490a86a8af0</md:uuid>
+</metadata>
+
+<content>
+    <para id="id9177910">Khái quát và công dụng</para>
+    <para id="id9177916">Công tắc tơ là một loại thiết bị điện dùng để đóng cắt từ xa, tự động hoặc bằng nút ấn các mạch điện lực có phụ tải điện áp đến 500V, dòng điện đến 600A. </para>
+    <para id="id10383054">Công tắc tơ có hai vị trí là đóng và cắt. Tần số đóng có thể tới 1500 lần một giờ.</para>
+    <section id="id-321872815124">
+      <title>Phân loại</title>
+      <para id="id8309138">Công tắc tơ hạ áp thường là kiểu không khí được phân ra các loại sau:</para>
+      <para id="id8309146">a) Phân theo nguyên lí truyền động</para>
+      <para id="id9555222">+ Công tắc tơ điện từ (truyền động bằng lực hút điện từ, loại này thường gặp).</para>
+      <para id="id9555230">+ Công tắc tơ kiểu hơi ép.</para>
+      <para id="id9555236">+ Công tắc tơ kiểu thủy lực.</para>
+      <para id="id11394775">b) Phân theo dạng dòng điện</para>
+      <para id="id11394784">+ Công tắc tơ một chiều</para>
+      <para id="id11394789">+ Công tắc tơ xoay chiều</para>
+      <para id="id11283571">c) Phân theo kiểu kết cấu</para>
+      <para id="id11283583">+ Công tắc tơ hạn chế chiều cao (dùng ở gầm xe,...)</para>
+      <para id="id12590456">+ Công tắc tơ hạn chế chiều rộng (như lắp ở buồng tàu điện,...)</para>
+    </section>
+    <section id="id-213656677965">
+      <title>Các bộ phận chính của công tắc tơ</title>
+      <para id="id11283587">Công tắc tơ điện từ có các bộ phận chính như sau:</para>
+      <para id="id8884439">+ Hệ thống tiếp điểm chính.</para>
+      <para id="id8884445">+ Hệ thống dập hồ quang.</para>
+      <para id="id8884450">+ Cơ cấu điện từ.</para>
+      <para id="id11394829">+ Hệ thống tiếp điểm phụ.</para>
+    </section>
+    <section id="id-0822787760974">
+      <title>Các yêu cầu cơ bản của tắc công tơ</title>
+      <list id="id11394844" list-type="enumerated">
+        <item>Điện áp định mức Uđm</item>
+      </list>
+      <para id="id9684112">Là điện áp của mạch điện tương ứng mà tiếp điểm chính phải đóng/cắt, có các cấp: + 110V, 220V, 440V một chiều và 127V, 220V, 380V, 500V xoay chiều.</para>
+      <para id="id8355749">Cuộn hút có thể làm việc bình thường ở điện áp trong giới hạn từ 85% đến 105%Uđm.</para>
+      <para id="id9191468">b) Dòng điện định mức Iđm</para>
+      <para id="id9697522">Là dòng điện đi qua tiếp điểm chính trong chế độ làm việc gián đoạn - lâu dài, nghĩa là ở chế độ này thời gian công tắc tơ ở trạng thái đóng không lâu quá 8 giờ.</para>
+      <para id="id9697534">Công tắc tơ hạ áp có các cấp dòng thông dụng: 10, 20, 25, 40, 60, 75, 100, 150, 250, 300, 600A). Nếu đặt công tắc tơ trong tủ điện thì dòng điện định mức phải lấy thấp hơn 10% vì làm mát kém, khi làm việc dài hạn thì chọn dòng điện định mức nhỏ hơn nữa. </para>
+      <list id="id9675134" list-type="enumerated">
+        <item>Khả năng cắt và khả năng đóng</item>
+      </list>
+      <para id="id11376094">Là dòng điện cho phép đi qua tiếp điểm chính khi cắt và khi đóng mạch.</para>
+      <para id="id11376102">Ví du:̣ công tắc tơ xoay chiều dùng để điều khiển động cơ không đồng bộ ba pha lồng sóc cần có khả năng đóng yêu cầu dòng điện bằng ( 3
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 7)Iđm . Khả năng cắt với công tắc tơ xoay chiều phải đạt bội số khoảng 10 lần dòng điện định mức khi tải cảm.</para>
+      <list id="id9768019" list-type="enumerated">
+        <item>Tuổi thọ công tắc tơ</item>
+      </list>
+      <para id="id9768030">Tính bằng số lần đóng mở (sau số lần đóng mở ấy công tắc tơ sẽ không dùng được tiếp tục nữa, hư hỏng có thể do mất độ bền cơ khí hoặc bền điện).</para>
+      <para id="id8999887">+ Độ bền cơ khí: xác định bởi số lần đóng cắt không tải, tuổi thọ cơ khí từ 10 đến 20 triệu lần.</para>
+      <para id="id8999896">+ Độ bền điện: xác định bởi số lần đóng cắt có tải định mức, công tắc tơ hiện nay đạt khoảng 3 triệu lần.</para>
+      <list id="id11874589" list-type="enumerated">
+        <item>Tần số thao tác</item>
+      </list>
+      <para id="id11874600">Số lần đóng cắt trong thời gian một giờ bị hạn chế bởi sự phát nóng của tiếp điểm chính do hồ quang. Có các cấp: 30, 100, 120, 150, 300, 600, 1.200 đến 1.500 lần trên một giờ, tùy chế độ công tác của máy sản xuất mà chọn công tắc tơ có tần số thao tác khác nhau.</para>
+      <para id="id10369996">h) Tính ổn định lực điện động</para>
+      <para id="id10370002">Cho phép dòng lớn nhất qua tiếp điểm chính mà lực điện động gây ra không làm tách rời tiếp điểm. Quy định dòng thử lực điện động gấp 10 lần dòng định mức.</para>
+      <para id="id10989408">g) Tính ổn định nhiệt</para>
+      <para id="id10989414">Công tắc tơ có tính ổn định nhiệt tức là khi có dòng ngắn mạch chạy qua trong khoảng thời gian cho phép thì các tiếp điểm không bị nóng chảy hoặc bị hàn dính.</para>
+    </section>
+    <section id="id-028738987824">
+      <title>Hệ thống tiếp điểm</title>
+      <para id="id11073547">Yêu cầu của hệ thống tiếp điểm là phải chịu được độ mài mòn về điện và cơ trong các chế độ làm việc nặng nề, có tần số thao tác đóng cắt lớn, do vậy điện trở tiếp xúc của tiếp điểm công tắc tơ Rtx thường là tiếp xúc đường (tiếp điểm hình ngón hoặc kiểu bắc cầu).</para>
+    </section>
+    <section id="id-912853624507">
+      <title>Nguyên lí làm việc của hệ thống dập hồ quang</title>
+      <para id="id9684247">Theo lí thuyết có các nguyên tắc cơ bản đã được nêu trong chương 1.</para>
+      <para id="id9684077">Ta xét ở đây một vài kết cấu dập hồ quang đang phổ biến:</para>
+      <para id="id9684086">a) Thiết bị dập hồ quang trong công tắc tơ một chiều </para>
+      <para id="id9767997">Trong công tắc tơ một chiều thường dùng phương pháp dập hồ quang bằng từ trường ngoài. Hệ thống này được chia ra làm ba loại :</para>
+      <para id="id9712344">+Hệ thống có cuộn dây dập hồ quang nối nối tiếp (thường được sử dụng do có nhiều ưu điểm như: chiều thổi từ không đổi vì khi dòng điện thay đổi chiều thì chiều từ trường cũng thay đổi theo. Ngoài ra có sụt áp trên cuộn dây dập hồ quang nhỏ).</para>
+      <para id="id9712352">+Hệ thống có cuộn dây dập hồ quang nối song song (loại này ít được dùng do nhiều nhược điểm như: chiều lực tác dụng vào hồ quang phụ thuộc chiều dòng tải, cách điện cuộn dập lớn do đấu song song với nguồn, khi sự cố ngắn mạch gây sụt áp thì hiệu quả dập giảm nhiều).</para>
+      <para id="id9768002">+Hệ thống dùng nam châm điện vĩnh cửu (về bản chất gần giống cuộn dây mắc song song nhưng có những ưu điểm sau: không tiêu hao năng lượng để tạo từ trường, giảm được tổn hao cho công tắc tơ, không gây phát nóng cho công tắc tơ, vì vậy khi dòng điện bé loại này được sử dụng rộng rãi). </para>
+      <para id="id9712226">Hình 8-1 là kết cấu thiết bị dập hồ quang điện một chiều trong công tắc tơ. </para>
+      <para id="id10995078">b) Thiết bị dập hồ quang trong công tắc tơ xoay chiều</para>
+      <para id="id11196792">Các công tắc tơ xoay chiều thông dụng dùng trong công nghiệp thường bố trí chế tạo có hai điểm ngắt trên một pha (dùng tiếp điểm kiểu bắc cầu).</para>
+      <para id="id11196803">Để nâng cao độ tin cậy làm việc của bộ phận dập hồ quang và để bảo vệ tiếp điểm thường bố trí bổ xung các các biện pháp như:</para>
+      <para id="id10984336">Hình 8-1: Kết cấu thiết bị dập hồ quang một chiều:1.Các tiếp điểm;2.Sừng dập hồ quang;3.cuộn dây dập hồ quang;4.Mạch từ dập;5.Má hộp;6.Khe hở hộp;7.Phiến của lưới dập.+Dập hồ quang bằng cuộn dây thổi từ nối tiếp kèm hộp dập hồ quang có khe hẹp. </para>
+      <para id="id9274418">+ Chia hồ quang ra làm nhiều hồ quang ngắn, hồ quang bị thổi vào hộp cấu trúc bằng nhiều tấm thép ghép song song. </para>
+    </section>
+    <section id="id-700166462556">
+      <title>Nguyên lí làm việc của công tắc tơ kiểu điện từ</title>
+      <para id="id9177882">Hình 8-2 là kiểu nguyên lí chung của công tắc tơ kiểu điện từ. </para>
+      <para id="id9274426">Hình 8-2: Các sơ đồ truyền động của công tắc tơ điện xoay chiều Trên hình 8-2 ta thấy cơ cấu điện từ của công tắc tơ gồm các bộ phận cơ bản:</para>
+      <para id="id9274483">+ Mạch từ: là các lõi thép có dạng chữ E hoặc chữ U được ghép bằng các lá tôn silíc có chiều dày 0,35mm hoặc 0,5mm để giảm tổn hao sắt từ do dòng điện xoáy. Mạch từ thường chia làm hai phần, một phần được kẹp chặt cố định (phần tĩnh), phần còn lại là nắp (gọi là phần ứng hay phần động) được nối với hệ thống tiếp điểm qua hệ thống tay đòn.</para>
+      <para id="id7894192">+ Cuộn dây hút : cuộn dây có điện trở rất bé so với điện kháng. Dòng điện trong cuộn dây phụ thuộc vào khe hở không khí giữa nắp và lõi thép cố định. Kết quả là không được phép cho điện áp vào cuộn dây khi nếu vì lí do nào đấy mà nắp bị giữ ở vị trí mở (dòng lúc đó sẽ rất lớn do tổng trở vào công tắc tơ nhỏ).</para>
+      <para id="id10995025">+ Các cuộn dây của phần lớn các công tắc tơ được tính toán sao cho phép đóng ngắt với tần số 600 lần trong một giờ, ứng với hệ số thông điện ĐL = 40%.</para>
+      <para id="id9180803">+ Cuộn dây của công tắc tơ xoay chiều cũng có thể được cung cấp từ lưới điện một chiều. Cuộn dây có thể làm việc tin cậy (hút phần ứng), khi điện áp cung cấp cho nó nằm trong phạm vi (85 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 110)% Uđm. Nếu ta gọi tỉ số giữa trị số điện áp nhả và điện áp hút của cuộn dây là hệ số trở về, thì hệ số này có thể đạt tới (0,6 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 0,7). Điều đó có nghĩa là khi điện áp cuộn dây sụt xuống còn (0,6 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 0,7) trị số điện áp hút thì nắp sẽ bị nhả và ngắt mạch điện.</para>
+      <para id="id10537112">+ Cơ cấu truyền động: phải có kết cấu sao cho giảm được thời gian thao tác đóng ngắt tiếp điểm, nâng cao lực ép các tiếp điểm và giảm được tiếng kêu va đập.</para>
+      <para id="id10517156">+ Nắp chuyển động xoay chiều bản lề: tiếp điểm chuyển động thẳng có tay đòn truyền chuyển động (hình 8-2a).</para>
+      <para id="id10517171">Hình 8-3: Công tắc tơ một chiều+ Nắp và tiếp điểm: chuyển động thẳng theo hai phương vuông góc với nhau (hình 8-2b).</para>
+      <para id="id9652698">+ Nắp chuyển động thẳng, tiếp điểm chuyển động xoay quanh bản lề (hình 8-2c).</para>
+      <para id="id12348768">+ Nắp và tiếp điểm đều chuyển động xoay quanh một bản lề có một hệ thống tay đòn chung (hình 8-2d), trường hợp này lực ép trên tiếp điểm lớn.</para>
+      <para id="id12348780">Nguyên lí làm việc của công tắc tơ điện một chiều kiểu điện từ cũng tương tự như trên, thường chỉ khác ở hình dáng kết cấu truyền động của mạch từ tới tiếp điểm. Cụ thể là công tắc tơ điện một chiều hầu hết sử dụng mạch từ kiểu supáp có tiếp điểm động bắt chặt ngay vào nắp. Ngoài ra, vì là điện một chiều nên mạch từ thường làm bằng sắt từ mềm, cuộn dây thường có hình trụ tròn, có thể quấn sát vào lõi vì lõi thép ít nóng hơn trường hợp điện xoay chiều. Hình dạng chung của công tắc tơ một chiều như hình 8-4. </para>
+      <para id="id12348787">Hình 8-4:Công tắc tơ chân không kiểu VRCa)Mặt cắt,b)Mặt trước;1.đầu nối;2.buồng đóng cắt chân không3.cuộn dây công tắc tơ;4.tiếp điểm phụ Trong đó: 1. là tiếp điểm tĩnh được bắt chặt vào quai 2; 3 cuộn dập hồ quang; 4. dây dẫn; 5. đế cách điện; 6. móc thép; 7. tiếp điểm động; 8. giá đỡ;9. cọc dẫn dây ra; 10. dây mềm; 11. sừng bảo vệ tiếp điểm động ; 12. lò xo.</para>
+    </section>
+    <section id="id-268067895026">
+      <title>Công tắc tơ chân không</title>
+      <para id="id12557802">Công tắc tơ chân không đặc biệt thích hợp với công việc đóng mở các động cơ cần đóng/mở thường xuyên.</para>
+      <para id="id10515402">Ví dụ: động cơ trung áp của các máy bơm, của bộ tụ bù điện hoặc quạt.</para>
+      <para id="id11956196">Công tắc tơ chân không có tuổi thọ 1 x 106 chu kì đóng/cắt và có thể làm việc với tần số đóng cắt 1200 đóng/cắt một giờ. Các tính năng của công tắc tơ chân không kiểu VRC( hình 8- 4) biểu diễn như sau:</para>
+      <section id="id-543960366716">
+        <title>Bảng 8.1: Một số loại công tắc tơ chân không</title>
+        <table id="id12074650" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>Điện áp định mức [ kV]</entry>
+                <entry>3,6</entry>
+                <entry>7,2</entry>
+                <entry>12</entry>
+              </row>
+              <row>
+                <entry>Dòng điện định mức [A]+ Dùng cho động cơ đến [kW]+Dùng cho tụ điện đến [kVAr]</entry>
+                <entry>45015002000</entry>
+                <entry>45020004000</entry>
+                <entry>25040004000</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+    </section>
+    <section id="id-28228174372">
+      <title>KHỞI ĐỘNG TỪ </title>
+      <section id="id-503017292566">
+        <title>Khái quát và công dụng</title>
+        <para id="id10580549">Khởi động từ là một loại thiết bị điện dùng để điều khiển từ xa việc đóng/cắt, đảo chiều và bảo vệ quá tải (nếu có mắc thêm rơle nhiệt) cho các động cơ ba pha rôtor lồng sóc. Khởi động từ khi có một công tắc tơ gọi là khởi động từ đơn, thường dùng để điều khiển đóng cắt động cơ điện. Khởi động từ có hai công tắc tơ gọi là khởi động từ kép, dùng để khởi động và điều khiển đảo chiều động cơ điện. Muốn khởi động từ bảo vệ được ngắn mạch phải mắc thêm cầu chảy.</para>
+      </section>
+      <section id="id-486825722587">
+        <title>Các yêu cầu kĩ thuật chủ yếu </title>
+        <para id="id10531313">Động cơ không đồng bộ ba pha làm việc liên tục hay không nhờ chủ yếu vào độ làm việc tin cậy của khởi động từ. Khởi động từ muốn làm việc tin cậy cần thỏa mãn các yêu cầu kĩ thuật sau:</para>
+        <para id="id10531322">+Tiếp điểm phải có độ bền chịu được độ mài mòn cao.</para>
+        <para id="id11713455">+Khả năng đóng cắt của khởi động từ phải cao.</para>
+        <para id="id11713463">+Thao tác đóng cắt phải dứt khoát.</para>
+        <para id="id11713470">+Tiêu thụ công suất ít nhất.</para>
+        <para id="id12346235">+Bảo vệ tin cậy động cơ điện khỏi quá tải lâu dài.</para>
+        <para id="id12346243">+Thỏa mãn các điều kiện khởi động động cơ không đồng bộ rotor lồng sóc có hệ số dòng khởi động từ bằng từ 5 đến 7 lần dòng điện định mức. </para>
+        <para id="id11587259">Để thỏa mãn các yêu cầu trên đây, trong sản xuất người ta chế tạo tiếp điểm động ngày một nhẹ, đồng thời tăng cường lò xo nén tiếp điểm. Làm như vậy sẽ giảm được thời gian chấn động tiếp điểm trong quá trình mở máy động cơ, do đó giảm được độ mài mòn tiếp điểm.</para>
+        <para id="id12346248">Thời gian chấn động là một chỉ tiêu quan trọng nói lên độ bền chịu mòn của tiếp điểm. Các kết quả nghiên cứu thí nghiệm cho thấy rằng nếu rút ngắn được 0,5ms thời gian chấn động lúc đóng khởi động từ để mở máy động cơ điện thì sẽ giảm được độ mài mòn tiếp điểm đi khoảng 50 lần. Các khởi động từ của Liên Xô (cũ) có loại 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math> như kiểu 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math>422, thời gian chấn động chỉ 3ms, kiểu 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∏</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Prod {} } {}</m:annotation></m:semantics></m:math>222 - 1,5ms, đồng thời khả năng đóng ngắt về điện đã đạt tới 1.106 lần thao tác. Hãng Siemens (Đức) sản xuất khởi động từ đạt được tuổi thọ về điện tới 2.106 lần thao tác (ví dụ kiểu K -915).</para>
+        <para id="id10535698">Khi ngắt khởi động từ, điện áp phục hồi trên tiếp điểm bằng hiệu số điện áp lưới và sức điện động của động cơ điện. Kết quả trên các tiếp điểm chỉ còn xuất hiện một điện áp bằng khoảng (15 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 20)% Uđm tức là thuận lợi cho quá trình ngắt. Các kết quả nghiên cứu thí nghiệm về khởi động từ cho thấy độ mòn tiếp điểm khi đóng động cơ lớn gấp 3 đến 4 lần độ mòn tiếp điểm khi ngắt khởi động từ trong điều kiện đang làm việc bình thường.</para>
+      </section>
+      <section id="id-742596507822">
+        <title>Độ bền chịu mài mòn về điện và cơ của các tiếp điểm khởi động từ</title>
+        <para id="id12173714">Tuổi thọ của các tiếp điểm về điện và về cơ thường do ba yếu tố sau đây quyết định: </para>
+        <para id="id12590437">+ Kết cấu.</para>
+        <para id="id12590444">+ Công nghệ sản xuất.</para>
+        <para id="id12590450">+ Sử dụng vận hành và sửa chữa. </para>
+        <para id="id12554916">a) Độ bền chịu mòn về điện</para>
+        <para id="id12554921">Độ mòn tiếp điểm về điện lớn nhất khi khởi động từ mở máy động cơ điện không đồng bộ rotor lồng sóc, hồ quang điện sinh ra khi các tiếp điểm động dập vào tiếp điểm tĩnh bị chấn động bật trở lại. Lúc này dòng điện đi qua khởi động từ bằng 6 - 7 lần dòng điện định mức, do đó hồ quang điện cũng tương ứng với dòng điện đó.</para>
+        <para id="id10606156">Kết quả nghiên cứu, thí nghiệm với nhiều kiểu khởi động từ khác nhau cho thấy rằng khi giảm thời gian chấn động các tiếp điểm, độ bền chịụ mòn của chúng tăng lên rõ rệt. Trong chế tạo khởi động từ ngày nay người ta thường dùng kết cấu tiếp điểm bắc cầu để giảm bé thời gian chấn động thứ nhất, đồng thời làm tiếp điểm động có trọng lượng bé và tăng cường lò xo nén ban đầu lên tiếp điểm. Giảm thời gian chấn động thứ hai bằng cách đặt nệm lò xo vào lõi thép tĩnh đồng thời với việc nâng cao độ bền chịu mài mòn về cơ của nam châm điện.</para>
+        <para id="id12554926">Tình trạng bề mặt làm việc của các tiếp điểm cũng ảnh hưởng rõ rệt đến mức độ mài mòn. Điều này thường xảy ra trong qúa trình sử dụng và nhất là do chất lượng sửa chữa bảo dưỡng tiếp điểm. Hiện tượng cong vênh, nghiêng các bề mặt tiếp điểm làm tiếp xúc xấu dẫn tới giảm nhanh chóng độ bền chịu mòn của tiếp điểm. Để giảm ảnh hưởng của hiện tượng này, người ta thường chế tạo tiếp điểm động có đường kính bé hơn tiếp điểm tĩnh một chút và có dạng mặt cầu. </para>
+        <para id="id12554931">Vật liệu làm tiếp điểm khi dòng điện bé (nhỏ hơn 100A) ở các khởi động từ cỡ nhỏ thường là làm bằng bột bạc nguyên chất. Còn ở các khởi động từ cỡ lớn (dòng điện lớn hơn 100A) thường làm bằng bột gốm kim loại như hỗn hợp bạc - cađimi ôxít (mã hiệu COK - 15) hoặc bạc - niken.</para>
+        <para id="id10591255">b) Độ bền chịu mòn về cơ </para>
+        <para id="id10591261">Cũng như hầu hết các thiết bị điện hạ áp, các chi tiết động của khởi động từ làm việc không có dầu mỡ bôi trơn, tức là làm việc khô. Do đó phải chọn vật liệu ít bị mòn do ma sát và không bị gỉ. Ngày nay người ta thường dùng kim loại - nhựa có độ bền chịu mòn cao, có thể bền gấp 200 lần độ mòn giữa kim loại - kim loại.</para>
+        <para id="id10538180">Các yếu tố ảnh hưởng đến độ bền chịu mài mòn về cơ của khởi động từ thường là: </para>
+        <para id="id10591498"> + Kiểu kết cấu (cách bố trí các bộ phận cơ bản).</para>
+        <para id="id10591505"> + Phụ tải riêng (tỉ tải) ở chỗ có ma sát và va đập.</para>
+        <para id="id10591513"> + Hệ thống giảm chấn động của nam châm.</para>
+        <para id="id11735375">Chọn đúng khởi động từ, sử dụng và vận hành đúng chế độ, cũng làm tăng tuổi thọ về cơ. Đối với các khởi động từ kiểu thông dụng, cần phải đảm bảo:</para>
+        <para id="id11735387">+ Làm sạch bụi và ẩm nước.</para>
+        <para id="id12690010">+ Lựa chọn phù hợp với công suất và chế độ làm việc của động cơ.</para>
+        <para id="id12690021">+ Lắp đặt đúng, ngay ngắn, không để khởi động từ bị rung, kêu đáng kể.</para>
+        <para id="id10565149">Độ bền chịu mài mòn về cơ khí của khởi động từ có thể đạt tới 10.106 lần thao tác đóng/cắt.</para>
+      </section>
+      <section id="id-399520622204">
+        <title>Kết cấu và nguyên lí làm việc</title>
+        <para id="id11493832">Khởi động từ thường được phân chia:</para>
+        <para id="id11493838">+ Theo điện áp định mức của cuộn dây hút : 36V, 127V, 220V, 380V, và 500V.</para>
+        <para id="id12534535">+ Theo kết cấu bảo vệ chống tác động bởi môi trường xung quanh có các loại: hở, bảo vệ, chống bụi, chống nổ,...</para>
+        <para id="id12534545">+ Theo khả năng làm biến đổi chiều quay động cơ điện: có loại không đảo chiều và đảo chiều.</para>
+        <para id="id12640767">+ Theo số lượng và loại tiếp điểm : có loại thường mở và thường đóng.</para>
+        <para id="id12640778">Căn cứ vào điều kiện làm việc của khởi động từ như đã nêu ở trên, trong chế tạo khởi động từ, người ta thường dùng kết cấu tiếp điểm bắc cầu (có hai chỗ ngắt mạch ở mỗi pha) do đó đối với cỡ nhỏ dướí 25A không cần dùng thiết bị dập hồ quang cồng kềnh dưới dạng lưới hoặc hộp thổi từ.</para>
+        <para id="id12640782">Kết cấu khởi động từ nói chung đều bao gồm các bộ phận có hình dáng tương tự như hình 8-5.</para>
+        <para id="id11847411">Tiếp điểm động 1 được chế tạo kiểu bắc cầu có lò xo nén tiếp điểm để tăng lực tiếp xúc và tự phục hồi trạng thái ban đầu.</para>
+        <para id="id12668372">Giá đỡ tiếp điểm 3 làm bằng đồng thanh mạ kền hoặc kẽm trên đó có hàn viên tiếp điểm tĩnh 4 thường làm bằng bột gốm kim loại.</para>
+        <para id="id10538324">Nam châm điện chuyển động có hệ thống mạch từ hình E gồm lõi thép tĩnh 5 và lõi thép phần động 6 nhờ lò xo 7, khởi động từ tự trở về vị trí ban đầu. Vòng chập mạch 8 được đặt ở đầu mút hai mạch rẽ của lõi thép động.</para>
+        <para id="id10538338">Hình 8-5: Khởi động từ đơnLõi thép phần ứng 6 của nam châm điện được lắp ghép liền với hai giá đỡ cách điện 9, trên đó có mang các tiếp điểm động1 và các lò xo tiếp điểm 2. Giá đỡ cách điện 9 (thường làm bằng bakêlit) chuyển động trong các rãnh dẫn hướng 10 ở trên thanh nhựa đúc của khởi động từ. Các tiếp điểm chính có nắp đậy kín làm nhiệm vụ hộp dập hồ quang và bình thường làm bằng vật liệu chịu hồ quang.</para>
+        <figure id="id10614822">
+          <media id="id1170876271896" alt=""><image src="../../media/graphics1-63fa.png" mime-type="image/png" height="293" width="573"/></media>
+        </figure>
+        <para id="id10591360">Khởi động từ cũng còn có các cụm tiếp điểm phụ kiểu bắc cầu (12), số lượng tùy thuộc từng kiểu cụ thể.</para>
+        <para id="id10591370">Để bảo vệ động cơ điện khỏi bị qúa tải, khởi động từ thường có lắp kèm theo rơle nhiệt ở hai pha và lắp cùng một giá với khởi động từ.</para>
+        <para id="id11867984">Khởi động từ đảo chiều (gọi là khởi động từ kép) gồm hai khởi động từ đơn có cấu tạo như trên, lắp trên cùng một giá, có thêm khóa liên động về cơ khí kiểu đòn bẩy( 2) để đề phòng cả hai khởi động từ cùng đóng đồng thời. Cơ cấu này được bố trí ở dưới chân đế. Khởi động từ kép cũng có kiểu lắp kèm theo cả rơle nhiệt trên cùng một giá.</para>
+        <para id="id11867993">Hình 8-6 là sơ đồ mắc khởi động từ kép điều khiển đảo chiều động cơ không đồng bộ ba pha lồng sóc.</para>
+      </section>
+    </section>
+    <section id="id-201069568951">
+      <title>CẦU CHẢY(Cầu chì)</title>
+      <section id="id-319547546721">
+        <title>Khái quát và công dụng</title>
+        <para id="id12689605">Cầu chảy là loại thiết bị̣ điện dùng để bảo vệ thiết bị điện và lưới điện tránh quá (dòng chủ yếu là dòng ngắn mạch) thường dùng bảo vệ cho đường dây, máy biến áp, động cơ,...</para>
+        <figure id="id12333656">
+          <media id="id8728424" alt=""><image src="../../media/graphics2-05dc.png" mime-type="image/png" height="217" width="268"/></media>
+        </figure>
+      </section>
+      <section id="id-97595356095">
+        <title>Đặc điểm</title>
+        <para id="id10515626">Cầu chảy cấu tạo đơn giản, kích thước bé khả năng cắt lớn, giá thành hạ nên ứng dụng rộng rãi.</para>
+      </section>
+      <section id="id-276912361065">
+        <title>Các phần từ cơ bản của cầu chảy</title>
+        <para id="id10528747">+Dây chảy : là phần tử cơ bản của cầu chảy, </para>
+        <para id="id11733964">để cắt một cách tin cậy cho mạch điện cần bảo </para>
+        <para id="id12636802">vệ yêu cầu dây chảy thỏa mãn:</para>
+        <para id="id12636811">- Không bị ô xy hóa.</para>
+        <para id="id10454902">- Dẫn điện tốt.</para>
+        <para id="id10454911">- Điện trở không thay đổi theo nhiệt độ.</para>
+        <para id="id10392692">- Nhiệt độ nóng chảy tương đối thấp.</para>
+        <para id="id10392702">+Thiết bị dập hồ quang: hồ quang phát sinh sau khi dây chảy bị đứt cầu chảy cắt mạch </para>
+        <para id="id10575613">(không có ở mạch hạ áp mà chỉ có ở cầu chảy cao áp).</para>
+      </section>
+      <section id="id-428244257333">
+        <title>Các tính chất yêu cầu của cầu chảy</title>
+        <para id="id3785166">Đặc tính A -s của cầu chảy (đường 1 trong hình 8-7) phải thấp hơn đường đặc tính đối tượng </para>
+        <para id="id11983787">cần bảo vệ (đường 2 trong hình 8-7).</para>
+        <para id="id11983796">-Cầu chảy cần có đặc tính làm việc ổn định.</para>
+        <para id="id11726006">-Công suất thiết bị càng tăng cầu chảy càng phải có khả năng cắt cao hơn.</para>
+        <para id="id11726016">-Khi có ngắn mạch cầu chảy phải làm việc có lựa chọn theo thứ tự.</para>
+        <para id="id12520568">-Việc thay thế dây chảy phải dễ dàng ít tốn thời gian.</para>
+      </section>
+      <section id="id-0556572374053">
+        <title>Nguyên lí làm việc</title>
+        <para id="id12330978">Đặc tính Am pe- giây ( A-s) hình 8-6 là sự phụ thuộc của thời gian chảy vào dòng điện qua cầu chảy.</para>
+        <para id="id12330984">Để có tác dụng bảo vệ đặc tính cầu chảy 1 luôn thấp hơn đặc tính thiết bị (đường 2) nhưng đặc tính thực tế là đường 3 trong vùng có quá tải lớn (vùng B) bảo vệ được còn vùng (A) quá tải nhỏ không bảo vệ được. Thực tế dòng khi quá tải không lớn hơn (1,52)Iđm thì sự phát nóng diễn ra chậm, phần lớn nhiệt tỏa ra môi trường xung quanh nên cầu chảy không bảo vệ được quá tải nhỏ.</para>
+        <para id="id10464670">Để đảm bảo khi làm việc với dòng định mức dây chảy không đứt thì dòng giới hạn của dây chảy Igh&gt;Iđm.</para>
+        <para id="id12572310">Để cầu chảy bảo vệ tốt và nhạy cả khi Igh&gt;Iđm không nhiều thì theo kinh nghiệm chọn Igh/Iđm= (1,62) với đồng, Igh/Iđm=(1,251,45) với chì, Igh/Iđm =1,15 với thiếc và nhôm.</para>
+        <para id="id12321976">Dòng định mức của cầu chảy chọn sao cho khi dòng này chạy liên tục qua dây chảy chỗ phát nóng lớn nhất của dây chảy không làm kim loại bị ô xy hóa quá mức và biến đổi đặc tính bảo vệ,̣ đồng thời nhiệt phát ra bên ngoài không quá giá trị ổn định.</para>
+        <para id="id12072308">Ở giá trị gần dòng điện giới hạn ( Igh ) yêu cầu dây chảy cũng phải gần đến nhiệt độ nóng chảy để không làm ảnh hưởng đến các chi tiết khác tức là phải chọn dây chảy là kim loại có nhiệt độ nóng chảy thấp.</para>
+        <para id="id12072328">Khi quá tải lớn I= (34)Iđm thì quá trình phát nóng là quá trình đoạn nhiệt (nóng cục bộ dây chảy, dòng chảy chuyển sang dạng lỏng khi quá trình Ion hóa dưới nhiệt độ cao làm khó dập tắt hồ quang hồ quang hơn, do vậy mong muốn càng ít kim loại lỏng càng tốt. Người ta chế tạo dây chảy cấu tạo có nhiều đoạn hẹp khi đó mật độ dòng cao ở nơi thắt hẹp, lực điện động sinh ra sẽ cắt nhanh dây chảy. Dây chảy có đoạn hẹp làm giảm thời gian cắt, nếu có phối hợp với thiết bị dập hồ quang thì thời gian tác động ttđ chỉ còn vài phần nghìn giây.</para>
+      </section>
+      <section id="id-584862415015">
+        <title>Kết cấu cầu chảy hạ áp</title>
+        <list id="id11968910" list-type="enumerated">
+          <item>Loại hở</item>
+        </list>
+        <para id="id12643072">Ở loại hở không có vỏ bọc thường chỉ gồm dây chảy dập dạng phiến bằng kim loại (Cu, Al, Pb, Zn, Sn). Vít 2 cực nguồn đặt trên bảng cách điện (sứ, gốm,...) có các loại dây chảy 5, 10, 15, 30A.</para>
+        <list id="id12643082" list-type="enumerated">
+          <item>Loại vặn</item>
+        </list>
+        <para id="id10380587">Ở loại này dây chảy ở phía trong nắp, nắp có dạng vặn vít vào đế loại này dây chảy có các loại 6, 10, 15, 20, 25, 30, 60, 100A ở điện áp 500V hình 8-7b. </para>
+        <para id="id10380597">c) Loại hộp</para>
+        <para id="id12556730">Thường hộp và nắp đều làm bằng sứ có bắt chặt các tiếp xúc điện bằng đồng, có kẹp đơn hoặc kép để khỏi rơi nắp, dây chảy trên nắp có các cỡ 5, 10, 15, 20, 30, 60, 80, 100A ở 500V hình 8-7c,d.</para>
+        <para id="id12556745">d) Loại kín không có cát thạch anh </para>
+        <para id="id12519932">Loại này dây chảy đặt trong ống không có cát thạch anh: vỏ làm bằng chất hữu cơ (một loại xenlulô) có dạng ống dây chảy đặt trong ống hai đầu có vít, nối với các cực điện qua vòng đệm. Dây chảy thường bằng kẽm (nhiệt độ nóng chảy bằng 4200C) nhiệt độ nóng chảy thấp và có khả năng chống gỉ tốt.</para>
+        <para id="id12144201">Quá trình dập hồ quang: khi dây chảy đứt làm phát sinh hồ quang nhiệt độ tăng cao làm vỏ ống bị đốt cháy sinh ra khí hơi trong ống hẹp (có 40%H2, 50%CO2, 10% hơi nước) làm áp suất ống tăng cao (40 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 80at) nhanh chóng dập tắt hồ quang có ống có hai cỡ:</para>
+        <para id="id10536713">+Loại ngắn làm việc với điện áp U=380V</para>
+        <para id="id10536719">+Loại dài làm việc với U=500V</para>
+        <para id="id10536724">Tùy cỡ đường kính ống mà dòng làm việc khác nhau 6, 10 hay 15A. </para>
+        <para id="id12558000">e) Loại kín trong ống có cát thạch anh</para>
+        <para id="id12558013"> Đặc tính bảo vệ của loại này tốt còn gọi là cầu chảy ống sứ.Thường vỏ cầu chảy làm bằng sứ (hoặc steatit) có dạng hộp chữ nhật trong vỏ có trụ tròn rỗng đặt dây chảy, sau đó đổ đầy cát thạch anh, dây chảy được vít vào đĩa gắn trên 2 đầu hộp. Dây chảy thường bằng là đồng lá dày (0,1  0,2)mm dập lỗ dài để tạo tiết diện hẹp. Nhằm để giảm nhiệt độ tự chảy của đồng (10800C) người ta hàn thêm các vảy thiếc vào những chỗ tiết diện hẹp.</para>
+        <para id="id10462811">a)b) c)d)Hình 8-8: Một số loại cầu chảy thông dụng. a)Cầu chảy kiểu bắn b) kiểu vặn;c) kiểu ống phíp;d) kiểu ống sứChú ý</para>
+        <para id="id11868092">+Icc: Dòng định mức của cầu chảy.</para>
+        <para id="id12131152">+Idc: Dòng định mức của dây chảy. Thường Icc  Idc (vì một cầu chảy có thể mắc nhiều cỡ dây).</para>
+      </section>
+      <section id="id-291697094634">
+        <title>Dây chảy và cách tính gần đúng dòng điện igh</title>
+        <para id="id11874232">Khi chọn kim loại làm dây chảy cần đảm bảo các yêu cầu:</para>
+        <para id="id11874240">-Điểm nóng chảy thấp.</para>
+        <para id="id11874246">-Kim loại vật liệu phải ít.</para>
+        <para id="id12072854">-Quán tính nhiệt phải nhỏ.</para>
+        <para id="id12072860">Để giảm nhiệt độ tác động người ta thường dùng hai biện pháp là:</para>
+        <para id="id12072866">+ Dùng dây dẹt có chỗ thắt lại để giảm tiết diện.</para>
+        <para id="id10580363">+ Dùng dây tròn trên một số đoạn hàn thêm một số vảy kim loại có nhiệt độ nóng chảy thấp (ứng dụng hiệu ứng luyện kim).</para>
+        <para id="id10580374">Ngoài ra nhiệt độ ion hóa hơi kim loại phải cao, và thêm một số điều kiện phụ nữa. Theo thứ tự giảm nhiệt hóa hơi ion của một số kim loại là: </para>
+        <para id="id12866393">Zn&gt;Ag&gt;Cu&gt;Pb&gt;Mg&gt;Ni&gt;Sn&gt;Al.</para>
+        <para id="id12866401">Thực tế không có kim loại nào thỏa mãn hết các yêu cầu trên được nên để khắc phục người ta thường chế tạo bằng hợp kim. Thông thường dây chảy dùng các kim loại sau:</para>
+        <para id="id10380170">+ Chì (Pb): dùng nhiều do mềm, nhiệt nóng chảy thấp nhưng khối lượng lớn và dễ bị ô xy hóa trong không khí nên chỉ dùng khi dòng điện bé, kích thước nhỏ dễ lắp ráp. Để khắc phục nhược điểm trên người ta dùng hợp kim để giảm nhiệt độ nóng chảy.</para>
+        <para id="id10580380">+ Kẽm (Zn): nhiệt nóng chảy thấp, giá rẻ, dùng cho dòng từ (20 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 500)A .</para>
+        <para id="id12643583">Ngoài ra còn dùng Ag, Cu và còn đôi khi dùng Al.</para>
+      </section>
+      <section id="id-999077054303">
+        <title>Cầu chảy cao áp (H. R. C)</title>
+        <para id="id10591592">Dùng bảo vệ tụ điện, máy biến áp và cần tính đến dòng điện qúa độ. Trong thiết bị tụ điện, dòng định mức của dây chảy tối thiểu bằng 1,6 lần dòng định mức của tụ điện, để tính đến các điều hòa của lưới và sự tăng điện áp. Kiểu súng như hình 8-8a. </para>
+        <para id="id10591597">Khi chọn cầu chảy bảo vệ động cơ cao áp, cần chú ý đến dòng khởi động của động cơ và thời gian khởi động. Cũng cần chú ý đến tần số khởi động, nếu tần số qúa cao, các cầu chảy sẽ không thể đủ nguội giữa các lần đóng mở. Khi chọn cầu chảy cũng cần nhớ rằng chúng có điện áp định mức và trị số dòng điện khác nhau khi đế cầu chảy có kích thước khác nhau.</para>
+        <para id="id12866430">Khả năng hạn chế dòng điện</para>
+        <para id="id12642554">Dòng điện tối đa cầu chảy cho phép chạy qua phụ thuộc vào dòng định mức của nó và vào diễn biến dòng ngắn mạch. Đặc tính chảy của cầu chảy do nhà sản xuất cho phép dải dòng điện cắt theo các tiêu chuẩn kĩ thuật (ví dụ theo tiêu chuẩn DIN VDE 0670).</para>
+        <para id="id10591606">Hình 8-8: Cầu chảy cao áp (loại cầu chì tự rơi)Đối với mỗi dòng điện định mức, ta có thể đọc giá trị đỉnh của dòng điện qua, với giá trị đó cầu chảy hạn chế dòng ngắn mạch đối xứng.</para>
+        <para id="id10537388">Sự hạn chế dòng điện này bảo vệ thiết bị có hiệu quả, chống được hư hỏng do ứng suất cơ và nhiệt.</para>
+      </section>
+    </section>
+    <section id="id-84070694428">
+      <title>ÁPTÔMÁT</title>
+      <section id="id-343472110554">
+        <title>Khái quát và yêu cầu</title>
+        <para id="id12174415">Áp tô mát là thiết bị điện dùng để tự động cắt mạch điện bảo vệ quá tải, ngắn mạch, sụt áp,... hồ quang được dập trong không khí.</para>
+        <para id="id12174425">Yêu cầu của áp tô mát</para>
+        <para id="id12174430">+ Chế độ làm việc định mức của áp tô mát phải là chế độ làm việc dài hạn (tức là cho dòng I=Iđm qua dài hạn). Mặt khác mạch dòng điện phải chịu được dòng điện lớn (khi ngắn mạch) lúc các tiếp điểm đã hay đang đóng.</para>
+        <para id="id12555019">+Phải cắt được dòng ngắn mạch lớn vài chục kA và sau khi ngắt phải đảm bảo làm việc tốt khi I=Iđm.</para>
+        <para id="id11868420">+Yêu cầu thời gian cắt áptômát nhỏ để bảo vệ các thiết bị khác. Muốn vậy phải kết hợp lực thao tác cơ học với thiết bị dập hồ quang trong áptômát. Để thực hiện yêu cầu thao tác chọn lọc bảo vệ,̣ áp tô mát phải có khả năng hiệu chỉnh dòng tác động và thời gian tác động .
+<m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math></para>
+        <para id="id12131268">Thời gian tác động của áp tô mát : t = to + t1+ t2 . Trong đó:</para>
+        <para id="id12668274">+t0 là thời gian tính từ lúc sự̣ cố xảy ra đến khi i tăng đến i=Ikđ phụ thuộc
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>di</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "di"}  over  { ital "dt"} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id11983922">+t1 là thời gian từ khi i=Ikđ đến khi tiếp điểm áptômát bắt đầu chuyển động, thời gian này phụ thuộc vào cơ cấu ngắt.</para>
+        <para id="id12534590">+t2 là thời gian cháy của hồ quang (phụ thuộc bộ phận dập hồ quang và trị dòng điện ngắt).</para>
+      </section>
+      <section id="id-582440323654">
+        <title>Phân loại- cấu tạo và nguyên lí làm việc </title>
+        <para id="id11664949">a) Phân loại</para>
+        <para id="id11664965">Phân theo kết cấu</para>
+        <para id="id10537087">+Loại một cực.</para>
+        <para id="id10537096">+Loại hai cực.</para>
+        <para id="id10455476">+Loại ba cực.</para>
+        <para id="id10455484">Phân theo thời gian tác động</para>
+        <para id="id10455490">+ Tác động không tức thời.</para>
+        <para id="id10444932">+ Tác động tức thời.</para>
+        <para id="id10444939">Phân loại theo công dụng bảo vệ</para>
+        <para id="id10444944">+ Dòng cực đại.</para>
+        <para id="id10444951">+ Dòng cực tiểu.</para>
+        <para id="id11847352">+ Áp cực tiểu.</para>
+        <para id="id11847358">+ Áptômát bảo vệ công suất điện ngược.</para>
+        <para id="id11847366">+ Áptômát vạn năng (chế tạo cho mạch có dòng điện lớn các thông số bảo vệ có thể chỉnh định được) loại này không có vỏ và lắp đặt trong các trạm biến áp lớn.</para>
+        <para id="id12321043">+ Áptômát định hình: bảo vệ quá tải bằng rơle nhiệt, bảo vệ quá điện áp bằng rơle điện từ, đặt trong vỏ nhựa. </para>
+        <para id="id12321054">b) Nguyên lí làm việc của áptômát</para>
+        <para id="id10565584">Sơ đồ nguyên lí bảo vệ chức năng của áptômát như hình 8-9a, b, c, d:tương ứng với các cơ cấu bảo vệ dòng cực đại, điện áp thấp, dòng cực tiểu và bảo vệ công suất ngược.</para>
+        <para id="id10515594">c) Cấu tạo áptômát</para>
+        <para id="id10516830">+Tiếp điểm: có hai cấp tiếp điểm (tiếp điểm chính và tiếp điểm hồ quang) hoặc ba cấp tiếp điểm (chính, phụ, hồ quang). Đóng mạch áptômát thì thứ tự đóng tiếp điểm là: hồ quang, phụ, chính, khi cắt thì ngược lại (nhằm bảo vệ tiếp điểm chính). Tiếp điểm hồ quang thường cấu tạo bằng kim loại gốm chịu được hồ quang như Ag-W, Cu-W, Ni ,...). </para>
+        <para id="id10455393">Hình 8-10 trình bày một hệ thống tiếp điểm trong áptômát: 2, 3 là tiếp điểm chính; 4 là các tiếp điểm phụ; 5 là các tiếp điểm hồ quang.</para>
+        <para id="id10616877">Hình 8-10: Cấu trúc chung của áptômátHình 8-9: Các cơ cấu bảo vệ chức năng trong Áptômáta)Cơ cấu bảo vệ dòng cực đại; b)Cơ cấu bảo vệ điện áp thấp; c) Cơ cấu bảo vệ dòng cực tiểud) Cơ cấu bảo vệ công suất ngược+ Hộp dập hồ quang: để áptômát dập được hồ quang trong tất cả các chế độ làm việc của lưới điện thì người ta thường dùng hai kiểu thiết bị dập hồ quang là: kiểu nửa kín và kiểu hở. Thiết bị dập kiểu nửa kín được đặt trong vỏ kín của áptômát và có lỗ thoát khí. Kiểu này có dòng điện giới hạn cắt không quá 50kA. Thiết bị dập kiểu hở được dùng khi giới hạn dòng điện cắt lớn hơn 50kA hoặc điện áp lớn hơn 1000V. Trong buồng dập hồ quang thông dụng người ta thường dùng những tấm thép xếp thành lưới ngăn. Để phân chia hồ quang thành nhiều đoạn ngắn thuận lợi cho việc dập tắt hồ quang. Hình dạng kết cấu hộp dập hồ quang được trình bày trên (hình 8-10), 6 là hộp dập hồ quang. Cùng một thiết bị dập tắt hồ quang, khi làm việc ở mạch điện xoay chiều điện áp đến 500V thì có thể dập tắt được hồ quang của dòng điện đến 40kA, nhưng khi làm việc ở mạch điện một chiều điện áp đến 440V thì chỉ có thể cắt được dòng điện đến 20kA. </para>
+        <para id="id12029942">+ Cơ cấu truyền động cắt áptômát: truyền động cắt áptômát thường có hai cách: bằng tay và bằng cơ điện (điện từ, động cơ điện). Điều khiển bằng tay được thực hiện với các áptômát có dòng điện định mức không lớn hơn 600A. Điều khiển bằng điện từ (nam châm điện) được ứng dụng ở các áptômát có dòng điện lớn hơn đến 1000A. Để tăng lực điều khiển bằng tay người ta còn dùng một tay dài phụ theo nguyên lí đòn bẩy. Ngoài ra còn có cách điều khiển bằng động cơ điện hoặc khí nén. Hình 8-11 trình bày cơ cấu điều khiển các áptômát bằng nam châm điện có nhả khớp tự do. Khi đóng bình thường (không có sự cố), các tay đòn 2 và 3 được nối cứng (vì tâm xoay o nằm thấp dưới đường nối hai điểm o1 và o2.). Giá đỡ 5 làm cho hai đòn này không tự gập lại được. Ta nói điểm o là vị trí chết. Khi có sự cố, phần ứng 6 của nam châm điện 7 bị hút đập vào hệ thống tay đòn 2, 3 làm cho điểm o thoát khỏi vị trí chết . Điểm o sẽ cao hơn đường nối o1o2, lúc này tay đòn 2, 3 không được nối cứng nữa. Các tiếp điểm sẽ nhanh chóng mở ra dưới tác dụng của lò xo kéo tiếp điểm (hình 8-11b). Muốn đóng lại áptômát, ta phải kéo tay cầm 4 xuống phía dưới như hình 8-11c, sau đó mới đóng vào được.</para>
+        <para id="id11958630">Móc bảo vệ: Áptômát tự động cắt nhờ các phần tử bảo vệ gọi là móc bảo vệ.</para>
+        <para id="id10535086">Hình 8-13: Cơ cấu nhả khớp tự do:a) vị trí đống; b)vị trí mở; c)vị trí chuẩn bị đóng lại+Móc bảo vệ quá tải (còn gọi là quá dòng điện): để bảo vệ thiết bị điện khỏi bị quá tải, đường thời gian - dòng điện của móc bảo vệ phải nằm dưới đường đặc tính của đối tượng cần bảo vệ. Người ta thường dùng hệ thống điện từ và rơle nhiệt làm móc bảo vệ đặt bên trong áptômát. Móc kiểu điện từ có cuộn dây mắc nối tiếp với mạch điện chính. Khi dòng điện vượt quá trị số cho phép thì phần ứng bị hút và móc sẽ bị đập vào khớp rơi tự do, làm tiếp điểm của áptômát mở ra như hình 8-11. Điều chỉnh vít để thay đổi lực kháng của lò xo, ta có thể điều chỉnh được trị số dòng điện tác động. Để giữ thời gian trong bảo vệ qúa tải kiểu điện từ, người ta thêm một cơ cấu giữ thời gian (ví dụ bánh xe răng như trong cơ cấu đồng hồ). Móc kiểu rơle nhiệt đơn giản hơn cả, loại này có kết cấu tương tự rơle nhiệt có phần tử phát nóng nối nối tiếp với mạch điện chính, tấm kim loại kép dãn nở làm nhả khớp rơi tự do để mở tiếp điểm của áptômát khi có quá tải. Kiểu này có nhược điểm là quán tính nhiệt lớn nên không ngắt nhanh được dòng điện tăng vọt như khi có ngắn mạch, do đó chỉ bảo vệ được dòng điện quá tải. Vì vậy người ta thường sử dụng tổng hợp cả móc kiểu điện từ và móc kiểu rơle nhiệt trong một áptômát. Loại này thường được dùng ở áptômát có dòng điện định mức đến 600A.</para>
+        <para id="id12138814">+ Móc bảo vệ sụt áp: (còn gọi là bảo vệ điện áp thấp) cũng thường dùng kiểu điện từ. Cuộn dây mắc song song với mạch điện chính. Nguyên lí làm việc xem hình 8-9.</para>
+      </section>
+      <section id="id-39802315114">
+        <title>Cách lựa chọn áptômát</title>
+        <para id="id10538078">Việc lựa chọn áptômát, chủ yếu dựa vào :Dòng điện tính toán đi trong mạch; Dòng điện quá tải; Tính thao tác có chọn lọc.</para>
+        <para id="id10538096">Ngoài ra lựa chọn áptômát còn phải căn cứ vào đặc tính làm việc của phụ tải và áptômát không được phép cắt khi có quá tải ngắn hạn (thường xảy ra trong điều kiện làm việc bình thường như dòng điện khởi động, dòng điện đỉnh trong phụ tải công nghệ). Yêu cầu chung là dòng điện định mức của móc bảo vệ Iaptô không được bé hơn dòng điện tính toán (Itt) của mạch :</para>
+        <para id="id10528768">Iaptô
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>³</m:mn></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{³} {}</m:annotation></m:semantics></m:math> Itt</para>
+        <para id="id10534348"> Tùy theo đặc tính và điều kiện làm việc cụ thể của phụ tải, người ta hướng dẫn lựa chọn dòng điện định mức của móc bảo vệ bằng 125%, 150% hay lớn hơn nữa so với dòng điện tính toán của mạch. Sau cùng ta chọn áptômát theo các số liệu kĩ thuật đã cho của nhà chế tạo.</para>
+      </section>
+    </section>
+  </content>
+</document>

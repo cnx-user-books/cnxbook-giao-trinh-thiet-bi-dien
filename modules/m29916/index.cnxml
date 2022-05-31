@@ -1,0 +1,1058 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rơ le</title>
+  <metadata>
+  <md:content-id>m29916</md:content-id><md:title>Rơ le</md:title>
+  <md:abstract>Phần này trình bày khái niệm chung về rơ le</md:abstract>
+  <md:uuid>1fea589c-cd6d-4639-9b96-15380934bfe8</md:uuid>
+</metadata>
+
+<content>
+    <para id="id10025598">KHÁI NIỆM CHUNG VỀ RƠLE</para>
+    <para id="id10025603">Rơle là một loại thiết bị điện tự động mà tín hiệu đầu ra thay đổi nhảy cấp khi tín hiệu đầu vào đạt những giá trị xác định. Rơle là thiết bị điện dùng để đóng cắt mạch điện điều khiển, bảo vệ và điều khiển sự làm việc của mạch điện động lực. </para>
+    <section id="id-725880878152">
+      <title>Các bộ phận (các khối) chính của rơle</title>
+      <para id="id10025626">+ Cơ cấu tiếp thu( khối tiếp thu)</para>
+      <para id="id10025632">Có nhiệm vụ tiếp nhận những tín hiệu đầu vào và biến đổi nó thành đại lượng cần thiết cung cấp tín hiệu phù hợp cho khối trung gian.</para>
+      <para id="id10653136">+ Cơ cấu trung gian( khối trung gian)</para>
+      <para id="id10653143">Làm nhiệm vụ tiếp nhận những tín hiệu đưa đến từ khối tiếp thu và biến đổi nó thành đại lượng cần thiết cho rơle tác động.</para>
+      <para id="id10653153"> + Cơ cấu chấp hành (khối chấp hành)</para>
+      <para id="id10653161">Làm nhiệm vụ phát tín hiệu cho mạch điều khiển.</para>
+      <para id="id10653168">Ví dụ các khối trong cơ cấu rơle điện từ hình 6-1.</para>
+      <para id="id10653175">-Cơ cấu tiếp thu ở đây là cuộn dây.</para>
+      <para id="id9935960">-Cơ cấu trung gian là mạch từ nam châm điện.</para>
+      <para id="id9935966">-Cơ cấu chấp hành là hệ thống tiếp điểm.</para>
+      <figure id="id9935976">
+        <media id="id1172501336172" alt=""><image src="../../media/graphics1-5667.png" mime-type="image/png" height="142" width="515"/></media>
+      </figure>
+    </section>
+    <section id="id-28468924386">
+      <title>Phân loại rơle</title>
+      <para id="id9936008">Có nhiều loại rơle với nguyên lí và chức năng làm việc rất khác nhau. Do vậy có nhiều cách để phân loại rơle:</para>
+      <para id="id10025016">a) Phân loại theo nguyên lí làm việc gồm các nhóm</para>
+      <para id="id10025030">+ Rơle điện cơ (rơle điện từ, rơle từ điện, rơle điện từ phân cực, rơle cảm ứng,...).</para>
+      <para id="id10025039">+ Rơle nhiệt.</para>
+      <para id="id10025044">+ Rơle từ.</para>
+      <para id="id10025049">+ Rơle điện tử -bán dẫn, vi mạch.</para>
+      <para id="id10025056">+ Rơle số.</para>
+      <para id="id10654717">b) Phân theo nguyên lí tác động của cơ cấu chấp hành </para>
+      <para id="id10654736">+ Rơle có tiếp điểm: loại này tác động lên mạch bằng cách đóng mở các tiếp điểm.</para>
+      <para id="id10654746">+ Rơle không tiếp điểm (rơle tĩnh): loại này tác động bằng cách thay đổi đột ngột các tham số của cơ cấu chấp hành mắc trong mạch điều khiển như: điện cảm, điện dung, điện trở,...</para>
+      <para id="id10654762">c) Phân loại theo đặc tính tham số vào</para>
+      <para id="id10111052">+ Rơle dòng điện.</para>
+      <para id="id10111058">+ Rơle điện áp.</para>
+      <para id="id10111063">+ Rơle công suất.</para>
+      <para id="id10111068">+ Rơle tổng trở,... </para>
+      <para id="id10111076">d) Phân loại theo cách mắc cơ cấu</para>
+      <para id="id10111090">+ Rơle sơ cấp: loại này được mắc trực tiếp vào mạch điện cần bảo vệ.</para>
+      <para id="id9805648">+ Rơle thứ cấp: loại này mắc vào mạch thông qua biến áp đo lường hay biến dòng điện.</para>
+      <para id="id9805660">e) Phân theo giá trị và chiều các đại lượng đi vào rơle</para>
+      <para id="id9805674">+Rơle cực đại.</para>
+      <para id="id9805681">+Rơle cực tiểu.</para>
+      <para id="id9805687">+Rơle cực đại-cực tiểu.</para>
+      <para id="id9805693">+Rơle so lệch.</para>
+      <para id="id10111097">+Rơle định hướng.</para>
+      <para id="id12079895">...</para>
+    </section>
+    <section id="id-267262071404">
+      <title>Đặc tính vào -ra của rơle </title>
+      <figure id="id12079913">
+        <media id="id5324944" alt=""><image src="../../media/graphics2-d7d6.png" mime-type="image/png" height="200" width="271"/></media>
+      </figure>
+      <para id="id12079937">Quan hệ giữa đại lượng vào và ra của rơle như hình minh họa.</para>
+      <para id="id11636354">Khi x biến thiên từ 0 đến x2 thì y = y1 đến khi x= x2 thì y tăng từ y = y1 đến y = y2 (nhảy bậc). Nếu x tăng tiếp thì y không đổi y = y2 . Khi x giảm từ x2 về lại x1 thì y = y2 đến x = x1 thì y giảm từ y2 về y = y1.</para>
+      <para id="id9986967">Nếu gọi: </para>
+      <para id="id9986972">+ X = X2= Xtđ là giá trị tác động rơle.</para>
+      <para id="id10431983">+ X = X1 = Xnh là giá trị nhả của rơle.</para>
+      <para id="id10432012">Thì hệ số nhả:</para>
+      <para id="id10432017">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext> K</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>nh</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>X</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>X</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>X</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>nh</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>X</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi fontstyle="italic">tâ</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{" K" rSub { size 8{"nh"} } = {  {X rSub { size 8{1} } }  over  {X rSub { size 8{2} } } } = {  {X rSub { size 8{ ital "nh"} } }  over  {X rSub { size 8{tâ} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+    </section>
+    <section id="id-0899688924237">
+      <title>Các thông số của rơle </title>
+      <para id="id9798473">a) Hệ số điều khiển rơle </para>
+      <para id="id9798490"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>âk</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>P</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>âk</m:mtext></m:mrow></m:mstyle></m:msub><m:msub><m:mi>P</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>tâ</m:mtext></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K rSub { size 8{"âk"} } = {  {P rSub { size 8{"âk"} } }  over  {P rSub { size 8{"tâ"} } } } } {}</m:annotation></m:semantics></m:math> , với:</para>
+      <para id="id10124514">+Pđk là công suất điều khiển định mức của rơle, chính là công suất định mức của cơ cấu chấp hành.</para>
+      <para id="id10124534">+Ptđ là công suất tác động, chính là công suất cần thiết cung cấp cho đầu vào để rơle tác động.</para>
+      <para id="id10658075">Với rơle điện từ Pđk là công suất tiếp điểm (nghĩa là công suất tiếp điểm cho phép truyền qua). Ptđ là công suất cuộn dây nam châm hút.</para>
+      <para id="id10658106">Các loại rơle khác nhau thì Knh và Kđk cũng khác nhau.</para>
+      <para id="id9803738">b) Thời gian tác động </para>
+      <para id="id9803751">Là thời gian kể từ thời điểm cung cấp tín hiệu cho đầu vào, đến lúc cơ cấu chấp hành làm việc. Với rơle điện từ là quãng thời gian cuộn dây được cung cấp dòng (hay áp) cho đến lúc hệ thống tiếp điểm đóng hoàn toàn (với tiếp điểm thường mở) và mở hoàn toàn (với tiếp điểm thường đóng).</para>
+      <para id="id9803766">Các loại rơle khác nhau ttđ cũng khác nhau.</para>
+      <para id="id12079797">+ttđ &lt; 1.10-3[s] : rơle không quán tính.</para>
+      <para id="id12079827">+t­tđ = (1  50).10-3 [s]: rơle tác động nhanh.</para>
+      <para id="id9803613">+ttđ &gt; 150.10-3[s]: rơle thời gian.</para>
+      <para id="id9803639">Một số ví dụ về rơle điện cơ </para>
+      <section id="id-769771295842">
+        <title>Bảng 1: Rơ le điện cơ</title>
+        <table id="id10663516" summary="">
+          <tgroup cols="5">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry>Loại rơle.</entry>
+                <entry>Ptđ[W]</entry>
+                <entry>Pđk[W]</entry>
+                <entry>Kđk</entry>
+                <entry>ttđ[10-3s]</entry>
+              </row>
+              <row>
+                <entry>Rơle điện từ :</entry>
+                <entry>10-110-3</entry>
+                <entry>10104</entry>
+                <entry>55000</entry>
+                <entry>12000</entry>
+              </row>
+              <row>
+                <entry>Rơle từ điện :</entry>
+                <entry>10-910-4 </entry>
+                <entry>0,12</entry>
+                <entry>104108</entry>
+                <entry>10500</entry>
+              </row>
+              <row>
+                <entry>Rơle cảm ứng :</entry>
+                <entry>10-2102</entry>
+                <entry>10-1103</entry>
+                <entry>102104</entry>
+                <entry>1100</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+    </section>
+    <section id="id-745817458707">
+      <title>RƠLE ĐIỆN TỪ</title>
+      <section id="id-597447162855">
+        <title>Nguyên lí làm việc </title>
+        <figure id="id10652055">
+          <media id="id7202531" alt=""><image src="../../media/graphics3-645b.png" mime-type="image/png" height="240" width="322"/></media>
+        </figure>
+        <para id="id10173513">Sự làm việc của loại rơle này dựa trên nguyên lí điện từ. Xét một rơle như hình minh họa. Khi cho dòng điện i đi vào cuộn dây của nam châm điện thì nắp sẽ chịu một lực hút F. Lực hút điện từ đặt vào nắp :</para>
+        <para id="id10173530">
+          <m:math>
+            <m:semantics>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>F</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>K</m:mi>
+                          <m:mtext>.</m:mtext>
+                          <m:msup>
+                            <m:mi>i</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi>δ</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mi/>
+                    <m:mi>,</m:mi>
+                    <m:mi/>
+                    <m:mtext>våïi</m:mtext>
+                    <m:mtext>: </m:mtext>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mstyle fontsize="10pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>δ</m:mi>
+                          <m:mtext>  : khe håí</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mstyle fontsize="10pt">
+                      <m:mrow>
+                        <m:mtext>i : doìng âiãûn</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mstyle fontsize="10pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>K:laì hãû säú </m:mtext>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mtext>xem chæång 5</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="true">{</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="true">{</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+              </m:mtable>
+              <m:annotation encoding="StarMath 5.0"> size 12{F= {  {K "." i rSup {2} }  over  {δ rSup {2} } } ~,`"våïi"": "alignl { stack {
+ left lbrace  size 10{δ"  : khe håí"} {} # 
+ right none  left lbrace  size 10{"i : doìng âiãûn"} {} # 
+ right none  left lbrace  size 10{"K:laì hãû säú " \( "xem chæång 5" \) } {} # 
+ right no } }  lbrace } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id9935608">Khi dòng điện vào cuộn dây i &gt; Itđ (dòng điện tác động) thì lực F hút nắp và khi lực F tăng thì khe hở giảm ( giảm) làm đóng tiếp điểm (do tiếp điểm được gắn với nắp).</para>
+        <para id="id9935643">Khi dòng điện i  Itv (dòng trở về) thì lực lò xo Flò xo &gt; F (lực điện từ) và rơ le nhả.</para>
+        <para id="id10125766">Tỉ số: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>tâ</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mtext> âæåüc goüi laì hãû säú tråí vãö</m:mtext></m:mrow></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ size 10{K rSub { size 8{ ital "tv"} } = {  { size 12{I rSub { size 8{ ital "tv"} } } }  over  { size 12{I rSub { size 8{"tâ"} } } } } " âæåüc goüi laì hãû säú tråí vãö"}} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id9954976">+ Rơle dòng cực đại Ktv &lt; 1.</para>
+        <para id="id10185147">+ Rơle dòng cực tiểu Ktv &gt; 1.</para>
+        <para id="id10185164">Rơle càng chính xác thì Ktv càng gần 1.</para>
+        <para id="id10185181">
+          <m:math>
+            <m:semantics>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow/>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>P</m:mi>
+                      <m:mtext>âk</m:mtext>
+                    </m:msub>
+                    <m:mtext> : cäng suáút âiãöu khiãøn</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>P</m:mi>
+                      <m:mtext>tâ</m:mtext>
+                    </m:msub>
+                    <m:mtext> : cäng suáút taïc âäüng cuía råle</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow/>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow/>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mrow>
+                              <m:mstyle fontsize="12pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:msub>
+                                        <m:mi>K</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mtext>âk</m:mtext>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                      <m:mo stretchy="false">=</m:mo>
+                                      <m:mfrac>
+                                        <m:msub>
+                                          <m:mi>P</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mtext>âk</m:mtext>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msub>
+                                        <m:msub>
+                                          <m:mi>P</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mtext>tâ</m:mtext>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msub>
+                                      </m:mfrac>
+                                    </m:mrow>
+                                    <m:mtext> hãû säú âiãöu khiãøn cuía råle</m:mtext>
+                                    <m:mtext>.</m:mtext>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtext>Våïi </m:mtext>
+                          </m:mtr>
+                        </m:mtable>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="true">{</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mtr>
+                        </m:mtable>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtr>
+              </m:mtable>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{K rSub { size 8{"âk"} } = {  {P rSub { size 8{"âk"} } }  over  {P rSub { size 8{"tâ"} } } } " hãû säú âiãöu khiãøn cuía råle" "." }  {} # 
+"Våïi "alignl { stack {
+ left lbrace P rSub {"âk"} " : cäng suáút âiãöu khiãøn" "."  {} # 
+ right none  left lbrace P rSub {"tâ"} " : cäng suáút taïc âäüng cuía råle" "."  {} # 
+ right no } }  lbrace  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10063704">Rơle càng nhạy Kđk càng lớn.</para>
+        <para id="id10063722">Khoảng thời gian từ lúc dòng điện i bắt đầu lớn hơn Itđ đến lúc chấm dứt sự hoạt động của rơle gọi là thời gian tác động ttđ.</para>
+        <para id="id10076557">Số lần tác động trong một đơn vị thời gian (giờ) gọi là tần số tác động.</para>
+        <para id="id10076565">Rơle điện từ phân ra hai loại: </para>
+        <para id="id10076571">+ Rơle một chiều 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mtext>thç </m:mtext><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontsize="10pt"><m:mrow><m:mi>U</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mi>R</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mtext> nãn ta tênh </m:mtext><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>K</m:mi></m:mrow><m:mi>'</m:mi><m:mtext>.</m:mtext><m:mfrac><m:mstyle fontsize="10pt"><m:mrow><m:msup><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ size 10{"thç "I= {  { size 10{U}}  over  { size 10{R'}} } " nãn ta tênh "F=K' "."  {  { size 10{U rSup { size 8{2} } }}  over  { size 12{δ rSup { size 8{2} } } } } }} {}</m:annotation></m:semantics></m:math> có U là điện áp đặt vào cuộn dây.</para>
+        <para id="id10123160">+ Rơle xoay chiều : lực F = 0 (tần số 2f) khi I = 0. Giá trị trung bình của lực hút sẽ là: 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tb</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> {  {I rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:mtext></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "tb"} } =k" {  {I rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>, nếu cuộn dây đặt song song với nguồn điện áp U thì
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tb</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> {  {U rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:mtext></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "tb"} } =k" {  {U rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id9818562">Nam châm xoay chiều khi lực F = 0 lò xo kéo nắp ra, do vậy rơle loại này khi làm việc có rung động gây tiếng kêu, để hạn chế người ta sử dụng dùng vòng ngắn mạch. </para>
+        <para id="id9818574">Rơle điện từ có các đặc điểm: </para>
+        <para id="id9818580">- Công suất điều khiển Pđk từ vài W đến hàng nghìn W.</para>
+        <para id="id10062808">- Công suất tác động Ptđ từ vài phần W đến hàng trăm W.</para>
+        <para id="id10062827">- Hệ số điều khiển Kđk = (5  20).</para>
+        <para id="id10062856">- Thời gian tác động ttđ = (2  20)ms.</para>
+      </section>
+      <section id="id-0917105195962">
+        <title>Hình 6-4 :Một số loại rơle điện từa)rơle dòng diện và điện áp; b)rơle trung gian; c)rơle thời gian Nhược điểm của rơle điện từ </title>
+        <para id="id9925466">Công suất tác động Ptđ tương đối lớn, độ nhạy thấp, Kđk nhỏ. Hiện nay có xu hướng cải tiến ứng dụng vật liệu sắt từ mới sản xuất các loại rơle để tăng Kđk.</para>
+      </section>
+      <section id="id-151746146679">
+        <title>Một số loại rơle điện từ </title>
+        <para id="id9925006">a) Rơle dòng điện và điện áp loại T (hình 6-4a).</para>
+        <para id="id9925024">b) Rơle trung gian (hình 6-4b). Nhiệm vụ chính của rơle trung gian là khuếch đại tín hiệu điều khiển, nó thường nằm ở vị trí trung gian giữa các rơle khác. Đặc điểm rơle trung gian có cơ cấu điều chỉnh điện áp tác động để có thể tác động khi điện áp tăng giảm trong khoảng 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- {}} {}</m:annotation></m:semantics></m:math>15% Uđm.</para>
+        <para id="id12094388">c) Rơle thời gian điện từ (hình 6-4c) khi từ thông 0 giảm thì sức điện động e chống sự giảm để duy trì thời gian khoảng t = (0,5  5)s.</para>
+      </section>
+      <section id="id-218581155072">
+        <title>Rơle phân cực</title>
+        <para id="id12094439">Rơle phân cực là một dạng của rơle điện từ có thêm từ thông phân cực do nam châm vĩnh cửu tạo nên. Chuyển động của nắp phụ thuộc vào chiều dòng trong cuộn dây. Khi chưa có dòng điện thì phần động rơle đã ở một trong hai vị trí do lực hút từ trường nam châm vĩnh cửu.</para>
+        <para id="id11676482">Hình 6-5: Rơle phân cực Mạch từ nam châm vĩnh cửu có cấu trúc sao cho một phía khe hở không khí lớn còn một phía nhỏ để khi cho dòng vào cuộn dây nam châm thì tổng lực hút điện từ của cuộn dây và nam châm vĩnh cửu phân cực hai bên không bằng nhau, nắp bị hút về một bên, lực hút nam châm vĩnh cửu làm nhiệm vụ giữ nắp khi cắt điện cuộn dây. Muốn nắp chuyển động ngược lại thì phải đổi chiều dòng điện để đổi chiều lực hút điện từ. Hai kiểu rơle phân cực như hình 6-5. </para>
+        <para id="id11676518">Loại này có ưu điểm chính là độ nhạy cao kích thước gọn thời gian tác động nhanh cỡ (2  3).10-3s , cho phép thao tác với tần số lớn.</para>
+      </section>
+    </section>
+    <section id="id-336996284153">
+      <title>RƠLE ĐIỆN ĐỘNG</title>
+      <section id="id-477939060912">
+        <title>Nguyên lí</title>
+        <para id="id9805772">Theo nguyên tắc, rơle điện động có hai cuộn dây như hình minh họa</para>
+        <figure id="id9805785">
+          <media id="id3057142" alt=""><image src="../../media/graphics4-4e1a.png" mime-type="image/png" height="213" width="210"/></media>
+        </figure>
+        <para id="id9805809">Khi có dòng qua cuộn dây 1 là i1 và cuộn dây 2 có dòng điện i2. Tại vị trí như hình minh họa ta có cảm ứng từ B12 = K’.i1 và có lực điện từ F = K”.B12.i2 hay lực F = K1”.i1.i2 sẽ sinh ra mô men M = Ki1i2 đặt lên cuộn dây 2, làm cuộn dây 2 quay và đóng tiếp điểm. Nếu hai cuộn được mắc nối tiếp thì i1 = i2 = i có M = Ki2 lúc này mô men độc lập với chiều dòng điện. Khi mạch điện xoay chiều với tần số f thì thì F thay đổi, rơle sẽ làm việc với giá trị trung bình của lực điện từ và mô men.</para>
+        <para id="id12121885"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>tb</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>T</m:mi></m:mfrac></m:mrow><m:mrow><m:munderover><m:mo stretchy="false">∫</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:munderover><m:mrow><m:mrow><m:mtext>Mdt</m:mtext><m:mo stretchy="false">=</m:mo><m:msub><m:mtext>kI</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>cos</m:mtext><m:mi>ϕ</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{"tb"} } = {  {1}  over  {T} }  Int cSub { size 8{0} }  cSup { size 8{T} }  {"Mdt"="kI" rSub { size 8{1} } I rSub { size 8{2} } "cos"ϕ } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id10422817">Trong đó :</para>
+        <para id="id10422822">+ I1, I2 :trị hiệu dụng.</para>
+        <para id="id10032804">+  :góc lệch pha giữa hai dòng điện i1, i2.</para>
+        <para id="id10032838">Nếu i1 = i2 thì cos = 1 và Mtb = Ki2.</para>
+        <para id="id9799014">Khi một trong hai cuộn dây được đổi chiều dòng điện thì chiều mô men trung bình Mtb cũng thay đổi.</para>
+      </section>
+      <section id="id-376613054495">
+        <title>Ứng dụng </title>
+        <para id="id10063945">Rơle điện động được sử dụng làm rơle công suất tác dụng, phản kháng. Có thể chế tạo rơle sắt điện động để tăng trị số mô men Mtb và sẽ tăng độ nhạy của rơle. Loại rơle điện động xoay chiều không có mạch sắt từ tuy Mtb nhỏ nhưng dùng nhiều trong tự động điều khiển.</para>
+      </section>
+    </section>
+    <section id="id-408066152141">
+      <title>RƠLE KIỂU TỪ ĐIỆN</title>
+      <section id="id-725337454377">
+        <title>Nguyên lí</title>
+        <para id="id10063998">Sự làm việc của rơ le loại này dựa trên cơ sở lực điện từ do từ trường của nam châm vĩnh cửu tác dụng lên một cuộn dây khi có dòng điện chạy qua. Nguyên lí chung biểu diễn như hình minh họa.</para>
+        <figure id="id10152163">
+          <media id="id6978986" alt=""><image src="../../media/graphics5-734d.png" mime-type="image/png" height="169" width="201"/></media>
+        </figure>
+        <para id="id10152187">Từ trường nam châm vĩnh cửu với cảm ứng từ B tác dụng lên khung có dòng I tạo ra mômen quay.</para>
+        <para id="id10152198">Lực điện từ là F = K’B12I.</para>
+        <para id="id10135680">Mô men quay M = KI (tỉ lệ với dòng điện I).</para>
+      </section>
+      <section id="id-618218539516">
+        <title>Đặc điểm </title>
+        <para id="id10135696">Rơle từ điện có độ nhạy lớn, công suất tác động nhỏ (cỡ 10-10 w) sử dụng nhiều trong tự động hóa, công suất điều khiển cỡ 1 đến 2 W.</para>
+        <para id="id10135718">Không làm việc ở mạch xoay chiều vì ở mạch xoay chiều mô men trung bình Mtb = 0.</para>
+      </section>
+    </section>
+    <section id="id-273060715796">
+      <title>RƠLE CẢM ỨNG</title>
+      <section id="id-618277599228">
+        <title>Nguyên lí </title>
+        <para id="id10091934">Dựa trên tác động tương hỗ giữa từ trường xoay chiều với dòng điện cảm ứng trong bộ phận quay (đĩa, cối) để tạo mômen quay. Hình 6-8a là sơ lược kết cấu một rơ le cảm ứng.</para>
+        <para id="id10091947">Hai từ thông 1, 2 biến thiên xuyên qua đĩa nhôm tương ứng cảm ứng các sức điện động e1, e2 sinh ra các dòng i1, i2 . Các lực điện từ là F12 = B2i1l và F21 = B1i2l, lực điện từ tổng: </para>
+        <para id="id11902606">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mover accent="true">
+                                  <m:mi>F</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                </m:mover>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mover accent="true">
+                                      <m:mi>F</m:mi>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mover>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mtext>12</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msub>
+                                    <m:mover accent="true">
+                                      <m:mi>F</m:mi>
+                                      <m:mo stretchy="false">→</m:mo>
+                                    </m:mover>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mtext>21</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mtext> ,</m:mtext>
+                              <m:mi/>
+                              <m:mstyle fontsize="11pt">
+                                <m:mrow>
+                                  <m:mtext>thæåìng thç:</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>F</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>F</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>12</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msub>
+                                <m:mi>F</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>21</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mi>S</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mfenced open="[" close="]">
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>φ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>i</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msub>
+                                <m:mi>φ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>i</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { vec  {F}}= { vec  {F}} rSub { size 8{"12"} } + { vec  {F}} rSub { size 8{"21"} } " ,"` size 11{"thæåìng thç:"}}  {} # 
+ F=F rSub { size 8{"12"} }  - F rSub { size 8{"21"} } = {  {1}  over  {S} }  left [φ rSub { size 8{2} } i rSub { size 8{1} }  - φ rSub { size 8{1} } i rSub { size 8{2} }  right ]  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10658258">Vì dòng điện và từ thông là những đại lượng thay đổi theo thời gian nên tấm kim loại sẽ chịu lực trung bình:</para>
+        <para id="id10173081">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>F</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>t b</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mtext>= </m:mtext>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mi>T</m:mi>
+                      </m:mfrac>
+                      <m:mrow>
+                        <m:munderover>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>T</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:munderover>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mi>S</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mfenced open="[" close="]">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>φ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>i</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mi>φ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>i</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mtext>.</m:mtext>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dt </m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mtext>= k</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:msub>
+                        <m:mi>φ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>m1</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>φ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>m2</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mtext>sin</m:mtext>
+                      <m:mi>α</m:mi>
+                      <m:mtext/>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"t b"} } "= " {  {1}  over  {T} }  Int cSub { size 8{0} }  cSup { size 8{T} }  { {  {1}  over  {S} } }  left [φ rSub { size 8{2} } i rSub { size 8{1} }  - φ rSub { size 8{1} } i rSub { size 8{2} }  right ] "."  ital "dt ""= k" "." φ rSub { size 8{"m1"} } φ rSub { size 8{"m2"} } "sin"α"  "} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id9801745">với  là góc lệch pha giữa 1 và 2.</para>
+        <para id="id10030190">Mô men quay trung bình tác dụng vào phần động sẽ là: Mtb= km. m1. m2.sin. </para>
+        <para id="id9935898">Trong thực tế sự lệch pha từ thông có thể thực hiện bằng nhiều cách nhưng thường dùng vòng ngắn mạch.</para>
+        <para id="id9935907">Nhận xét </para>
+        <para id="id9935919">+  = 0 thì F = 0 nghĩa hai từ thông trùng pha nhau đĩa không quay.</para>
+        <para id="id9935941">+  = 900 thì F = Fmax.</para>
+        <para id="id10655244">Vậy muốn đĩa quay thì từ thông của hai nam châm phải có vị trí khác nhau trong không gian và lệch pha về thời gian.</para>
+      </section>
+      <section id="id-479305010185">
+        <title>Ứng dụng rơle cảm ứng chế tạo</title>
+        <para id="id10655263">+ Rơle dòng T-80 (hình 6-8b), PT-80.</para>
+        <para id="id9962165">+ Rơle công suất loại cốc 4 cực từ ( 2 cực quấn cuộn dòng, 2 cực quấn cuộn áp).</para>
+        <para id="id9962176">+ Rơle kiểm tra tốc độ kiểu cảm ứng kí hiệu PKC.</para>
+        <para id="id9962186">Hình 6-8: a)Sơ lược kết cấu rơle cảm ứng ; b)̀ Rơle cảm ứng kiểu T-80RƠLE NHIỆT - RƠLE THỜI GIAN - RƠLE TỐC ĐỘRƠLE ĐIỀU KHIỂN</para>
+      </section>
+      <section id="id-944254338362">
+        <title>Rơle nhiệt </title>
+        <para id="id10171368">t[s]I/Iđm11,22345610100100010.000123b)Hình 6-9a)a)Nguyên lí; b) Đặc tính:1.đặc tính thiết bị,2.đặc tính rơle,3.đặc tính mong muốn. a) Khái niệm - công dụng </para>
+        <para id="id10126465">Rơle nhiệt là một loại thiết bị điện dùng để bảo vệ động cơ và mạch điện khỏi bị quá tải, thường dùng kèm với khởi động từ, công tắc tơ. Dùng ở điện áp xoay chiều đến 500 V, tần số 50Hz, loại mới Iđm đến 150A điện áp một chiều tới 440V. Rơle nhiệt không tác động tức thời theo trị dòng điện vì có quán tính nhiệt lớn phải cần thời gian để phát nóng. Thời gian làm việc từ khoảng vài giây [s] đến vài phút, nên không dùng để bảo vệ ngắn mạch được. Muốn bảo vệ ngắn mạch thường dùng kèm cầu chảy.</para>
+        <para id="id10126502">b) Nguyên lí ( hình 6-9a)</para>
+        <para id="id10032445">Dựa trên tác dụng nhiệt của dòng điện, ngày nay sử dụng phổ biến rơle nhiệt có phiến kim loại kép, nguyên lí làm việc dựa trên sự khác nhau về giãn nở dài của hai kim loại khi bị đốt nóng. Phần tử cơ bản rơle nhiệt là phiến kim loại kép (bimetal) cấu tạo từ hai tấm kim loại, một tấm hệ số giãn nở bé (thường dùng invar có 36% Ni, 64% Fe) một tấm hệ số giãn nở lớn (thường là đồng thau hay thép crôm - niken, như đồng thau giãn nở gấp 20 lần invar). Hai phiến ghép lại với nhau thành một tấm bằng phương pháp cán nóng hoặc hàn.</para>
+        <para id="id10032471">Khi đốt nóng do dòng I phiến kim loại kép uốn về phía kim loại có hệ số giãn nở nhỏ hơn, có thể dùng trực tiếp cho dòng điện qua hoặc dây điện trở bao quanh. Để độ uốn cong lớn yêu cầu phiến kim loại phải có chiều dài lớn và mỏng. Nếu cần lực đẩy mạnh thì chế tạo tấm phiến rộng, dày và ngắn.</para>
+      </section>
+      <section id="id-0968353531218">
+        <title>Rơle tốc độ (hình 6-10) </title>
+        <para id="id10032495">Hình 6-10: Rơle tốc độ̣ loại li tâmĐại lượng đầu vào là tốc độ quay của thiết bị, đại lượng ra là trạng thái đóng hoặc mở tiếp điểm. Nguyên lí loại li tâm như sau: khi trục đứng yên hoặc quay với tốc độ nhỏ hơn trị số tốc độ tác động, lò xo 3 kéo quả văng 2 tỳ lên đĩa 4, mở hệ thống tiếp điểm 5 đóng hệ thống 6, khi tốc độ lớn hơn vtđ lực li tâm của quả văng 2 thắng lực lò xo 3 làm hai quả 2 không tỳ vào đĩa 4, lò xo đẩy đĩa 4 ra, tiếp điểm động gắn trên đĩa sẽ đóng tiếp điểm thường mở 6 và cắt tiếp điểm thường đóng 5. Điều chỉnh độ văng của hai quả văng bằng lò xo 3 thì có thể thay đổi được trị số vận tốc tác động vtđ.</para>
+      </section>
+      <section id="id-444396703451">
+        <title>Rơle thời gian </title>
+        <list id="id10025851" list-type="enumerated">
+          <item>Khái niệm </item>
+        </list>
+        <para id="id10025860">Dùng để duy trì thời gian đóng chậm hoặc mở chậm của hệ thống tiếp điểm so</para>
+        <para id="id10025868">với thời điểm đưa tín hiệu tác động vào rơle.</para>
+        <para id="id10025882">Thời gian chậm này có thể vài phần giây cho đến hàng giờ.</para>
+        <para id="id10033090">b) Yêu cầu</para>
+        <para id="id10033101">Thời gian chậm thực hiện bởi rơle phải ổn định ít phụ thuộc vào các yếu tố khác như điện áp nguồn, dòng điện, nhiệt độ môi trường,...</para>
+        <para id="id10033112">c) Phân loại</para>
+        <para id="id10033124">Có rất nhiều loại rơle thời gian với nguyên lí, cấu tạo rất khác khác nhau như:</para>
+        <para id="id10033132">+ Rơle thời gian kiểu điện từ (hình 6-4c).</para>
+        <para id="id10033141">+ Rơle thời gian kiểu thủy lực.</para>
+        <para id="id11714519">+ Rơle thời gian kiểu đồng hồ.</para>
+        <para id="id11714528">+ Rơle thời gian kiểu điện tử - bán dẫn.</para>
+        <para id="id11714537">Ta chỉ xét đại diện một loại:</para>
+        <para id="id11714543">Rơle thời gian kiểu điện từ cấu tạo như hình 6-4c loại này duy trì thời gian nhả chậm và chỉ dùng cho điện một chiều.</para>
+        <para id="id11714562">d) Nguyên lí</para>
+        <para id="id11714573">Trong quá trình đóng hay ngắt cuộn dây rơle thì ở trong vòng ngắn mạch (chính là ống lót bằng đồng 1) sẽ sinh ra sức điện động cảm ứng, dòng điện do nó sinh ra sẽ tạo ra một từ thông chống lại sự biến thiên từ thông do cuộn 7 dây sinh ra. Do đó nó làm cho tốc độ thay đổi của từ thông chậm lại làm thời gian tác động của rơle chậm lại.</para>
+        <para id="id11714578">Thay đổi thời gian tác động bằng cách thay đổi độ căng lò xo 3, điều chỉnh vít 4 để điều chỉnh chiều rộng khe hở có miếng đệm 6 hoặc trị số dòng điện.</para>
+        <para id="id10083046">Loại này thời gian chậm đến 3 giây.</para>
+      </section>
+      <section id="id-313459516132">
+        <title>Rơle điều khiển</title>
+        <para id="id10083061">Có chức năng như một rơle trung gian, nhưng có kích thước nhỏ, tần số thao tác lớn, khả năng ngắt lớn, hệ số nhả cao. Cấu tạo của rơle được mô tả như hình 6-11a. </para>
+        <para id="id10083073">Trong ống thủy tinh kín 1 đặt thanh dẫn 2 bằng thép lò xo dẫn từ. Ở hai đầu mỗi thanh dẫn có gắn tiếp điểm bằng flatin. Ống 1 được rút hết không khí hoặc cho vào đó một chất khí thích hợp, mục đích để hồ quang dập tắt dễ dàng. Ngoài ống đặt cuộn dây 3, khi đưa điện vào cuộn dây 3, lực điện từ sẽ làm hai thanh hút nhau, hệ tiếp điểm được đóng lại. Nếu ngắt điện của cuộn dây, lực đàn hồi của hai thanh dẫn làm tiếp điểm mở ra.</para>
+        <para id="id10083077">Loại rơle này có ưu điểm là môi trường làm việc của tiếp điểm gần như lí tưởng, do đó không bị oxy hóa. Khi đóng/ngắt không có hồ quang, vì vậy tuổi thọ của nó đạt tới khoảng 10 triệu lần đóng/ngắt. Khe hở giữa hai tiếp điểm bé nên cho phép thời gian tác động bé, cỡ (0,2 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 0,4).10-3s. Có thể làm việc với tần số thao tác từ 400 đến 2000 lần đóng ngắt trong một giây. Khả năng ngắt của rơle với đường kính ống thủy tinh d= (2,5 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 6,5) mm chiều dài l = (10 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 55) mm đạt tới 1A, đôi khi tới 5A. Từ trường cần thiết cho điều khiển bé, sức từ động của cuộn dây bé khoảng (20 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>¸</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{¸} {}</m:annotation></m:semantics></m:math> 200) A.vòng.</para>
+        <para id="id12148713">iiđk123a)1234iđkb)Hình 6-11: Rơle điều khiểnHình 6-11b trình bày cấu tạo của một rơle dòng điện, trong ống thủy tinh 1 gá hai điện cực bằng vonfram 2 và trong có một lượng thủy ngân. Phao sắt từ 3 hình trụ rỗng, nổi trên thủy ngân (vì tỉ trọng của sắt bé hơn tỉ trọng của thủy ngân). Cuộn dây điều khiển 4 được đặt lệch về phía dưới của ống (về phía chứa thủy ngân). Khi không có điện vào cuộn dây, phao 3 nổi, cực 2 không tiếp xúc với thủy ngân, mạch điện hở. Khi có điện vào cuộn dây, lực điện từ sẽ hút phao 3 về phía cuộn dây làm thủy ngân dâng lên, cực 2 ngập trong thủy ngân, mạch điện được nối kín. Vì ngắt bằng thủy ngân nên tốc độ ngắt rất lớn, sinh ra quá áp cao.</para>
+      </section>
+    </section>
+    <section id="id-533902739258">
+      <title>ĐẠI CƯƠNG VỀ RƠLE TĨNH</title>
+      <section id="id-716293812834">
+        <title>Sự đổi mới của kĩ thuật rơle</title>
+        <para id="id10210283">a) Những hạn chế của rơle điện- cơ</para>
+        <para id="id10210291">Cho đến khoảng những năm 70 các thiết bị bảo vệ rơle chủ yếu cũng chỉ thực hiện với cơ cấu so sánh là điện từ và cơ khí, cơ cấu thừa hành là tiếp điểm hợp kim.</para>
+        <para id="id10210304">Cơ cấu đo và so sánh cơ - điện từ có những đặc điểm :</para>
+        <para id="id10210312">- Chậm: mạch điện từ đo mất khoảng 20 ms, cơ cấu so sánh đòn bẩy, lò xo, cuộn dây nhanh cũng cỡ 10ms.</para>
+        <para id="id10210332">- Kém chính xác: việc đo điện từ trước kia thường đo qua biến dòng (BI) 5A  100A, đo áp của BU cỡ 100V. Thường không qua lọc, khi đo lẫn cả thành phần tần số công nghiệp với các thành phần tự do và hài. Những thành phần này thường khá lớn có thể làm sai kết quả đo rất nhiều.</para>
+        <para id="id10125393">- Cơ cấu đo và so sánh lại thường chỉ là loại đo đơn biến, một dòng hoặc một áp. Thường khó thực hiện được những phép xử lí phức tạp cần có như các phép số học, giải tích, phép trễ, phép đếm ,...</para>
+        <para id="id10125407">Do đó muốn bảo vệ cho một đối tượng đơn giản là một đường dây phân phối, cũng phải cần dùng tới mười phần tử rơle, kèm theo một sơ đồ nối dây phức tạp chiếm một tủ thiết bị. Chi phí cao mà độ tin cậy, chính xác, tốc độ và các chức năng bảo vệ thì khiêm tốn.</para>
+        <para id="id10125423">b) Rơle điện tử hóa(rơle tĩnh)</para>
+        <para id="id10125430">Từ khoảng những năm 70 đến 90 các rơle cơ- điện được cải tiến theo hướng điện tử hóa. Chủ yếu người ta tìm cách thay các cơ cấu đo, cơ cấu so ngưỡng bằng các mạch điện tử và vi mạch bán dẫn.</para>
+        <para id="id12121150">Một số phép xử lí đơn giản như cộng, đạo hàm, tích phân, đếm, trễ,... cũng thực hiện bằng mạch điện tử.</para>
+        <para id="id12121160">Vi mạch điện tử đã khiến thiết bị bảo vệ tiến một bước khá dài, tiểu hóa thiết bị, nâng cao thêm độ chính xác và chất lượng các chức năng rơle.</para>
+        <para id="id12121172">Rơle tĩnh đã được dùng để phối hợp bảo vệ trong hệ thống điện từ khoảng những năm 1970, đầu tiên là sử dụng các đèn điện tử sau đó đến các Tranzitor silic với tốc độ tin cậy cao để tạo nên các cổng tín hiệu.</para>
+        <para id="id12121186">Rơle kĩ thuật analog (tín hiệu vào/ra là tín hiệu liên tục): Các loại rơle này sử dụng độc lập riêng lẻ các bộ phận có một số chức năng riêng tương tự rơle điện cơ với các chức năng thông thường, có thể sử dụng khối thay thế trực tiếp. Trong hình 6-17 là rơle quá dòng chạm đất được thiết kế để cải thiện tính năng của rơle điện cơ bằng sự phân chia phối hợp bảo vệ.</para>
+        <para id="id12121208">c) Rơle số hóa </para>
+        <para id="id11888310">Phải đến khoảng những năm 90 khi đưa kĩ thuật vi xử lí, vi điều khiển vào thì thiết bị rơle đã thực hiện một sự thay đổi tiến hóa toàn diện.</para>
+        <para id="id11888322">Vi xử lí, vi điều khiển là công cụ thực hiện được rất tốt các công việc như lọc các tín hiệu vào, việc đo nhanh nhiều biến (3 dòng, 3 áp, thời gian,...), việc tính toán nhanh những xử lí phức tạp nhất (số học, giải tích, đếm, phân tích phổ,...), so nhiều ngưỡng ,...Vì vậy các rơle số hóa có những ưu việt lớn :</para>
+        <para id="id11888336">c.1) Tốc độ đo, tính nhanh các véc tơ biến vào, với độ chính xác cao độ tin cậy cao.</para>
+        <para id="id11888345">c.2) Do những điều trên khiến một rơle có thể thực hiện được cùng một lúc tất cả những chức năng bảo vệ phức tạp khác nhau cho một đối tượng, thậm chí gồm cả những chức năng bảo vệ dự bị cũng như các chức năng bảo vệ phụ thêm nữa. Từ đó sinh ra một số đặc điểm mới khác với hai thế hệ rơle truyền thống cũ là :</para>
+        <para id="id11888359">+Rơle số được chế tạo theo hướng một rơle thực hiện tất cả những phép đo lường, phân tích tính toán tất cả những phép so sánh, tất cả các chức năng bảo vệ cần cho một thiết bị điện lực. Đó là những rơle đa chức năng tổng hợp thành bộ.</para>
+        <para id="id11888374">+Người ta phân loại các rơle thành bộ theo nhóm các đối tượng bảo vệ, số kiểu rơle được thu gọn lại trong một số nhóm sau :</para>
+        <para id="id11931988">* Các kiểu rơle bảo vệ máy phát điện.</para>
+        <para id="id11931997">* Các kiểu rơle bảo vệ đường dây siêu cao và cao áp.</para>
+        <para id="id11932003">* Các kiểu rơle bảo vệ đường dây phân phối trung áp.</para>
+        <para id="id11932010">* Các kiểu rơle bảo vệ biến áp.</para>
+        <para id="id11932016">* Các kiểu rơle bảo vệ thanh cái.</para>
+        <para id="id11932022">* Các kiểu rơle bảo vệ mô tơ điện đồng bộ, không đồng bộ.</para>
+        <para id="id11932029">* Rơle sa thải theo tần số,...</para>
+        <para id="id11932035">+Mỗi rơle số lại có khả năng ghi lại số liệu vận hành, số liệu các sự cố cả những số liệu về tác động bảo vệ "CẮT", "ĐÓNG LẠI",... giúp sử dụng vào nhiều việc phân tích, thống kê liên quan.</para>
+        <para id="id11932049">Mỗi rơle số lại biết tự động báo các sự kiện, sự cố cho người trực và cho một máy tổng hợp ghi nhận, máy này lại tự động báo cáo với hệ SCADA của trạm.</para>
+        <para id="id10110557">c.3) Về kết cấu thì rơle số có thể tích thu gọn rất nhiều; một tủ rơle cũ được thay bằng một rơle số hóa. Một tủ rơle số hóa của trạm điện thường chứa xếp chồng hai rơle cao áp lớn, hoặc tám rơle bảo vệ trung áp.</para>
+        <para id="id10110571">Kết quả là phòng điều khiển trung tâm thu gọn lại tất cả chỉ còn 1  2 tủ rơle, 1  2 tủ thu thập thông tin cho SCADA và 1  2 màn hình SCADA. </para>
+        <para id="id10110611">c.4) Việc đấu nối dây cho một rơle số chỉ còn lại sáu dây dòng, sáu dây áp, hai dây nguồn và vài cặp dây đi "ĐÓNG", "CẮT". Tất cả đấu vào các cọc ở phía sau của rơle, so với các tủ cũ thi đơn giản hơn nhiều.</para>
+        <para id="id10110615">c.5) Việc chỉnh đặt, kiểm tra, thử nghiệm đều thực hiện bằng truyền tin giữa rơle và máy tính, rất là giản tiện, đặc biệt nhanh chóng và chính xác.</para>
+        <para id="id9950275">c.6) Giá thành của rơle số hóa rẻ hơn rơle truyền thống, nói chung chỉ bằng nửa. </para>
+        <para id="id9950283">Ví du:̣ một tủ rơle truyền thống bảo vệ một đường dây phân phối thì khoảng giá 3000  4000 USD. Trong khi đó một rơle số bảo vệ đường dây phân phối giá chỉ khoảng 1500  2000 USD. Rơle kĩ thuật số (digital): đặc điểm của loại này là trong một mô đun có thể có thể phối hợp nhiều chức năng phức tạp mà các yếu tố đo lường liên quan bằng các mức logic phối hợp được xử lí bởi các mạch số trong bộ vi xử lí, đầu ra là chung cho tín hiệu đóng cắt và tín hiệu báo như hình 6-20.</para>
+        <para id="id9950321">c.7) Thời gian tác động: thời gian tác động ảnh hưởng nhiều đến sự ổn định của hệ thống. Nếu sự cố được giải quyết càng nhanh thì khả năng duy trì sự ổn định của hệ thống càng cao. Trong rơle tĩnh không có các phần tử quán tính cơ trong chuyển động nên thời gian tác động rất nhanh, thường Ttđ = 0,6ms. Giới hạn tối đa của tốc độ đáp ứng trong thực tế tùy thuộc chế độ quá độ của máy biến dòng hay các phần tử khác.</para>
+        <para id="id10123947">c.8) Tính chọn lọc: việc xử lí tốt nhất đối với các tình trạng sự cố có nghĩa là chỉ ngừng cung cấp điện cho một số lượng tối thiểu các phụ tải tiêu thụ được bảo vệ, phải đảm bảo sàng lọc chỉ ngắt ra khỏi mạch những thiết bị bị sự cố, còn các thiết bị khác phải vẫn tiếp tục làm việc. Trong trường hợp bảo vệ phức tạp như bảo vệ khoảng cách việc chọn là do khối xử lí trung tâm xác định. Trường hợp bảo vệ đơn giản, việc tạo tính lựa chọn qua các phần tử cơ bản (như đưa thêm vào một mạch trì hoãn thời gian..) để có đặc tính tác động phù hợp trong trường hợp bảo vệ phức tạp. Nếu khi thời gian tác động không được ưu tiên hàng đầu thì có thể chấp nhận một thời gian trì hoãn nào đó để giải quyết sự cố theo điều kiện chọn lọc.</para>
+        <para id="id10123974">c.9) Tính tin cậy: đảm bảo chỉ tác động và luôn tác động khi cần thiết và chỉ khi cần thiết mà thôi(tức là đảm bảo không tác động sai hay tác động không đúng lúc với thiết bị được bảo vệ). Để đạt được tính đảm bảo làm việc của bảo vệ cần phải có hai điều kiện là:</para>
+        <para id="id12092113">+Bảo vệ phải được thiết kế đúng (theo quan điểm sơ đồ tính toán các giá trị điều chỉnh).</para>
+        <para id="id12092121">+Trang thiết bị phải có giá trị tin cậy cao.</para>
+        <para id="id12092127">Các điều kiện này rơle tĩnh hơn hẳn rơle điện cơ vì không có các chuyển động cơ học, không tạo ra tác động sai như rơle tiếp điểm. Tần số tác động và tuổi thọ của rơle tĩnh cũng hơn hẳn rơle điện cơ và thời gian trở về cũng nhanh hơn.</para>
+        <para id="id12092142">c.10) Độ nhạy: công suất tiêu thụ của rơle tĩnh (các mạch bán dẫn) vô cùng nhỏ so với các rơle điện cơ. Độ nhạy cũng rất cao hệ số trở về gần bằng 1( Ktv=Itv/Ikđbv
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>»</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{»} {}</m:annotation></m:semantics></m:math>1). Điều đó làm giảm dòng và tăng độ nhạy của rơle, ngoài ra kích thước bao bì của các loại rơle tĩnh chỉ bằng khoảng 1/3 đến 1/5 rơle điện cơ dẫn đến giảm kích thước bảng gắn và không gian điều khiển.</para>
+        <para id="id9951473">c.11) Tinh độc lập với các điều kiện vận hành : rơle cần phải tác động đúng khi xuất hiện sự cố ở thiết bị bảo vệ. Các giá trị khởi động cần phải được tính toán ở các chế độ làm việc cực đại và cực tiểu của trang thiết bị được bảo vệ. Trong rơle số hoặc bán dẫn tín hiệu điều khiển được lấy cách li với tín hiệu mạch động lực qua điốt phát quang (hay phtotranzitor), nhiễu lọc qua bộ lọc tần số cao nên không chịu ảnh hưởng của nhiễu cơ học và nhiễu tần số cao.</para>
+        <para id="id12106665">c.12) Ưu điểm trong phối hợp bảo vệ hệ thống: Trong rơle tĩnh nhất là rơle kĩ thuật số, việc sử dụng cáp quang qua môđun giao diện dữ liệu dẫn đến tốc độ truyền tín hiệu rất nhanh và độ tin cậy tốt không bị ảnh hưởng của dòng điện từ kĩ thuật truyền số. Do thời gian tác động rất chính xác cho nên có thể phối hợp nhiều bảo vệ để đạt độ chính xác cao nhất cho toàn hệ thống. Rơle kĩ thuật số với hiển thị số rất tiện lợi cho người vận hành.</para>
+        <para id="id12106692">Trong bảo vệ lưới điện hoặc một hệ thống thiết bị luôn đòi hỏi phải tiến hành điều khiển tự động tách thiết bị sự cố ra khỏi phạm vi của lưới hay hệ thống khi xuất hiện sự cố hay một chế độ làm việc không bình thường có nguy cơ gây hỏng thiết bị. Sự ngăn cách thiết bị bị sự cố với hệ thống cần phải thực hiện sao cho có thể ngăn ngừa được sự phát triển của sự cố hay nguy cơ hủy diệt thiết bị và thiết lập trở lại chế độ làm việc bình thường với phần hệ thống còn lại. Đảm bảo liên tục sự làm việc của hệ thống trong điều kiện tối đa có thể được. Để giải quyết sự cố trong những điều kiện tốt nhất thì sự bảo vệ bằng rơle tĩnh nói chung và rơle số nói riêng thỏa mãn được hàng loạt các chỉ tiêu kĩ thuật mà rơle điện cơ đã không đạt được.</para>
+        <para id="id12106697">Hiệu quả nói chung của rơle tĩnh hơn hẳn rơle điện cơ, tuy nhiên trong tính toán kinh tế khi thiết kế bảo vệ cần chọn các giải pháp tốt nhất để giảm nhỏ giá đầu tư thiết bị bảo vệ. Cần quan tâm các vấn đề như tiêu tốn cho bảo quản, bảo dưỡng và kiểm tra xem xét định kì, với rơle tĩnh công tác bảo dưỡng kiểm tra thông qua việc tháo lắp các môđun không cần làm sạch tiếp điểm như rơle điện cơ. Thay thế rơle tĩnh cũng được thực hiện đơn giản khi sự cố, loại được các sai sót như nối cáp ở rơle điện cơ. Tuy nhiên việc thay thế sửa chữa rơle tĩnh cũng cần cán bộ kĩ thuật có chuyên môn cao hơn. Hiện nay trình độ cán bộ kĩ thuật ngày càng được nâng cao và giá bán rơle tĩnh không ngừng giảm, trong hệ thống điện và các mạng điện điều khiển rơle tĩnh đang thay chỗ dần cho rơle điện cơ.</para>
+      </section>
+      <section id="id-23321706761">
+        <title>Rơle tương tự</title>
+        <para id="id9799241">Rơle loại này có đặc trưng là các thông số vào/ra rơle như dòng, áp, góc lệch pha, công suất,... là các đại lượng liên tục (analog). Tín hiệu này được so sánh với một hay nhiều đại lượng đầu vào có giá trị chuẩn để cho tín hiệu đầu ra (rơle loại này gồm các loại rơle bán dẫn, rơle điện tử). Cấu trúc rơle loại này gồm các khối sau:</para>
+        <para id="id9799245">a) Khối tiếp thu</para>
+        <para id="id12079609">Khối này gồm hai phần chính là bộ đo lường và bộ so sánh, đại lượng đầu ra của bộ phận này gồm một trong hai giá trị chuẩn. </para>
+        <para id="id12079620">UrIAiaIBibIcicUrIAiaIBibIcica)b)Hình 6-12: Thực hiện lấy tín hiệu và chỉnh lưu trong khối tiếp thu + Bộ phận đo lường lấy tín hiệu từ các máy biến dòng để biến đổi thành đại lượng một chiều nhờ cầu chỉnh lưu. Có hai cách thực hiện chỉnh lưu như hình 6-12a,b. </para>
+        <para id="id11665497">+ Bộ so sánh có thể làm việc theo hai nguyên tắc chính là:</para>
+        <para id="id11665504">-So sánh hai đại lượng điện theo giá trị tuyệt đối (dùng cho các rơle bảo vệ khoảng cách, bảo vệ so lệch, bảo vệ quá áp, bảo vệ kém áp,...)</para>
+        <para id="id11665516">-So sánh hai đại lượng điện theo giá trị góc pha (dùng cho rơle bảo vệ khoảng cách, rơle định hướng công suất,...).</para>
+        <para id="id11665527">a) b)Hình 6-13: Thực hiện so sánh theo giá trị tuyệt đối0tUU0UraUvào(+)UraCRUvàoU0</para>
+        <para id="id10171075">Bộ phận so sánh hai đại lượng điện theo giá trị tuyệt đối thường sử dụng mạch tích hợp (integrated circuit), ở đây ta chỉ xét một sơ đồ so sánh tiêu biểu dùng khuếch đại thuật toán như hình 6-13. Cổng không đảo của khuếch đại thuật toán được nối vào điện áp chuẩn Uo là điện áp cần so sánh với cổng đảo. Nếu điện áp vào thấp hơn Uo chuẩn thì sẽ cho ra tín hiệu ở đầu ra (ở mức cao). Việc sử dụng khâu R-C ở đầu vào là để thay đổi thời gian hoạt động bằng cách thay đổi trị số của R và C. Ở đây bộ phận này sẽ cho ra tín hiệu nếu biên độ tín hiệu điện áp đầu vào vượt quá biên độ điện áp đặt trước Uo (Uo cũng có thể điều chỉnh được).</para>
+        <para id="id11890155">Bộ phận so sánh hai đại lượng điện theo giá trị góc pha thường sử dụng bộ tách sóng phân cực (polanity detector) như hình 6-14.</para>
+        <para id="id11890166">IC1IC2IC3Hình 6-14: Thực hiện so sánh theo trị phaĐầu đảo của khuếch đại thuật toán được nối mát, tín hiệu sóng vào là tín hiệu hình sin tín hiệu ra được chuyển sang dạng xung vuông nhờ việc dùng khuếch đại thuật toán (KĐTT).</para>
+        <para id="id10181692"> Tín hiệu ra chỉ có hai mức tương ứng với tín hiệu vào (hiển nhiên là độc lập với biên độ tín hiệu vào). Việc so sánh góc pha có thể thực hiện bằng hai bộ tách sóng phân cực và so sánh pha để cho ra tín hiệu xung vuông.</para>
+        <para id="id10181707">b) Khối thực hiện</para>
+        <para id="id10181712">Mục đích của khối này thực hiện những biến đổi đột ngột của mạch điện ngoài như khuếch đại tín hiệu để đưa đến cuộn cắt máy cắt. Ta xét sơ nguyên lí khối thực như hình 6-15.</para>
+        <para id="id10181726"> Mạch thyristor thực hiện các yêu cầu và cung cấp cho các mạch đầu ra tín hiệu độc lập. Tín hiệu kích thích được cho tranzitor nhờ điốt phát quang, sự trì hoãn tín hiệu được cung cấp bởi thyristor TH1, điốt zerne Uz và điện trở R1. Điốt Uz không thể điều khiển kích thích cho thyristor TH2 được cho đến khi điện áp trên R1 vượt quá điện áp trên Rz lúc này mới có tín hiệu đến kích thích thyristor TH2 làm thyristor này dẫn và cho tín hiệu đến cuộn tác động cắt máy cắt ra. </para>
+        <para id="id10181854">c) Khối trì hoãn</para>
+        <para id="id10181859">Một mạch khác được sử dụng trong trong rơle tĩnh là mạch tich phân, sử dụng khâu chính là một khâu khuếch đại thuật toán (KĐTT) như hình 6-16. </para>
+        <para id="id10181871">Hình 6-15: Cấu trúc một khối thực hiệnTrên sơ đồ hình 6-16 dòng vào có giá trị i =
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:msub><m:mi>E</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {E rSub { size 8{1} } }  over  {R rSub { size 8{1} } } } } {}</m:annotation></m:semantics></m:math> nạp cho tụ C thông qua mạch phản hồi. Cổng không đảo của KĐTT này nối mát, điện áp trên tụ là:</para>
+        <para id="id9801962"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>C</m:mi></m:mfrac></m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>i</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>C</m:mi></m:mfrac></m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mfrac><m:msub><m:mi>E</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{c} } = {  {1}  over  {C} }  Int {i rSub { size 8{c} }  ital "dt"= {  {1}  over  {C} }  Int { {  {E rSub { size 8{1} } }  over  {R rSub { size 8{1} } } } }  ital "dt"} } {}</m:annotation></m:semantics></m:math>ta có điện áp trên tụ là:</para>
+        <para id="id10062059">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>U</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>R</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>E</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dt</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{c} } = {  {1}  over  {R rSub { size 8{1} } C} }  Int {E rSub { size 8{1} }  ital "dt"} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10663897">Điện áp đầu ra 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msub><m:mi>E</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{0} } = - U rSub { size 8{c} } = {  { - 1}  over  {R rSub { size 8{1} } C} }  Int {E rSub { size 8{1} }  ital "dt"} } {}</m:annotation></m:semantics></m:math>. Ta thấy điện áp ra E0 tỉ lệ với tích phân điện áp vào E1. </para>
+        <para id="id9922037">Mạch này được sử dụng liên tục như mạch trì hoãn thời gian. Tốc độ thay đổi của điện áp đầu ra tỉ lệ với biên độ của điện áp vào.</para>
+        <para id="id9922049">E0CRE1Ic-+Hình 6-16: Mạch tích phân dùng để trì hoãnd) Khối chỉnh định</para>
+        <para id="id11902877">Với rơle tĩnh cho phép việc chỉnh định các bộ phận trong rơle để phối hợp bảo vệ, thông thường có hai cách:</para>
+        <para id="id11902888">+ Chỉnh định các thông số đầu vào để phù hợp với rơle.</para>
+        <para id="id11902897">+Chỉnh định các thông số chuẩn trong khối so sánh để xác định ngưỡng tác động của rơle. Điện áp ngưỡng của khối so sánh cũng có thể chỉnh định bằng hai cách là:</para>
+        <para id="id11902910">- Chỉnh định U0 bằng biến trở trước khi đưa vào bộ phận so sánh để có giá trị phù hợp.</para>
+        <para id="id11902932">- Chỉnh định ngay ở phía đầu vào bằng việc thay đổi trị số của biến trở hay điện dung của khâu R-C. Qúa trình nạp cho tụ C khi điện áp đầu vào thay đổi có dạng như hình 6-13b. Như vậy bộ so sánh thực hiện cho tín hiệu ra khi điện áp trên cổng không đảo (đầu vào) vượt quá điện áp U0. Tùy trị số R và C độ dốc của đặc tính đó sẽ nhiều hay ít, ta có ngưỡng tác động khác nhau, đồng thời mạch R-C cũng có ngưỡng tác động khác nhau. Sơ đồ nguyên lí của một rơle dòng cực đại bằng kĩ thuật tương tự như hình 6-17.</para>
+        <para id="id11902955">Chú ý: ngày nay rơle kĩ thuật tương tự hầu như không còn sử dụng linh kiện đèn điện tử mà hầu hết thay bằng linh kiện bán dẫn nên ở đây không đề cập linh kiện điện tử.</para>
+        <para id="id9950200">Filtrer+LeverDetector 2IAi0IBiAICiBMaximumCurrentGate andRecchfierFilterCurve ShaperLeverDetector 1RL2RL2LeverDetector 3SetingTimerRegulator</para>
+        <para id="id10651944">Hình 6-17: Sơ đồ khối một loại rơle tương tự của hãng ABB</para>
+      </section>
+      <section id="id-155337866388">
+        <title>Rơle kĩ thuật số</title>
+        <para id="id10651991">Đặc điểm: các tín hiệu xử lí bên trong của rơle kĩ thuật số ở dạng số (dạng nhị phân 0,1) mà nó có thể thực hiện nhiều chức năng tuần tự. Tín hiệu đầu vào được chuyển sang tín hiệu số để điều khiển tín hiệu ra. </para>
+        <para id="id11636090">a) Chức năng và cấu trúc tổng quan rơle số </para>
+        <para id="id11636096">Một rơle số có những loại nhiệm vụ chức năng sau :</para>
+        <para id="id11636103">a.1) Chức năng đo lường : là chức năng đầu tiên và quan trọng nhất, nhằm đo, lọc, tính ra những thông số mạch điện mà rơle phải canh. Các lượng vào đầu tiên nói chung là :</para>
+        <para id="id11636117">- Dòng ba pha, dòng trung tính.</para>
+        <para id="id11636122">- Áp ba pha, áp thứ tự zêrô.</para>
+        <para id="id11636128">Số lượng vào cụ thể lại tùy yêu cầu của rơle. Những lượng này khi không có sự cố thường là hình sin và cân bằng, dòng trung tính, áp thứ tự zêrô bằng không. Nhưng khi sự cố sẽ có một biến động mạnh của thành phần tần số công nghiệp, thường kèm theo mất đối xứng khiến sinh ra các thành phần thứ tự nghịch và zêrô. Một nét đặc biệt quan trọng khác nữa là kèm theo đó thường sinh ra những thành phần quá độ tự do lớn, không chu kì, khiến dòng áp quá độ cố mất dạng hình sin.</para>
+        <para id="id11636156">Do đó những dòng áp đo vào cần được :</para>
+        <para id="id11636162">- Biến nhỏ lại bằng những BU và BI đặc biệt (BI không bão hòa, dải đo rộng).</para>
+        <para id="id11636170">- Lọc thông thấp ra thành phần tần số công nghiệp gồm lọc cứng, khi cần kết hợp lọc bằng phần mềm.</para>
+        <para id="id9808106">- Chuẩn hóa đến mức điện áp thích hợp, qui định cỡ 2V ứng với Uđịnh mức và ứng với 10.Iđịnh mức.</para>
+        <para id="id9808134">Những việc trên thực hiện chủ yếu bằng phần cứng.</para>
+        <para id="id9808141">a.2) Chức năng lấp mẫu, tính toán canh sự cố, khởi động các rơle chủ yếu gồm các việc sau :</para>
+        <para id="id9808152">* Lấp mẫu dòng, áp, tần số, đếm pha đưa vào bộ đệm mẫu.</para>
+        <para id="id9808159">* lọc số tiếp nếu cần.</para>
+        <para id="id9808165">* Tính toán phân tích ra các số liệu cần như :</para>
+        <para id="id9808171">- Dòng, áp hiệu dụng (hoặc số gia i, u).</para>
+        <para id="id9808198">- Các thành phần thứ tự pha dòng áp.</para>
+        <para id="id9808204">- Góc lệch pha. </para>
+        <para id="id10417303">* Tính các biểu thức đặc trưng sự cố, so ngưỡng để phát hiện sự cố.</para>
+        <para id="id10417311">a.3) Các thành phần bảo vệ rơle và ghi chép sự cố :</para>
+        <para id="id10417320">Khi xảy ra sự cố thì modul canh sẽ khởi động chạy chức năng bảo vệ rơle để xử lí ứng với sự cố ấy. Một rơle số có nhiều chức năng rơle khác nhau do các CPU thực hiện. Một modul chương trình bảo vệ rơle tương ứng sẽ bắt đầu tiếp nhận lấy những số liệu đang tiếp tục diễn biến, để tính định lượng cụ thể các thông số của sự cố ấy và tính ra thời gian trễ cần cho việc "CẮT" sự cố. Đồng thời một modul cũng ghi chép lại diễn biến của sự cố để có thể lấy ra dùng sau này.</para>
+        <para id="id10417344">a.4) Chức năng "CẮT" sự cố.</para>
+        <para id="id10417352">a.5) Chức năng "ĐÓNG LẠI" (nếu có).</para>
+        <para id="id10417360">SamplingLine energizdUndervoltagedistance relaypickc upPower swingblockingTripping logicClosing logicNormal operation programPhase distatacerelay picks up Faul detector startsearth distancerelay picks up NNNYYYYSample interruptReturn to main programHình 6-18Biểu đồ chức năng bảo vệ của CPU1 trong LFP 931 của hãng NARI(Trung Quốc).</para>
+        <para id="id9806251">a.6) Chức năng tự kiểm tra thiết bị, như kiểm tra BU, BI đứt, chập, kiểm tra điện áp để "ĐÓNG", "CẮT" đủ không và nhất là kiểm tra các vi xử lí có chạy tốt không. Để có những xử lí báo tín hiệu hay báo động cần thiết. Hình 6-18 vẽ một phần lưu đồ xử lí của rơle bảo vệ nhanh đường dây cao áp LFP.931 của hãng NARI Trung Quốc.</para>
+        <para id="id9806268">b) Phần mềm của rơle số</para>
+        <para id="id9806273">Kết cấu phần cứng và phần mềm của các kiểu rơle số của các hãng khác nhau thường có những nét đặt biệt riêng, không giống nhau. Các hãng đó đều không cho thông báo gì rõ về phần cứng, phần mềm của họ. Ở đây sẽ chỉ nêu trên những nét chung về phần mềm của rơle số.</para>
+        <para id="id9806288">b.1) Phần mềm của rơle số ở Runtime sau khi KHỞI ĐẦU thường gồm một số bộ phận </para>
+        <para id="id9995981">Trở về RTIĐồng hồ lấy mẫu gọiDo modul CANH sự cố khởi độngModul lấy mẫu 12,16,24lần chu kì trở về của RTI khởi độngModulCANHsự cốKhởi độngcác rơle bảo vệTính và lưusố liệusự cốModul các bảo vệ rơle -Kiểm tra cờ tính sự cố của bảo vệ.-Dựng /xóa các cờ sự cố-Ghi các thời gian CẮTModul CẮT -Kiểm tra các cờ CẮT.-Đếm ngược các thời gian CẮT.-Ra lệnh CẮTModul ĐÓNG LẠI -Kiểm tra settings.-Đếm ngược các thời gian Reclose.-Ra lệnh ĐÓNGĐồng hồ 20ms gọiĐồng hồ 20ms gọiCó sự cố ?NYHình 6-19Lưu đồ khái quát "RUNTIME" của rơle số</para>
+        <para id="id11668092">a) Bộ phận thường kì chạy liên tục theo những chu kì </para>
+        <para id="id11668106">* Modul "LẤY MẪU" các dòng, áp, trạng thái cất vào byffer các mẫu. Tần số lấy mẫu 12, 16 hoặc 24 lần/chu kì điện.</para>
+        <para id="id11668116">*Modul "CANH" sự cố, nó tính liên tục những thông số đặc trưng sự cố hay dùng các biên độ dòng và canh, khi chúng vượt những ngưỡng thì phát hiện ra sự cố và khởi động những modul bảo vệ làm việc. Khởi động modul "LƯU GIỮ" các số liệu của sự cố (dòng, áp, các lệnh đóng/cắt,...). Chu kì canh giữ thường 10ms hay 20ms.</para>
+        <list id="id11668130" list-type="enumerated">
+          <item>Các modul "BẢO VỆ RƠLE" do modul "CANH" khởi động</item>
+        </list>
+        <para id="id9802119">Gồm một số modul bảo vệ chính và một số modul bảo vệ hậu bị. Ví dụ bảo vệ quá dòng cắt nhanh, bảo vệ quá dòng định thời gian, bảo vệ quá dòng thời gian, bảo vệ phương hướng góc pha, bảo vệ khoảng cách, bảo vệ thấp tần,... Thật ra chỉ khởi động những bảo vệ đã được người dùng chọn. Các modul này có thể được thiết kế theo kiểu chạy lần lượt, theo một thứ tự đã định. Chúng lần lượt tính chi tiết những thông số liên quan đến nhiệm vụ bảo vệ của mình. Ví dụ modul bảo vệ quá dòng thời gian sẽ tính xem :</para>
+        <para id="id9802167">- Quá dòng các pha nào, giá trị bao nhiêu.</para>
+        <para id="id9802174">- Thời gian cắt theo tiêu chuẩn thời gian ngược nào, tính ra là bao nhiêu ms bao nhiêu chu kì 20ms.</para>
+        <para id="id9802182"> Sau đó từng modul dựng cờ sự cố của mình và ghi vào ô nhớ thời gian của mình để modul "TRIP" thực hiện.</para>
+        <list id="id9802197" list-type="enumerated">
+          <item>Modul "TRIP" cũng được modul "CANH" khởi động bắt đầu chạy</item>
+        </list>
+        <para id="id9802210">Nó kiểm tra các cờ sự cố và các ô ghi thời gian cắt để đếm ngược cho đến hết thời gian cắt nào trước thì ra lệnh "CẮT". Sau đó nó xem có đặt chế độ "ĐÓNG LẠI" RECLOSE (sau cắt quá dòng) thì khởi động cho modul "RECLOSE" hoạt động.</para>
+        <list id="id9802215" list-type="enumerated">
+          <item>Modul đóng lại "RECLOSE" được khởi động </item>
+        </list>
+        <para id="id11917563">Nó sẽ kiểm tra chế độ Reclose (mấy lần, thời gian giãn cách bao nhiêu) và đếm lùi căn thời gian ra lệnh các lần "ĐÓNG LẠI".</para>
+        <para id="id11917573">Việc "ĐÓNG LẠI" cũng như lệnh "ĐÓNG CẮT" còn thêm option định rằng phải kiểm tra đồng bộ hay không. Lưu đồ thay thế như hình 6-19.</para>
+        <para id="id11917586">c) Phần mềm khác </para>
+        <para id="id11917591">Bên cạnh Runtime còn có bộ phận giao tiếp sau :</para>
+        <para id="id11917601">c.1) Modul "BÁO CÁO"</para>
+        <para id="id11917606">Nó báo cáo các thông tin về sự cố xảy ra (như thời gian, kiểu sự cố, cường độ sự cố, thời điểm ra lệnh cắt, thời điể́m cắt xong) gởi lên máy "QUẢN LÍ RƠLE" (nếu trong hệ có đặt máy này) để "QUẢN LÍ RƠLE" báo cáo sang cho hệ SCADA. </para>
+        <para id="id11917623">c.2) Modul này cũng báo cáo về lịch sử các sự cố cho một máy tính nối thông tin với nó qua một cổng PORT RS - 232.</para>
+        <para id="id11917640">c.3) Một modul "LẬP TRÌNH CHẾ ĐỘ"</para>
+        <para id="id11917654">Cũng giao tiếp với máy máy tính qua "PORT" đó để đối thoại giúp người thiết kế khai báo cấu hình bảo vệ cho rơle, như dùng chức năng bảo vệ nào, các số đặt settings bao nhiêu. Modul này sẽ ghi giữ lại các số đặt ấy trong bộ nhớ, để các modul Runtime sẽ tra đọc mà làm việc.</para>
+        <para id="id10436720">d) Cấu trúc chung của rơle số </para>
+        <para id="id10436728">Từ các chức năng trên thấy rơle số có một số chức năng thực hiện bằng những phần cứng gần tương tự nhau : </para>
+        <para id="id10436746">- Mạch BI, BU đo vào chuẩn hóa (những lượng dòng, áp vào).</para>
+        <para id="id10436762">- Mạch lọc cứng; Mạch lấy mẫu (lấy mẫu những lượng gì, tần số lấy mẫu).</para>
+        <para id="id10436772">- Mạch vi xử lí (mấy CPU, kiểu gì); Mạch "CẮT".</para>
+        <para id="id10436781">- Mạch giao tiếp với người, mạch thông tin; Các đèn báo.</para>
+        <para id="id10436790">InputInterposingCurrent setting switchA to DCurrent select swichesHighSwitchsetting TMSSwitchsetting MicrocomputerOutput DriversH.S output relayTime currentoutput relayH.STime0.2/0.1 0.4/0 0.5/00.2/0 0.4/0 0.4/00.2/00.1/00.05/00.05/0.0250/016/05/02/01/0Tín hiệu sau khí lấy qua biến dòng có trị số thích hợp được đưa vào chỉnh lưu tạo ra dòng điện một chiều. Tuy nhiên các mạch điện tử chỉ làm việc với một dòng điện định mức giới hạn nhỏ nhất định nào đó. Để đưa dòng điện thích hợp vào CPU, ta phải lựa chọn dòng điện đầu vào nhờ công tắc lựa chọn để có tín hiệu vào trong dải cho phép. Cấu trúc chung của một rơle số gồm các khối sau:</para>
+        <para id="id9935035">Hình 6-20: Sơ đồ khối một rơle số của hãng ABBd.1) Bộ biến đổi A/D: trong CPU có khối A/D làm nhiệm vụ chuyển tín hiệu từ tương tự(liên tục) sang tín hiệu số. Bộ phận này có hai chức năng là lượng tử hóa tín hiệu liên tục cho ra tín hiệu rời rạc sau đó mã hóa tín hiệu rời rạc này. Việc mã hóa là gán những mã nhị phân cho từng tín hiệu rời rạc trong quá trình lượng tử hóa. </para>
+        <para id="id10061593">d.2) Sau khi lấy tín hiệu từ bộ chuyển đổi đầu vào A/D: ở dạng số bộ vi xử lí (CPU) sẽ phân tích đánh giá và cho tín hiệu đầu ra. Bộ CPU có nhiều khối nhỏ hợp thành việc chỉnh định các thông số tác động nhờ các công tắc lập trình cho các giá trị đặt. Các công tắc là một trong số chuỗi nhị phân của của giá trị lập trình đó, nó có thể ở mức 0 hay mức 1. Khi chỉnh định các thông số các giá trị này có thể hiển thị trên màn hình tương ứng các giá trị của các công tắc lập trình đó. </para>
+        <para id="id10061629">Ngoài ra, thời gian tác động cũng được đưa vào các công tắc lập trình, tùy theo nhu cầu phối hợp bảo vệ mà ta chọn số nào trong chuỗi công tắc lập trình đó.</para>
+        <para id="id10061642">d.3) Khối điều khiển đầu ra: thực hiện việc chuyển mạch đưa tín hiệu vào các rơle đầu ra, mỗi rơle đầu ra có thể cho tín hiệu đến máy cắt hay đèn tín hiệu khi có sự cố xảy ra trong vùng bảo vệ.</para>
+        <para id="id10061663">d.4) Rơle đầu ra (khối thực hiện): cũng tương tự ở rơle tương tự tín hiệu cắt nhờ tầng khuếch đại công suất đưa đến cuộn cắt máy cắt. Trong rơle so lệch trị số các vòng dây của biến dòng và giá trị điện trở thường được chọn để hằng số thời gian của mạch thứ cấp kể cả mạch từ hóa rất bé (khoảng 0,06 chu kì tần số trong công nghiệp). Giá trị tối ưu này được hiệu chỉnh sao cho khi đóng không tải thành phần ngắn mạch trong vùng bảo vệ được hấp thụ hoàn toàn bởi mạch từ hóa của máy biến áp trong khoảng 0,18 chu kì tần số công nghiệp. Do vậy rơle không bị chậm pha khi có dòng ngắn mạch hình sin với thành phần không chu kì. Hình 6-20 và 6-21 vẽ sơ đồ sơ lược của rơle số của hãng ABB và hãng NARI: Chức năng từng bộ phận mạch của rơle được các sơ đồ thể hiện một cách sơ lược.</para>
+        <para id="id10061688">e) Bộ phận chức năng giao tiếp với người </para>
+        <para id="id10171148">e.1) Các rơle số có những bộ phận để giao tiếp với người thuận tiện (thường có tổ chức):</para>
+        <para id="id10171157">* Một PORT truyền tin RS - 232 hoặc RS - 485 để truyền tin đối thoại với người lập trình hoặc trực ban qua màn hình hay bàn phím máy tính.</para>
+        <para id="id10171168">* Một panel bảng chữ LCD và bộ phím sử dụng để đối thoại với người lập trình hoặc trực ban.</para>
+        <para id="id10171177">e.2) Mục đích các việc truyền tin chủ yếu </para>
+        <para id="id10171183">e.2.1) Chỉnh đặt cho các chức năng bảo vệ rơle :Dùng/ không dùng chức năng bảo vệ nào; Đặt các giá trị mức ngưỡng, thời gian trễ, số lần bao nhiêu ,...</para>
+        <para id="id10171195">e.2.2) Khai báo cấu hình mạch vào gồm: hệ số BI, BU; khai báo cách đấu dây của chúng.</para>
+        <para id="id10171203">e.2.3) Khai báo về cấu hình các mạch đóng, cắt.</para>
+        <para id="id10171210">e.2.4) Đọc ra và sửa các thông số đã được chỉnh đặt, đã khai báo.</para>
+        <para id="id10171217">ALFVFCtesterBanary input I0i0IAiAIBiBICiCUAUBUCUNOptocouplerOutputrelayprotectionCPU2ManagementCPU1QJSerial portGeneralsartterSerial portPrinter</para>
+        <para id="id10173975">Hình 6-21: Kết cấu rơle số LFP-902 (bảo vệ đường dây siêu cao).</para>
+      </section>
+    </section>
+  </content>
+</document>

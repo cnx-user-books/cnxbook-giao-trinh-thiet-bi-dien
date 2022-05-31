@@ -1,0 +1,46 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Thiết bị điện</title>
+  <metadata>
+  <md:content-id>m30008</md:content-id><md:title>Thiết bị điện</md:title>
+  <md:abstract>Thiết bị điện</md:abstract>
+  <md:uuid>383c1ca4-fa0c-47ab-94e1-626543cefeb4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id9791432">KHÁI NIỆM CHUNG VỀ THIẾT BỊ ĐIỆN</para>
+    <para id="id9791438">Thiết bị̣ điện được đề cập ở đây là các loại thiết bị làm các nhiệm vụ: đóng cắt, điều khiển, điều chỉnh, bảo vệ, chuyển đổi, khống chế và kiểm tra mọi sự hoạt động của hệ thống lưới điện và các loại máy điện. Ngoài ra thiết bị̣ điện còn được sử dụng để kiểm tra, điều chỉnh và biến đổi đo lường nhiều quá trình không điện khác. </para>
+    <para id="id9849789">Thiết bị̣ điện là một loại thiết bị đang được sử dụng rất phổ biến có mặt trong hầu hết các lãnh vực sản xuất của nền kinh tế, từ các nhà máy điện, trạm biến áp, hệ thống truyền tải điện, đến các máy phát và động cơ điện trong các xí nghiệp công nghiệp, nông nghiệp, giao thông,... và trong cả lãnh vực an ninh quốc phòng.</para>
+    <para id="id9849803">Thiết bị̣ điện sử dụng ở nước ta hiện nay được nhập từ rất nhiều nước, rất nhiều hãng sản xuất khác nhau và đủ các thế hệ. Có cả các thiết bị đã có thời gian sử dụng 40 đến 50 năm, rất lạc hậu và các thiết bị rất hiện đại mới nhập. Chính vì vậy các quy cách không thống nhất, gây khó khăn cho vận hành, bảo dưỡng và sửa chữa. Do qúa nhiều chủng loại thiết bị̣ điện với các tiêu chuẩn kĩ thuật rất khác nhau, nên trong sử dụng hiện nay nhiều khi không sử dụng hết tính năng và công suất của thiết bị hoặc sử dụng không đúng gây hư hỏng nhiều, làm thiệt hại không nhỏ cho nền kinh tế. Chính vì vậy việc đào tạo và cập nhập nâng cao kiến thức về thiết bị điện đặc biệt là các thiết bị mới cho các cán bộ kĩ thuật quản lí và vận hành thiết bị điện là một đòi hỏi rất cấp thiết. Giáo trình này nhằm trang bị những lí luận cơ bản, để hiểu nguyên lí làm việc, đặc điểm cấu tạo các loại thiết bị̣ điện thường dùng trong tự động truyền động, trong hệ thống điện và trong các lĩnh vực điều khiển máy điện,...nhằm giúp sinh viên các ngành năng lượng khi ra trường có thể lựa chọn, vận hành, sửa chữa, cải tiến thiết bị̣ điện hoặc một số bộ phận của thiết bị̣ điện, đặc biệt cung cấp những kiến thức làm cơ sở để tiếp cận các thiết bị hiện đại.</para>
+    <section id="id-0564563184088">
+      <title>Phân loại thiết bị điện </title>
+      <para id="id9849876">Để thuận lợi cho việc nghiên cứu, vận hành sử dụng và sửa chữa thiết bị̣ điện người ta thường phân loại như sau:</para>
+      <para id="id9849886">a) Phân theo công dụng</para>
+      <para id="id9849891">+ Thiết bị̣ điện khống chế: dùng để đóng cắt, điều chỉnh tốc độ chiều quay của các máy phát điện, động cơ điện (như cầu dao, áp tô mát, công tắc tơ,...).</para>
+      <para id="id9849904">+ Thiết bị̣ điện bảo vệ: làm nhiệm vụ bảo vệ các động cơ, máy phát điện, lưới điện khi có quá tải, ngắn mạch, sụt áp,...( như rơle, cầu chì, máy cắt,...).</para>
+      <para id="id9849924">+ Thiết bị̣ điện tự động điều khiển từ xa: làm nhiệm vụ thu nhận phân tích và khống chế sự hoạt động của các mạch điện như khởi động từ,...</para>
+      <para id="id9849937">+ Thiết bị̣ điện hạn chế dòng ngắn mạch (như điện trở phụ, cuộn kháng,...).</para>
+      <para id="id9849945">+ Thiết bị̣ điện làm nhiệm vụ duy trì ổn định các tham số điện (như ổn áp, bộ tự động điều chỉnh điện áp máy phát,...)</para>
+      <para id="id9849955">+ Thiết bị̣ điện làm nhiệm vụ đo lường (như máy biến dòng điện, biến áp đo lường,...). </para>
+      <para id="id9849964">b) Phân theo tính chất dò̀ng điện</para>
+      <para id="id9849970">+ Thiết bị̣ điện dùng trong mạch một chiều.</para>
+      <para id="id9849977">+ Thiết bị̣ điện dùng trong mạch xoay chiều.</para>
+      <para id="id9849985">c) Phân theo nguyên lí làm việc</para>
+      <para id="id9849990"> Thiết bị̣ điện loại điện từ, điện động, cảm ứng, có tiếp điểm, không có tiếp điểm,...</para>
+      <para id="id9850000">d) Phân theo điều kiện làm việc</para>
+      <para id="id9850006">+ Loại làm việc vùng nhiệt đới khí hậu nóng ẩm, loại ở vùng ôn đới, có loại chống được khí cháy nổ, loại chịu rung động,...</para>
+      <para id="id9850016">e) Phân theo cấp điện áp có</para>
+      <para id="id9850022">+ Thiết bị̣ điện hạ áp có điện áp dưới 3kV.</para>
+      <para id="id9850029">+ Thiết bị̣ điện trung áp có điện áp từ 3kV đến 36 kV.</para>
+      <para id="id9850036">+ Thiết bị̣ điện cao áp có điện áp từ 36kV đến nhỏ hơn 400 kV. </para>
+      <para id="id9850043">+ Thiết bị̣ điện siêu cao áp có điện áp từ 400 kV trở lên.</para>
+    </section>
+    <section id="id-84010715751">
+      <title>Các yêu cầu cơ bản của thiết bị điện</title>
+      <para id="id9850060">- Phải đảm bảo sử dụng được lâu dài đúng tuổi thọ thiết kế khi làm việc với các thông số kỹ thuật ở định mức.</para>
+      <para id="id9850070">- Thiết bị̣ điện phải đảm bảo ổn định lực điện động và ổn định nhiệt độ khi làm việc bình thường, đặc biệt khi sự cố trong giới hạn cho phép của dòng điện và điện áp.</para>
+      <para id="id9850084">- Vật liệu cách điện chịu được quá áp cho phép.</para>
+      <para id="id9850090">- Thiết bị̣ điện phải đảm bảo làm việc tin cậy, chính xác an toàn, gọn nhẹ, dễ lắp ráp, dễ kiểm tra, sửa chữa. </para>
+      <para id="id9850101">- Ngoài ra còn yêu cầu phải làm việc ổn định ở điều kiện khí hậu môi trường mà khi thiết kế đã cho phép.</para>
+    </section>
+  </content>
+</document>
