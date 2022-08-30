@@ -82,7 +82,7 @@
           </m:math>
         </para>
         <para id="id9995086">H : 
-<m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math> Cường độ từ trường [ A/cm]=1,25 [Osted]</para>
+ Cường độ từ trường [ A/cm]=1,25 [Osted]</para>
         <para id="id11684644"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>B</m:mi><m:mi>H</m:mi></m:mfrac></m:mrow><m:mi>;</m:mi><m:mi>F</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ= {  {B}  over  {H} } ;F} {}</m:annotation></m:semantics></m:math>= IW :là sức từ động [A.vòng]</para>
         <para id="id10115688">+ Định luật toàn dòng điện 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:munder><m:mo stretchy="false">∮</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mi>l</m:mi></m:mrow></m:mstyle></m:munder><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Hdl</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mi>I</m:mi></m:mrow></m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi>F</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lInt cSub { size 8{l} }  { ital "Hdl"=I} W=F} {}</m:annotation></m:semantics></m:math></para>
@@ -204,7 +204,7 @@
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -231,10 +231,10 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -289,7 +289,7 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -797,7 +797,7 @@
         <para id="id9934614">Từ thông 1sinh ra lực:</para>
         <para id="id9934635"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mtext>cos</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:mi fontstyle="italic">ωt</m:mi><m:mo stretchy="false">−</m:mo><m:mi>α</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{2} } =F rSub { size 8{"02"} }  - F rSub { size 8{"02"} } "cos"2 \( ωt - α \) } {}</m:annotation></m:semantics></m:math> (5.23)</para>
         <para id="id9995420">2 sinh ra:</para>
-        <para id="id9995440"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow/><m:mrow><m:mfenced open="" close=""><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mfenced><m:mo stretchy="false">−</m:mo><m:mfenced open="[" close="]"><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>cos</m:mtext><m:mrow><m:mn>2ωt</m:mn><m:mo stretchy="false">+</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>cos</m:mtext><m:mfenced open="" close=""><m:mrow><m:mn>2ωt</m:mn><m:mo stretchy="false">−</m:mo><m:mn>2α</m:mn></m:mrow></m:mfenced></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+        <para id="id9995440"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow/><m:mrow><m:mfenced open="" close=""><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mfenced><m:mo stretchy="false">−</m:mo><m:mfenced open="[" close="]"><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>cos</m:mtext><m:mrow><m:mn>2ωt</m:mn><m:mo stretchy="false">+</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>cos</m:mtext><m:mfenced open="" close=""><m:mrow><m:mn>2ωt</m:mn><m:mo stretchy="false">−</m:mo><m:mn>2α</m:mn></m:mrow></m:mfenced></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
  size 12{F=F rSub { size 8{1} } +F rSub { size 8{2} } }  {} # 
 = left (F rSub { size 8{"01"} } +F rSub { size 8{"02"} }  right ) -  left [F rSub { size 8{"01"} } "cos"2ωt+F rSub { size 8{"02"} } "cos" left (2ωt - 2α right ) right ] {} 
 } } {}</m:annotation></m:semantics></m:math> (5.24)</para>
@@ -811,7 +811,7 @@
           <media id="id7074925" alt=""><image src="../../media/graphics9-dd6c.png" mime-type="image/png" height="429" width="256"/></media>
         </figure>
         <para id="id10128513">-Thành phần lực hút biến đổi là:</para>
-        <para id="id10128522"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mstyle fontsize="11pt"><m:mrow><m:mtext>thç:</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>bâ</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mn>2F</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup><m:mfenced open="" close=""><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>cos</m:mtext></m:mrow><m:mn>2α</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mn>2F</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>α</m:mi></m:mrow></m:msqrt><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>cos</m:mtext><m:mi>α</m:mi><m:mtext/><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>27</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+        <para id="id10128522"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mstyle fontsize="11pt"><m:mrow><m:mtext>thç:</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>bâ</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mn>2F</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msubsup><m:mfenced open="" close=""><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>cos</m:mtext></m:mrow><m:mn>2α</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mn>2F</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>α</m:mi></m:mrow></m:msqrt><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>cos</m:mtext><m:mi>α</m:mi><m:mtext/><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>27</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
  size 12{1 "." F rSub { size 8{"01"} } =F rSub { size 8{"02"} }   size 11{"thç:"} }  {} # 
 F rSub { size 8{"bâ"} } = sqrt {2F rSub { size 8{"01"} }  rSup { size 8{2} }  left (1+"cos"2α right )} =2F rSub { size 8{"01"} }  sqrt {"cos" rSup { size 8{2} } α} ={} {} # 
 2 "." F rSub { size 8{"01"} } "cos"α"                                                        " size 10{ \( 5 "." "27" \) "  "} {} 

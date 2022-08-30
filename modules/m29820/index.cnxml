@@ -14,10 +14,10 @@
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>ΔΥ</m:mtext><m:mi>Υ</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"ΔΥ"}  over  {Υ} } } {}</m:annotation></m:semantics></m:math> : 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>ΔΧ</m:mtext><m:mi>Χ</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"ΔΧ"}  over  {Χ} } } {}</m:annotation></m:semantics></m:math> =
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>Χ</m:mi><m:mtext>.</m:mtext><m:mtext>ΔΥ</m:mtext></m:mrow><m:mrow><m:mi>Υ</m:mi><m:mtext>.</m:mtext><m:mtext>ΔΧ</m:mtext></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Χ "." "ΔΥ"}  over  {Υ "." "ΔΧ"} } } {}</m:annotation></m:semantics></m:math>.
-<m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math></para>
+</para>
     <para id="id12087706">Trong đó :</para>
     <para id="id12087713">+ 
-<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Υ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Υ} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math>và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Υ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Υ} {}</m:annotation></m:semantics></m:math>và 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mtext>ΔΥ</m:mtext></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"ΔΥ"} {}</m:annotation></m:semantics></m:math> là đại lượng đầu ra và gia số của nó .</para>
     <para id="id12087865">+ 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Χ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Χ} {}</m:annotation></m:semantics></m:math> và 
@@ -29,7 +29,7 @@
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi fontstyle="italic">ΔU</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mi>:</m:mi><m:mfrac><m:msub><m:mi fontstyle="italic">ΔU</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {ΔU rSub { size 8{R} } }  over  {U rSub { size 8{R} } } } : {  {ΔU rSub { size 8{V} } }  over  {U rSub { size 8{V} } } } } {}</m:annotation></m:semantics></m:math></para>
     <para id="id12108619">Trong đó :</para>
     <para id="id12108624">- UR là điện áp ra. </para>
-    <para id="id12108640"><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math> - UV là điện áp đầu vào.</para>
+    <para id="id12108640"> - UV là điện áp đầu vào.</para>
     <para id="id12108771">-
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UR và 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>UV là độ biến thiên điện áp đầu ra và độ biến thiên điện áp đầu vào. Hiện nay có rất nhiều loại ổn áp với những nguyên lí làm việc rất khác nhau. Trong phạm vi giáo trình này chỉ đề cập một số loại phổ biến.</para>

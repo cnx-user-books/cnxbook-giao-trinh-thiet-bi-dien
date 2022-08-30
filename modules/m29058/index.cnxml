@@ -307,7 +307,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mstyle fontsize="12pt">
                         <m:mrow>
                           <m:mrow>
@@ -442,10 +442,10 @@
                         </m:mrow>
                       </m:mstyle>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:msub>
                           <m:mi>δ</m:mi>
@@ -578,7 +578,7 @@
                       </m:mrow>
                       <m:mi>,</m:mi>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -720,7 +720,7 @@
         <para id="id11598128">và 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≈</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OA</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Sin</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ψ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{δ rSub { size 8{1} }  approx "sin"δ rSub { size 8{1} } = {  { ital "AB"}  over  { ital "OA"} } = {  {I rSub { size 8{0} } }  over  {I rSub { size 8{1} } } }  ital "Sin" \( α+ψ \)  "." } {}</m:annotation></m:semantics></m:math></para>
         <para id="id11935753">Vậy: 
-<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">ΔI</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ψ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ψ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">ΔI</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ψ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ψ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mrow/></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
  size 12{ΔI= {  {I rSub { size 8{0} } }  over  {I rSub { size 8{1} } } } "sin" \( α+ψ \) }  {} # 
 δ rSub { size 8{1} } = {  {I rSub { size 8{0} } }  over  {I rSub { size 8{1} } } } "cos" \( α+ψ \)  "."  {} 
 } } {}</m:annotation></m:semantics></m:math></para>

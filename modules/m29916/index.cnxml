@@ -204,7 +204,7 @@
             <m:semantics>
               <m:mtable>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:mrow>
                       <m:mi>F</m:mi>
                       <m:mo stretchy="false">=</m:mo>
@@ -228,10 +228,10 @@
                     <m:mi/>
                     <m:mtext>våïi</m:mtext>
                     <m:mtext>: </m:mtext>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:mstyle fontsize="10pt">
                       <m:mrow>
                         <m:mrow>
@@ -241,20 +241,20 @@
                       </m:mrow>
                     </m:mstyle>
                     <m:mrow/>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:mstyle fontsize="10pt">
                       <m:mrow>
                         <m:mtext>i : doìng âiãûn</m:mtext>
                       </m:mrow>
                     </m:mstyle>
                     <m:mrow/>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:mstyle fontsize="10pt">
                       <m:mrow>
                         <m:mrow>
@@ -266,16 +266,16 @@
                       </m:mrow>
                     </m:mstyle>
                     <m:mrow/>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:mrow/>
                     <m:mrow/>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:mstyle fontsize="12pt">
                       <m:mrow>
                         <m:mrow/>
@@ -283,7 +283,7 @@
                     </m:mstyle>
                     <m:mtable>
                       <m:mtr>
-                        <m:mrow>
+                        <m:mtd>
                           <m:mrow>
                             <m:mo stretchy="true">{</m:mo>
                             <m:mrow/>
@@ -293,11 +293,11 @@
                             <m:mrow/>
                           </m:mrow>
                           <m:mrow/>
-                        </m:mrow>
+                        </m:mtd>
                       </m:mtr>
                     </m:mtable>
                     <m:mrow/>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
               </m:mtable>
               <m:annotation encoding="StarMath 5.0"> size 12{F= {  {K "." i rSup {2} }  over  {δ rSup {2} } } ~,`"våïi"": "alignl { stack {
@@ -320,10 +320,10 @@
             <m:semantics>
               <m:mtable>
                 <m:mtr>
-                  <m:mrow/>
+                  <m:mtd/>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:msub>
                       <m:mi>P</m:mi>
                       <m:mtext>âk</m:mtext>
@@ -331,10 +331,10 @@
                     <m:mtext> : cäng suáút âiãöu khiãøn</m:mtext>
                     <m:mtext>.</m:mtext>
                     <m:mrow/>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:msub>
                       <m:mi>P</m:mi>
                       <m:mtext>tâ</m:mtext>
@@ -342,21 +342,21 @@
                     <m:mtext> : cäng suáút taïc âäüng cuía råle</m:mtext>
                     <m:mtext>.</m:mtext>
                     <m:mrow/>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow/>
+                  <m:mtd/>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow/>
+                  <m:mtd/>
                 </m:mtr>
                 <m:mtr>
-                  <m:mrow>
+                  <m:mtd>
                     <m:mrow>
                       <m:mrow>
                         <m:mtable>
                           <m:mtr>
-                            <m:mrow>
+                            <m:mtd>
                               <m:mstyle fontsize="12pt">
                                 <m:mrow>
                                   <m:mrow>
@@ -395,7 +395,7 @@
                                 </m:mrow>
                               </m:mstyle>
                               <m:mrow/>
-                            </m:mrow>
+                            </m:mtd>
                           </m:mtr>
                           <m:mtr>
                             <m:mtext>Våïi </m:mtext>
@@ -403,19 +403,19 @@
                         </m:mtable>
                         <m:mtable>
                           <m:mtr>
-                            <m:mrow>
+                            <m:mtd>
                               <m:mrow>
                                 <m:mo stretchy="true">{</m:mo>
                                 <m:mrow/>
                               </m:mrow>
                               <m:mrow/>
-                            </m:mrow>
+                            </m:mtd>
                           </m:mtr>
                         </m:mtable>
                       </m:mrow>
                       <m:mrow/>
                     </m:mrow>
-                  </m:mrow>
+                  </m:mtd>
                 </m:mtr>
               </m:mtable>
               <m:annotation encoding="StarMath 5.0">alignl { stack {
@@ -435,8 +435,8 @@
         <para id="id10076571">+ Rơle một chiều 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mtext>thç </m:mtext><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontsize="10pt"><m:mrow><m:mi>U</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="10pt"><m:mrow><m:mrow><m:mi>R</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mtext> nãn ta tênh </m:mtext><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>K</m:mi></m:mrow><m:mi>'</m:mi><m:mtext>.</m:mtext><m:mfrac><m:mstyle fontsize="10pt"><m:mrow><m:msup><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>δ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ size 10{"thç "I= {  { size 10{U}}  over  { size 10{R'}} } " nãn ta tênh "F=K' "."  {  { size 10{U rSup { size 8{2} } }}  over  { size 12{δ rSup { size 8{2} } } } } }} {}</m:annotation></m:semantics></m:math> có U là điện áp đặt vào cuộn dây.</para>
         <para id="id10123160">+ Rơle xoay chiều : lực F = 0 (tần số 2f) khi I = 0. Giá trị trung bình của lực hút sẽ là: 
-<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tb</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> {  {I rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:mtext></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "tb"} } =k" {  {I rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>, nếu cuộn dây đặt song song với nguồn điện áp U thì
-<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tb</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> {  {U rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:mtext></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "tb"} } =k" {  {U rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+<m:math><m:semantics><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tb</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> {  {I rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:mtext></m:mtd></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "tb"} } =k" {  {I rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>, nếu cuộn dây đặt song song với nguồn điện áp U thì
+<m:math><m:semantics><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tb</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> {  {U rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:mtext></m:mtd></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "tb"} } =k" {  {U rSup { size 8{2} } }  over  {δ rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
         <para id="id9818562">Nam châm xoay chiều khi lực F = 0 lò xo kéo nắp ra, do vậy rơle loại này khi làm việc có rung động gây tiếng kêu, để hạn chế người ta sử dụng dùng vòng ngắn mạch. </para>
         <para id="id9818574">Rơle điện từ có các đặc điểm: </para>
         <para id="id9818580">- Công suất điều khiển Pđk từ vài W đến hàng nghìn W.</para>
@@ -514,7 +514,7 @@
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -561,10 +561,10 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mrow>
                           <m:mrow>
                             <m:mi>F</m:mi>
@@ -635,7 +635,7 @@
                           </m:mrow>
                         </m:mfenced>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>

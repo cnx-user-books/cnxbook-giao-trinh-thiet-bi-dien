@@ -306,7 +306,7 @@
         <para id="id12174430">+ Chế độ làm việc định mức của áp tô mát phải là chế độ làm việc dài hạn (tức là cho dòng I=Iđm qua dài hạn). Mặt khác mạch dòng điện phải chịu được dòng điện lớn (khi ngắn mạch) lúc các tiếp điểm đã hay đang đóng.</para>
         <para id="id12555019">+Phải cắt được dòng ngắn mạch lớn vài chục kA và sau khi ngắt phải đảm bảo làm việc tốt khi I=Iđm.</para>
         <para id="id11868420">+Yêu cầu thời gian cắt áptômát nhỏ để bảo vệ các thiết bị khác. Muốn vậy phải kết hợp lực thao tác cơ học với thiết bị dập hồ quang trong áptômát. Để thực hiện yêu cầu thao tác chọn lọc bảo vệ,̣ áp tô mát phải có khả năng hiệu chỉnh dòng tác động và thời gian tác động .
-<m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math></para>
+</para>
         <para id="id12131268">Thời gian tác động của áp tô mát : t = to + t1+ t2 . Trong đó:</para>
         <para id="id12668274">+t0 là thời gian tính từ lúc sự̣ cố xảy ra đến khi i tăng đến i=Ikđ phụ thuộc
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>di</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dt</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "di"}  over  { ital "dt"} } } {}</m:annotation></m:semantics></m:math>.</para>

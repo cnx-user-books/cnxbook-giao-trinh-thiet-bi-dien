@@ -45,7 +45,7 @@
         <media id="id6166800" alt=""><image src="../../media/graphics2-f8fe.png" mime-type="image/png" height="182" width="229"/></media>
       </figure>
       <para id="id9936089">b) Các định luật cơ bản mạch từ </para>
-      <para id="id9802899"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mmultiscripts><m:mtext/><m:mprescripts/><m:mn>1</m:mn><m:none/></m:mmultiscripts><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>ψ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>;</m:mi><m:msub><m:mi>W</m:mi><m:msub><m:mi>t</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>ψ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mi>;</m:mi></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">ΔW</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ψ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ψ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+      <para id="id9802899"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>I</m:mi><m:mmultiscripts><m:mtext/><m:none/><m:none/><m:mprescripts/><m:mn>1</m:mn><m:none/></m:mmultiscripts><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>ψ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>;</m:mi><m:msub><m:mi>W</m:mi><m:msub><m:mi>t</m:mi><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:msub></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>ψ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mstyle></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mi>;</m:mi></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">ΔW</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ψ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ψ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
  size 12{W rSub { size 8{t rSub { size 6{1} } } } = {  {I"" lSub {1}  size 12{ψ rSub {1} }}  over  { size 12{2} } }  size 12{;W rSub {t rSub { size 6{2} } } } size 12{ {}= {  {I rSub {2}  size 12{ψ rSub {2} }}  over  { size 12{2} } } } size 12{;}}  {} # 
  size 12{ΔW rSub { size 8{t} } = {  {I rSub { size 8{1} } +I rSub { size 8{2} } }  over  {2} }  \( ψ rSub { size 8{2} }  - ψ rSub { size 8{1} }  \) }  {} 
 } } {}</m:annotation></m:semantics></m:math>+ Định toàn dòng điện 
@@ -100,8 +100,8 @@
           <title>a) Từ dẫn khe hở không khí giữa nắp và lõi tạo thành góc  (hình a)</title>
           <para id="id10184960">G = K . G0</para>
           <para id="id10115902">Với: K: hệ số điều chỉnh</para>
-          <para id="id9971946"><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>75</m:mtext><m:mroot><m:mi>ϕ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K=2,"75" nroot { size 8{4} }  {ϕ} } {}</m:annotation></m:semantics></m:math>, ( tính theo rađian).</para>
-          <para id="id9971842"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow/></m:mtr><m:mtr><m:mrow/></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+          <para id="id9971946"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>75</m:mtext><m:mroot><m:mi>ϕ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K=2,"75" nroot { size 8{4} }  {ϕ} } {}</m:annotation></m:semantics></m:math>, ( tính theo rađian).</para>
+          <para id="id9971842"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd/></m:mtr><m:mtr><m:mtd/></m:mtr><m:mtr><m:mtd/></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
  {} # 
  {} # 
  {} 
@@ -365,7 +365,7 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mstyle fontsize="10pt">
@@ -399,10 +399,10 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mstyle fontsize="10pt">
@@ -424,10 +424,10 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="10pt">
                           <m:mrow>
                             <m:mrow>
@@ -441,10 +441,10 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="10pt">
                           <m:mrow>
                             <m:mrow>
@@ -474,7 +474,7 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -499,7 +499,7 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mstyle fontsize="10pt">
@@ -514,10 +514,10 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="10pt">
                           <m:mrow>
                             <m:mrow>
@@ -527,10 +527,10 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="10pt">
                           <m:mrow>
                             <m:mrow>
@@ -558,7 +558,7 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -775,7 +775,7 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
         <para id="id10658400">Có : 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IW</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mi>H</m:mi></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mi>δ</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IW"=H "." l+H rSub { size 8{δ} }  "." δ} {}</m:annotation></m:semantics></m:math></para>
         <para id="id10070595">Với: 
-<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>B</m:mi><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mi>;</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:mi>δ</m:mi></m:mfrac><m:mtext> n</m:mtext><m:mtext>ãn coï</m:mtext><m:mi>:</m:mi><m:mrow><m:mi>δ</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{alignl { stack {
+<m:math><m:semantics><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>B</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>B</m:mi><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mi>;</m:mi><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:mi>δ</m:mi></m:mfrac><m:mtext> n</m:mtext><m:mtext>ãn coï</m:mtext><m:mi>:</m:mi><m:mrow><m:mi>δ</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>S</m:mi><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>δ</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow/><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mtable><m:mtr><m:mtd><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow/></m:mrow><m:mrow/></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{alignl { stack {
  left lbrace H rSub { size 8{δ} } = {  {B rSub { size 8{δ} } }  over  {μ rSub { size 8{0} } } } = {  {B}  over  {μ rSub { size 8{0} } } } ; {} # 
  right none  left lbrace G rSub { size 8{δ} } =μ rSub { size 8{0} }  "."  {  {S}  over  {δ} } " n""ãn coï":δ=μ rSub { size 8{0} }  "."  {  {S}  over  {G rSub { size 8{δ} } } }  {} # 
  right no } }  lbrace } {}</m:annotation></m:semantics></m:math></para>
@@ -1283,7 +1283,7 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -1348,10 +1348,10 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="11pt">
                           <m:mrow>
                             <m:mtext>nãn coï: </m:mtext>
@@ -1431,7 +1431,7 @@ K=1+0,58m.n1+1,5m+0,31m.n2 size 12{K=1+ {  {0,"58"}  over  {m "." n} }  left (1+
                           </m:mstyle>
                         </m:mfrac>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
